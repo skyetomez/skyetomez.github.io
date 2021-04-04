@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://localhost:42057/projects/</loc>
+    <lastmod>2020-04-22T16:48:50+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:42057/blog/</loc>
+    <lastmod>2020-04-22T16:48:36+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:42057/projects/math/</loc>
+    <lastmod>2020-03-23T16:30:26+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:42057/projects/linguistics/spanish/</loc>
+    <lastmod>2020-03-23T16:30:13+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:42057/projects/linguistics/</loc>
+    <lastmod>2020-03-23T16:29:49+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:42057/</loc>
+    <lastmod>2020-03-23T16:29:23+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:42057/about/</loc>
+    <lastmod>2019-09-12T12:17:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:42057/cv/</loc>
+    <lastmod>2019-09-12T12:17:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:42057/tags/</loc>
+  </url>
+  
+</urlset>

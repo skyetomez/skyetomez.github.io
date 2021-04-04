@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Khanhai&#39;s Blog on Khanhai&#39;s blog</title>
+    <link>http://localhost:42057/</link>
+    <description>Recent content in Khanhai&#39;s Blog on Khanhai&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 23 Mar 2020 16:29:23 +0100</lastBuildDate>
+    
+	<atom:link href="http://localhost:42057/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>about</title>
+      <link>http://localhost:42057/about/</link>
+      <pubDate>Thu, 12 Sep 2019 12:17:58 +0200</pubDate>
+      
+      <guid>http://localhost:42057/about/</guid>
+      <description>I graduated from the University of Texas at Austin studying Pure Mathematics and Neuroscience. I am interested in efficiency, probability, languages, and weightlifiting.  I initially created this blog as as a way to share my thoughts and projects.  I enjoy reading-- anything -- fiction, non-fiction, nutrition labels. Some particular topics that I enjoy to read about are: mysteries, comedy, fiction, philosophy amonst other things. You can see what I am currently or going to read through my goodreads  account.</description>
+    </item>
+    
+    <item>
+      <title>Skyler Thomas CV</title>
+      <link>http://localhost:42057/cv/</link>
+      <pubDate>Thu, 12 Sep 2019 12:17:58 +0200</pubDate>
+      
+      <guid>http://localhost:42057/cv/</guid>
+      <description>Education:  2015-2019 BS, Pure Mathematics; The University of Texas at Austin, (Austin,TX)
+ 2014-2019 BSA, Neuroscience; The University of Texas at Austin, (Austin,TX)
+ Spring 2017 Study Abroad; Uppsala University, (Uppsala,Sweden)
+  Certifications:  2019 Certificate in Teaching English to Speakers of Other Languages (CELTA); CLIC International House, (Seville, Spain)
+ 2019 Pre-Health Professions; The University of Texas at Austin, (Austin,TX)
+  Experience:  Sep 2019 -June 2020 English Teacher; Whizdom English, (Logroño, Spain)</description>
+    </item>
+    
+  </channel>
+</rss>
