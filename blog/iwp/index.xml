@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Khanhai&#39;s Blog on Khanhai&#39;s blog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content in Khanhai&#39;s Blog on Khanhai&#39;s blog</description>
+    <title>Interesting words and phrases on Khanhai&#39;s blog</title>
+    <link>http://localhost:1313/blog/iwp/</link>
+    <description>Recent content in Interesting words and phrases on Khanhai&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Mar 2020 16:29:23 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 21 Mar 2020 17:25:24 +0100</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/blog/iwp/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Polynomials by Barbeau</title>
-      <link>http://localhost:1313/projects/math/polynomials/</link>
-      <pubDate>Sun, 15 Sep 2019 13:29:55 +0200</pubDate>
-      
-      <guid>http://localhost:1313/projects/math/polynomials/</guid>
-      <description>Here are some solutions to the questions in the work book Polynomial by Edward J. Barbeau
-Chapter 1  Section 1
-Section 2
-Section 3</description>
-    </item>
     
     <item>
       <title>Interesting Words and Phrases 6</title>
@@ -39,29 +27,6 @@ Section 3</description>
       
       <guid>http://localhost:1313/interesting_words_and_phrases_5/</guid>
       <description>Exemption - This is a deduction allowed by law to reduce the amount of income that would otherwise be taxed. There are two types offered by the IRS: personal exemptions and dependent exemptions.   Deduction - This is any item or expenditure subtracted from gross income to reduce the amount of income subject to income tax. This is also referred to as an &#34;allowable deduction&#34;.  Dependent - A dependent is a person who entitles a taxpayer to claim dependent-related tax benefits that reduce that amount of tax that taxpayer owes.</description>
-    </item>
-    
-    <item>
-      <title>about</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Thu, 12 Sep 2019 12:17:58 +0200</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description>I graduated from the University of Texas at Austin studying Pure Mathematics and Neuroscience. I am interested in efficiency, probability, languages, and weightlifiting.  I initially created this blog as as a way to share my thoughts and projects.  I enjoy reading-- anything -- fiction, non-fiction, nutrition labels. Some particular topics that I enjoy to read about are: mysteries, comedy, fiction, philosophy amonst other things. You can see what I am currently or going to read through my goodreads  account.</description>
-    </item>
-    
-    <item>
-      <title>Skyler Thomas CV</title>
-      <link>http://localhost:1313/cv/</link>
-      <pubDate>Thu, 12 Sep 2019 12:17:58 +0200</pubDate>
-      
-      <guid>http://localhost:1313/cv/</guid>
-      <description>Education:  2015-2019 BS, Pure Mathematics; The University of Texas at Austin, (Austin,TX)
- 2014-2019 BSA, Neuroscience; The University of Texas at Austin, (Austin,TX)
- Spring 2017 Study Abroad; Uppsala University, (Uppsala,Sweden)
-  Certifications:  2019 Certificate in Teaching English to Speakers of Other Languages (CELTA); CLIC International House, (Seville, Spain)
- 2019 Pre-Health Professions; The University of Texas at Austin, (Austin,TX)
-  Experience:  Sep 2019 -June 2020 English Teacher; Whizdom English, (Logroño, Spain)</description>
     </item>
     
     <item>

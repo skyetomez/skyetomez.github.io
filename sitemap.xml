@@ -33,6 +33,26 @@
   </url>
   
   <url>
+    <loc>http://localhost:1313/blog/iwp/</loc>
+    <lastmod>2020-03-21T17:25:24+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/projects/math/polynomials/</loc>
+    <lastmod>2019-09-15T13:29:55+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/interesting_words_and_phrases_6/</loc>
+    <lastmod>2019-09-13T12:31:16+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/interesting_words_and_phrases_5/</loc>
+    <lastmod>2019-09-12T15:13:16+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/about/</loc>
     <lastmod>2019-09-12T12:17:58+02:00</lastmod>
   </url>
@@ -40,6 +60,26 @@
   <url>
     <loc>http://localhost:1313/cv/</loc>
     <lastmod>2019-09-12T12:17:58+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/interesting_words_and_phrases_4/</loc>
+    <lastmod>2019-09-11T15:13:14+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/interesting_words_and_phrases_3/</loc>
+    <lastmod>2019-09-10T15:13:11+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/interesting_words_and_phrases_2/</loc>
+    <lastmod>2019-09-09T15:12:25+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/interesting_words_and_phrases_1/</loc>
+    <lastmod>2019-09-08T14:08:53+02:00</lastmod>
   </url>
   
   <url>
