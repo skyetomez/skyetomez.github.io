@@ -2,13 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Khanhai&#39;s blog</title>
-    <link>http://localhost:44781/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on Khanhai&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 29 Aug 2021 21:39:40 +0200</lastBuildDate>
     
-	<atom:link href="http://localhost:44781/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>bchem</title>
+      <link>http://localhost:1313/tags/bchem/</link>
+      <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/bchem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bio</title>
+      <link>http://localhost:1313/tags/bio/</link>
+      <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/bio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>science</title>
+      <link>http://localhost:1313/tags/science/</link>
+      <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/science/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>english</title>
+      <link>http://localhost:1313/tags/english/</link>
+      <pubDate>Fri, 13 Sep 2019 12:31:16 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>iwp</title>
+      <link>http://localhost:1313/tags/iwp/</link>
+      <pubDate>Fri, 13 Sep 2019 12:31:16 +0200</pubDate>
+      
+      <guid>http://localhost:1313/tags/iwp/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
