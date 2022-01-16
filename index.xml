@@ -12,31 +12,38 @@
     
     
     <item>
-      <title>Interesting_Words_and_Phrases_8</title>
+      <title>How many climbing centers should there be in a city?</title>
+      <link>http://localhost:1313/projects/climbingcenters/</link>
+      <pubDate>Sun, 09 Jan 2022 22:16:18 +0100</pubDate>
+      
+      <guid>http://localhost:1313/projects/climbingcenters/</guid>
+      <description>Summary My friend was wondering about if there were enough climbing centers per city depending on how many people lived in the city and here is my rudimentary attempt to try to answer that question without anything fancy.  Introduction This project was started as a joint project between a friend that enjoys climbing and myself. He pointed out that he was convinced that the number of climbing centers in our city corresponded with it’s size.</description>
+    </item>
+    
+    <item>
+      <title>Interesting Words and Phrases 8</title>
       <link>http://localhost:1313/posts/iwp/interesting_words_and_phrases_8/</link>
       <pubDate>Wed, 08 Dec 2021 16:16:58 +0100</pubDate>
       
       <guid>http://localhost:1313/posts/iwp/interesting_words_and_phrases_8/</guid>
       <description>Fettered -to be chained, confined, restrainted &amp;ndash; shakled at the feet.
- Tutelage - a guiding influence or instruction esp. of a individual
- Precococious - showing mature qualities at an early age or exceptionally early in development or occurrence.
- Erudition - having proufound, recondite or bookish knowledge largely from, well, books.
- Gratuitous - not necessary or appropriate in the situation, given freely or without compensation.
- Digression - leaving the main subject in an extended style while speaking or writting.</description>
+  Tutelage - a guiding influence or instruction esp. of a individual
+  Precococious - showing mature qualities at an early age or exceptionally early in development or occurrence.
+  Erudition - having proufound, recondite or bookish knowledge largely from, well, books.
+  Gratuitous - not necessary or appropriate in the situation, given freely or without compensation.</description>
     </item>
     
     <item>
-      <title>Interesting_Words_and_Phrases_7</title>
+      <title>Interesting Words and Phrases 7</title>
       <link>http://localhost:1313/posts/iwp/interesting_words_and_phrases_7/</link>
       <pubDate>Wed, 08 Dec 2021 15:13:41 +0100</pubDate>
       
       <guid>http://localhost:1313/posts/iwp/interesting_words_and_phrases_7/</guid>
       <description>Rebuke - to sharply critize
- Apostle - someone with strong religious faith that goes out to preach or spread gospel
- Absolve - to set someone free of or forgive them of guilt or a sin
- Proselytize - to convince someone to join or convert to a religion, instituion, cause etc.
- Evangelize - to preach gospel (to someone) or convert to Christianity
- Veda - from the Sanskrit word &amp;ldquo;veda&amp;rdquo; meaning knowledge, it refers to any of the 4 sacred Hindu texts.</description>
+  Apostle - someone with strong religious faith that goes out to preach or spread gospel
+  Absolve - to set someone free of or forgive them of guilt or a sin
+  Proselytize - to convince someone to join or convert to a religion, instituion, cause etc.
+  Evangelize - to preach gospel (to someone) or convert to Christianity</description>
     </item>
     
     <item>
@@ -47,7 +54,7 @@
       <guid>http://localhost:1313/posts/mrna_vaccines/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 Kizzy did an amazing job making vaccine efficacy easy to understand when she showed that it is just the number of people of the got sick with the placebo compared to the total number of people that got sick. In other words, it&amp;rsquo;s a percentage that hides a ratio.
-I found this interesting because if 18&amp;frasl;20 is the the vaccine efficacy, then 20-18 is the number of people who got sick with the vaccine.</description>
+I found this interesting because if 18/20 is the the vaccine efficacy, then 20-18 is the number of people who got sick with the vaccine.</description>
     </item>
     
     <item>
@@ -103,9 +110,7 @@ I learned about this vitamin in a rather uneventful mundane way. I was reading a
       
       <guid>http://localhost:1313/projects/math/polynomials/</guid>
       <description>Here are some solutions to the questions in the work book Polynomial by Edward J. Barbeau
-Chapter 1  Section 1
-Section 2
-Section 3</description>
+Chapter 1  Section 1 Section 2 Section 3  </description>
     </item>
     
     <item>
@@ -114,7 +119,11 @@ Section 3</description>
       <pubDate>Fri, 13 Sep 2019 12:31:16 +0200</pubDate>
       
       <guid>http://localhost:1313/posts/iwp/interesting_words_and_phrases_6/</guid>
-      <description>Burgeon - Begin to grow or increase rapidly; flourish.  Culture  - The arts and other manifestations of human intellectual achievement regarded collectively.  Collectivism  - The practice or principle of giving a group priority over each individual in it.  Dualism - The division of something conceptually into two opposed or contrasted aspects, or the state of being so divided   Individualism - A social theory favouring freedom of action for individuals over collective or state control.</description>
+      <description>Burgeon - Begin to grow or increase rapidly; flourish.
+Culture  - The arts and other manifestations of human intellectual achievement regarded collectively.
+Collectivism  - The practice or principle of giving a group priority over each individual in it.
+Dualism - The division of something conceptually into two opposed or contrasted aspects, or the state of being so divided
+Individualism - A social theory favouring freedom of action for individuals over collective or state control.</description>
     </item>
     
     <item>
@@ -123,7 +132,7 @@ Section 3</description>
       <pubDate>Thu, 12 Sep 2019 15:13:16 +0200</pubDate>
       
       <guid>http://localhost:1313/posts/iwp/interesting_words_and_phrases_5/</guid>
-      <description>Exemption - This is a deduction allowed by law to reduce the amount of income that would otherwise be taxed. There are two types offered by the IRS: personal exemptions and dependent exemptions.   Deduction - This is any item or expenditure subtracted from gross income to reduce the amount of income subject to income tax. This is also referred to as an &#34;allowable deduction&#34;.  Dependent - A dependent is a person who entitles a taxpayer to claim dependent-related tax benefits that reduce that amount of tax that taxpayer owes.</description>
+      <description>Exemption - This is a deduction allowed by law to reduce the amount of income that would otherwise be taxed. There are two types offered by the IRS: personal exemptions and dependent exemptions. Deduction - This is any item or expenditure subtracted from gross income to reduce the amount of income subject to income tax. This is also referred to as an &amp;ldquo;allowable deduction&amp;rdquo;. Dependent - A dependent is a person who entitles a taxpayer to claim dependent-related tax benefits that reduce that amount of tax that taxpayer owes.</description>
     </item>
     
     <item>
@@ -132,7 +141,10 @@ Section 3</description>
       <pubDate>Thu, 12 Sep 2019 12:17:58 +0200</pubDate>
       
       <guid>http://localhost:1313/about/</guid>
-      <description>I graduated from the University of Texas at Austin studying Pure Mathematics and Neuroscience. I am interested in efficiency, probability, languages, and weightlifiting.  I initially created this blog as as a way to share my thoughts and projects.  I enjoy reading-- anything -- fiction, non-fiction, nutrition labels. Some particular topics that I enjoy to read about are: mysteries, comedy, fiction, philosophy amongst other thing.  You can see what I am currently or going to read through my goodreads  account.</description>
+      <description>I graduated from the University of Texas at Austin studying Pure Mathematics and Neuroscience. I am interested in efficiency, probability, languages, and weightlifiting.
+I initially created this blog as as a way to share my thoughts and projects.
+I enjoy reading&amp;ndash; anything &amp;ndash; fiction, non-fiction, nutrition labels. Some particular topics that I enjoy to read about are: mysteries, comedy, fiction, philosophy amongst other thing.
+You can see what I am currently or going to read through my goodreads account.</description>
     </item>
     
     <item>
@@ -141,12 +153,10 @@ Section 3</description>
       <pubDate>Thu, 12 Sep 2019 12:17:58 +0200</pubDate>
       
       <guid>http://localhost:1313/cv/</guid>
-      <description>Education:  2015-2019 BS, Pure Mathematics; The University of Texas at Austin, (Austin,TX)
- 2014-2019 BSA, Neuroscience; The University of Texas at Austin, (Austin,TX)
- Spring 2017 Study Abroad; Uppsala University, (Uppsala,Sweden)
-  Certifications:  2019 Certificate in Teaching English to Speakers of Other Languages (CELTA); CLIC International House, (Seville, Spain)
- 2019 Pre-Health Professions; The University of Texas at Austin, (Austin,TX)
-  Experience:  Sep 2019 - Now English Teacher; Whizdom English, (Logroño, Spain)</description>
+      <description>Education:  : 2015-2019 BS, Pure Mathematics; The University of Texas at Austin, (Austin,TX)  2014-2019 BSA, Neuroscience; The University of Texas at Austin, (Austin,TX)
+  Spring 2017 Study Abroad; Uppsala University, (Uppsala,Sweden)
+   Certifications:  : 2019 Certificate in Teaching English to Speakers of Other Languages (CELTA); CLIC International House, (Seville, Spain)  2019 Pre-Health Professions; The University of Texas at Austin, (Austin,TX)
+   Experience:  : Sep 2019 - Now English Teacher; Whizdom English, (Logroño, Spain) - Taught reading comprehension, grammar skills and developed oral frequency with A1, A2, B1 and B2 students from ages 7 to 32.</description>
     </item>
     
     <item>
@@ -155,7 +165,8 @@ Section 3</description>
       <pubDate>Wed, 11 Sep 2019 15:13:14 +0200</pubDate>
       
       <guid>http://localhost:1313/posts/iwp/interesting_words_and_phrases_4/</guid>
-      <description>Aggrandize - Increase the power, status, or wealth of. Enhance the reputation of (someone) beyond what is justified by the facts.   Bereave - Be deprived of a loved one through a profound absence especially due to the loved one&#39;s death.   Mania  - Mental illness marked by periods of great excitement or euphoria, delusions, and overactivity. An excessive enthusiasm or desire; obsession.  Chagrin - Distress or embarrassment at having failed or been humiliated.</description>
+      <description>Aggrandize - Increase the power, status, or wealth of. Enhance the reputation of (someone) beyond what is justified by the facts. Bereave - Be deprived of a loved one through a profound absence especially due to the loved one&amp;rsquo;s death.
+Mania  - Mental illness marked by periods of great excitement or euphoria, delusions, and overactivity. An excessive enthusiasm or desire; obsession. Chagrin - Distress or embarrassment at having failed or been humiliated.</description>
     </item>
     
     <item>
@@ -164,7 +175,9 @@ Section 3</description>
       <pubDate>Tue, 10 Sep 2019 15:13:11 +0200</pubDate>
       
       <guid>http://localhost:1313/posts/iwp/interesting_words_and_phrases_3/</guid>
-      <description>Depression - Feelings of severe despondency and dejection, typically also with feelings of inadequacy and guilt, often accompanied by lack of energy and disturbance of appetite and sleep.   Morbidity - The condition of being diseased.   Mortality - The state of being subject to death.   Comorbidity - The simultaneous presense of two chronic diseases or conditions in a patient.   Narrative theory - The study of how stories help people make sense of the world, while also studying how people make sense of stories.</description>
+      <description>Depression - Feelings of severe despondency and dejection, typically also with feelings of inadequacy and guilt, often accompanied by lack of energy and disturbance of appetite and sleep. Morbidity - The condition of being diseased. Mortality - The state of being subject to death.
+Comorbidity - The simultaneous presense of two chronic diseases or conditions in a patient.
+Narrative theory - The study of how stories help people make sense of the world, while also studying how people make sense of stories.</description>
     </item>
     
     <item>
@@ -173,7 +186,13 @@ Section 3</description>
       <pubDate>Mon, 09 Sep 2019 15:12:25 +0200</pubDate>
       
       <guid>http://localhost:1313/posts/iwp/interesting_words_and_phrases_2/</guid>
-      <description>Accost – Approach and address (someone) boldly or aggressively. Aflutter – In a state of tremulous excitement.  Apocryphal – (of a story or statement) of doubtful authenticity, although widely circulated as being true. Commiserate – Express or feels sympathy or pity; sympathize. Consecrate – Make or declare (something, typically a church) sacred; dedicate formally to a religious purpose. Countenance – A person’s face or facial expression.  Deference – Polite submission and respect.</description>
+      <description>Accost – Approach and address (someone) boldly or aggressively.
+Aflutter – In a state of tremulous excitement.
+Apocryphal – (of a story or statement) of doubtful authenticity, although widely circulated as being true.
+Commiserate – Express or feels sympathy or pity; sympathize.
+Consecrate – Make or declare (something, typically a church) sacred; dedicate formally to a religious purpose.
+Countenance – A person’s face or facial expression.
+Deference – Polite submission and respect.</description>
     </item>
     
     <item>
@@ -182,7 +201,15 @@ Section 3</description>
       <pubDate>Sun, 08 Sep 2019 14:08:53 +0200</pubDate>
       
       <guid>http://localhost:1313/posts/iwp/interesting_words_and_phrases_1/</guid>
-      <description>Acquiesce – Accept something reluctantly but without protest. Adroit – Clever or skilful. Amidst - Surrounded by; in the middle of. Anodyne – Not likely to cause offence or disagreement and somewhat dull. Antic – grotesque or bizarre. Aplomb – self-confidence or assurance, especially when in a demanding situation. Apostasy – The abandonment or renunciation of a religious or political belief or principle. Asinine – Extremely stupid or foolih. Assuage – Make (an unpleasant feeling) less intense.</description>
+      <description>Acquiesce – Accept something reluctantly but without protest.
+Adroit – Clever or skilful.
+Amidst - Surrounded by; in the middle of.
+Anodyne – Not likely to cause offence or disagreement and somewhat dull.
+Antic – grotesque or bizarre.
+Aplomb – self-confidence or assurance, especially when in a demanding situation.
+Apostasy – The abandonment or renunciation of a religious or political belief or principle.
+Asinine – Extremely stupid or foolih.
+Assuage – Make (an unpleasant feeling) less intense.</description>
     </item>
     
   </channel>

@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost:1313/projects/climbingcenters/</loc>
+    <lastmod>2022-01-09T22:16:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/math/</loc>
+    <lastmod>2022-01-09T22:16:18+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2022-01-09T22:16:18+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/posts/iwp/interesting_words_and_phrases_8/</loc>
     <lastmod>2021-12-08T16:16:58+01:00</lastmod>
   </url>
@@ -39,11 +54,6 @@
   
   <url>
     <loc>http://localhost:1313/tags/science/</loc>
-    <lastmod>2021-08-29T21:39:40+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
   </url>
   
