@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/tags/math/</loc>
+    <loc>http://localhost:1313/es/tags/math/</loc>
     <lastmod>2022-01-09T22:16:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -13,12 +13,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/tags/math/"
+                href="http://localhost:1313/es/tags/math/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/projects/</loc>
+    <loc>http://localhost:1313/es/projects/</loc>
     <lastmod>2022-01-09T22:16:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -28,12 +28,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/projects/"
+                href="http://localhost:1313/es/projects/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/es/tags/</loc>
     <lastmod>2022-01-09T22:16:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -43,12 +43,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/tags/"
+                href="http://localhost:1313/es/tags/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/projects/climbingcenters/</loc>
+    <loc>http://localhost:1313/es/projects/climbingcenters/</loc>
     <lastmod>2022-01-09T22:16:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -58,12 +58,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/projects/climbingcenters/"
+                href="http://localhost:1313/es/projects/climbingcenters/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>http://localhost:1313/es/posts/</loc>
     <lastmod>2021-08-29T21:44:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -73,12 +73,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/posts/"
+                href="http://localhost:1313/es/posts/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/mrna_vaccines/</loc>
+    <loc>http://localhost:1313/es/posts/mrna_vaccines/</loc>
     <lastmod>2021-08-29T21:44:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -88,12 +88,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/posts/mrna_vaccines/"
+                href="http://localhost:1313/es/posts/mrna_vaccines/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/phosphofructokinase_2/</loc>
+    <loc>http://localhost:1313/es/posts/phosphofructokinase_2/</loc>
     <lastmod>2021-08-29T21:42:39+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -103,12 +103,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/posts/phosphofructokinase_2/"
+                href="http://localhost:1313/es/posts/phosphofructokinase_2/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/bchem/</loc>
+    <loc>http://localhost:1313/es/tags/bchem/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -118,12 +118,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/tags/bchem/"
+                href="http://localhost:1313/es/tags/bchem/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/bio/</loc>
+    <loc>http://localhost:1313/es/tags/bio/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -133,12 +133,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/tags/bio/"
+                href="http://localhost:1313/es/tags/bio/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/gerd/</loc>
+    <loc>http://localhost:1313/es/posts/gerd/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -148,12 +148,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/posts/gerd/"
+                href="http://localhost:1313/es/posts/gerd/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/science/</loc>
+    <loc>http://localhost:1313/es/tags/science/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -163,12 +163,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/tags/science/"
+                href="http://localhost:1313/es/tags/science/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/posts/vitamin_k_cofactor/</loc>
+    <loc>http://localhost:1313/es/posts/vitamin_k_cofactor/</loc>
     <lastmod>2021-08-29T20:41:09+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -178,12 +178,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/posts/vitamin_k_cofactor/"
+                href="http://localhost:1313/es/posts/vitamin_k_cofactor/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/es/</loc>
     <lastmod>2020-03-23T16:29:23+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -193,12 +193,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/es/"
                 />
   </url>
   
   <url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>http://localhost:1313/es/about/</loc>
     <lastmod>2019-09-12T12:17:58+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
@@ -208,7 +208,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/about/"
+                href="http://localhost:1313/es/about/"
                 />
   </url>
   
