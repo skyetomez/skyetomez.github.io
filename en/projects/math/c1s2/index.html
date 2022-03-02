@@ -1,0 +1,659 @@
+<!doctype html>
+<html lang="en">
+  
+  <head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="" href="">
+    
+
+    
+    
+    <title>math | Skyler blog EN</title>
+    <style>
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:0px 1%;
+}
+
+
+body{
+
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.32em;
+    line-height: 1.8em;
+    font-weight: 300;
+    
+
+    max-width: 100ch;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 5em 0em 5em; 
+
+}
+header{
+
+    margin-top: 5em;
+}
+
+footer{
+
+    border-color:black;
+     
+    border-width: 2px;
+    
+    margin-top: 5em;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: row; 
+
+    border-color:black;
+    border-top: solid;
+    border-width: 2px;
+}
+
+.recent-posts{
+    width: 75%;
+}
+.languages{
+    width: 25%; 
+}
+.credits{
+ 
+
+
+}
+
+.social_icons{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+button {
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+  
+}
+
+
+
+button:hover, a:hover{
+    color: #cda397;
+    text-decoration: none;
+
+}
+
+
+.homepage-content{
+
+    display:flex;
+    flex-direction: column;
+    
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+
+    color: black;
+    text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+    
+
+}
+
+.wrapper > div {
+    background-color: whitesmoke;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+nav{
+    font-size: xx-large;
+
+    border-color:black;
+    border-bottom: solid;
+    border-width: 3px;
+    
+    display:flex; 
+    justify-content:space-evenly;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div> p{
+    flex:inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+
+    font-size: 40px;
+
+    text-transform: lowercase;
+
+    color:black;
+}
+.poly{
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+    min-height: 25%;
+    min-width: 25%;
+
+}
+
+
+
+
+@media screen and (max-width: 767px){
+
+
+nav{
+    font-size: large;
+}
+
+.welcome{
+    font-size: 20px;
+}
+
+.homepage-content{
+
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.homepage-content> div{
+    grid-column: auto;
+    grid-row: auto;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+body{
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 95%;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+
+}
+
+}
+
+
+</style>
+</head>
+
+  <header> 
+    
+
+
+<nav>
+    
+      
+      
+      <a href="/">home</a>
+    
+      &squf;
+      
+      <a href="/about">about</a>
+    
+      &squf;
+      
+      <a href="/posts">posts</a>
+    
+      &squf;
+      
+      <a href="/projects">projects</a>
+    
+      &squf;
+      
+      <a href="/cv">cv</a>
+    
+ </nav>  
+  </header>
+
+    <body>
+
+      <div>      
+      
+
+<h1>math</h1> 
+
+<p>\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsthm}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}</p>
+<p>\title{Quadratic Polynomials}
+\author{Skyler}
+\date{November 2016}</p>
+<p>\begin{document}</p>
+<p>\maketitle</p>
+<p>\section*{Exercises}
+\begin{enumerate}</p>
+<pre><code>\item[1.] Let $p(t)=at^2+bt+c$ be a quadratic polynomial. 
+\begin{enumerate}
+    \item[(a)] Show that $p(t)$ can be written in the form
+    $$a(t+\frac{b}{2a})^2-\frac{1}{4a}(b^2-4ac).$$
+    It is not immediate that $p(t)$ can be realised in the desired form, but by working backwards the strategy becomes apparent.\hfill\break
+    First we note that $$p(t)=at^2+bt+c=at^2+bt+\frac{b^2}{4a}-\frac{b^2}{4a}+c.$$ 
+    Next, by algebra, $$a(t^2+\frac{b}{a}t+\frac{b^2}{4a^2})-\frac{1}{4a}(b^2-4ac).$$
+    But, $$a(t^2+\frac{b}{2a}t+\frac{b}{2a}t+\frac{b^2}{4a^2})-\frac{1}{4a}(b^2-4ac).$$
+    Finally,$$p(t)=a(t+\frac{b}{2a})^2-\frac{1}{4a}(b^2-4ac).$$
+    As was to be shown. 
+    \item[(b)]Use $(a)$ to determine all the roots of the equation
+    $$t^2 -7t+12=0.$$
+    Using $(a)$ and observing that $a=1$, $b=-7$, and $c=12$ we see that,
+    $$(1)(t+\frac{(-7)}{2(1)})^2-\frac{1}{4(1)}((-7)^2-4(1)(12))=0.$$
+    And, $$(t=\frac{8}{2})\mbox{ or } t=\frac{6}{2}.$$
+    \item[(c)]Give a general formula for the roots of a quadratic.
+    $$t=-b\pm\frac{\sqrt{b^2-4ac}}{2a}.$$
+\end{enumerate}
+
+\item[2.]
+\begin{enumerate}
+    \item[(a)]Verify that $t^2-r^2=(t-r)(t+r).$
+    Verify by algebra.
+    \item[(b)Incomplete]Let $r$ be a zero of the polynomial $p(t)=at^2+bt+c.$ Verify that $p(t)=p(t)-p(r)=(t-r)(at+ar+b).$ \hfill\break 
+    Now, 
+    $$at^2+bt+c-(ar^2+br+c)=at^2+bt+c-ar^2-br-c.$$
+    Next,
+    $$at^2-ar^2+bt-br+c-c=(t^2-r^2)a+(t-r)b.$$
+    From $(a)$ we now expand, 
+    $$(t-r)(t+r)a+(t-r)b=(t-r)((t+r)a+b).$$
+    Finally, we take the product in the parenthesis yielding,
+    $$(t-r)((t+r)a+b)=(t-r)(at+ar+(t+r)b)$$
+    \item[(c)] Show that $r$ is a zero of a quadratic polynomial $p(t)$ if and only if $p(t)$ can be written in the from $(t-r)q(t)$ for some linear polynomial $q(t)$.\newline
+    Suppose that $r$ is a zero of a quadratic polynomial $p(t)$. Then, $p(t)=p(t)-p(r)=(t-r)(at+ar+b)$. Let $q(t)=(at+ar+b)$. Now, we have written $p(t)$ in the form $(t-r)q(t)$ as desired. Now, suppose that $p(t)$ can we written in the form $(t-r)q(t)$ for some linear polynomial $q(t)$. We want to show that $r$ is a zero. But, $p(r)=(r-r)q(r)=0q(r)=0$. Hence, r is a zero of a quadratic polynomial.  
+\end{enumerate}
+
+\item[3.] Solve for x in the equation
+$$2m(1+x^2)-(1+m^2)(x+m)=0.$$
+The idea for this question is to algebraically manipulate the products into a more recognisable form.\newline
+Now, $$2m+2mx^2-m-m^3-x-m^2x=0.$$
+Next we see that  $$2mx^2-x-m^2x+2m-m-m^3=(2m)x^2-(1+m^2)x+(m-m^3)=0.$$   
+We can now see that this is a quadratic polynomial and to solve for x we have to find the roots of the polynomial which is precisely when the polynomial is zero. We can now use the equation we found in question $1(c)$ to find that
+$$x=m\mbox{ or }x=\frac{1-m^2}{2m}.$$
+
+\item[4.] \textit{Theory of the quadratic}. Let $at^2+bt+C$ be the polynomial whose coefficients are complex numbers. 
+\begin{enumerate}
+    \item[(a)]Deduce from Exercise $1(a)$ that $at^2+bt+c$ can be written as a constant times the square of a linear polynomial if and only if its \textit{discriminant} $b^2-4ac$ vanishes. In this case, show that there is only one zero of the polynomial.\newline
+    From exercise $1(a)$, we learned that a quadratic polynomial $p(t)$ can be rewritten as a a constant times a linear term plus a constant.\newline
+    Suppose that $p(t)=at^2+bt+c$ can be written as a constant times the square of a linear polynomial. Using exercise $1(a)$ and observing that that $p(t)$ is a quadratic polynomial,
+    $$p(t) = at^2+bt+c = a(t+\frac{b}{2a})^2-\frac{1}{4a}(b^2-4ac).$$
+    It follows, from hypothesis that $b^2-4ac$ must vanish, that is, materialise as zero.\newline
+    Now, suppose that that discriminant of $p(t)$ is zero. This occurs when $b^2=4ac$. It must be that
+    $$a(t+\frac{b}{2a})^2-\frac{1}{4a}(b^2-4ac) = a(t+\frac{b}{2a})^2.$$ Hence, $p(t)$ has been written as a constant times the square of a linear polynomial. 
+    
+    \item[(b)]Show that if the discriminant of the polynomial does not vanish, then it has two zeros.\newline
+    Suppose that the discriminant of the polynomial does not vanish. That is, without loss of generality,  $b^2&gt;4ac$. It now follows from the general equation we generated in $1(c)$ that $$ t=-b\pm\frac{\sqrt{b^2-4ac}}{2a}. $$ One solution stemming from the pluse while the other the minus. 
+    
+    \item[(c)]Let $m\mbox{ and } n$ denote the zeros of $at^2+bt+c.$(When the discriminant vanishes, there is only one zero so in this case we set both m and n equal to that zero.) Show that $at^2+bt+c=a(t-m)(t-n).$\newline
+    Then, $$a(t-m)(t-n)=at^2-(m+n)t+nm.$$
+    Let $b=-(n+m)$ and $c=nm$. This answers question 6 as well.  
+    
+    
+    \item[(d)]Show that the sum of the zeros of the quadratic $at^2+bt+c$ is $-b/a$, and that the product of the zeros is $c/a$.\newline
+    From above, $t^2\frac{b}{a}t+\frac{c}{a}$ by substitution, $\frac{b}{a}=\frac{-(m+n)}{a}$. Multiply both sides of the polynomial by $-1$ and we have shown that the sum of the zeros of the quadratic $at^2+bt+c$ is $-b/a$. Also from above, it follows similarly that the product of the zeros of the quadratic is $c/a$. 
+    
+\end{enumerate}
+
+\item[5.] For which values of $m$ will the polynomial 
+$$ m^2t^2+2(m+1)t+4 $$
+have exactly one zero?\newline
+What the question is asking is what values cause the discriminant to vanish or, equally as true, for what values cause $m=n$ in $a(t-m)(t-n)$. \newline
+If you we let $a=m^2$, $b=2(m+1)$, and $c=4$, we can ues our equation from question $1(a)$.
+$$m^2(t+\frac{2(m+1)}{2(m^2)})^2-\frac{1}{4(m^2)}((2(m+1))^2-4(m^2)(4)).$$
+We can see now that we are concerned with under what conditions $(2(m+1))^2-4(m^2)(4)=0$. \newline
+By algebra,
+$$(2(m+1))^2=4(m^2)(4).$$
+$$4m^2+8m+4=16m^2.$$
+$$m^2+2m+1=4m^2.$$
+$$(m+1)^2=4m^2.$$
+$$m+1=2m.$$
+$$m=1.$$
+Thus, when $m=1$, the discriminant vanishes, and the polynomial will have exactly one zero. 
+
+\item[6.] Let $s$ and $p$ be numbers. Show that the solutions $(x,y)$ of the system 
+\begin{enumerate}
+  \item[(1)]$$x + y = s$$
+  \item[(2)]$$xy = p$$
+\end{enumerate}
+are the zeros in some order of the quadratic $t^2-st+p$. \newline
+This can be solved by substitution. By algebra,
+$$t^2-(x+y)t+xy=0.$$
+$$t^2-xt-yt+xy=0.$$
+$$(t-x)(t-y)=0.$$
+Now, if $p$ is not equal to zero, than neither $x$ nor $y$ can be equal to zero assuming that there are no zero divisors, and then both $x$ and $y$ are roots of the polynomial.
+
+\item[7.] Determine the values of $x$ for which $6x^2-5x-4$ is negative.\newline
+Let $p(x)=6x^2-5x-4$. We were to graph this polynomial, we are asked to find zero(s) and give bounds on when the polynomial is below the horizontal. One may factor to find the zeros to this polynomial are $x=-\frac{1}{2} \mbox{ and } \frac{4}{3}$. By trial-and-error, we see that $x=1$ is negative but $x=2$ is positive and $x=-1$ is positive  and $x=0$ is negative. Thus, we conclude that the polynomial is negative for values of $x$ where $-\frac{1}{2}&lt;x&lt;\frac{4}{3}$.
+
+\item[8.]Determine those values of k for which the equation 
+$$\frac{x^2+x+2}{3x+1}=k$$
+is solvable for real x. \newline
+For the polynomial to be solvable, for real $x$, the zeros of the polynomial need to be real-valued. This means that the discriminant needs to be non-negative. That is , $b^2-4ac\geq 0$. Then by algebra, 
+$$x^2+x+2=k(3x+1),$$
+$$x^2+x+2=3kx+k,$$
+$$x^2+(1-3k)x+(2-k)=0.$$
+Now, when is it true that $(1-3k)^2-4(1)(2-k)\geq 0$? More algebra suggests that $(1-3k)^2-4(1)(2-k)=(9k+7)(k-1)\geq 0$. Now, we can use the same trial and error technique as from question $7$ when this polynomial in $k$ is below the horizontal the discriminant is negative and there are no real solutions. It follows that for $k$ $-\frac{7}{9}&lt;k&lt;1$ the discriminant is less than zero and $\frac{x^2+x+2}{3x+1}=k$ is not solvable for real $x$ 
+
+\item[*9.]If the domain of the function
+$$\frac{x^2+x-1}{x^2+3x+2}$$
+is the set of all real numbers, show that it assumes all real values.\newline
+This is similar to the above, but now we are to show that for any $x$, there is a $k\in\mathbb{R}.$
+So,
+$$x^2+x-1=k(x^2+3x+2),$$
+$$(1-k)x^2+(1-3k)x-(1+2k)=0.$$
+Now, by the quadratic formula,
+$$x=-(1-3k)\pm\frac{\sqrt{(1-3k)^2-(-)4(1-k)(1+2k)}}{2(1-k)}.$$
+In particular, the parabola described by the discriminant is above the horizontal and has no real roots. 
+$$(1-3k)^2-(-)4(1-k)(1+2k)=k^2-2k+5=0.$$
+So,
+$$(-2)^2-4(1)(5)=-16\geq 0$$
+Thus, for any $k\in\mathbb{R}$, the discriminant is negative, the parabola is positive and above the horizontal. Therefore, the discriminant of the function in $x$ is always positive for any value of $k\in\mathbb{R}$ and the function assumes all real values with the domain being the set of all real numbers i.e. the function is always solvable. 
+</code></pre>
+<p>\pagebreak</p>
+<pre><code>\item[10.]Given that $m$ and $n$ are the roots of the quadratic $6t^2-5t-3$, find a quadratic whose roots are $m-n^2$ and $n-m^2$, without actually finding the values of $m$ and $n$ individually. \newline
+We know that for $p(t)=6t^2-5t-3$ both $m$ and $n$ are zeros of the quadratic. From the \textit{Theory of the quadratic} we recall that the sum of the zeros of a quadratic is the negative ratio of the coefficients of the linear and the quadratic terms while the product of the zeros is the ratio of the constant coefficient to the leading coefficient. It follows that,
+$$(m+n)=\frac{5}{6}\mbox{ and }mn=-\frac{3}{6}.$$
+So, 
+$$(t-(m-n^2))(t-(n-m^2)=(t-(m-(\frac{-3}{6m})^2))(t-(n-(\frac{-3}{6n})^2))$$
+$$=t^2 - \frac{3}{4}(m+n)t + (\frac{3}{4})^2mn.$$
+By subsitition, 
+$$t^2-\frac{15}{26}t+\frac{9}{48} $$
+
+\item[11.]Let $m$ and $n$ be roots of the equation $t^2+bt+c=0$. Show that $b$ and $c$ are the roots of the equation
+$$t^2+(m+n-mn)t-mn(m+n)=0.$$
+We know already that the sum of the zeros of a quadratic is the negative ratio of the coefficients of the linear and the quadratic terms while the product of the zeros is the ratio of the constant coefficient to the leading coefficient and so
+$$m+n=-\frac{b}{a}\mbox{ and }mn=\frac{c}{a}.$$ 
+Following from the given polynomial where $a=1$. So,
+$$ -\frac{(m+n)-(mn)}{a}=-\frac{m+n}{a}+\frac{mn}{a}=\frac{b}{a}+\frac{c}{a}=b+c $$
+and
+$$ -\frac{mn(m+n)}{a}=\frac{-(m+n)}{a}\frac{mn}{a}=\frac{b}{a}\frac{c}{a}=bc$$
+which together imply that $b$ and $c$ are the roots of the equation $t^2+bt+c=0.$
+
+\item[*12.]
+\begin{enumerate}
+    \item[(a)] Let $p(t)$ and $q(t)$ be two quadratic polynomials with integer coefficients. Prove that, if they have a nonrational zero in common, then on must be a constant multiple of the other. \newline
+    Suppose that $p(t)$ and $q(t)$ have a nonrational zero in common. That is, $p(t)=(x-\alpha)a(x)$ and $q(t)=(x-\alpha)b(x)$ such that $\alpha$ is nonrational. 
+    
+    \item[(b)] Find a counterexample to $(a)$ is the word &quot;nonrational&quot; is replaced by &quot;rational.&quot;
+  
+\end{enumerate}
+
+\item[*13.] Show that, if $x= (b-d)/(a-c)$ satisfies one of the equations
+$$x^2-ax+b=0$$
+$$x^2-cx+d=0,$$
+then it satisfies the other as well.\newline
+Suppose that $x= (b-d)/(a-c)$ satisfies the first equation. That is, it is true that $\frac{b-d}{a-c}^2-a\frac{b-d}{a-c}+b=0.$ We observe that 
+$$(a-c)x=b-d$$
+$$ax-b=cx-d$$
+$$-ax+b=-cx+d.$$
+Hence, if the first equation is satisfied, then  by substitution, the second equation is satisfied as well.
+\item[14.]
+\begin{enumerate}
+  \item[(a)^{\textit{nw}}]Let $a_{i}$, $b_{i}$ be nonnegative reals $(a\leq i\leq n)$. The function
+                $$ \sum_{i=1}^{n}(a_{i}t+b_{i})^2 $$
+  is a polynomial in $t$. Explain why its discriminant is nonpositive. \newline
+  The above summation is a countable sum of quadratic polynomials with nonnegative real coefficients. That is, they are all of the form $(a_{i}t)^2+2b_{i}a_{i}t+(b_{i})^2$. For any one of these polynomials, the discriminant given by $(2b_{i}a_{i})^2-4(a_{i})^2(b_{i})^2$. On inspection, one notices that subtrahend and the minuend have the same absolute value and so the discriminant vanishes.\newline
+  Now, if we look at the  $n+1$ polynomial in the sum of such would be of the form 
+  $$\big((a_{n+1})^2+(a_{n})^2+...+(a_{1})^2\big) t^2 + \big(2(b_{n+1}a_{n+1}+b_{n}a_{n}+...+b_{1}a_{1})\big) t + \big((b_{n+1})^2+(b_{n})^2+...+(b_{1})^2\big)$$
+  And its discriminant would be.
+  $$\big(2(b_{n+1}a_{n+1}+b_{n}a_{n}+...+b_{1}a_{1})\big)^2-4*\big((a_{n+1})^2+(a_{n})^2+...+(a_{1})^2\big)*\big((b_{n+1})^2+(b_{n})^2+...+(b_{1})^2\big)$$
+  Now, by algebra and one notices that the subtrahend is smaller than the minuend and this follows from noting that it is the linear term of the polynomial after algebra. Hence, the discriminant is always either zero or negative and therefore nonpositive. 
+  
+  \item[(b)] Use (a) to establish the \textit{Cauchy-Schwarz Inequality}: 
+   $$ \sum_{i=1}^{n}a_{i}b_{i} \leq \sqrt{\sum_{i=1}^{n}a_{i}^2}\sqrt{\sum_{i=1}^{n}b_{i}^2}. $$
+   When does equality occur?\newline
+   In the above, when we found the nonpositive discriminant, we noticed that after algebra equation that the first ordered terms could be found the the polynomial of the higher order terms, and using this, we found that the discriminant was always nonpositive. The above, is the exact inequality used in $(a)$.  
+   
+   
+\end{enumerate}
+
+\item[15. Incomplete]
+\begin{enumerate}
+  \item[(a)] Verify the \textit{Lagrange identity}
+  $$\bigg(\sum^{n}_{i=1}a_{i}^2\bigg)\bigg(\sum^{n}_{i=1}b_{i}^2\bigg)-\bigg(\sum^{n}_{i=1}a_{i}b_{i}\bigg)^2 = \sum^{n}_{1\leq i&lt;j\leq n}(a_{i}b_{j}-a{j}b_{i})^2.$$
+  
+  \item[(b)] Use (a) to establish The Cauchy-Schwarz Inequality.
+  
+\end{enumerate}
+</code></pre>
+<p>\pagebreak</p>
+<pre><code>\item[16.]\textit{Diameters of an ellipse.} The equation of an ellipse whose axes lie along the axes of coordinates and whose center is at the origin can be written $b^2x^2+a^2y^2=a^2b^2$, where $a$ and $b$ are the lengths of the semi-axes. Find the locus of the midpoints of chords of the ellipse with fixed slope $m$; such a locus is called a $diameter$ of the ellipse. \newline 
+So what we are trying to do is find the coordinates of the the mid point of some cord of an ellipse. In other words, for some line of the form $y=mx+k$ (that is a cord of the ellipse) we want to generate its midpoint.\newline
+We are given the equation $b^2x^2+a^2y^2=a^2b^2$ which describes the quadratic, but this is not a function so I first convert it into the form $y=\pm\frac{b}{a}\sqrt{a^2-x^2}$ where the positive part is the top half of the ellipse and the negative is bottom half of the ellipse. Now, 
+$$ y=\pm\frac{b}{a}\sqrt{a^2-x^2}=mx+k=y$$
+$$ \frac{b^2}{a^2}(a^2-x^2)=m^2x^2+k^2+2kmx$$
+$$ b^2a^2-b^2x^2=a^2m^2x^2+a^2k^2+2kma^2x $$
+$$ (a^2m^2+b^2)x^2+2kma^2x+(b^2-k^2)a^2=0.$$
+Next, by the quadratic formula, 
+$$ \frac{-(2kma^2)\pm\sqrt{(2kma^2)^2-4(a^2m^2+b^2)(b^2-k^2)a^2}}{2(a^2m^2+b^2)}.$$
+These two zeros are the x coordinates at which the cord intersects the ellipse. Then, one may substitute these values to find the corresponding y coordinates. It follows that the midpoint is then $(x_1+x_2)/2,(y_1+y_2)/2$
+
+\item[17.]Let $a,b$ be two nonnegative real numbers. Use the fact that the zeros of the quadratic $(t-\sqrt{a})(t=\sqrt{b})$ are real to establish the arithmetic -geometric (AM-GM) mean inequality $(ab)^{1/2}\leq \frac{1}{2}(a+b)$ with equality if an only if $a=b$. \newline
+We are given that the radicals of the nonnegative real numbers are real. It follows that their difference is real as well, that is, $\sqrt{a}+\sqrt{b}$. We also know that this sum is nonegative and equal to zero when $a=b$. Then, by algebra $0\leq(\sqrt{a}-\sqrt{b})^2=a-2\sqrt{ab}+b$. It follows then, by arithmetic $2\sqrt{ab}\leq a+b$.
+
+\item[18.lolololol] Suppose that $a,b,c$ are integers and that $r$ is a nonrational root of the quadratic equation $at^2+bt+c=0$. Let $u=p/q$ be any rational number, and suppose that $|u-r||&lt;1$. Prove that $$1/q^2\leq|p(u)|\leq|u-r|K$$
+where $K=2|ar|+|a|+|b|$.\newline
+Deduce that there is a constant $M$ such that 
+$$|r-p/q|\geq M/q^2 ~\mbox{for any rational p/q}.$$
+
+\item[19] The zeros f the quadratic $pt^2+qt+r$ are in the ratio $a:b$. Prove that $q^2ab=pr(a+b)^2$.\newline
+We are given the zeros in the form $a/b$ and we know from \textit{Theory of the quadratic} that the sum of the zeros of the quadratic $at^2+bt+c$ is $-b/a$, and that the product of the zeros is $c/a$. With respect to $pt^2+qt+r$, we can write $\frac{r}{p}=ab$ and $-\frac{q}{p}=(a+b)$. Then, by algebra, 
+$$\big(-\frac{q}{p}\big)^2=\frac{q^2}{p^2}=(a+b)^2$$
+$$\frac{1}{p^2}=\frac{1}{pp}=\frac{(a+b)^2}{q^2}.$$
+Next, by substitution 
+$$ \frac{ab}{pr}=\frac{(a+b)^2}{q^2}.$$
+Finally, $$q^2ab=pr(a+b)^2.$$
+As desired. 
+
+\item[20.] Determine the locus of the midpoints of the chords of the parabola with equation $y=x^2+x+1$ which pass through the origin. On the same axis, sketch the graphs of the parabola and the required locus. 
+</code></pre>
+<p>\end{enumerate}</p>
+<p>\end{document}</p>
+
+
+
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+      <footer>
+        
+   <div>
+      
+
+      <div class="footer-box">
+
+        
+        <div class="recent-posts">
+            <strong>Latest Posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="http://localhost:1314/projects/climbingcenters/">How many climbing centers should there be in a city?</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1314/posts/iwp/interesting_words_and_phrases_8/">Interesting Words and Phrases 8</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1314/posts/iwp/interesting_words_and_phrases_7/">Interesting Words and Phrases 7</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1314/posts/mrna_vaccines/">mRNA Vaccines with Dr. Kizzy</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1314/posts/phosphofructokinase_2/">Phosphofructokinase-2</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1314/posts/gerd/">GERD</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1314/posts/vitamin_k_cofactor/">Cofactor: Vitamin K</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="languages">
+            <strong>Languages</strong><br>
+            
+            
+            <a href="http://localhost:1313/">es</a>
+            
+            
+            
+            <a href="http://localhost:1314/" class="active">en</a>
+            
+            
+        </div>
+        
+      
+      </div>
+
+        <div class="credits">
+          <div class="footer-box">
+              <div class="copyright">
+                  <a href="https://github.com/skyetomez" target="_blank">
+                      &copy;
+                      
+                      2018
+                      
+                      by Skyler
+                  </a>
+                  
+              </div>
+              <div class="author">
+                  <a href="https://github.com/skyetomez/skyetomez.github.io"
+                      target="_blank">Skyler&#39;s Theme</a>
+              </div>
+
+              <span class = "social_icons">
+
+                <button>
+                  <a href="http://www.twitter.com/t42639805"><i class="bi bi-twitter"></i></a>  
+                </button>
+          
+                <button>
+                  <a href= "http://www.instagram.com/skylerase"><i class="bi bi-instagram"></i></a>
+                </button>
+                
+                <button>
+                  <a href="/">
+                    <img src=/logo_sq.png width="50" height="50" >
+                  </a> 
+                </button> 
+              
+                <button>
+                  <a href="http://www.github.com/skyetomez"><i class="bi bi-github"></i></a>  
+                </button>
+               
+             
+                
+                <button>
+                  <a href="https://www.linkedin.com/in/skyler-thomas-aa494615b">
+                  <i class="bi bi-linkedin"></i>
+                  </a>
+                </button>
+          
+                </span>
+
+
+          </div>
+      
+
+
+
+      <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+
+
+    </div>
+  
+      </footer>
+
+
+    </body>
+
+
+    
+</html>

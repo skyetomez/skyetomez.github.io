@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+  
+  <head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="" href="">
+    
+
+    
+    
+    <title>GERD | Skyler blog ES</title>
+    <style>
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:0px 1%;
+}
+
+
+body{
+
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.32em;
+    line-height: 1.8em;
+    font-weight: 300;
+    
+
+    max-width: 100ch;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 5em 0em 5em; 
+
+}
+header{
+
+    margin-top: 5em;
+}
+
+footer{
+
+    border-color:black;
+     
+    border-width: 2px;
+    
+    margin-top: 5em;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: row; 
+
+    border-color:black;
+    border-top: solid;
+    border-width: 2px;
+}
+
+.recent-posts{
+    width: 75%;
+}
+.languages{
+    width: 25%; 
+}
+.credits{
+ 
+
+
+}
+
+.social_icons{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+button {
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+  
+}
+
+
+
+button:hover, a:hover{
+    color: #cda397;
+    text-decoration: none;
+
+}
+
+
+.homepage-content{
+
+    display:flex;
+    flex-direction: column;
+    
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+
+    color: black;
+    text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+    
+
+}
+
+.wrapper > div {
+    background-color: whitesmoke;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+nav{
+    font-size: xx-large;
+
+    border-color:black;
+    border-bottom: solid;
+    border-width: 3px;
+    
+    display:flex; 
+    justify-content:space-evenly;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div> p{
+    flex:inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+
+    font-size: 40px;
+
+    text-transform: lowercase;
+
+    color:black;
+}
+.poly{
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+    min-height: 25%;
+    min-width: 25%;
+
+}
+
+
+
+
+@media screen and (max-width: 767px){
+
+
+nav{
+    font-size: large;
+}
+
+.welcome{
+    font-size: 20px;
+}
+
+.homepage-content{
+
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.homepage-content> div{
+    grid-column: auto;
+    grid-row: auto;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+body{
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 95%;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+
+}
+
+}
+
+
+</style>
+</head>
+
+  <header> 
+    
+
+
+<nav>
+    
+      
+      
+      <a href="/">home</a>
+    
+      &squf;
+      
+      <a href="/about">about</a>
+    
+      &squf;
+      
+      <a href="/posts">posts</a>
+    
+      &squf;
+      
+      <a href="/projects">projects</a>
+    
+      &squf;
+      
+      <a href="/cv">cv</a>
+    
+ </nav>  
+  </header>
+
+    <body>
+
+      <div>      
+      
+
+<h1>GERD</h1> 
+
+<p>Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.</p>
+<p>La enfermedad por reflujo gastroesofágico (ERGE) es una afección que afecta a muchas personas en el mundo y, ciertamente, incluso sin sufrir sus efectos crónicos, el malestar que conlleva el reflujo ácido es un dolor que puede ser apreciado por muchos. Cualquiera que haya tenido la agridulce experiencia de comer un delicioso taco y darse cuenta demasiado tarde de que se olvidó de pedir que no hubiera jalapeños. Como he elegido el proceso de la digestión como tema de interés, hay muchas enzimas y mecanismos homeostáticos de interés, y a lo largo de este artículo se señalarán algunos interesantes.</p>
+<p>Los síntomas de la ERGE fueron detectados y registrados por primera vez en 1925 por Friedenwald y Feldman, quienes describieron su asociación con la acidez estomacal y la hernia de hiato (cuando el estómago sobresale en el pecho a través de una abertura en el diafragma)[5]. Más tarde, en 1934, el gastroenterólogo Asher Winkelstein describió el reflujo y atribuyó sus efectos al ácido del estómago[5].</p>
+<p>La enfermedad está causada por el movimiento frecuente (crónico) del ácido hacia el esófago, es decir, el reflujo ácido crónico que puede ser provocado por muchas cosas[5]. De hecho, la razón por la que elegí la ERGE como lo más interesante que aprendí entre los capítulos 10 y 14 es por (1) la cantidad de cosas que pueden provocarla y (2) sus numerosos efectos y síntomas. En cuanto a sus causas, éstas incluyen: la obesidad, la hernia de hiato, el embarazo, el tabaquismo, las comidas copiosas, los alimentos ricos en grasa o grasos, el café, el alcohol, ciertos medicamentos que pueden alterar esas protecciones del estómago, por ejemplo, la asprina [6].</p>
+<p>A nivel general, la ERGE puede causar una inflamación crónica del esófago al exponer el tejido a condiciones muy ácidas (pH 1 a 2), lo que puede provocar: inflamación en el esófago, úlceras, cáncer y otras posibles complicaciones a largo plazo [1]. Sin embargo, las personas sanas no sufren estos efectos, ya que el organismo dispone de mecanismos para evitar este movimiento retrógrado del ácido estomacal.</p>
+<p>El estómago tiene unas células especializadas llamadas células parietales, un tipo muy específico de célula epitelial [4], que tienen una proteína llamada protón-potasio ATPasa (bomba gástrica de protones) que acidifica el estómago bombeando protones hacia él a cambio de iones de potasio procedentes del lumen del intestino delgado [1]. Como esto va en contra del gradiente de concentración (hay más iones de hidrógeno en el estómago), el ATP se hidroliza para realizar el trabajo de esta enzima [4].</p>
+<p>Normalmente, el estómago se protege tanto de este ácido como de sus proteínas, como la pepsina, mediante la barrera mucosa gástrica, que es una frontera estratificada entre las células y el ácido [3]. Además, el esófago y, del mismo modo, los intestinos están protegidos por músculos que actúan como derivaciones para evitar el reflujo de los ácidos [2]. Esto es similar a la forma en que el corazón utiliza los músculos para evitar el reflujo de la sangre.</p>
+<p>El pH normal del esófago en condiciones normales se mide cerca de 7,0 [7]. Es decir, un entorno neutro. Las células que recubren el esófago tienen una defensa natural contra el ácido, así como una combinación de otros factores que impiden que el ácido del estómago disminuya este pH; sin embargo, con la ERGE estas defensas se debilitan a medida que el pH desciende [7]. Concretamente, se dice que un pH de 4,0 se asocia con el reflujo, la lesión de la mucosa y cuando la ERGE es crónica [2]. Además, se produce una disminución de los procesos de recuperación y reparación rápida que intentan llevar a cabo estas células [2]. De ello se deduce que, cuando el pH del esófago desciende a 4,0 y menos, las proteínas de estas células comienzan a perder su capacidad de funcionamiento.</p>
+<p>Desde aproximadamente finales del siglo XX, un método de tratamiento popular para la ERGE ha sido evitar la acidificación del estómago. Los inhibidores de la bomba de protones (IBP) y los inhibidores de la bomba secretora de ácido son dos de las principales formas de tratar la ERGE. Los IBP han demostrado históricamente ser mejores para mantener el pH por encima de 4,0 y han ayudado a los pacientes a recuperarse más del daño que sufren las células en la ERGE [2].</p>
+<p>Un ejemplo es el omeprazol [2]. Se trata de una opción de tratamiento que actúa uniéndose de forma irreversible a la bomba de protones e inhibiéndola. En concreto, lo que hace es unirse de forma irreversible a un residuo de cisteína de la bomba de protones gástrica mediante un enlace covalente con la sulfonamida. La sulfonamida es la forma final metabolizada del omeprazol [1]. Este durg particular funciona durante un periodo de tiempo más largo, ya que la unión covalente a la bomba en el residuo de cisteína se considera inaccesible por los mecanismos endógenos de reparación de la bomba gástrica del organismo[8]. Sin embargo, puede ser revertida por los mecanismos reductores endógenos del organismo. En comparación, se ha demostrado que otros fármacos como el pantoprazol y el tenatoprazol actúan por un mecanismo similar, pero son resistentes a la reversión[8].  Hay que tener en cuenta que el omeperzol, el pantoprazol y el tenatoprazol son, pues, ejemplos de inhibidores del suicidio.</p>
+<p>Aparte: Hay que tener en cuenta cómo se metaboliza el omeprazol en su forma final utilizable. Es importante tener en cuenta cómo se administran los productos farmacéuticos al paciente y cómo llegan a su sitio activo final, ya que en su camino hacia dicho sitio, estarán expuestos a varias enzimas, cambios de pH y concentraciones de iones que pueden interactuar y modificar potencialmente el fármaco. Esto tiene consecuencias, ya que el meatbolismo del pantoprazol y del omerprazol son diferentes en el organismo desptito de ser utilizados para tratar lo mismo[8].</p>
+<hr>
+<p>fuentes:</p>
+<ol>
+<li>Tymoczko, J. L., Berg, J. M., &amp; Stryer, L. (2015). Biochemistry, a short course.</li>
+<li>Hunt RH. Importance of pH Control in the Management of GERD. Arch Intern Med. 1999;159(7):649–657. doi:10.1001/archinte.159.7.649</li>
+<li>Wikipedia contributors. (2020, November 9). Gastric mucosal barrier. In Wikipedia, The Free Encyclopedia. Retrieved 14:18, July 24, 2021, from <a href="https://en.wikipedia.org/w/index.php?title=Gastric_mucosal_barrier&amp;oldid=987802626">https://en.wikipedia.org/w/index.php?title=Gastric_mucosal_barrier&amp;oldid=987802626</a></li>
+<li>Wikipedia contributors. (2021, June 13). Hydrogen potassium ATPase. In Wikipedia, The Free Encyclopedia. Retrieved 14:19, July 24, 2021, from <a href="https://en.wikipedia.org/w/index.php?title=Hydrogen_potassium_ATPase&amp;oldid=1028426063">https://en.wikipedia.org/w/index.php?title=Hydrogen_potassium_ATPase&amp;oldid=1028426063</a></li>
+<li>Wikipedia contributors. (2021, July 22). Gastroesophageal reflux disease. In Wikipedia, The Free Encyclopedia. Retrieved 14:19, July 24, 2021, from <a href="https://en.wikipedia.org/w/index.php?title=Gastroesophageal_reflux_disease&amp;oldid=1034867406">https://en.wikipedia.org/w/index.php?title=Gastroesophageal_reflux_disease&amp;oldid=1034867406</a></li>
+<li>Mayo Clinic. (2020, Mayo 22). Gastroesophageal reflux disease (GERD). <a href="https://www.mayoclinic.org/diseases-conditions/gerd/symptoms-causes/syc-20361940">https://www.mayoclinic.org/diseases-conditions/gerd/symptoms-causes/syc-20361940</a></li>
+<li>Tutuian, R., &amp; Castell, D. O. (2006). Review article: complete gastro-oesophageal reflux monitoring - combined pH and impedance. Alimentary pharmacology &amp; therapeutics, 24 Suppl 2, 27–37. <a href="https://doi.org/10.1111/j.1365-2036.2006.03039.x">https://doi.org/10.1111/j.1365-2036.2006.03039.x</a></li>
+<li>SACHS, G., SHIN, J.M. and HOWDEN, C. (2006), Review article: the clinical pharmacology of proton pump inhibitors. Alimentary Pharmacology &amp; Therapeutics, 23: 2-8. <a href="https://doi.org/10.1111/j.1365-2036.2006.02943.x">https://doi.org/10.1111/j.1365-2036.2006.02943.x</a></li>
+</ol>
+
+
+
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+      <footer>
+        
+   <div>
+      
+
+      <div class="footer-box">
+
+        
+        <div class="recent-posts">
+            <strong>Latest Posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="http://localhost:1313/projects/climbingcenters/">¿Cuántos centros de escalada debería haber en una ciudad?</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/posts/mrna_vaccines/">Vacunas de ARNm con el Dr. Kizzy</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/posts/phosphofructokinase_2/">Fosfofructoquinasa-2</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/posts/gerd/">GERD</a>
+                    </li>
+                
+                    <li>
+                        <a href="http://localhost:1313/posts/vitamin_k_cofactor/">Cofactor: Vitamina K</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="languages">
+            <strong>Languages</strong><br>
+            
+            
+            <a href="http://localhost:1313/" class="active">es</a>
+            
+            
+            
+            <a href="http://localhost:1314/">en</a>
+            
+            
+        </div>
+        
+      
+      </div>
+
+        <div class="credits">
+          <div class="footer-box">
+              <div class="copyright">
+                  <a href="https://github.com/skyetomez" target="_blank">
+                      &copy;
+                      
+                      2018
+                      
+                      by Skyler
+                  </a>
+                  
+              </div>
+              <div class="author">
+                  <a href="https://github.com/skyetomez/skyetomez.github.io"
+                      target="_blank">Skyler&#39;s Theme</a>
+              </div>
+
+              <span class = "social_icons">
+
+                <button>
+                  <a href="http://www.twitter.com/t42639805"><i class="bi bi-twitter"></i></a>  
+                </button>
+          
+                <button>
+                  <a href= "http://www.instagram.com/skylerase"><i class="bi bi-instagram"></i></a>
+                </button>
+                
+                <button>
+                  <a href="/">
+                    <img src=/logo_sq.png width="50" height="50" >
+                  </a> 
+                </button> 
+              
+                <button>
+                  <a href="http://www.github.com/skyetomez"><i class="bi bi-github"></i></a>  
+                </button>
+               
+             
+                
+                <button>
+                  <a href="https://www.linkedin.com/in/skyler-thomas-aa494615b">
+                  <i class="bi bi-linkedin"></i>
+                  </a>
+                </button>
+          
+                </span>
+
+
+          </div>
+      
+
+
+
+      <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+
+
+    </div>
+  
+      </footer>
+
+
+    </body>
+
+
+    
+</html>
