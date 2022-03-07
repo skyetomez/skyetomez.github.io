@@ -3,6 +3,71 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost:1313/es/tags/english/</loc>
+    <lastmod>2022-03-07T21:09:16+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/english/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/english/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/es/posts/googoogogo/</loc>
+    <lastmod>2022-03-07T21:09:16+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/googoogogo/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/googoogogo/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/es/tags/language/</loc>
+    <lastmod>2022-03-07T21:09:16+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/language/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/language/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/es/tags/linguisics/</loc>
+    <lastmod>2022-03-07T21:09:16+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/es/tags/</loc>
+    <lastmod>2022-03-07T21:09:16+01:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/es/tags/math/</loc>
     <lastmod>2022-01-09T22:16:18+01:00</lastmod>
     <xhtml:link
@@ -14,21 +79,6 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/tags/math/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/es/tags/</loc>
-    <lastmod>2022-01-09T22:16:18+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/"
                 />
   </url>
   

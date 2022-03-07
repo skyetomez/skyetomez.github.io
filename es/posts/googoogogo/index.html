@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en">
+  
+  <head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="" href="">
+    
+
+    
+    
+    <title>Googoogogo | Skyler blog ES</title>
+    <style>
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+
+.wrapper{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:0px 1%;
+}
+
+
+body{
+
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.32em;
+    line-height: 1.8em;
+    font-weight: 300;
+    
+
+    max-width: 100ch;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 5em 0em 5em; 
+
+}
+header{
+
+    margin-top: 5em;
+}
+
+footer{
+
+    border-color:black;
+     
+    border-width: 2px;
+    
+    margin-top: 5em;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: row; 
+
+    border-color:black;
+    border-top: solid;
+    border-width: 2px;
+}
+
+.recent-posts{
+    width: 75%;
+}
+.languages{
+    width: 25%; 
+}
+.credits{
+ 
+
+
+}
+
+.social_icons{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+button {
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 36px;
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+  
+}
+
+
+
+button:hover, a:hover{
+    color: #cda397;
+    text-decoration: none;
+
+}
+
+
+.homepage-content{
+
+    display:flex;
+    flex-direction: column;
+    
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+
+    color: black;
+    text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+    
+
+}
+
+.wrapper > div {
+    background-color: whitesmoke;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+nav{
+    font-size: xx-large;
+
+    border-color:black;
+    border-bottom: solid;
+    border-width: 3px;
+    
+    display:flex; 
+    justify-content:space-evenly;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div> p{
+    flex:inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+
+    font-size: 40px;
+
+    text-transform: lowercase;
+
+    color:black;
+}
+.poly{
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+    min-height: 25%;
+    min-width: 25%;
+
+}
+
+
+
+
+@media screen and (max-width: 767px){
+
+
+nav{
+    font-size: large;
+}
+
+.welcome{
+    font-size: 20px;
+}
+
+.homepage-content{
+
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.homepage-content> div{
+    grid-column: auto;
+    grid-row: auto;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+body{
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 95%;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+
+}
+
+}
+
+
+</style>
+</head>
+
+  <header> 
+    
+
+
+<nav>
+    
+      
+      
+      <a href="/es">casa</a>
+    
+      &squf;
+      
+      <a href="/es/about">sobre mi</a>
+    
+      &squf;
+      
+      <a href="/es/posts">posts</a>
+    
+      &squf;
+      
+      <a href="/es/projects">proyectos</a>
+    
+      &squf;
+      
+      <a href="/es/cv">cv</a>
+    
+ </nav>  
+  </header>
+
+    <body>
+
+      <div>      
+      
+
+<h1>Googoogogo</h1> 
+
+<p>Cuando crecí, siempre me interesaron mucho los idiomas. Aprendí algo de ruso, italiano, mandarín y español. Durante esta época, oía de vez en cuando la palabra &ldquo;periodo crítico&rdquo;, que se refiere a la hipótesis de que antes de un determinado momento de la infancia, un idioma puede aprenderse hasta alcanzar la competencia nativa y sin esfuerzo si sólo se recibe información de otra persona con más conocimientos. Por mi propia experiencia como estudiante de idiomas, yo también lo creo.
+Por mi experiencia personal de niño, todavía puedo recordar cosas como el alfabeto cirílico, algunas frases en francés e italiano, e incluso la gramática básica del español sin esfuerzo. Sin embargo, a pesar de la &ldquo;información exhaustiva&rdquo; que recibí, el aprendizaje de la gramática española como joven adulto habría sido imposible si no se me hubieran dado a conocer explícitamente las nuevas reglas y patrones gramaticales. Y como profesor de inglés, esto es algo que he notado con mis alumnos y con la metodología recomendada entre la enseñanza del inglés a jóvenes y adultos.</p>
+<p>La metodología de la enseñanza con alumnos jóvenes se centra en proporcionar únicamente a los alumnos jóvenes información y correcciones. Así, aprovechando la capacidad de los niños de absorber conocimientos como una esponja, pueden convertirse en hablantes increíblemente competentes a estas edades sin necesidad de que se les den conjuntos de reglas y tediosos ejercicios de gramática. Sin embargo, este aprendizaje no es perfecto y los niños necesitan que los hablantes competentes o una persona con más conocimientos corrijan los errores y pongan límites a esas reglas, además de señalar en qué condiciones se puede decir o no decir algo, es decir, el significado semántico. Por ejemplo,
+Estoy seguro de que has conocido a alguien que tiene una historia de &ldquo;<em>No sabía que X se escribía/usaba como/se pronunciaba Y hasta que&hellip;</em>&rdquo; Supongo que no suelen ser errores fatales que impidan la comprensión, ya que si lo fueran, suelen corregirse mediante la interacción con los compañeros (y el ridículo).</p>
+<p>Esto nos lleva a nuestro punto de interés. Un día después de clase, una colega me contó su experiencia enseñando a niños pequeños la palabra &ldquo;así&rdquo;. A pesar de ser sólo dos letras, dos sonidos, algunos, quizá muchos, tenían problemas para captar la pronunciación correcta. Sus alumnos pronuncian la palabra so como /suː/ y no /səʊ/. Después de hablar de ello, acabamos decidiendo que esto podría ser un tipo de generalización.</p>
+<p>Tal vez, los niños dedujeron a partir de la pronunciación de &ldquo;to&rdquo; y &ldquo;do&rdquo;, que a diferencia de &ldquo;so&rdquo;, se encuentran con frecuencia (a través de infinitivos verbales y preguntas de sí/no, cosas que los niños que aprenden inglés como segunda lengua encuentran a menudo) que la conclusión a la que llegaron fue que &ldquo;so&rdquo; también debía seguir este patrón. Y esta extensión natural de la regla era anatema para lo que se les enseñaba en clase. Entonces, ¿quién tiene razón?</p>
+<p>Cuando era niño, aprendí que &ldquo;la letra &lsquo;e&rsquo; <a href="https://www.youtube.com/watch?v=b0uRMFiE_2s">hace que la vocal diga su nombre</a>&quot;. En otras palabras, la letra &lsquo;e&rsquo; funciona ortográficamente para hacer que la vocal corta anterior &ldquo;diga su nombre&rdquo;, es decir, que se pronuncie con su sonido largo y no con el corto. Otras lenguas, como el francés, también tienen marcadores de este tipo. Podemos ver esta regla en acción con</p>
+<ul>
+<li>cap vs. cape</li>
+<li>win vs wine</li>
+<li>breath vs breathe (/a/ no se pronuncia)</li>
+</ul>
+<p>Sin embargo, &lsquo;go&rsquo; se dice con un sonido vocálico largo <strong>sin</strong> una &lsquo;e&rsquo;. ¡Decimos /gəʊ/ y no /gɒ/ como con la &lsquo;o&rsquo; de mop ni decimos &lsquo;goo&rsquo; como en &ldquo;goo ga ga&rdquo;'! Aunque, ¿cómo es que tenemos esta regla con to y toe?</p>
+<p>Esto podría deberse a varias razones: la partícula &lsquo;to&rsquo; podría ser germánica mientras que &ldquo;so&rdquo; no lo es, podría diferenciar entre too y to, los sonidos vocálicos podrían haber cambiado con el tiempo, la pronunciación podría haberse conservado mientras que la ortografía se cambió con el tiempo. O incluso, puede haber una regla oculta en inglés según la cual una palabra de dos letras con &ldquo;o&rdquo; precedida por una consonante no puede terminar en un sonido vocálico corto.</p>
+<p>Otra cosa curiosa es que, excluyendo las combinaciones prescritas de &lsquo;s&rsquo; o &lsquo;n&rsquo; con &lsquo;o&rsquo;, se suele decir que todos los demás pares de consonantes seguidos de &lsquo;o&rsquo; riman con &lsquo;to&rsquo; y &lsquo;do&rsquo;. Esto ha sido corroborado de forma caritativa por una encuesta de n = 2 compuesta por mí y mi amigo. También podría depender de si empiezas tu paseo de rimas al azar con &lsquo;go&rsquo; o &lsquo;to&rsquo;. Pruébalo tú mismo.</p>
+<p>Entonces, ¿quién tiene razón? ¿Los niños pequeños, cuya maquinaria interna, probada por el tiempo, ha dilucidado cuál debe ser la pronunciación correcta de &lsquo;so&rsquo;, o somos nosotros, sin nuestras imperfectas y manchadas reglas de pronunciación? ¿Deberíamos cambiar la ortografía de &ldquo;go&rdquo; para añadir un nuevo marcador como &lsquo;ᶔ&rsquo; para separar &lsquo;goᶔ&rsquo; de to y do? ¿Qué haríamos con &lsquo;no&rsquo;? No lo sé.  Lo que sí sé, sin embargo, es que los niños son realmente inteligentes y hacen preguntas increíbles.</p>
+<p>Si tienes una idea, no dudes en compartirla conmigo o en indicarme la dirección correcta.</p>
+
+
+
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+      <footer>
+        
+   <div>
+      
+
+      <div class="footer-box">
+
+        
+        <div class="recent-posts">
+            <strong>Latest Posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="/es/posts/googoogogo/">Googoogogo</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/projects/climbingcenters/">¿Cuántos centros de escalada debería haber en una ciudad?</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/mrna_vaccines/">Vacunas de ARNm con el Dr. Kizzy</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/phosphofructokinase_2/">Fosfofructoquinasa-2</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/gerd/">GERD</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/vitamin_k_cofactor/">Cofactor: Vitamina K</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="languages">
+            <strong>Languages</strong><br>
+            
+            
+            <a href="/es/" class="active">es</a>
+            
+            
+            
+            <a href="/">en</a>
+            
+            
+        </div>
+        
+      
+      </div>
+
+        <div class="credits">
+          <div class="footer-box">
+              <div class="copyright">
+                  <a href="https://github.com/skyetomez" target="_blank">
+                      &copy;
+                      
+                      2018
+                      
+                      by Skyler
+                  </a>
+                  
+              </div>
+              <div class="author">
+                  <a href="https://github.com/skyetomez/skyetomez.github.io"
+                      target="_blank">Skyler&#39;s Theme</a>
+              </div>
+
+              <span class = "social_icons">
+
+                <button>
+                  <a href="http://www.twitter.com/t42639805"><i class="bi bi-twitter"></i></a>  
+                </button>
+          
+                <button>
+                  <a href= "http://www.instagram.com/skylerase"><i class="bi bi-instagram"></i></a>
+                </button>
+                
+                <button>
+                  <a href="/">
+                    <img src=/logo_sq.png width="50" height="50" >
+                  </a> 
+                </button> 
+              
+                <button>
+                  <a href="http://www.github.com/skyetomez"><i class="bi bi-github"></i></a>  
+                </button>
+               
+             
+                
+                <button>
+                  <a href="https://www.linkedin.com/in/skyler-thomas-aa494615b">
+                  <i class="bi bi-linkedin"></i>
+                  </a>
+                </button>
+          
+                </span>
+
+
+          </div>
+      
+
+
+
+      <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+
+
+    </div>
+  
+      </footer>
+
+
+    </body>
+
+
+    
+</html>
