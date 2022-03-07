@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>posts on Skyler blog</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in posts on Skyler blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Apr 2020 16:48:36 +0200</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>mRNA Vaccines with Dr. Kizzy</title>
+      <link>http://localhost:1313/posts/mrna_vaccines/</link>
+      <pubDate>Sun, 29 Aug 2021 21:44:18 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/mrna_vaccines/</guid>
+      <description>The following was written in response to a class biochemistry dicussion post.
+Kizzy did an amazing job making vaccine efficacy easy to understand when she showed that it is just the number of people of the got sick with the placebo compared to the total number of people that got sick. In other words, it&amp;rsquo;s a percentage that hides a ratio.
+I found this interesting because if 18/20 is the the vaccine efficacy, then 20-18 is the number of people who got sick with the vaccine.</description>
+    </item>
+    
+    <item>
+      <title>Phosphofructokinase-2</title>
+      <link>http://localhost:1313/posts/phosphofructokinase_2/</link>
+      <pubDate>Sun, 29 Aug 2021 21:42:39 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/phosphofructokinase_2/</guid>
+      <description>The following was written in response to a class biochemistry dicussion post.
+PHK2 is an important enzyme in the regulation of blood sugar levels as it responds to the peptide hormones insulin and glucagon that are both released by the pancreas.
+I&amp;rsquo;ve chosen the enzyme phosphofructokinase-2 (PHK2) and for 2 principle reasons: (1) I find this enzyme interesting because of how it differs from phosphofructokinase-1 (PFK1) in that it has a much lower affinity (greater K_m) for the same substrate glucose 6-phosphate (G6P) than PFK1 [1].</description>
+    </item>
+    
+    <item>
+      <title>GERD</title>
+      <link>http://localhost:1313/posts/gerd/</link>
+      <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/gerd/</guid>
+      <description>The following was written in response to a class biochemistry dicussion post.
+Gastroesophageal reflux disease (GERD) is a condition affects a lot of people in the world and, sure enough, even without suffering from its chronic effects, the discomfort that comes with acid reflux is a pain that can be appreciated by many. Anyone who has had the bittersweet experience of chowing-down on a scrumptious taco and, realizing only too late, that you forgot to ask for no jalapenos.</description>
+    </item>
+    
+    <item>
+      <title>Cofactor: Vitamin K</title>
+      <link>http://localhost:1313/posts/vitamin_k_cofactor/</link>
+      <pubDate>Sun, 29 Aug 2021 20:41:09 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/vitamin_k_cofactor/</guid>
+      <description>The following was written in response to a class biochemistry dicussion post.
+The cofactor vitamin K is not only known for its importance in the process of blood coagulation, rather it is also recognized for its ubiquity in photosynthesis as well.
+I learned about this vitamin in a rather uneventful mundane way. I was reading a book (or something) about something and the use of the drug dicoumarol to deplete vitamin K storage was being used to illustrate something else.</description>
+    </item>
+    
+  </channel>
+</rss>

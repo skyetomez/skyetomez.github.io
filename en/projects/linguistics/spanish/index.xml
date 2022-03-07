@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>spanish on Skyler blog EN</title>
-    <link>http://localhost:1314/projects/linguistics/spanish/</link>
-    <description>Recent content in spanish on Skyler blog EN</description>
+    <title>spanish on Skyler blog</title>
+    <link>http://localhost:1313/en/projects/linguistics/spanish/</link>
+    <description>Recent content in spanish on Skyler blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Mar 2020 16:30:13 +0100</lastBuildDate>
     
-	<atom:link href="http://localhost:1314/projects/linguistics/spanish/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/en/projects/linguistics/spanish/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
