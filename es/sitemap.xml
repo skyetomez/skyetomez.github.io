@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost:1313/es/projects/poisson_tiles_intro/</loc>
+    <lastmod>2022-04-03T20:43:20+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/projects/poisson_tiles_intro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/projects/poisson_tiles_intro/"
+                />
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/es/tags/english/</loc>
     <lastmod>2022-03-07T21:09:16+01:00</lastmod>
     <xhtml:link

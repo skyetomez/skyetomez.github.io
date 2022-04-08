@@ -3,6 +3,56 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost:1313/tags/math/</loc>
+    <lastmod>2022-04-03T20:43:03+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/math/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/math/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/projects/poisson_tiles_intro/</loc>
+    <lastmod>2022-04-03T20:43:03+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/projects/poisson_tiles_intro/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/projects/poisson_tiles_intro/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/probability/</loc>
+    <lastmod>2022-04-03T20:43:03+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2022-04-03T20:43:03+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/tags/en/</loc>
     <lastmod>2022-03-07T18:57:23+01:00</lastmod>
   </url>
@@ -63,21 +113,6 @@
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2022-03-07T18:57:23+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
-  </url>
-  
-  <url>
     <loc>http://localhost:1313/projects/climbingcenters/</loc>
     <lastmod>2022-01-09T22:16:18+01:00</lastmod>
     <xhtml:link
@@ -89,21 +124,6 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://localhost:1313/projects/climbingcenters/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/math/</loc>
-    <lastmod>2022-01-09T22:16:18+01:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/math/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/math/"
                 />
   </url>
   

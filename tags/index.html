@@ -14,6 +14,8 @@
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="" href="">
     
+    
+
 
     
     
@@ -24,11 +26,26 @@
 
 
 .wrapper{
-    display: grid;
-    grid-template-columns: auto auto;
-    gap:0px 1%;
+
+    display:flex;
+    max-width: auto;
+
 }
 
+.poisson_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "p_i_1 p_i_2"
+        "p_i_3 p_i_4";
+    column-gap: normal 10%;
+    max-width: fit-content;
+
+}
+
+.poisson_images > img{
+    max-width: 80%;
+}
 
 body{
 
@@ -345,11 +362,6 @@ button >a> img{
 </p>
 
 <p>
-  <a class="font-125" href="/tags/math/">math</a>
-  <br>
-</p>
-
-<p>
   <a class="font-125" href="/tags/lingustics/">lingustics</a>
   <br>
 </p>
@@ -374,6 +386,16 @@ button >a> img{
   <br>
 </p>
 
+<p>
+  <a class="font-125" href="/tags/probability/">probability</a>
+  <br>
+</p>
+
+<p>
+  <a class="font-125" href="/tags/math/">math</a>
+  <br>
+</p>
+
 
 
       </div>
@@ -392,6 +414,10 @@ button >a> img{
             <strong>Latest Posts</strong>
             <ul>
                 
+                
+                    <li>
+                        <a href="/projects/poisson_tiles_intro/">Poisson tiles 1</a>
+                    </li>
                 
                     <li>
                         <a href="/posts/googoogogo/">Goo goo go go?</a>
@@ -415,10 +441,6 @@ button >a> img{
                 
                     <li>
                         <a href="/posts/phosphofructokinase_2/">Phosphofructokinase-2</a>
-                    </li>
-                
-                    <li>
-                        <a href="/posts/gerd/">GERD</a>
                     </li>
                 
             </ul>

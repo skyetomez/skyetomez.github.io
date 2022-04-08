@@ -1,0 +1,478 @@
+<!doctype html>
+<html lang="en">
+  
+  <head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="" href="">
+    
+    
+
+
+    
+    
+    <title>Poisson_tiles_intro | Skyler blog ES</title>
+    <style>
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+
+.wrapper{
+
+    display:flex;
+    max-width: auto;
+
+}
+
+.poisson_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "p_i_1 p_i_2"
+        "p_i_3 p_i_4";
+    gap: 1% 2% ;
+    max-width: fit-content;
+
+}
+
+.poisson_images > img{
+    max-width: 80%;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.32em;
+    line-height: 1.8em;
+    font-weight: 300;
+    
+
+    max-width: 100ch;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 5em 0em 5em; 
+
+}
+header{
+
+    margin-top: 5em;
+}
+
+footer{
+
+    border-color:black;
+     
+    border-width: 2px;
+    
+    margin-top: 5em;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: row; 
+
+    border-color:black;
+    border-top: solid;
+    border-width: 2px;
+}
+
+.recent-posts{
+    width: 75%;
+}
+.languages{
+    width: 25%; 
+}
+.credits{
+ 
+
+
+}
+
+.social_icons{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+button {
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+   
+  padding: 2% 15%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+  
+}
+
+button >a> img{
+
+width: 1em;
+height: 1em;
+
+}
+
+
+
+button:hover, a:hover{
+    color: #cda397;
+    text-decoration: none;
+
+}
+
+
+.homepage-content{
+
+    display:flex;
+    flex-direction: column;
+    
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+
+    color: black;
+    text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+    
+
+}
+
+.wrapper > div {
+    background-color: whitesmoke;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+nav{
+    font-size: xx-large;
+
+    border-color:black;
+    border-bottom: solid;
+    border-width: 3px;
+    
+    display:flex; 
+    justify-content:space-evenly;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div> p{
+    flex:inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+
+    font-size: 40px;
+
+    text-transform: lowercase;
+
+    color:black;
+}
+.poly{
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+    min-height: 25%;
+    min-width: 25%;
+
+}
+
+
+
+
+@media screen and (max-width: 767px){
+
+
+nav{
+    font-size: large;
+}
+
+.welcome{
+    font-size: 20px;
+}
+
+.homepage-content{
+
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.homepage-content> div{
+    grid-column: auto;
+    grid-row: auto;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+body{
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 95%;
+    font-weight: 300;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 2.5em ; 
+
+}
+
+
+
+
+header{
+
+margin-top: 1.5em;
+}
+
+
+button {
+
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+   
+  padding: 1% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+
+}
+
+button >a> img{
+
+    width: 1em;
+    height: 1em;
+
+}
+
+
+</style>
+</head>
+
+  <header> 
+    
+
+
+<nav>
+    
+      
+      
+      <a href="/es">casa</a>
+    
+      &squf;
+      
+      <a href="/es/about">sobre mi</a>
+    
+      &squf;
+      
+      <a href="/es/posts">posts</a>
+    
+      &squf;
+      
+      <a href="/es/projects">proyectos</a>
+    
+ </nav>  
+  </header>
+
+    <body>
+
+      <div>      
+      
+
+<h1>Poisson_tiles_intro</h1> 
+
+
+
+
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+      <footer>
+        
+   <div>
+      
+
+      <div class="footer-box">
+
+        
+        <div class="recent-posts">
+            <strong>Latest Posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="/es/projects/poisson_tiles_intro/">Poisson_tiles_intro</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/googoogogo/">Googoogogo</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/projects/climbingcenters/">¿Cuántos centros de escalada debería haber en una ciudad?</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/mrna_vaccines/">Vacunas de ARNm con el Dr. Kizzy</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/phosphofructokinase_2/">Fosfofructoquinasa-2</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/gerd/">GERD</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/vitamin_k_cofactor/">Cofactor: Vitamina K</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="languages">
+            <strong>Languages</strong><br>
+            
+            
+            <a href="/es/" class="active">es</a>
+            
+            
+            
+            <a href="/">en</a>
+            
+            
+        </div>
+        
+      
+      </div>
+
+        <div class="credits">
+          <div class="footer-box">
+              <div class="copyright">
+                  <a href="https://github.com/skyetomez" target="_blank">
+                      &copy;
+                      
+                      2018
+                      
+                      by Skyler
+                  </a>
+                  
+              </div>
+              <div class="author">
+                  <a href="https://github.com/skyetomez/skyetomez.github.io"
+                      target="_blank">Skyler&#39;s Theme</a>
+              </div>
+
+              <span class = "social_icons">
+
+                <button>
+                  <a href="http://www.twitter.com/t42639805"><i class="bi bi-twitter"></i></a>  
+                </button>
+          
+                <button>
+                  <a href= "http://www.instagram.com/skylerase"><i class="bi bi-instagram"></i></a>
+                </button>
+                
+                <button>
+                  <a href="/">
+                    <img src=/logo_sq.png >
+                  </a> 
+                </button> 
+              
+                <button>
+                  <a href="http://www.github.com/skyetomez"><i class="bi bi-github"></i></a>  
+                </button>
+               
+             
+                
+                <button>
+                  <a href="https://www.linkedin.com/in/skyler-thomas-aa494615b">
+                  <i class="bi bi-linkedin"></i>
+                  </a>
+                </button>
+          
+                </span>
+
+
+          </div>
+      
+
+
+
+      <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+
+
+    </div>
+  
+      </footer>
+
+
+    </body>
+
+
+    
+</html>
