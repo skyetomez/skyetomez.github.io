@@ -12,13 +12,53 @@
     
     
     <item>
-      <title>Poisson tiles 1</title>
+      <title>CRISPR uses / misuses / potential</title>
+      <link>http://localhost:1313/posts/crispy/</link>
+      <pubDate>Fri, 15 Apr 2022 02:59:03 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/crispy/</guid>
+      <description>1 Summary and Background This was written in 2018 as part of course on being green and renewable energy sources in modern times.
+A new revolutionary genome-editing tool called CRISPR has been and continues to change the landscape of genetics and bioengineering. In borrowing this selective and programmable bacteria/archaea defense system, scientists have been able to do things such as: prevent heart disease at the level of the human embryo and develop test strips for field medical diagnostics.</description>
+    </item>
+    
+    <item>
+      <title>GHG emissions and Farming</title>
+      <link>http://localhost:1313/posts/ghgemissions/</link>
+      <pubDate>Fri, 15 Apr 2022 02:35:30 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/ghgemissions/</guid>
+      <description>Summary and Background This was written in 2018 as part of course on being green and renewable energy sources in modern times.
+Greenhouse Gas (GHG) emissions from the U.S. department of agri- culture are mostly from studied from transportation, industry, and elec- tricity generation despite the fundamental importance of agriculture, forestry and other land usage (AFOLU) . Little has been done until re- cent decades to understand the impact on climate change by this sector in America and moreover the world.</description>
+    </item>
+    
+    <item>
+      <title>Praise the sun</title>
+      <link>http://localhost:1313/posts/praisethesun/</link>
+      <pubDate>Fri, 15 Apr 2022 02:20:15 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/praisethesun/</guid>
+      <description>Summary and Background This was written in 2018 as part of course on being green and renewable energy sources in modern times.
+Solar power as an alternative source of energy is still facing push back by those who stem to profit from not moving to photovoltaics as a source of electricity despite large number of active projects and movement in tends in research and development to solar power over the past 2 decades.</description>
+    </item>
+    
+    <item>
+      <title>Bee colony collapse: Causes and Solutions survey</title>
+      <link>http://localhost:1313/posts/beecolonycollapse/</link>
+      <pubDate>Fri, 15 Apr 2022 01:57:56 +0200</pubDate>
+      
+      <guid>http://localhost:1313/posts/beecolonycollapse/</guid>
+      <description>Summary and Motivation This was written in 2018 as part of course on being green and renewable energy sources in modern times. During this time, bee colonies were collapsing and caused a huge scare in the USA especially in the almond industry.
+Apis mellifera (honeybee) are one of the most studied insects in the world due to their crucial role as a pollinator of almost 85% of North American and European crops.</description>
+    </item>
+    
+    <item>
+      <title>Poisson tiles: part 1</title>
       <link>http://localhost:1313/projects/poisson_tiles_intro/</link>
       <pubDate>Sun, 03 Apr 2022 20:43:03 +0200</pubDate>
       
       <guid>http://localhost:1313/projects/poisson_tiles_intro/</guid>
       <description>Summary The motivation for this mini-project was to not only get more familiar with working with $\tt{pygame}$ but also to give myself a playground that I could hook into other packages like $\tt{networkx}$. I also wanted to practice generating fractals. While looking over old notes, I came across the rules for a random process that looked interesting to visualize and potential to become fractal-like.
- Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Englightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
+ Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Enlightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
     </item>
     
     <item>
@@ -106,20 +146,6 @@ Gastroesophageal reflux disease (GERD) is a condition affects a lot of people in
       <description>The following was written in response to a class biochemistry dicussion post.
 The cofactor vitamin K is not only known for its importance in the process of blood coagulation, rather it is also recognized for its ubiquity in photosynthesis as well.
 I learned about this vitamin in a rather uneventful mundane way. I was reading a book (or something) about something and the use of the drug dicoumarol to deplete vitamin K storage was being used to illustrate something else.</description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>http://localhost:1313/projects/math/c1s2/</link>
-      <pubDate>Tue, 06 Apr 2021 16:30:26 +0100</pubDate>
-      
-      <guid>http://localhost:1313/projects/math/c1s2/</guid>
-      <description>\documentclass{article} \usepackage[utf8]{inputenc} \usepackage{amsthm} \usepackage{amsmath} \usepackage{amssymb} \usepackage{tikz} \usepackage[margin=1in]{geometry} \usepackage{booktabs}
-\title{Quadratic Polynomials} \author{Skyler} \date{November 2016}
-\begin{document}
-\maketitle
-\section*{Exercises} \begin{enumerate}
-\item[1.] Let $p(t)=at^2+bt+c$ be a quadratic polynomial. \begin{enumerate} \item[(a)] Show that $p(t)$ can be written in the form $$a(t+\frac{b}{2a})^2-\frac{1}{4a}(b^2-4ac).$$ It is not immediate that $p(t)$ can be realised in the desired form, but by working backwards the strategy becomes apparent.\hfill\break First we note that $$p(t)=at^2+bt+c=at^2+bt+\frac{b^2}{4a}-\frac{b^2}{4a}+c.$$ Next, by algebra, $$a(t^2+\frac{b}{a}t+\frac{b^2}{4a^2})-\frac{1}{4a}(b^2-4ac).$$ But, $$a(t^2+\frac{b}{2a}t+\frac{b}{2a}t+\frac{b^2}{4a^2})-\frac{1}{4a}(b^2-4ac).$$ Finally,$$p(t)=a(t+\frac{b}{2a})^2-\frac{1}{4a}(b^2-4ac).$$ As was to be shown.</description>
     </item>
     
     <item>

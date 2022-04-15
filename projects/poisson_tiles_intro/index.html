@@ -40,7 +40,7 @@
 
     
     
-    <title>Poisson tiles 1 | Skyler blog</title>
+    <title>Poisson tiles: part 1 | Skyler blog</title>
     <style>
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
@@ -359,7 +359,7 @@ button >a> img{
       <div>      
       
 
-<h1>Poisson tiles 1</h1> 
+<h1>Poisson tiles: part 1</h1> 
 
 <h2 id="summary">Summary</h2>
 <br>
@@ -367,21 +367,21 @@ button >a> img{
 <hr>
 <h2 id="introduction">Introduction</h2>
 <br>
-<p><a href="https://en.wikipedia.org/wiki/Sim%C3%A9on_Denis_Poisson">Simeon Denis Poisson</a> lived between 1781-1840  during the tail end of the Age of Englightenment, a time period characterized by a shift towards the pursuit for knowledge. This was a time of innovation with the creation of the bittersweet invention of the cotton gin and the seminal of the world&rsquo;s <a href="https://theinventors.org/library/inventors/bl1700s.htm">first soft drink</a>. Contributing mostly to physics, it was during his work on <strong>La Probabilitie des Jugements</strong> that would lead him to the Poisson distribution.</p>
+<p><a href="https://en.wikipedia.org/wiki/Sim%C3%A9on_Denis_Poisson">Simeon Denis Poisson</a> lived between 1781-1840  during the tail end of the Age of Enlightenment, a time period characterized by a shift towards the pursuit for knowledge. This was a time of innovation with the creation of the bittersweet invention of the cotton gin and the seminal of the world&rsquo;s <a href="https://theinventors.org/library/inventors/bl1700s.htm">first soft drink</a>. Contributing mostly to physics, it was during his work on <strong>La Probabilitie des Jugements</strong> that would lead him to the Poisson distribution.</p>
 <hr>
 <h2 id="background">Background</h2>
 <br>
-<p>A Poisson distribution is a probability distribution that describes how many occurances of something you would expect in a fixed interval of time. This number of expected occurances is often called lambda $\lambda$.</p>
+<p>A Poisson distribution is a probability distribution that describes how many occurrences of something you would expect in a fixed interval of time. This number of expected occurrences is often called lambda $\lambda$.</p>
 <p>Something with an appearance that can be described with a Poisson distribution is called a poisson process and they arise all over the place like in the arrivals of people to a  queues. You can see some cool examples of poisson processes <a href="https://www.statology.org/poisson-distribution-real-life-examples/">here</a> where you will see that they&rsquo;re actually quite common!</p>
-<p>The probability that, in a fixed time interval, you see $k$ occurances of something has probability mass function(pmf):</p>
+<p>The probability that, in a fixed time interval, you see $k$ occurrences of something has probability mass function(pmf):</p>
 <p>\begin{equation}
 \Pr(X=k)=\frac{\lambda^ke^{-\lambda}}{k!}
 \end{equation}</p>
-<p>The expected value of this pmf is $E\left(X\right)=\lambda$. In other words, we <em>expect</em> to see lambda number of occurances on the average.</p>
-<p>We can do other things with this distribution. For example, instead of thinking about <strong>time</strong> we could think about <strong>space</strong> and play around with these occurances being either discrete or continuous. Problems like these have important physics applications and can be seen in nuclear decay problems.</p>
+<p>The expected value of this pmf is $E\left(X\right)=\lambda$. In other words, we <em>expect</em> to see lambda number of occurrences on the average.</p>
+<p>We can do other things with this distribution. For example, instead of thinking about <strong>time</strong> we could think about <strong>space</strong> and play around with these occurrences being either discrete or continuous. Problems like these have important physics applications and can be seen in nuclear decay problems.</p>
 <p>In the book <em>Random Networks for Communications</em> by Massimo Franceschetti and Ronald Meester, in the introduction to continuous network models in chapter 2, we&rsquo;re introduced to the idea of a &ldquo;somewhat random&rdquo; point process on a plane with the following specifications:</p>
-<p><strong>1.</strong> <strong>Stationarity</strong> - the distribution of the nodes in a region of plane is the same under any sliding of the region to another part of the plane.</p>
-<p><strong>2.</strong> <strong>Independence</strong> - the number of nodes in separate regions won&rsquo;t effect each other.</p>
+<p><strong>1.</strong> <strong>Stationarity</strong> - the distribution of the nodes in a region of the plane is the same under any sliding of the region to another part of the plane.</p>
+<p><strong>2.</strong> <strong>Independence</strong> - the number of nodes in separate regions won&rsquo;t affect each other.</p>
 <p><strong>3.</strong> <strong>Absence of accumulation</strong> - Only a finite number of nodes in any bounded region can appear.</p>
 <p>The book also describes a way to construct such a square in a plane described by:</p>
 <p>\begin{equation}
@@ -389,15 +389,15 @@ p = \frac{\lambda}{n^2}
 \end{equation}</p>
 <p>With probability $p$ and expected value $\lambda$ and number of squares $n$ resulting in $n^2$ sub-squares.</p>
 <p>For proof of concept, I&rsquo;ve simplified this problem down to a framework that can be adapted to such a somewhat random point process in the plane. The model simplification is that most 1 square can appear and the regions are defined with respect to a bounded area of the plane.</p>
-<p>So, instead of working with regions, we work with sub-divisions of the plane. This problem is proper subset of the problem with true stationarity. We’ve fixed our capped our Poisson distribution.</p>
+<p>So, instead of working with regions, we work with sub-divisions of the plane. This problem is a proper subset of the problem with true stationarity. We’ve fixed our capped Poisson distribution.</p>
 <hr>
 <h2 id="methods">Methods</h2>
 <br>
-<p>The all code was written in $\tt{python}$, $\tt{itertools}$ and $\tt{random}$ and visualized using $\tt{pygame}$. Code was written in visual studio code but can be done with any text editor. The repository will be available on github.</p>
+<p>The entire code was written in $\tt{python}$, $\tt{itertools}$ and $\tt{random}$ and visualized using $\tt{pygame}$. Code was written in visual studio code but can be done with any text editor. The repository will be available on github.</p>
 <h3 id="poisson-tile">Poisson Tile</h3>
 <br>
-<p>We define such a sub-division of the plane with properties above and probability of appearing defined above to be a <strong>Poisson tile</strong></p>
-<p>The individual Poisson tiles were defined by an object with methods for where it is to be instantiated, the probability of it appearing and an update method. The tile sizes were computed using the window size and the $n^2$ number of sub squares desired. The probability that a point appears in tile is given by equation 1.</p>
+<p>We define such a subdivision of the plane with properties above and probability of appearing defined above to be a <strong>Poisson tile</strong></p>
+<p>The individual Poisson tiles were defined by an object with methods for where it is to be instantiated, the probability of it appearing and an update method. The tile sizes were computed using the window size and the $n^2$ number of sub squares desired. The probability that a point appears in the tile is given by equation 1.</p>
 <h3 id="computation-and-algorithms">Computation and Algorithms</h3>
 <br>
 <p>Calculations were performed in two main steps to compute: (1) the centers of instantiation for each square given $n$ and the screen size and (2) the translation required to shift the square to the correct part of the plane. These partitions of the plane are visualized using separate calculation of horizontal and vertical grid lines generated in a separate function.</p>
@@ -409,48 +409,46 @@ C_n\times C_n\rightarrow(n,n)
 \end{equation}</p>
 <p>and returns a list which contains all centers achieved with $\tt{itertools}$. Due to the symmetry of the square, these tuples define each midpoint of each sub-square.</p>
 <h4 id="calculation-of-translation">Calculation of Translation</h4>
-<p>Due to how $\tt{pygame}$ makes a surface and a rect, I had to translate the rect object in order to slide each sub-square into its correct subdivison of plane. This subdivision is what is subsequently visualized through the grid lines in the final computation.</p>
-<p>Offset called $\delta$ were calculated given the screen size and the $n$ number of squares required. After calculation the squares were translated along the x-axis first and then incremented along the y-axis one until all squares were placed. By taking advantage of how the centers were computed I only had to make sure that these translations were assigned in the same order as the centers were computed.</p>
+<p>Due to how $\tt{pygame}$ makes a surface and a rect, I had to translate the rect object in order to slide each sub-square into its correct subdivision of the plane. This subdivision is what is subsequently visualized through the grid lines in the final computation.</p>
+<p>Offset called $\delta$ were calculated given the screen size and the $n$ number of squares required. After calculation the squares were translated along the x-axis first and then increment along the y-axis one until all squares were placed. By taking advantage of how the centers were computed I only had to make sure that these translations were assigned in the same order as the centers were computed.</p>
 <hr>
 <h2 id="results">Results</h2>
 <br>
 <h3 id="change-of-lambda-constant-n">change of lambda constant $n$</h3>
-<figure class = poisson_images>
-    <img src = "/poisson_tiles_demo4.apng" class ="p_i_1">
-    <img src = "/poisson_tiles_demo6.apng" class ="p_i_3">
-    <img src = "/poisson_tiles_demo5.apng" class ="p_i_2">
-    <img src = "/poisson_tiles_demo7.apng" class ="p_i_4">
+<figure class = poisson_images alt="A grid that shows 4 grids of equal sizes with different values for lambda. As lambda increases, more points begin to appear inside of the grid tiles.">
+   <img src = "/poisson_tiles_demo4.apng" class ="p_i_1">
+   <img src = "/poisson_tiles_demo6.apng" class ="p_i_3">
+   <img src = "/poisson_tiles_demo5.apng" class ="p_i_2">
+   <img src = "/poisson_tiles_demo7.apng" class ="p_i_4">
 </figure>
-<p>The simulation shows that as $\lambda$ increases from $1\rightarrow 16\rightarrow 32\rightarrow 64$ alternatively as the probability increases from $\frac{1}{64}$, to $\frac{1}{4}$, to $\frac{1}{2}$ to $1$ the point in the square appears more frequently while as $\lambda$ decreases the point in the squares appears less often.</p>
+<p>In this part of the simulation the number of tiles is held constant while the lambda variable is changed. The simulation shows that as $\lambda$ increases from $1\rightarrow 16\rightarrow 32\rightarrow 64$ the more frequently the points being to appear in the tiles. Alternatively, this can be seen as the probability increasing from $\frac{1}{64}$, to $\frac{1}{4}$, to $\frac{1}{2}$ to $1$. This is makes it clear as to why more squares being to appear because the probability or each tile having a square appear increases. Conversely, the point in the tile appears less frequently while $\lambda$ decreases.</p>
 <h3 id="change-of-n-with-constant-lambda">change of $n$ with constant $\lambda$</h3>
-<figure class = poisson_images>
-    <img src = "/constant_tolerance_1.apng" class ="p_i_1">
-    <img src = "/constant_tolerance_2.apng" class ="p_i_3">
-    <img src = "/constant_tolerance_3.apng" class ="p_i_2">
-    <img src = "/constant_tolerance_4.apng" class ="p_i_4">
+<figure class = poisson_images alt="The probability that a point appears in a tile is set to 100%. As the grid size increases, the number, the more tiles appear over all. In the first image, there is one square and 1 point, in the second there are 4 squares, the third there are 9 squares and the fourth there are 16 squares.">
+   <img src = "/constant_tolerance_1.apng" class ="p_i_1">
+   <img src = "/constant_tolerance_2.apng" class ="p_i_3">
+   <img src = "/constant_tolerance_3.apng" class ="p_i_2">
+   <img src = "/constant_tolerance_4.apng" class ="p_i_4">
 </figure>
-<p>Here is how the simulation handles having various n with a fixed tolerance of $\lambda = n^2$ and so the point will always appear in the square. In order from left to right, top to bottom, we have $n=1,2,3,4$. My computer can handle up to at least 50 but at 100 the program fails due to a divide by zero error that comes from floating points being forced to 0 for very large $n^2$.</p>
+<p>Here is how the simulation handles having various n&rsquo;s with a fixed tolerance of $\lambda = n^2$ and so the point will always appear in the square. In order from left to right, top to bottom, we have $n=1,2,3,4$. You can see that for $n$ we have $n^2$ tiles appearing. This means that the program can become very computationally expensive to view very quickly. My computer can handle up to at least 50 but at 100 the program fails due to a divide by zero error that comes from floating points being forced to 0 for very large $n^2$.</p>
 <h3 id="constant-ratio-change">constant ratio change</h3>
-<figure class = poisson_images>
-    <img src = "/squares_tolerances_1.png" class ="p_i_1">
-    <img src = "/squares_tolerances_4.png" class ="p_i_3">
-    <img src = "/squares_tolerances_8.png" class ="p_i_2">
-    <img src = "/squares_tolerances_16.png" class ="p_i_4">
+<figure class = poisson_images alt="Here the probability of a dot appearing in a tile is set to 50%. But we also increase the number of tiles that appear. This is to show what happens when we change both the lambda and the number of tiles">
+   <img src = "/squares_tolerances_1.png" class ="p_i_1">
+   <img src = "/squares_tolerances_4.png" class ="p_i_3">
+   <img src = "/squares_tolerances_8.png" class ="p_i_2">
+   <img src = "/squares_tolerances_16.png" class ="p_i_4">
 </figure>
-<p>Here some patterns produced by the simulation with a constant ratio change of $\lambda = n^2/2$ for $n=1,2,3,4$</p>
+<p>Here some patterns produced by the simulation with a constant ratio change of $\lambda = n^2/2$ for $n=1,2,3,4$. With a probability of 50% a dot appears in a tile. Here we can see that we get about half the tiles with a point appearing inside of them while the other half of the tiles do not have a point appearing.</p>
 <h2 id="discussion">Discussion</h2>
 <br>
-<p>It’s pretty cool that for a set $\lambda$, the entire display is generated from a single parameter $n$ $F(n)$ = program. I should rewrite this to take advantage of running this in \tt{pygame} to take in use input.</p>
+<p>It’s pretty cool that for a set $\lambda$, the entire display is generated from a single parameter $n$ $F(n)$ = program. In future updates, I want to rewrite this program to take advantage of it being run with \tt{pygame}. It should be able to be run as an executable that allows you to select an $n$ and view the image. I would also like to have it return basic statistics ater including counts for the number of times a point appeared in a square, the average number of points per cycle etc.</p>
 <h3 id="simplification-and-improvements">Simplification and improvements</h3>
-<p>As stated before, these tiles are a simpler version of what I wanted to make since I was a lot busier than I wanted to be. The result is that instead of being a poisson tiles they can be seen as Bernoulli tiles and the simulation as a binomial distribution of $n^2$ trials and $p$ of appearing. In the future I will remove the simplification and make the poisson tiles I had initially set out to make.</p>
-<p>I there are some simplifications that can be made in the code and the code can be made more modular.</p>
-<p>It would be nice to extend this to a 3D visualization, but I don’t think my brother would like me taking his VR headset.</p>
-<p>I also would like to run some basic statistics on the appearances to demonstrate that they meet the desired criterion of the poisson tiles initially.</p>
-<p>There’s currently an issue with the sound that is unbearable for large $n$.</p>
+<p>As stated before, these tiles are a simpler version of what I wanted to make since I was a lot busier than I wanted to be. The result is that instead of being Poisson tiles they can actually be seen as Bernoulli tiles. In other words, the simulation can be taken as a binomial distribution of $n^2$ trials and $p$ of appearing. In the future I will remove the simplification and make the poisson tiles I had initially set out to make.</p>
+<p>There are some simplifications that can be made in the code in order to make it both run faster and more efficiently. This is would be nice to see exactly how high an $n$ I can run on my computer. This is also a question of how small I can divide the squares by for as $n^2$ increases $\frac{1}{n^2}$ gets closer and closer to zero resulting in a nasty divide by zero error.</p>
+<p>Finally, in the future, I would also like to extend this 2D visualizaiton to a 3D visualization as well as fix a sound issue that makes listening to the simulation unbearable for large $n$. This might be a problem of the different channels used in $\tt{pygame}$</p>
 <hr>
 <h2 id="conclusion">Conclusion</h2>
 <br>
-<p>This was a fun mini-project. I’ll put it on hold for now because there’s a different one I’d like to start. But I definitely want to come back and make improvements on this. Simuluations like these are often done with graphs and can be used in the context of network theory to make comparisons. If the simulation is random-enough we can compare it to another thing and see if it is also random enough and if it isn’t we can ask why. This comes up in things like percolations, links between servers or even the spread of memes on twitter.</p>
+<p>This was a fun mini-project. I’ll put it on hold for now because there’s a different one I’d like to start. But I definitely want to come back and make improvements on this. Simulations like these are often done with graphs and can be used in the context of network theory to make comparisons. If the simulation is random-enough we can compare it to another thing and see if it is also random enough and if it isn’t we can ask why. This comes up in things like percolations, links between servers or even the spread of memes on twitter.</p>
 
 
 
@@ -472,7 +470,23 @@ C_n\times C_n\rightarrow(n,n)
                 
                 
                     <li>
-                        <a href="/projects/poisson_tiles_intro/">Poisson tiles 1</a>
+                        <a href="/posts/crispy/">CRISPR uses / misuses / potential</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/ghgemissions/">GHG emissions and Farming</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/praisethesun/">Praise the sun</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/beecolonycollapse/">Bee colony collapse: Causes and Solutions survey</a>
+                    </li>
+                
+                    <li>
+                        <a href="/projects/poisson_tiles_intro/">Poisson tiles: part 1</a>
                     </li>
                 
                     <li>
@@ -481,22 +495,6 @@ C_n\times C_n\rightarrow(n,n)
                 
                     <li>
                         <a href="/projects/climbingcenters/">How many climbing centers should there be in a city?</a>
-                    </li>
-                
-                    <li>
-                        <a href="/posts/iwp/interesting_words_and_phrases_8/">Interesting Words and Phrases 8</a>
-                    </li>
-                
-                    <li>
-                        <a href="/posts/iwp/interesting_words_and_phrases_7/">Interesting Words and Phrases 7</a>
-                    </li>
-                
-                    <li>
-                        <a href="/posts/mrna_vaccines/">mRNA Vaccines with Dr. Kizzy</a>
-                    </li>
-                
-                    <li>
-                        <a href="/posts/phosphofructokinase_2/">Phosphofructokinase-2</a>
                     </li>
                 
             </ul>

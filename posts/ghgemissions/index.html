@@ -1,0 +1,618 @@
+<!doctype html>
+<html lang="en">
+  
+  <head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="" href="">
+    
+    
+
+
+    
+    
+    <title>GHG emissions and Farming | Skyler blog</title>
+    <style>
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+
+.wrapper{
+
+    display:flex;
+    max-width: auto;
+
+}
+
+.poisson_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "p_i_1 p_i_2"
+        "p_i_3 p_i_4";
+    gap: 1% 2% ;
+    max-width: fit-content;
+
+}
+
+.poisson_images > img{
+    max-width: 80%;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.32em;
+    line-height: 1.8em;
+    font-weight: 300;
+    
+
+    max-width: 100ch;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 5em 0em 5em; 
+
+}
+header{
+
+    margin-top: 5em;
+}
+
+footer{
+
+    border-color:black;
+     
+    border-width: 2px;
+    
+    margin-top: 5em;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: row; 
+
+    border-color:black;
+    border-top: solid;
+    border-width: 2px;
+}
+
+.recent-posts{
+    width: 75%;
+}
+.languages{
+    width: 25%; 
+}
+.credits{
+ 
+
+
+}
+
+.social_icons{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+button {
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+   
+  padding: 2% 15%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+  
+}
+
+button >a> img{
+
+width: 1em;
+height: 1em;
+
+}
+
+
+
+button:hover, a:hover{
+    color: #cda397;
+    text-decoration: none;
+
+}
+
+
+.homepage-content{
+
+    display:flex;
+    flex-direction: column;
+    
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+
+    color: black;
+    text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+    
+
+}
+
+.wrapper > div {
+    background-color: whitesmoke;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+nav{
+    font-size: xx-large;
+
+    border-color:black;
+    border-bottom: solid;
+    border-width: 3px;
+    
+    display:flex; 
+    justify-content:space-evenly;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div> p{
+    flex:inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+
+    font-size: 40px;
+
+    text-transform: lowercase;
+
+    color:black;
+}
+.poly{
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+    min-height: 25%;
+    min-width: 25%;
+
+}
+
+
+
+
+@media screen and (max-width: 767px){
+
+
+nav{
+    font-size: large;
+}
+
+.welcome{
+    font-size: 20px;
+}
+
+.homepage-content{
+
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.homepage-content> div{
+    grid-column: auto;
+    grid-row: auto;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+body{
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 95%;
+    font-weight: 300;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 2.5em ; 
+
+}
+
+
+
+
+header{
+
+margin-top: 1.5em;
+}
+
+
+button {
+
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+   
+  padding: 1% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+
+}
+
+button >a> img{
+
+    width: 1em;
+    height: 1em;
+
+}
+
+
+</style>
+</head>
+
+  <header> 
+    
+
+
+<nav>
+    
+      
+      
+      <a href="/">home</a>
+    
+      &squf;
+      
+      <a href="/about">about</a>
+    
+      &squf;
+      
+      <a href="/posts">posts</a>
+    
+      &squf;
+      
+      <a href="/projects">projects</a>
+    
+ </nav>  
+  </header>
+
+    <body>
+
+      <div>      
+      
+
+<h1>GHG emissions and Farming</h1> 
+
+<h2 id="summary-and-background">Summary and Background</h2>
+<p>This was written in 2018 as part of course on being green and renewable energy sources in modern times.</p>
+<p>Greenhouse Gas (GHG) emissions from the U.S. department of agri-
+culture are mostly from studied from transportation, industry, and elec-
+tricity generation despite the fundamental importance of agriculture,
+forestry and other land usage (AFOLU) . Little has been done until re-
+cent decades to understand the impact on climate change by this sector
+in America and moreover the world. Such has become a problem at the
+global scale and has been tackled by the United Nations Framework Con-
+vention on Climate Change (UNFCC), the Intergovernmental Panel for
+Climate Change (IPCC) and the US Environmental Protection Agency
+(US-EPA). In this paper we review results from other works, note the
+problems that come with the analysis and then offer a solution to the
+problem.</p>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<p>Contemporary commercial farming employs a variety of techniques in order to sustain and to
+meet food requirements for an exponentially growing population [malthus]. Such technologies
+include novel pesticides, fertilizers, machine learning based feed-systems, and more [corn]. Al-
+though there has been an increase in food output, it has come at a local cost to the ecosystems
+in which the farm, and globally in the amount of greenhouse gas (GHG) emissions. This has
+led to an increase in the focus on organic agriculture and sustainable development [rigby].
+For example, in 2011, an estimated 13% of GHG emissions were a result of farming.
+Such is concerning because agricultural production, at both supply and demand, relies on
+an annual increase in productively. As such, the amount of GHG emissions are expected to
+increase in absolute terms. Furthermore, before 2010, the GHG emissions from agriculture
+were not taken as seriously as the emissions from other sources such as electricity which
+accounted for 29% or transportation in 2015 which accounted for 26% in 2015 of the total
+GHG emissions [afolu11].
+1
+More alarmingly, this is in general a difficult problem to solve as it is not well defined.
+There are many questions concerning the precision and usefulness of the GHG emission
+data. This is because when measuring emissions in the context agriculture, there exist
+natural cycles of the amount of emissions due to both photosynthesis, from photosynthetic
+organisms, [iousghgeas13] and large amounts of nitrogen and carbon fixing microorgan-
+isms [campbell11]. In other words, it easier to tell when there has been damage due to GHG
+emissions after the effect of such emissions on these organisms increasing the need for good
+models and preventative measures. Nevertheless, models have been developed to circumvent
+this problem and are employed by accredited intuitions like the United Nations and the United
+States as well as the Intergovernmental Panel of Climate Change who thoroughly screen and
+monitor changes to climate and keep accurate census data of farms.
+The largest areas of concern are those emissions that stem from ruminants and agricul-
+tural soils which concurrently make up approximately 70% of all GHG emissions from the
+agricultural sector. In particular, enteric fermentation, the fermentation process that takes
+place in the digestive system of animals [mang03], is the largest contributor to that of GHG
+emissions from livestock while emission from agricultural soils, soils that are made specifically
+for commercial agricultural, are the largest contributor to that of GHG emissions in crops.
+In this paper we explore the quantitative results of various scientific studies on GHG
+emissions from the agricultural sector. First, we will note the results of studies from crops
+and then from livestock. After we will explore the problems from these studies and the problem
+at large before suggesting an approach to solving part of the problem.</p>
+<hr>
+<h2 id="results">Results</h2>
+<h3 id="crops">Crops</h3>
+<p>In accordance with the measurements and calculations done by Intergovernmental Panel on
+Climate Change, we will view carbon dioxide (CO2) in agriculture as a neutral gas. The
+reasoning for this is that it is closely associated with annual carbon-fixation and photosyn-
+thesis. It has been found that under the UNFCCC reporting framework, N2O emissions from
+agricultural soils are estimated to contribute a total of 37% to GHG emissions in 2010. Such a figure is similar to that found by enteric fermentation. This figure varies slightly depending
+on the aggregation of categories used for the calculation e.g. allowing manure to contribute
+separately from agricultural soils. Such a change in assumptions has led to a reported drop
+to 23% contribution from agricultural soils [fran13].
+Soil management is a concern as it is known that soil contains high densities of carbon
+that has accumulated over many centuries due largely to microorganisms. This is due to the
+low oxygen content [kell]. Such an environment favors these microorganisms most of which
+are nitrogen or carbon dioxide fixing [alve05]. Indeed, it has been seen that in the absence
+of these microorganisms, there are fluxes in emissions of NO2 are seen CO2.
+Synthetic fertilizers have been projected to be the second largest source of GHG emissions
+after enteric fermentation as they have had the largest absolute growth rate in use particularly
+in developing nations such as Africa and Asia [fran13]. It has also been said that large
+inorganic nitrogen injections [myth] into the soil has net decrease in organic material.</p>
+<h3 id="livestock">Livestock</h3>
+<p>It was found, from three independent sources of dis-aggregated non-CO2 GHG emissions
+estimates from agriculture at the global, regional, and national level, that enteric fermentation
+accounts for approximately 32-40% of the total agriculture emissions [afolu11]. Such GHG
+emissions are non-anthropogenic and are attributed largely to livestock. However, if ‘livestock’
+is defined to be the sum of emission from enteric fermentation and manure missions, plus
+emissions from cropland related to feeding livestock, then the estimate is reported to be as
+high as 80%. Highlighting how much of the emissions come from just the supply side of
+farming.
+<em>Enteric fermentation</em> global emissions from this category has been increasing since 1960’s
+and has significantly increased between 2000 and 2010 [fran13]. The importance in this
+is established by the fact that the enteric fermentation constitutes the largest amount of
+GHG emissions from the agricultural sector. Furthermore, like synthetic fertilizers, its use
+has increased largely in developing countries at a rate much greater than seen in developed
+nations.</p>
+<hr>
+<h2 id="discussion">Discussion</h2>
+<p>The actual analysis of the data presented from the FAOSTAT2 Emissions database presents
+an immediate difficultly in that the process of actual data acquisition has three major draw-
+backs. The first is, and was mentioned earlier, is that there are natural CO2 fixation and
+photosynthesis cycles. The problem herein lies that such cyclic changes of CO2 emissions
+make determining what amount of CO2 released is anthropogenic in nature, directly or indi-
+rectly, quite difficult. Furthermore, this is also true of N2O. Indeed, this leads to a variety of
+approaches in calculating any quantities directly leading us to the second problem. Nextly,
+there are many different models for calculating the GHG emissions. The models selected by
+U.S. Environmental Protection Agency ignore CO2 emissions in order to mitigate the effect of
+these cyclic changes in CO2 presence. This problem was ameliorated by using an aggregation
+of calculations using similar models from three different sources on the same FAOSTAT Emis-
+sions dataset. Finally, the third problem is the sensors themselves carry a certain amount of
+uncertainty. Some methods for estimating GHG emissions utilize complex estimates based on
+terrestrial carbon cycle modeling that may or may not use remote sensing information while
+others use more standard approaches outlined in the IPCC GHG Guidelines3. Such levels of
+precision propagate varying amounts of error through the model and make for a wide variety of
+possible model outcomes. Such also means the predicting power for any model varies greatly
+given whatever assumptions were made.</p>
+<h3 id="crops-1">Crops</h3>
+<p>The largest contribution to GHG emissions in crops is found in the specialized treatment of
+agricultural soils, as stated above, in conjunction with the use of synthetic fertilizers and poor
+soil management. An approach to solving this without policy is to make adjustments to the
+methods for managing land and growing crops [afolu11].
+A suggestion to this end is to take better advantage of the modern technologies available like
+satellite imaging and machine learning. In doing this, one may calculate an optimum amount
+and optimum range of fertilizer precisely. The advantage to doing so is that excess synthetic
+fertilizer is minimized so that further damage to soil is mitigated. Such an approach also benefits the farmer in that it allows them better management of their overhead costs and better
+management of their part of economics, however it also benefits the environment as there is
+less damage in terms of run off, break-down of organic material, mycorrhiza [harrison99],
+rhizobacteria, and other microorganisms which in sum results in a decrease in the flux of CO2</p>
+<h3 id="livestock-1">Livestock</h3>
+<p>The net largest contributor to GHG emissions in the agricultural sector is empirically from
+enteric fermentation. The majority of such stems from that of ruminants such as: cows, goats
+etc. What makes this difficult to remedy is that the population of livestock cannot go down
+since the demand for such is only increasing. One approach is the adjustment of feeding
+practices to reduce the amount of CH4 resulting from enteric fermentation [afolu11].
+An approach to decreasing this output is in stricter monitoring of the feed that is provided
+to ruminants. Proper fodder as opposed to corn has been demonstrated to lower the release of
+CH4 and is better for the overall health of the cows. Such results in the immediate decrease in
+the amount of fermentation as a food source naturally viable for the animals to eat is better
+digested and excreted.
+In conclusion, there is a lot of work to be done in the study of GHG emissions with respect
+to the agricultural sector. More accurate models need to be developed and rigorous standards
+need to be erected in order to get a quantitative hold on the problem. More research needs to
+be done in general in order to get a better bottom-up view of how to reduce GHG emissions
+in farming. The agricultural sector is unique in that solutions to the GHG emissions problem
+are also net benefits to the sector. In other words, the the contribution to greenhouse gas
+emissions to global warming from farming techniques are exactly mitigated by better farming
+practices.</p>
+<hr>
+<h2 id="references">References</h2>
+<p><em>coming</em></p>
+
+
+
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+      <footer>
+        
+   <div>
+      
+
+      <div class="footer-box">
+
+        
+        <div class="recent-posts">
+            <strong>Latest Posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="/posts/crispy/">CRISPR uses / misuses / potential</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/ghgemissions/">GHG emissions and Farming</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/praisethesun/">Praise the sun</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/beecolonycollapse/">Bee colony collapse: Causes and Solutions survey</a>
+                    </li>
+                
+                    <li>
+                        <a href="/projects/poisson_tiles_intro/">Poisson tiles: part 1</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/googoogogo/">Goo goo go go?</a>
+                    </li>
+                
+                    <li>
+                        <a href="/projects/climbingcenters/">How many climbing centers should there be in a city?</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="languages">
+            <strong>Languages</strong><br>
+            
+            
+            <a href="/es/">es</a>
+            
+            
+            
+            <a href="/" class="active">en</a>
+            
+            
+        </div>
+        
+      
+      </div>
+
+        <div class="credits">
+          <div class="footer-box">
+              <div class="copyright">
+                  <a href="https://github.com/skyetomez" target="_blank">
+                      &copy;
+                      
+                      2018
+                      
+                      by Skyler
+                  </a>
+                  
+              </div>
+              <div class="author">
+                  <a href="https://github.com/skyetomez/skyetomez.github.io"
+                      target="_blank">Skyler&#39;s Theme</a>
+              </div>
+
+              <span class = "social_icons">
+
+                <button>
+                  <a href="http://www.twitter.com/t42639805"><i class="bi bi-twitter"></i></a>  
+                </button>
+          
+                <button>
+                  <a href= "http://www.instagram.com/skylerase"><i class="bi bi-instagram"></i></a>
+                </button>
+                
+                <button>
+                  <a href="/">
+                    <img src=/logo_sq.png >
+                  </a> 
+                </button> 
+              
+                <button>
+                  <a href="http://www.github.com/skyetomez"><i class="bi bi-github"></i></a>  
+                </button>
+               
+             
+                
+                <button>
+                  <a href="https://www.linkedin.com/in/skyler-thomas-aa494615b">
+                  <i class="bi bi-linkedin"></i>
+                  </a>
+                </button>
+          
+                </span>
+
+
+          </div>
+      
+
+
+
+      <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+
+
+    </div>
+  
+      </footer>
+
+
+    </body>
+
+
+    
+</html>

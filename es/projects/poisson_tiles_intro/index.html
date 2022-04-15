@@ -16,10 +16,31 @@
     
     
 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.css" integrity="sha384-KiWOvVjnN8qwAZbuQyWDIbfCLFhLXNETzBQjA/92pIowpC0d2O3nppDGQVgwd2nB" crossorigin="anonymous">
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/katex.min.js" integrity="sha384-0fdwu/T/EQMsQlrHCCHoH10pkPLlKA1jL5dFyUOvB3lfeT2540/2g6YgSi2BL14p" crossorigin="anonymous"></script>
+
+
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.15.3/dist/contrib/auto-render.min.js" integrity="sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR" crossorigin="anonymous"
+    onload="renderMathInElement(document.body);"></script>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
+        });
+    });
+</script>
+
 
     
     
-    <title>Poisson_tiles_intro | Skyler blog ES</title>
+    <title>Azulejos de Poisson: parte 1 | Skyler blog ES</title>
     <style>
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
@@ -338,8 +359,96 @@ button >a> img{
       <div>      
       
 
-<h1>Poisson_tiles_intro</h1> 
+<h1>Azulejos de Poisson: parte 1</h1> 
 
+<h2 id="summary">Summary</h2>
+<br>
+<p>La motivación para este mini-proyecto fue no sólo para familiarizarse con el trabajo con <a href="https://www.pygame.org/docs/">$\tt{pygame}$</a>, sino también para darme un campo de juego que podría enganchar en otros paquetes como <a href="https://networkx.org/">$\tt{networkx}$</a>. También quería practicar la generación de fractales. Mientras revisaba viejas notas, me encontré con las reglas de un proceso aleatorio que parecía interesante de visualizar y con potencial para convertirse en un fractal.</p>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<br>
+<p><a href="https://en.wikipedia.org/wiki/Sim%C3%A9on_Denis_Poisson">Simeon Denis Poisson</a> vivió entre 1781 y 1840, durante el final del Siglo de las Luces, un periodo de tiempo caracterizado por un cambio hacia la búsqueda del conocimiento. Fue una época de innovación con la creación de la agridulce invención de la desmotadora de algodón y la seminal del <a href="https://theinventors.org/library/inventors/bl1700s.htm">primer refresco del mundo</a>. Contribuyendo sobre todo a la física, fue durante su trabajo sobre <strong>La Probabilitie des Jugements</strong> que le llevaría a la distribución de Poisson.</p>
+<hr>
+<h2 id="background">Background</h2>
+<br>
+<p>Una distribución de Poisson es una distribución de probabilidad que describe el número de ocurrencias de algo que se espera en un intervalo de tiempo fijo. Este número de apariciones esperadas suele llamarse lambda $\lambda$.</p>
+<p>Algo con una apariencia que puede describirse con una distribución de Poisson se llama proceso de Poisson y surgen por todas partes, como en las llegadas de personas a una cola. Puedes ver algunos ejemplos geniales de procesos de Poisson <a href="https://www.statology.org/poisson-distribution-real-life-examples/">aquí</a> donde verás que, de hecho, ¡son bastante comunes!</p>
+<p>La probabilidad de que, en un intervalo de tiempo fijo, veas $k$ ocurrencias de algo tiene función de masa de probabilidad(fmp):</p>
+<p>\begin{equation}
+\Pr(X=k)=\frac{\lambda^ke^{-\lambda}}{k!}
+\end{equation}</p>
+<p>El valor esperado de este pmf es $E\left(X\right)=\lambda$. En otras palabras, <em>esperamos</em> ver lambda número de ocurrencias en el promedio.</p>
+<p>Podemos hacer otras cosas con esta distribución. Por ejemplo, en lugar de pensar en el <strong>tiempo</strong> podríamos pensar en el <strong>espacio</strong> y jugar con que estas ocurrencias sean discretas o continuas. Problemas como éste tienen importantes aplicaciones en física y pueden verse en problemas de desintegración nuclear.</p>
+<p>En el libro <em>Random Networks for Communications</em> de Massimo Franceschetti y Ronald Meester, en la introducción a los modelos de redes continuas en el capítulo 2, se nos presenta la idea de un proceso puntual &ldquo;algo aleatorio&rdquo; en un plano con las siguientes especificaciones:</p>
+<p><strong>1.</strong> <strong>Estacionariedad</strong> - la distribución de los nodos en una región del plano es la misma bajo cualquier deslizamiento de la región hacia otra parte del plano.</p>
+<p><strong>2.</strong> <strong>Independencia</strong> - el número de nodos en regiones separadas no se afecta mutuamente.</p>
+<p><strong>3.</strong> <strong>Ausencia de acumulación</strong> - Sólo puede aparecer un número finito de nodos en cualquier región acotada.</p>
+<p>El libro también describe una forma de construir dicho cuadrado en un plano descrito por:</p>
+<p>\begin{equation}
+p = \frac{\lambda}{n^2}
+\end{equation}</p>
+<p>Con probabilidad $p$ y valor esperado $\lambda$ y número de cuadrados $n$ resultando en $n^2$ subcuadrados.</p>
+<p>Como prueba de concepto, he simplificado este problema a un marco que puede adaptarse a un proceso de puntos algo aleatorio en el plano. La simplificación del modelo consiste en que puede aparecer como máximo 1 cuadrado y las regiones se definen con respecto a un área acotada del plano.</p>
+<p>Así, en lugar de trabajar con regiones, se trabaja con subdivisiones del plano. Este problema es un subconjunto propio del problema con verdadera estacionalidad. Hemos fijado nuestra distribución de Poisson con tope.</p>
+<hr>
+<h2 id="methods">Methods</h2>
+<br>
+<p>Todo el código fue escrito en $\tt{python}$, $\tt{itertools}$ y $\tt{random}$ y visualizado usando $\tt{pygame}$. El código fue escrito en visual studio code pero se puede hacer con cualquier editor de texto. El repositorio estará disponible en github.</p>
+<h4 id="poisson-tile">Poisson Tile</h4>
+<br>
+<p>Definimos tal subdivisión del plano con las propiedades anteriores y la probabilidad de aparecer definida anteriormente como un <strong>azulejo de Poisson</strong></p>
+<p>The individual Poisson tiles were defined by an object with methods for where it is to be instantiated, the probability of it appearing and an update method. Los tamaños de los azulejos se calcularon utilizando el tamaño de la ventana y el número $n^2$ de subcuadrados deseados. La probabilidad de que un punto aparezca en el mosaico viene dada por la ecuación 1</p>
+<h3 id="computation-and-algorithms">Computation and Algorithms</h3>
+<br>
+<p>Los cálculos se realizaron en dos pasos principales para calcular (1) los centros de instanciación para cada cuadrado dados $n$ y el tamaño de la pantalla y (2) la traslación necesaria para desplazar el cuadrado a la parte correcta del plano. Estas particiones del plano se visualizan mediante el cálculo por separado de las líneas horizontales y verticales de la cuadrícula generadas en una función independiente.</p>
+<h4 id="calculation-of-centers">Calculation of Centers</h4>
+<p>Los centros se determinaron encontrando el punto medio de los subcuadros en el nivel $n$ excluyendo los puntos finales, y luego tomando todas las combinaciones de 2 pares de estos puntos medios.</p>
+<p>Así pues, sea $C_n$ el conjunto de centros para el nivel $n$ con $n$ elementos excluyendo los puntos finales de $0$ y $E$ la arista. Un algoritmo que mapea:</p>
+<p>\begin{equation}
+C_n\times C_n\rightarrow(n,n)
+\end{equation}</p>
+<p>y devuelve una lista que contiene todos los centros conseguidos con $\tt{itertools}$. Debido a la simetría del cuadrado, estas tuplas definen cada punto medio de cada subcuadrado.</p>
+<h4 id="calculation-of-translation">Calculation of Translation</h4>
+<p>Debido a cómo $\tt{pygame}$ hace una superficie y un rect, tuve que traducir el objeto rect para deslizar cada subcuadrado en su correcta subdivisión del plano. Esta subdivisión es lo que posteriormente se visualiza a través de las líneas de la cuadrícula en el cálculo final.</p>
+<p>Los desplazamientos llamados $\delta$ se calcularon dado el tamaño de la pantalla y el número $n$ de cuadrados necesarios. Tras el cálculo se trasladaron los cuadrados a lo largo del eje x primero y luego se incrementaron a lo largo del eje y uno hasta que se colocaron todos los cuadrados. Aprovechando la forma en que se calcularon los centros sólo tuve que asegurarme de que estas traslaciones se asignaran en el mismo orden en que se calcularon los centros.</p>
+<hr>
+<h2 id="results">Results</h2>
+<br>
+<h3 id="change-of-lambda-constant-n">change of lambda constant $n$</h3>
+<figure class = "poisson_images" alt="Una cuadrícula que muestra 4 cuadrículas de igual tamaño con diferentes valores de lambda. A medida que lambda aumenta, comienzan a aparecer más puntos dentro de los mosaicos de la cuadrícula.">
+   <img src = "/poisson_tiles_demo4.apng" class ="p_i_1">
+   <img src = "/poisson_tiles_demo6.apng" class ="p_i_3">
+   <img src = "/poisson_tiles_demo5.apng" class ="p_i_2">
+   <img src = "/poisson_tiles_demo7.apng" class ="p_i_4">
+</figure>
+<p>En esta parte de la simulación el número de azulejos se mantiene constante mientras se modifica la variable lambda. La simulación muestra que a medida que $\lambda$ aumenta de $1\rightarrow 16\rightarrow 32\rightarrow 64$, más frecuentemente aparecen los puntos en los azulejos. También puede considerarse que la probabilidad aumenta de $\frac{1}{64}$, a $\frac{1}{4}$, a $\frac{1}{2}$ a $1$. Esto aclara el porqué de la aparición de más cuadrados, ya que la probabilidad de que aparezca un cuadrado en cada azulejo aumenta. A la inversa, el punto del azulejo aparece con menos frecuencia mientras $\lambda$ disminuye.</p>
+<h3 id="change-of-n-with-constant-lambda">change of $n$ with constant $\lambda$</h3>
+<figure class = "poisson_images" alt="La probabilidad de que un punto aparezca en un azulejo se establece en el 100%. A medida que aumenta el tamaño de la cuadrícula, el número, más azulejos aparecen sobre todo. En la primera imagen, hay un cuadrado y 1 punto, en el segundo hay 4 cuadrados, el tercero hay 9 cuadrados y el cuarto hay 16 cuadrados.">
+   <img src = "/constant_tolerance_1.apng" class ="p_i_1">
+   <img src = "/constant_tolerance_2.apng" class ="p_i_3">
+   <img src = "/constant_tolerance_3.apng" class ="p_i_2">
+   <img src = "/constant_tolerance_4.apng" class ="p_i_4">
+</figure>
+<p>Así es como la simulación maneja tener varios n con una tolerancia fija de $\lambda = n^2$ y así el punto siempre aparecerá en el cuadrado. En orden de izquierda a derecha, de arriba a abajo, tenemos $n=1,2,3,4$. Se puede ver que para $n$ tenemos $n^2$ fichas que aparecen. Esto significa que el programa puede llegar a ser muy caro computacionalmente para ver muy rápidamente. Mi ordenador puede manejar hasta al menos 50, pero a los 100 el programa falla debido a un error de división por cero que viene de los puntos flotantes siendo forzados a 0 para $n^2$ muy grandes.</p>
+<h3 id="constant-ratio-change">constant ratio change</h3>
+<figure class = "poisson_images" alt="Aquí la probabilidad de que aparezca un punto en un azulejo se fija en el 50%. Pero también aumentamos el número de azulejos que aparecen. Esto es para mostrar lo que sucede cuando cambiamos tanto la lambda y el número de azulejos">
+   <img src = "/squares_tolerances_1.png" class ="p_i_1">
+   <img src = "/squares_tolerances_4.png" class ="p_i_3">
+   <img src = "/squares_tolerances_8.png" class ="p_i_2">
+   <img src = "/squares_tolerances_16.png" class ="p_i_4">
+</figure>
+<p>Aquí algunos patrones producidos por la simulación con un cambio de proporción constante de $\lambda = n^2/2$ para $n=1,2,3,4$. Con una probabilidad del 50% aparece un punto en un azulejo. Aquí podemos ver que obtenemos aproximadamente la mitad de los azulejos con un punto que aparece dentro de ellas mientras que en la otra mitad de los azulejos no aparece ningún punto.</p>
+<h2 id="discussion">Discussion</h2>
+<br>
+<p>Es bastante genial que para un conjunto $\lambda$, toda la pantalla se genera a partir de un solo parámetro $n$  el progrma se genera de forma $F(n)$ = programa. En futuras actualizaciones, quiero reescribir este programa para aprovechar que se ejecuta con $\tt{pygame}$. Debe ser capaz de ser ejecutado como un ejecutable que le permite seleccionar un $n$ y ver la imagen. También me gustaría que devolviera estadísticas básicas ater incluyendo recuentos para el número de veces que un punto apareció en un cuadrado, el número medio de puntos por ciclo, etc.</p>
+<h3 id="simplification-and-improvements">Simplification and improvements</h3>
+<p>Como ya he dicho, estos azulejos son una versión más sencilla de lo que quería hacer, ya que estaba mucho más ocupado de lo que quería. El resultado es que en lugar de ser azulejos de Poisson en realidad se pueden ver como azulejos de Bernoulli. Es decir, la simulación se puede tomar como una distribución binomial de $n^2$ ensayos y $p$ de aparición. En el futuro eliminaré la simplificación y haré los azulejos de Poisson que me había propuesto inicialmente.</p>
+<p>Hay algunas simplificaciones que se pueden hacer en el código con el fin de hacer que se ejecute más rápido y más eficiente. Esto es sería bueno para ver exactamente qué tan alto un $n $ puedo correr en mi computadora. Esto es también una cuestión de lo pequeño que puedo dividir los cuadrados por como $n^2$ aumenta $\frac{1}{n^2}$ se acerca cada vez más a cero, lo que resulta en un error desagradable de dividir por cero.</p>
+<p>Por último, en el futuro, también me gustaría ampliar esta visualización 2D a una visualización 3D, así como solucionar un problema de sonido que hace que escuchar la simulación sea insoportable para grandes $n$. Esto podría ser un problema de los diferentes canales utilizados en $\tt{pygame}$</p>
+<hr>
+<h2 id="conclusion">Conclusion</h2>
+<br>
+<p>Este fue un miniproyecto divertido. Lo dejaré en suspenso por ahora porque hay otro que me gustaría empezar. Pero definitivamente quiero volver y mejorar esto. Las simulaciones de este tipo se hacen a menudo con gráficos y pueden utilizarse en el contexto de la teoría de redes para hacer comparaciones. Si la simulación es lo suficientemente aleatoria, podemos compararla con otra cosa y ver si también es lo suficientemente aleatoria y, si no lo es, podemos preguntarnos por qué. Esto surge en cosas como las percolaciones, los enlaces entre servidores o incluso la difusión de memes en twitter.</p>
 
 
 
@@ -361,7 +470,23 @@ button >a> img{
                 
                 
                     <li>
-                        <a href="/es/projects/poisson_tiles_intro/">Poisson_tiles_intro</a>
+                        <a href="/es/posts/crispy/">Crispy</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/ghgemissions/">Ghgemissions</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/praisethesun/">Praisethesun</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/beecolonycollapse/">Beecolonycollapse</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/projects/poisson_tiles_intro/">Azulejos de Poisson: parte 1</a>
                     </li>
                 
                     <li>
@@ -370,22 +495,6 @@ button >a> img{
                 
                     <li>
                         <a href="/es/projects/climbingcenters/">¿Cuántos centros de escalada debería haber en una ciudad?</a>
-                    </li>
-                
-                    <li>
-                        <a href="/es/posts/mrna_vaccines/">Vacunas de ARNm con el Dr. Kizzy</a>
-                    </li>
-                
-                    <li>
-                        <a href="/es/posts/phosphofructokinase_2/">Fosfofructoquinasa-2</a>
-                    </li>
-                
-                    <li>
-                        <a href="/es/posts/gerd/">GERD</a>
-                    </li>
-                
-                    <li>
-                        <a href="/es/posts/vitamin_k_cofactor/">Cofactor: Vitamina K</a>
                     </li>
                 
             </ul>

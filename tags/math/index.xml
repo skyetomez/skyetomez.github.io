@@ -17,8 +17,8 @@
       <pubDate>Sun, 03 Apr 2022 20:43:03 +0200</pubDate>
       
       <guid>http://localhost:1313/projects/poisson_tiles_intro/</guid>
-      <description>Summary The motivation for this mini-project was to not only get more familiar with working with $\tt{pygame} but also to give myself a playground that I could hook into other packages like $\tt{networkx}$. I also wanted to practice generating fractals. While looking over old notes, I came across the rules for a random process that looked interesting to visualize and potential to become fractal-like.
- Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Englightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
+      <description>Summary The motivation for this mini-project was to not only get more familiar with working with $\tt{pygame}$ but also to give myself a playground that I could hook into other packages like $\tt{networkx}$. I also wanted to practice generating fractals. While looking over old notes, I came across the rules for a random process that looked interesting to visualize and potential to become fractal-like.
+ Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Enlightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
     </item>
     
     <item>

@@ -1,0 +1,627 @@
+<!doctype html>
+<html lang="en">
+  
+  <head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="" href="">
+    
+    
+
+
+    
+    
+    <title>CRISPR uses / misuses / potential | Skyler blog</title>
+    <style>
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+
+.wrapper{
+
+    display:flex;
+    max-width: auto;
+
+}
+
+.poisson_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "p_i_1 p_i_2"
+        "p_i_3 p_i_4";
+    gap: 1% 2% ;
+    max-width: fit-content;
+
+}
+
+.poisson_images > img{
+    max-width: 80%;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.32em;
+    line-height: 1.8em;
+    font-weight: 300;
+    
+
+    max-width: 100ch;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 5em 0em 5em; 
+
+}
+header{
+
+    margin-top: 5em;
+}
+
+footer{
+
+    border-color:black;
+     
+    border-width: 2px;
+    
+    margin-top: 5em;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: row; 
+
+    border-color:black;
+    border-top: solid;
+    border-width: 2px;
+}
+
+.recent-posts{
+    width: 75%;
+}
+.languages{
+    width: 25%; 
+}
+.credits{
+ 
+
+
+}
+
+.social_icons{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+button {
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+   
+  padding: 2% 15%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+  
+}
+
+button >a> img{
+
+width: 1em;
+height: 1em;
+
+}
+
+
+
+button:hover, a:hover{
+    color: #cda397;
+    text-decoration: none;
+
+}
+
+
+.homepage-content{
+
+    display:flex;
+    flex-direction: column;
+    
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+
+    color: black;
+    text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+    
+
+}
+
+.wrapper > div {
+    background-color: whitesmoke;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+nav{
+    font-size: xx-large;
+
+    border-color:black;
+    border-bottom: solid;
+    border-width: 3px;
+    
+    display:flex; 
+    justify-content:space-evenly;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div> p{
+    flex:inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+
+    font-size: 40px;
+
+    text-transform: lowercase;
+
+    color:black;
+}
+.poly{
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+    min-height: 25%;
+    min-width: 25%;
+
+}
+
+
+
+
+@media screen and (max-width: 767px){
+
+
+nav{
+    font-size: large;
+}
+
+.welcome{
+    font-size: 20px;
+}
+
+.homepage-content{
+
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.homepage-content> div{
+    grid-column: auto;
+    grid-row: auto;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+body{
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 95%;
+    font-weight: 300;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 2.5em ; 
+
+}
+
+
+
+
+header{
+
+margin-top: 1.5em;
+}
+
+
+button {
+
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+   
+  padding: 1% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+
+}
+
+button >a> img{
+
+    width: 1em;
+    height: 1em;
+
+}
+
+
+</style>
+</head>
+
+  <header> 
+    
+
+
+<nav>
+    
+      
+      
+      <a href="/">home</a>
+    
+      &squf;
+      
+      <a href="/about">about</a>
+    
+      &squf;
+      
+      <a href="/posts">posts</a>
+    
+      &squf;
+      
+      <a href="/projects">projects</a>
+    
+ </nav>  
+  </header>
+
+    <body>
+
+      <div>      
+      
+
+<h1>CRISPR uses / misuses / potential</h1> 
+
+<h2 id="1-summary-and-background">1 Summary and Background</h2>
+<p><em>This was written in 2018 as part of course on being green and renewable energy sources in modern times.</em></p>
+<p>A new revolutionary genome-editing tool called CRISPR has been and continues to change the
+landscape of genetics and bioengineering. In borrowing this selective and programmable bacteria/archaea defense system, scientists have been able to do things such as: prevent heart disease
+at the level of the human embryo and develop test strips for field medical diagnostics. As a result
+of these achievements and the versatility of CRISPR, general interest from the public has been
+sparked and has lead to much speculation of a genetically engineered future. There is no doubt
+that genetic and bio- engineering is being and has been revolutionized by this new technology,
+however some border cases of its uses are more fiction than fact.</p>
+<hr>
+<h2 id="2-introduction">2 Introduction</h2>
+<p>Clustered regularly interspaced short palindromic repeats (CRISPR) is the name for the part of
+a genome responsible for storing the genetic information of invading bacteriophages. It is an
+evolved, adaptive defnese system used by bacteria and archaea [1]. The system relies on small
+RNAs for sequence-specific detection and silencing of foreign nucleic acids [1]. The system is
+composed of cas genes organized in operons made up of genome-targeting sequences called
+spacers which are interspaced in regula intervals between palindromic repeats [1].
+The CRISPR Cas system works by selectively recognizing and then cutting or silencing specific
+nucleic acid sequences. A guide RNA (gRNA) a transfer RNA (transRNA) and a target sequence
+are used by the cas protein to find a complementary strand of RNA to the target sequence. Once
+the target sequence and a particular protospacer adjacent motif (PAM) is found, the protein
+binds and then does something depending on how the protein was matured or mutated [2]. In
+its wildtype form, the Cas9 protein will cut at the region on both sides of the DNA, at the
+approximately the same length, or the single side of the RNA [3]. There a three classes of</p>
+<p>CRISPR/Cas systems. Types 1 and 3 are similar in that the cas protein endonucleaes process
+the pre-CRISPR RNA (pre-crRNA), develop into a full protein, and cleave RNA complementary
+to this RNA. Type 2 contrasts in that is developed using a double-stranded (ds) RNA-specific
+ribonucleae in the presence of Cas9 and this protein is necessary in the crRNA-guided silencing
+of foreign DNA [1]. Similarly, Cas13 is necessary in processing of foreign RNA [4].
+Given that the CRISPR/Cas system only needs to have the DNA sequence of interest in its
+library, it is highly programmable and easily employed. It is for this reason that CRISPR is so
+promising a technique. Moreover, it has captured the attention and imagination of people in
+the general population, with the publication of books like Prometheus [5], academics, politics,
+and business, with various bioengineering based startups [6]. CRISPR has potential to be used
+to make edits anywhere nucleic material is used, e.g. animal embryos, plant seeds, parasites,
+viruses, etc and so its uses vast. Also, it allows for the ease of detection of such material due to
+Cas9/13’s programmability and selectivity [6].</p>
+<hr>
+<h2 id="3-results">3 Results</h2>
+<h3 id="31-rna-editing-with-crispr-cas13">3.1 RNA editing with CRISPR-Cas13</h3>
+<p>It was demonstrated by Cox et. al, that the CRISPR-Cas13 system could make RNA edits with
+surgical precision. A RNA-editing reporter on a Cluc was introduced by a point mutation at
+a single nucleotide changing the guanine nucleotide to an adenosine nucleotide. This nonsense
+mutation could be functionally repaired to its wild type codon by mutating the A to an I by use
+of dCas13b-ADARDD(E488Q) [3]. This system, called RNA Editing for Programmable A to I
+Replacement version 1 (REPAIRv1), validated that precises RNA editing could be achieved at at
+test site. It was also noted that this editing occurs more accurately with longer (50 nucleotide
+spacers) as opposed to shorter (30 nucleotide-spacers) spacers, however with longer spacers
+around the target site, there was an increased propensity for editing at non-targeted adenosines
+within the a given sequencing window [3]. Furthermore, the REPAIRv1 system was demonstrated
+to work on living mammalian cells in order to correct human disease related to mutations [3].</p>
+<h3 id="32-rna-targeting-with-crispr-cas13">3.2 RNA targeting with CRISPR-Cas13</h3>
+<p>It was demonstrated by Abudayyeh et. al, that RNA-guided RNA-targeting through the CRISPR–Cas13
+system could be engineered for mammalian cell RNA knockdown and binding. Cas13a specificity
+was tested in vivo by introduction of single mismatches into a guide targeting either Gluc, a
+reporter construct, or endogenous genes. It was found that the knockdown was sensitive to mis-
+matches in the central seed region of the guide-target duplex, which was additionally confirmed
+by biochemical profiling. Given that RNA interference is known for having off-target affects, a
+transcriptome wide mRNA sequence was run in order to assess for off-target affects. This was
+done by providing the Cas13 with an option of either the target region or shRNA construct and
+it was found that significant knockdown of the target transcript (P &lt; 0.01) [4].</p>
+<h3 id="33-computational-model-of-gene-drive">3.3 Computational Model of Gene Drive</h3>
+<p>A stochastic model of gene flow by gene drive was developed in order to understand how gene
+drive could lead to fixation. The underlying assumptions of the model are finite population
+and that it is based off of a Moran-based model. It was found, through numerical simulation of
+subpopulations and 3 alleles, wild type, gene drive, resistance, on diploid organisms, that isolation,
+as a prevention of invasion from gene driven populations of a species, unless migration rate is
+kept extremely low (10−5 on a scale of 0 to 1), that gene flow is almost guaranteed in invade all
+sub-populations linked to the originating one leading to fixation of the gene drive [7]. That is,
+CRISPR gene drive systems capable of far rearching spreads unless heavly isolated.</p>
+<hr>
+<h2 id="4-discussion">4 Discussion</h2>
+<p>CRISPR’s ease of use, quickness of application, and inexpensiveness is why it is such an exciting
+technology. In particular, the potential to genetically modify human embryos in vivio has attracted
+the attention of the general public for its ethical and genetic ramifications [8]. Questions how
+would such a technology be regulated, how much would it cost, and who would have access to
+it are immediate question to the possibility of this embryonic editing being commercialized. [5]
+Additionally, CRISPR’s potential to optimize organisms could lead to highly invasive species in wild populations [7]. Nevertheless, the reality of CRISPR is that it is currently being used to
+quickly test for the nucleic material of potentially harmful things [9].</p>
+<h3 id="41-uses-field-test-for-diseases">4.1 Uses: Field Test for Diseases</h3>
+<p>A lab at MIT developed a way to use CRISPR for to rapidly and inexpensively detect nucleic acid
+material. The diagnostic tool SHERLOCK (Specific High Sensitivity Reporter unLOCKing) is a
+paper strip display test the uses a fluorescent RNA reporter to report whether or not a specific
+nucleic acid material is present in a medium [6]. If the nuclear material is present, Cas13 will
+bind to the material and cut it, but due to the nature of the enzyme, it will bind to and cut the
+reporter as well as other nearby nuclear material. This side-effect was taken advantage of and
+was used to cause a test strip to display a black line, similar to a pregnancy test, in minutes. This
+rapidity and ease of use gives it the potential to change public health in areas such as Africa and
+South America or even in hospitals for the detection of tumor cells [9].</p>
+<h3 id="42-misuses-designer-babies">4.2 Misuses: Designer Babies</h3>
+<p>Genetic editing using the CRISPR/Cas system has been used in both China and the United States
+to edit the genetics of embryos. In the United States, CRISPR-Cas9 has been used to correct a
+genetic defect that can lead to heart failure [10]. As the change was made to the diploid formed
+after sperm met the egg, the change is heritable. The news of being able to do this has sparked a
+lot of ethical debates about the use of human germline editing to alter humans to have anything
+from blonde hair to wings. Despite the power of CRISPR, this is unlikely to occur. The idea for
+this rests in the adage of nature vs. nurture and that a child’s talents and abilities are said to fall
+more so in the latter category than the former. Additionally, even the case of that we could alter
+human beings at the level of talent from the level of genetics, the off-target effects or whether
+the resulting embryo would develop are speculative [8]. Literature demonstrates changes at a
+single locus and more so at a single or a few nucleotides, not at multiple loci for large numbers
+of nucleotides.</p>
+<h3 id="43-potential-invasivity">4.3 Potential: Invasivity</h3>
+<p>Another potential use of CRISPR is in the bioengineering of gene drives. Gene drives are genetic
+advantages programmed to specific alleles such that if one copy of the allele is present, it is
+passed on to the off spring, in sexually reproducing organisms, with a much higher than 50%
+probability [11]. This phenomonea is not new and has been observed in fruit flies since the
+1950s [11], however, the idea of using it as a tool to control or eliminate the spread of certain
+diseases is new and point of contention. There are arguments for the use of gene drives arguing
+that it is beneficial for eliminated invasive species and pathogens like malaria and that in the
+case of of mixing with wild-type alleles, resistance at the locus would prevent drive fixation [12].
+However, others argue that such a mechanism are likely to be highly invasive and can result in
+fixation of the chosen allele in a population [7].</p>
+<hr>
+<h2 id="references">References</h2>
+<ol>
+<li>Martin Jinek et al. “A Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive
+Bacterial Immunity”. In: 337 (June 2012), pp. 816–21.</li>
+<li>Shiraz Shah et al. “Protospacer recognition motifs”. In: 10 (Feb. 2013).</li>
+<li>David B. T. Cox et al. “RNA editing with CRISPR-Cas13”. In: Science (2017). doi: 10.
+1126/science.aaq0180. eprint: <a href="http://science.sciencemag.org/content/early/">http://science.sciencemag.org/content/early/</a>
+2017/10/24/science.aaq0180.full.pdf. url: <a href="http://science.sciencemag.org/">http://science.sciencemag.org/</a>
+content/early/2017/10/24/science.aaq0180.</li>
+<li>Omar Abudayyeh et al. “RNA targeting with CRISPR–Cas13”. In: 550 (Oct. 2017).</li>
+<li>Jessica Berg. “Editing human embryos with CRISPR is moving ahead – now’s the time
+to work out the ethics”. In: THE CONVERSATION: Academic rigor, journalistic flair
+(July 2017). url: <a href="https://theconversation.com/editing-human-embryos-with-">https://theconversation.com/editing-human-embryos-with-</a>
+crispr-is-moving-ahead-nows-the-time-to-work-out-the-ethics-81732.</li>
+<li>Broad Institue. “Researchers advance CRISPR-based tool for diagnosing disease”. In: (Feb.
+2018).</li>
+<li>Charleston Noble et al. “Current CRISPR gene drive systems are likely to be highly invasive
+in wild populations”. In: bioRxiv (2017). doi: 10.1101/219022. eprint: https://www.
+biorxiv.org/content/early/2017/11/16/219022.full.pdf. url: https://www.
+biorxiv.org/content/early/2017/11/16/219022.</li>
+<li>Pam Belluck. “Gene Editing for ‘Designer Babies’ ? Highly Unlikely, Scientists Say”. In: New
+York Times (Aug. 2017). url: <a href="https://www.nytimes.com/2017/08/04/science/">https://www.nytimes.com/2017/08/04/science/</a>
+gene-editing-embryos-designer-babies.html.</li>
+<li>Alessandra Potenza. “With a little detective work, CRISPR can say what the infection is”.
+In: The Verge (Apr. 2017).
+6</li>
+<li>Tina Hesman Saey. “Gene editing of human embryos gets rid of a mutation that causes
+heart failure”. In: ScienceNews: Magazine of the Society for Science the Public 192.03
+(Sept. 2017). url: https : / / www . sciencenews . org / article / crispr - gene -
+editing-human-embryos.</li>
+<li>FAQs:Gene drives. url: https : / / wyss . harvard . edu / staticfiles / newsroom /
+pressreleases/Gene%5C%20drives%5C%20FAQ%5C%20FINAL.pdf.</li>
+<li>Wyss Institue. “A new genome editing strategy offers potential way to control spread of
+insect-borne disease and invasive species”. In: (July 2014).</li>
+</ol>
+
+
+
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+      <footer>
+        
+   <div>
+      
+
+      <div class="footer-box">
+
+        
+        <div class="recent-posts">
+            <strong>Latest Posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="/posts/crispy/">CRISPR uses / misuses / potential</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/ghgemissions/">GHG emissions and Farming</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/praisethesun/">Praise the sun</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/beecolonycollapse/">Bee colony collapse: Causes and Solutions survey</a>
+                    </li>
+                
+                    <li>
+                        <a href="/projects/poisson_tiles_intro/">Poisson tiles: part 1</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/googoogogo/">Goo goo go go?</a>
+                    </li>
+                
+                    <li>
+                        <a href="/projects/climbingcenters/">How many climbing centers should there be in a city?</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="languages">
+            <strong>Languages</strong><br>
+            
+            
+            <a href="/es/">es</a>
+            
+            
+            
+            <a href="/" class="active">en</a>
+            
+            
+        </div>
+        
+      
+      </div>
+
+        <div class="credits">
+          <div class="footer-box">
+              <div class="copyright">
+                  <a href="https://github.com/skyetomez" target="_blank">
+                      &copy;
+                      
+                      2018
+                      
+                      by Skyler
+                  </a>
+                  
+              </div>
+              <div class="author">
+                  <a href="https://github.com/skyetomez/skyetomez.github.io"
+                      target="_blank">Skyler&#39;s Theme</a>
+              </div>
+
+              <span class = "social_icons">
+
+                <button>
+                  <a href="http://www.twitter.com/t42639805"><i class="bi bi-twitter"></i></a>  
+                </button>
+          
+                <button>
+                  <a href= "http://www.instagram.com/skylerase"><i class="bi bi-instagram"></i></a>
+                </button>
+                
+                <button>
+                  <a href="/">
+                    <img src=/logo_sq.png >
+                  </a> 
+                </button> 
+              
+                <button>
+                  <a href="http://www.github.com/skyetomez"><i class="bi bi-github"></i></a>  
+                </button>
+               
+             
+                
+                <button>
+                  <a href="https://www.linkedin.com/in/skyler-thomas-aa494615b">
+                  <i class="bi bi-linkedin"></i>
+                  </a>
+                </button>
+          
+                </span>
+
+
+          </div>
+      
+
+
+
+      <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+
+
+    </div>
+  
+      </footer>
+
+
+    </body>
+
+
+    
+</html>

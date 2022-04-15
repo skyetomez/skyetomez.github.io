@@ -1,0 +1,662 @@
+<!doctype html>
+<html lang="en">
+  
+  <head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="" href="">
+    
+    
+
+
+    
+    
+    <title>Bee colony collapse: Causes and Solutions survey | Skyler blog</title>
+    <style>
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+
+.wrapper{
+
+    display:flex;
+    max-width: auto;
+
+}
+
+.poisson_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "p_i_1 p_i_2"
+        "p_i_3 p_i_4";
+    gap: 1% 2% ;
+    max-width: fit-content;
+
+}
+
+.poisson_images > img{
+    max-width: 80%;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.32em;
+    line-height: 1.8em;
+    font-weight: 300;
+    
+
+    max-width: 100ch;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 5em 0em 5em; 
+
+}
+header{
+
+    margin-top: 5em;
+}
+
+footer{
+
+    border-color:black;
+     
+    border-width: 2px;
+    
+    margin-top: 5em;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: row; 
+
+    border-color:black;
+    border-top: solid;
+    border-width: 2px;
+}
+
+.recent-posts{
+    width: 75%;
+}
+.languages{
+    width: 25%; 
+}
+.credits{
+ 
+
+
+}
+
+.social_icons{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+button {
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+   
+  padding: 2% 15%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+  
+}
+
+button >a> img{
+
+width: 1em;
+height: 1em;
+
+}
+
+
+
+button:hover, a:hover{
+    color: #cda397;
+    text-decoration: none;
+
+}
+
+
+.homepage-content{
+
+    display:flex;
+    flex-direction: column;
+    
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+
+    color: black;
+    text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+    
+
+}
+
+.wrapper > div {
+    background-color: whitesmoke;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+nav{
+    font-size: xx-large;
+
+    border-color:black;
+    border-bottom: solid;
+    border-width: 3px;
+    
+    display:flex; 
+    justify-content:space-evenly;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div> p{
+    flex:inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+
+    font-size: 40px;
+
+    text-transform: lowercase;
+
+    color:black;
+}
+.poly{
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+    min-height: 25%;
+    min-width: 25%;
+
+}
+
+
+
+
+@media screen and (max-width: 767px){
+
+
+nav{
+    font-size: large;
+}
+
+.welcome{
+    font-size: 20px;
+}
+
+.homepage-content{
+
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.homepage-content> div{
+    grid-column: auto;
+    grid-row: auto;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+body{
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 95%;
+    font-weight: 300;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 2.5em ; 
+
+}
+
+
+
+
+header{
+
+margin-top: 1.5em;
+}
+
+
+button {
+
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+   
+  padding: 1% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+
+}
+
+button >a> img{
+
+    width: 1em;
+    height: 1em;
+
+}
+
+
+</style>
+</head>
+
+  <header> 
+    
+
+
+<nav>
+    
+      
+      
+      <a href="/">home</a>
+    
+      &squf;
+      
+      <a href="/about">about</a>
+    
+      &squf;
+      
+      <a href="/posts">posts</a>
+    
+      &squf;
+      
+      <a href="/projects">projects</a>
+    
+ </nav>  
+  </header>
+
+    <body>
+
+      <div>      
+      
+
+<h1>Bee colony collapse: Causes and Solutions survey</h1> 
+
+<h2 id="summary-and-motivation">Summary and Motivation</h2>
+<p>This was written in 2018 as part of course on being green and renewable energy sources in modern times. During this time, bee colonies were collapsing and caused a huge scare in the USA especially in the almond industry.</p>
+<p>Apis mellifera (honeybee) are one of the most studied insects in the world due to their crucial role as a
+pollinator of almost 85% of North American and European crops. Prior to 2013, Colony Collapse Disorder
+(CCD) was a new and dangerous phenomena causing wide spread hive loss which directly impacted the
+pollination of agricultural products that relied on honeybees as pollinators. Through a concerted research
+effort, many possible causes of CCD were discovered such as: the Nosema gut pathogen, Apocephalus
+Borealis (phorid fly), and neonicotinoids. The most prominent cause was reported to be the Varroa
+destructor mite which was introduced from the Eurasian Continent. New research suggests a possible
+pesticide that systemically kills the Varroa mite while not affecting A. mellifera mortality rate.</p>
+<hr>
+<h2 id="introduction">Introduction</h2>
+<p>In the winter of 2006 to 2007 there were large-scale losses of managed honeybee colonies in the United
+States and Europe [1]. The losses were not new to industry, however both the scale and speed at which
+they occurred caused the pollination and beekeeping industry alarm. These losses were characterized
+by some portion of the dead and dying hives by: rapid loss of adult worker bees, weak colonies with
+excess offspring, a large lack of dead workers bee within and near the hive, and a delayed invasion of
+hive pests [1].
+Colony Collapse Disorder (CCD) is the phenomenon that occurs when the majority of worker bees
+in a colony disappear and leave behind a queen, plenty of food and a few nurse bees to care for the
+remaining immature bees and the queen [2]. Despite the drop in reported cases since 2013 [2], CCD is
+important to study as more than 80% of agricultural crops in the world are pollinated by Apis mellifera
+(honeybees) [3]. Many flowering crops such as the Prunus dulcis rely heavily on bees for pollination
+and to produce fruit [4]. Furthermore, the magnitude and speed of hive losses prior to 2013 appeared
+to be unprecedented and cost both the agricultural and beekeeping industries billions [4].
+CCD is a complex phenomenon with symptoms at many ecological levels. Indeed, in studies concerning CCD-affected bee populations, it is suggested that CCD involves an interaction between pathogens
+and other stress factors [1]. Additionally, research demonstrates that the condition is contagious [1]. This is significant because of the pollination industry involves the mixing of honeybee populations from
+all over North America [4].
+There are many possible causes of honeybee CCD which, prior to 2013, was the main cause of
+honeybee death in both North America and Europe. Possible causes that led to the mass disappearance
+of bees include: phenomena caused by traditional bee pests, diseases, agrochemisty and agricultural
+production, and poor apiary management1 [3]. Other causes include: narrowing of genetic variability of
+queen bees, poor bee nutrition, lack of flowers, or the growing and use of genetically modified crops [3].
+However, the problem is a complex one and may be a combination of all or some of the above factors
+and factors not mentioned [1].</p>
+<hr>
+<h2 id="results">Results</h2>
+<h3 id="pests-of-honeybees">Pests of honeybees</h3>
+<h4 id="1-varroa-destructor">1. Varroa destructor</h4>
+<p>The Varroa destructor (Varroa mite) is a parasite that attaches onto A. mellifera and leave their larvae
+to feed. This parasite is not indigenous to North America and was transported from the Eurasian conti-
+nent. As a result of not being indigenous, North American A. mellifera (Apis mellifera) are particularly
+susceptible to the parasite. Furthermore, the parasite is a vector of the deformed wing virus (DWV) [5].
+It is this combination of stressors that were a major contributor to the losses of A. mellifera colonies in
+North America and in Europe [6].
+There have been at least three cases reported of A. mellifera colonies surviving the parasitic infection
+by means of natural selection in Europe [7]. In study to determine whether the difference in the
+population of A. mellifera that survived the infestation was due to adult grooming of larvae or removing
+the infected, it was found that neither of these behaviours were significantly different between bee
+colonies that survived the infestation and bee colonies that did not survive. The study concluded that
+there are efficient mechanisms in place by natural selection to protect bee colonies over time [7].</p>
+<h4 id="2-apocephalus-borealis">2. Apocephalus Borealis</h4>
+<p>The Apocephalus Borealis (phorid fly) lays eggs in the abdomen of a A. mellifera by their ovipoistors.
+Once infected, A. mellifera act oddly, foraging at night and gathering around lights like moths. During
+1Apiary management is the set of routine activities in an apiary depending on weather or seasonal changes and the
+initial objectives of set up this period, the eggs hatch and begin to eat A. mellifera from the inside. Parasitized A. mellifera show
+hive abandonment behavior, leaving their hives at night and dying shortly thereafter. Once dead, A.
+borealis fly larvae then emerge from the neck of the bee decapitating it. In contrast to V. destructor, A.
+borealis are native to North America, but have only recently been found to infect A. mellifera perviously
+only been known to infect bumblebees and other bee specieces [8].
+In 2011, widespread parasitism by the A. borealis on A. mellifera was found in the San Francisco
+Bay Area with 77% of the sample sites (24 of 31) in the San Francisco Bay Area being parasitized by A.
+borealis [8]. It was further found, with an average infection rate of 25% over 6 months, that A. borealis
+could spread inside the hive after an initial infection along with the potential to infect and kill a queen.
+Additionally, infected A. mellifera were often found to be infected with DWV and Nosema ceranae [8].</p>
+<h3 id="new-or-emerging-diseases">New or Emerging Diseases</h3>
+<h4 id="1-nosema">1. Nosema</h4>
+<p>The pathogen Nosema spp. is an endoparasitic infection of A. mellifera which adversely affects honeybee
+colony health and can lead to the collapse of a colony. In particular, autumn infections can lead to poor
+overwinter performance, the main indicator of hive health. Historically, Nosema disease was thought to
+be caused by the gut parasite Nosema apis, however, a recent survey of historical samples collected from
+across the U.S. suggests that N. apis has been largely displaced by N. ceranae which was transferred
+from its original host to A. mellifera [9]. Further implication can be seen in that N. ceranae has been
+present in large-scale losses experienced by Spanish beekeepers. [10] In an experiment, it was found that
+of 630 bees, 147 or 23.3% of A. mellifera in a sample had become infected after being fed Nosema spores
+after being exposed to pesticides. That is, Nosema have demonstrated an increased rate of infection
+with pesticide exposure [11].</p>
+<h3 id="pesticides-or-agrochemicals">Pesticides or Agrochemicals</h3>
+<h4 id="1-neonicotinoids">1. Neonicotinoids</h4>
+<p>Neonicotinoids have high selectivity towards invertebrate over vertebrate organisms. Being largely
+aliphatic, they are taken up systemically and can spread to all plant tissues, which makes them an
+efficient insecticide when applied in small quantities. At the same time, several of the neonicotinoid
+compounds have been shown to be highly toxic to A. mellifera in very small quantities [12]. By a
+meta-analysis, it was found that there was a positive correlation between the lethal toxicity of pesticides for A. mellifera. This has been extrapolated beyond only honeybees to other bee species [12].</p>
+<hr>
+<h2 id="discussion">Discussion</h2>
+<p>With respect to threats to North American A. mellifera, the Varroa destructor mite appears to be the
+most harmful to colony health overall. The Varroa mite is widespread in North American honeybee hives,
+and the Varroa mite affects A. mellifera at all stages of their life cycle. Additionally, they are vectors
+of the broken wing virus. As a result, United States beekeepers rank the Varroa mite parasite as a
+threat more dangerous than that of CCD [13]. Indeed, the Environmental Protection Agency (EPA) has
+reported the number of hives lost due to CCD has dropped since 2013 and beehives failing over winter
+due to factors other than CCD [2]. During the 2014-2015 year period, losses of managed honeybee
+colonies were 23.1% in winter, but summer losses were much higher during this period at 42.1%. This is
+important because winter losses were traditionally considered a more important indicator of bee colony
+health [13]. These losses were heavily attributed to beekeepers not taking appropriate steps to control
+mites [13]. In sum, the more immediate problem to North American A. mellifera are Varroa mite and
+protecting honeybees from them [8].
+The above reason motivates the search for Varroa mite specific pesticides. A promising solution is
+the use of lithium chloride (LiCl) which has been demonstrated to kill Varroa mite effectively and is
+taken up systemically by Varroa mite . The administration of LiCl is lethal at 25mM, but between 2mM
+and 25mM concentrations of LiCl have a clear effect on the viability of Varroa mite with between 10mM
+and 25mM concentrations having a significant enhancement on the mortaility the of Varroa mite [14].
+Despite finding that LiCl was effective at at killing the Varroa mite , it is also important to consider
+the possible effects on the mortality of A. mellifera also exposed to similar concentrations before possible
+adaptation of LiCl as a Varroa mite pesticide. On worker bees, there is no statistically significant effect
+of mortality after exposure to 2mM, 10mM or 25mM concentrations of LiCl. In fact, there exists a good
+tolerablity of LiCl in bees [14]. This accounts for the short term exposure to LiCl on A. mellifera . In
+the long term, LiCl appears to impede the viability of bees only if administered continuously over an
+extended period of time. That is, LiCl has potential to work as a Varroa mite pesticide if administered
+acutely at peak mite periods and not administered continuously as a way of prevention.
+This technique has at least one clear positive and negative effect. A drawback to this technique is
+that it requires active hive monitoring in order at assess what the Varroa mite population concentration
+and the A. mellifera population concentration are in order to decide whether to administer LiCl. An advantage of this technique is that it would make Varroa mite immunity due to natural selection less
+likely in the short run as the mites are not being continuously exposed to LiCl. This would allow the
+use of LiCl as a Varroa mite pesticide over the long-run.</p>
+<hr>
+<h2 id="references">References</h2>
+<ol>
+<li>
+<p>Dennis vanEngelsdorp et al. “Colony Collapse Disorder: A Descriptive Study”. In: PLOS ONE 4.8
+(Aug. 2009), pp. 1–17. doi: 10.1371/journal.pone.0006481. url: <a href="https://doi.org/10">https://doi.org/10</a>.
+1371/journal.pone.0006481.</p>
+</li>
+<li>
+<p>United States Environmental Protection Agency. Colony Collapse Disorder. Mar. 2018. url:
+<a href="https://www.epa.gov/pollinator-protection/colony-collapse-disorder">https://www.epa.gov/pollinator-protection/colony-collapse-disorder</a>.</p>
+</li>
+<li>
+<p>B. Beki ́c, M. Jeloˇcnik, and J. Subi ́c. “Honey bee colony collapse disorder possible causes.” In: Sci-
+entific Papers Series - Management, Economic Engineering in Agriculture and Rural Development
+14.2 (2014), pp. 13–18.</p>
+</li>
+<li>
+<p>Robert Smith. Bees Travel Cross Country For The California Almond Harvest. Mar. 2017. url:
+<a href="https://www.npr.org/2017/03/09/519500033/bees-travel-cross-country-for-the-">https://www.npr.org/2017/03/09/519500033/bees-travel-cross-country-for-the-</a>
+california-almond-harvest.</p>
+</li>
+<li>
+<p>Dave Goulson et al. “Bee declines driven by combined stress from parasites, pesticides, and lack
+of flowers”. In: Science 347.6229 (2015). issn: 0036-8075. doi: 10.1126/science.1255957.
+eprint: <a href="http://science.sciencemag.org/content/347/6229/1255957.full.pdf">http://science.sciencemag.org/content/347/6229/1255957.full.pdf</a>. url:
+<a href="http://science.sciencemag.org/content/347/6229/1255957">http://science.sciencemag.org/content/347/6229/1255957</a>.</p>
+</li>
+<li>
+<p>Francesco Nazzi et al. “Synergistic Parasite-Pathogen Interactions Mediated by Host Immunity
+Can Drive the Collapse of Honeybee Colonies”. In: PLOS Pathogens 8.6 (June 2012), pp. 1–16.
+doi: 10.1371/journal.ppat.1002735. url: <a href="https://doi.org/10.1371/journal.ppat.1002735">https://doi.org/10.1371/journal.ppat.1002735</a>.</p>
+</li>
+<li>
+<p>Melissa A.Y. Oddie, Bjørn Dahle, and Peter Neumann. “Norwegian honey bees surviving Varroa destructor mite infestations by means of natural selection”. In: PeerJ 5 (Oct. 2017), e3956. issn: 2167-8359. doi: 10.7717/peerj.3956. url: <a href="https://doi.org/10.7717/peerj.3956">https://doi.org/10.7717/peerj.3956</a>.</p>
+</li>
+<li>
+<p>Andrew Core et al. “A New Threat to Honey Bees, the Parasitic Phorid Fly Apocephalus borealis”.
+In: PLOS ONE 7.1 (Jan. 2012), pp. 1–9. doi: 10.1371/journal.pone.0029639. url: <a href="https://doi.org/10.1371/journal.pone.0029639">https://doi.org/10.1371/journal.pone.0029639</a>.</p>
+</li>
+<li>
+<p>Yanping Chen et al. “Nosema ceranae is a long-present and wide-spread microsporidian infection
+of the European honey bee (Apis mellifera) in the United States”. In: Journal of Invertebrate
+Pathology 97.2 (2008), pp. 186–188. issn: 0022-2011. doi: <a href="https://doi.org/10.1016/.jip.2007.07.010">https://doi.org/10.1016/.jip.2007.07.010</a>. url: <a href="http://www.sciencedirect.com/science/article/pii/S002220110700153X">http://www.sciencedirect.com/science/article/pii/S002220110700153X</a>.</p>
+</li>
+<li>
+<p>Mariano Higes, Raquel Mart ́ın, and Ar ́anzazu Meana. “Nosema ceranae, a new microsporidian
+parasite in honeybees in Europe”. In: Journal of Invertebrate Pathology 92.2 (2006), pp. 93–95. issn: 0022-2011. doi: <a href="https://doi.org/10.1016/j.jip.2006.02.005">https://doi.org/10.1016/j.jip.2006.02.005</a>. url: <a href="http://www.sciencedirect.com/science/article/pii/S0022201106000437">http://www.sciencedirect.com/science/article/pii/S0022201106000437</a>.</p>
+</li>
+<li>
+<p>Jeffery S. Pettis et al. “Crop Pollination Exposes Honey Bees to Pesticides Which Alters Their
+Susceptibility to the Gut Pathogen Nosema ceranae”. In: PLOS ONE 8.7 (July 2013), pp. 1–9.
+doi: 10.1371/journal.pone.0070182. url: <a href="https://doi.org/10.1371/journal.pone.0070182">https://doi.org/10.1371/journal.pone.0070182</a>.</p>
+</li>
+<li>
+<p>Ola Lundin et al. “Neonicotinoid Insecticides and Their Impacts on Bees: A Systematic Review of
+Research Approaches and Identification of Knowledge Gaps”. In: PLOS ONE 10.8 (Aug. 2015),
+pp. 1–20. doi: 10.1371/journal.pone.0136928. url: <a href="https://doi.org/10.1371/journal.pone.0136928">https://doi.org/10.1371/journal.pone.0136928</a>.</p>
+</li>
+<li>
+<p>Kim Kaplan. “Bee Survey: Lower Winter Losses, Higher Summer Losses, Increased Total Annual
+Losses”. In: United States Department of Agriculture: Agricultural Research Service (Apr. 2015).</p>
+</li>
+<li>
+<p>Bettina Ziegelmann et al. “Lithium chloride effectively kills the honey bee parasite Varroa destruc-
+tor by a systemic mode of action”. In: 8 (Dec. 2018).</p>
+</li>
+</ol>
+
+
+
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+      <footer>
+        
+   <div>
+      
+
+      <div class="footer-box">
+
+        
+        <div class="recent-posts">
+            <strong>Latest Posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="/posts/crispy/">CRISPR uses / misuses / potential</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/ghgemissions/">GHG emissions and Farming</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/praisethesun/">Praise the sun</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/beecolonycollapse/">Bee colony collapse: Causes and Solutions survey</a>
+                    </li>
+                
+                    <li>
+                        <a href="/projects/poisson_tiles_intro/">Poisson tiles: part 1</a>
+                    </li>
+                
+                    <li>
+                        <a href="/posts/googoogogo/">Goo goo go go?</a>
+                    </li>
+                
+                    <li>
+                        <a href="/projects/climbingcenters/">How many climbing centers should there be in a city?</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="languages">
+            <strong>Languages</strong><br>
+            
+            
+            <a href="/es/">es</a>
+            
+            
+            
+            <a href="/" class="active">en</a>
+            
+            
+        </div>
+        
+      
+      </div>
+
+        <div class="credits">
+          <div class="footer-box">
+              <div class="copyright">
+                  <a href="https://github.com/skyetomez" target="_blank">
+                      &copy;
+                      
+                      2018
+                      
+                      by Skyler
+                  </a>
+                  
+              </div>
+              <div class="author">
+                  <a href="https://github.com/skyetomez/skyetomez.github.io"
+                      target="_blank">Skyler&#39;s Theme</a>
+              </div>
+
+              <span class = "social_icons">
+
+                <button>
+                  <a href="http://www.twitter.com/t42639805"><i class="bi bi-twitter"></i></a>  
+                </button>
+          
+                <button>
+                  <a href= "http://www.instagram.com/skylerase"><i class="bi bi-instagram"></i></a>
+                </button>
+                
+                <button>
+                  <a href="/">
+                    <img src=/logo_sq.png >
+                  </a> 
+                </button> 
+              
+                <button>
+                  <a href="http://www.github.com/skyetomez"><i class="bi bi-github"></i></a>  
+                </button>
+               
+             
+                
+                <button>
+                  <a href="https://www.linkedin.com/in/skyler-thomas-aa494615b">
+                  <i class="bi bi-linkedin"></i>
+                  </a>
+                </button>
+          
+                </span>
+
+
+          </div>
+      
+
+
+
+      <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+
+
+    </div>
+  
+      </footer>
+
+
+    </body>
+
+
+    
+</html>

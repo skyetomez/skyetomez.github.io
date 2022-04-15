@@ -3,6 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost:1313/posts/crispy/</loc>
+    <lastmod>2022-04-15T02:59:03+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/crispy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/crispy/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/posts/ghgemissions/</loc>
+    <lastmod>2022-04-15T02:35:30+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/ghgemissions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/ghgemissions/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/posts/praisethesun/</loc>
+    <lastmod>2022-04-15T02:20:15+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/praisethesun/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/praisethesun/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/posts/beecolonycollapse/</loc>
+    <lastmod>2022-04-15T01:57:56+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/beecolonycollapse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/beecolonycollapse/"
+                />
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/tags/math/</loc>
     <lastmod>2022-04-03T20:43:03+02:00</lastmod>
     <xhtml:link
@@ -35,6 +95,16 @@
   <url>
     <loc>http://localhost:1313/tags/probability/</loc>
     <lastmod>2022-04-03T20:43:03+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/probability/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/probability/"
+                />
   </url>
   
   <url>
@@ -240,11 +310,6 @@
                 hreflang="en"
                 href="http://localhost:1313/posts/vitamin_k_cofactor/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/projects/math/c1s2/</loc>
-    <lastmod>2021-04-06T16:30:26+01:00</lastmod>
   </url>
   
   <url>

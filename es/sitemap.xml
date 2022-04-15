@@ -3,6 +3,66 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost:1313/es/posts/crispy/</loc>
+    <lastmod>2022-04-15T02:59:12+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/crispy/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/crispy/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/es/posts/ghgemissions/</loc>
+    <lastmod>2022-04-15T02:35:38+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/ghgemissions/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/ghgemissions/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/es/posts/praisethesun/</loc>
+    <lastmod>2022-04-15T02:19:58+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/praisethesun/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/praisethesun/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/es/posts/beecolonycollapse/</loc>
+    <lastmod>2022-04-15T01:58:02+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/posts/beecolonycollapse/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/posts/beecolonycollapse/"
+                />
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/es/projects/poisson_tiles_intro/</loc>
     <lastmod>2022-04-03T20:43:20+02:00</lastmod>
     <xhtml:link
@@ -14,6 +74,21 @@
                 rel="alternate"
                 hreflang="es"
                 href="http://localhost:1313/es/projects/poisson_tiles_intro/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/es/tags/probability/</loc>
+    <lastmod>2022-04-03T20:43:20+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/probability/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/probability/"
                 />
   </url>
   

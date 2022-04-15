@@ -12,12 +12,49 @@
     
     
     <item>
-      <title>Poisson_tiles_intro</title>
+      <title>Crispy</title>
+      <link>http://localhost:1313/es/posts/crispy/</link>
+      <pubDate>Fri, 15 Apr 2022 02:59:12 +0200</pubDate>
+      
+      <guid>http://localhost:1313/es/posts/crispy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ghgemissions</title>
+      <link>http://localhost:1313/es/posts/ghgemissions/</link>
+      <pubDate>Fri, 15 Apr 2022 02:35:38 +0200</pubDate>
+      
+      <guid>http://localhost:1313/es/posts/ghgemissions/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Praisethesun</title>
+      <link>http://localhost:1313/es/posts/praisethesun/</link>
+      <pubDate>Fri, 15 Apr 2022 02:19:58 +0200</pubDate>
+      
+      <guid>http://localhost:1313/es/posts/praisethesun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beecolonycollapse</title>
+      <link>http://localhost:1313/es/posts/beecolonycollapse/</link>
+      <pubDate>Fri, 15 Apr 2022 01:58:02 +0200</pubDate>
+      
+      <guid>http://localhost:1313/es/posts/beecolonycollapse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Azulejos de Poisson: parte 1</title>
       <link>http://localhost:1313/es/projects/poisson_tiles_intro/</link>
       <pubDate>Sun, 03 Apr 2022 20:43:20 +0200</pubDate>
       
       <guid>http://localhost:1313/es/projects/poisson_tiles_intro/</guid>
-      <description></description>
+      <description>Summary La motivación para este mini-proyecto fue no sólo para familiarizarse con el trabajo con $\tt{pygame}$, sino también para darme un campo de juego que podría enganchar en otros paquetes como $\tt{networkx}$. También quería practicar la generación de fractales. Mientras revisaba viejas notas, me encontré con las reglas de un proceso aleatorio que parecía interesante de visualizar y con potencial para convertirse en un fractal.
+ Introduction Simeon Denis Poisson vivió entre 1781 y 1840, durante el final del Siglo de las Luces, un periodo de tiempo caracterizado por un cambio hacia la búsqueda del conocimiento.</description>
     </item>
     
     <item>
