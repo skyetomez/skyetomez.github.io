@@ -12,6 +12,19 @@
     
     
     <item>
+      <title>Cv</title>
+      <link>http://localhost:1313/es/cv/</link>
+      <pubDate>Tue, 19 Apr 2022 14:50:05 +0200</pubDate>
+      
+      <guid>http://localhost:1313/es/cv/</guid>
+      <description>Educación  2015-2019 BS, Matemáticas Puras; Universidad de Texas en Austin, (Austin,TX)
+  2014-2019 BSA, Neurociencia; Universidad de Texas en Austin, (Austin,TX)
+  Ene 2017 - Jun 2017 Estudio en el extranjero; Universidad de Uppsala, (Uppsala,Suecia)
+    Certificaciones  2019 Certificado en la enseñanza de inglés a hablantes de otros idiomas (CELTA); CLIC International House, (Sevilla, España)
+  2019 Pre- profesiones de la salud; La Universidad de Texas en Austin, (Austin,TX)</description>
+    </item>
+    
+    <item>
       <title>Crispy</title>
       <link>http://localhost:1313/es/posts/crispy/</link>
       <pubDate>Fri, 15 Apr 2022 02:59:12 +0200</pubDate>

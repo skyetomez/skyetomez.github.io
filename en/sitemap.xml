@@ -415,6 +415,16 @@
   <url>
     <loc>http://localhost:1313/cv/</loc>
     <lastmod>2019-09-12T12:17:58+02:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/cv/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/cv/"
+                />
   </url>
   
   <url>

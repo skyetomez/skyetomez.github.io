@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+  
+  <head><script src="/livereload.js?port=1313&mindelay=10&v=2" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.68.3" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="" href="">
+    
+    
+
+
+    
+    
+    <title>Cv | Skyler blog ES</title>
+    <style>
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+
+.wrapper{
+
+    display:flex;
+    max-width: auto;
+
+}
+
+.poisson_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "p_i_1 p_i_2"
+        "p_i_3 p_i_4";
+    gap: 1% 2% ;
+    max-width: fit-content;
+
+}
+
+.poisson_images > img{
+    max-width: 80%;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.32em;
+    line-height: 1.8em;
+    font-weight: 300;
+    
+
+    max-width: 100ch;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 5em 0em 5em; 
+
+}
+header{
+
+    margin-top: 5em;
+}
+
+footer{
+
+    border-color:black;
+     
+    border-width: 2px;
+    
+    margin-top: 5em;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: row; 
+
+    border-color:black;
+    border-top: solid;
+    border-width: 2px;
+}
+
+.recent-posts{
+    width: 75%;
+}
+.languages{
+    width: 25%; 
+}
+.credits{
+ 
+
+
+}
+
+.social_icons{
+    
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+
+}
+
+button {
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+   
+  padding: 2% 15%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 2em;
+
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+  
+}
+
+button >a> img{
+
+width: 1em;
+height: 1em;
+
+}
+
+
+
+button:hover, a:hover{
+    color: #cda397;
+    text-decoration: none;
+
+}
+
+
+.homepage-content{
+
+    display:flex;
+    flex-direction: column;
+    
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    font-weight: 300;
+
+    color: black;
+    text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+    
+
+}
+
+.wrapper > div {
+    background-color: whitesmoke;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+nav{
+    font-size: xx-large;
+
+    border-color:black;
+    border-bottom: solid;
+    border-width: 3px;
+    
+    display:flex; 
+    justify-content:space-evenly;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+div> p{
+    flex:inherit;
+    flex-direction: inherit;
+    justify-content: space-between;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;
+
+    font-size: 40px;
+
+    text-transform: lowercase;
+
+    color:black;
+}
+.poly{
+    display: flex;
+    justify-content: center;
+
+    height: 100px;
+    min-height: 25%;
+    min-width: 25%;
+
+}
+
+
+
+
+@media screen and (max-width: 767px){
+
+
+nav{
+    font-size: large;
+}
+
+.welcome{
+    font-size: 20px;
+}
+
+.homepage-content{
+
+    font-size: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.homepage-content> div{
+    grid-column: auto;
+    grid-row: auto;
+}
+
+img{
+    max-width: auto;
+    height: auto;
+    margin-left:auto;
+    margin-right: auto;
+    display: block; 
+}
+
+body{
+    display: flex;
+    flex-direction: column; 
+
+    background-color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    font-size: 95%;
+    font-weight: 300;
+    
+
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow-wrap: break-word;
+
+    padding: 0em 2.5em ; 
+
+}
+
+
+
+
+header{
+
+margin-top: 1.5em;
+}
+
+
+button {
+
+  background-color: whitesmoke;  
+  border: none;
+  color: #007bff;
+   
+  padding: 1% 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+
+
+  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+
+
+}
+
+button >a> img{
+
+    width: 1em;
+    height: 1em;
+
+}
+
+
+</style>
+</head>
+
+  <header> 
+    
+
+
+<nav>
+    
+      
+      
+      <a href="/es">casa</a>
+    
+      &squf;
+      
+      <a href="/es/about">sobre mi</a>
+    
+      &squf;
+      
+      <a href="/es/posts">posts</a>
+    
+      &squf;
+      
+      <a href="/es/projects">proyectos</a>
+    
+ </nav>  
+  </header>
+
+    <body>
+
+      <div>      
+      
+
+<h1>Cv</h1> 
+
+<dl>
+<dt>Educación</dt>
+<dd>
+<p>2015-2019 <strong>BS, Matemáticas Puras</strong>; Universidad de Texas en Austin, (Austin,TX)</p>
+</dd>
+<dd>
+<p>2014-2019 <strong>BSA, Neurociencia</strong>; Universidad de Texas en Austin, (Austin,TX)</p>
+</dd>
+<dd>
+<p>Ene 2017 - Jun 2017 <strong>Estudio en el extranjero</strong>; Universidad de Uppsala, (Uppsala,Suecia)</p>
+</dd>
+</dl>
+<hr>
+<dl>
+<dt>Certificaciones</dt>
+<dd>
+<p>2019 <strong>Certificado en la enseñanza de inglés a hablantes de otros idiomas (CELTA)</strong>; CLIC International House, (Sevilla, España)</p>
+</dd>
+<dd>
+<p>2019 <strong>Pre- profesiones de la salud</strong>; La Universidad de Texas en Austin, (Austin,TX)</p>
+</dd>
+</dl>
+<hr>
+<dl>
+<dt>Experiencia</dt>
+<dd>
+<p>Oct 2021 - Ahora <strong>Instructor de Inglés</strong>; Inlingua, (Logroño, España)</p>
+<ul>
+<li>Identificar los puntos débiles de los estudiantes para derivar eficientemente planes de lecciones entretenidos y productivos para los estudiantes A2-C2.</li>
+<li>Organizar y administrar los exámenes trianuales de diagnóstico de inglés del MCER B1-C2 para los estudiantes.</li>
+<li>Corresponder con los padres y alumnos de su progreso a través de informes trianuales.</li>
+<li>Informar a la dirección sobre el progreso de los alumnos y las áreas en las que hay que centrarse.</li>
+</ul>
+</dd>
+<dd>
+<p>Sep 2019 - Jun 2021 <strong>Profesor de inglés</strong>; Whizdom English, (Logroño, España)</p>
+<ul>
+<li>Dirigir clases de inglés presenciales, online e híbridas a alumnos de A1 a B2 adultos, YL y adolescentes.</li>
+<li>Preparé 11 diferentes planes de lecciones personalizadas a la semana para más de 60 estudiantes diferentes para aumentar la comprensión y el interés de los estudiantes.</li>
+<li>Analizó y redactó anualmente más de 163 informes individualizados de estudiantes para la mejora dirigida de los mismos.</li>
+<li>Diseñé y empleé planes de lecciones personalizadas para los estudiantes para aumentar el compromiso y la comprensión.</li>
+</ul>
+</dd>
+<dd>
+<p>Ago 2019 <strong>Instructor de inglés</strong>; CLIC International House, (Sevilla, España)</p>
+<ul>
+<li>Enseñé comprensión de lectura, gramática y desarrollé la frecuencia oral con estudiantes de nivel B1.</li>
+<li>Enseñó a resumir y parafrasear, léxico y habilidades generales de escritura a los estudiantes de B2.</li>
+<li>Enseñé gramática, léxico de cuantificadores y habilidades lingüísticas funcionales a estudiantes de A1 y A2.</li>
+<li>Adaptación y uso de actividades de Cutting Edge, Navigate Upper-Intermediate, English File Elementary</li>
+<li>Creé y utilicé textos originales y auténticos para las lecciones junto con el material</li>
+<li>Desarrollar y utilizar planes de lecciones personalizados para los estudiantes para aumentar el compromiso y la comprensión</li>
+</ul>
+</dd>
+<dd>
+<p>Ago 2017 - Ago 2018 <strong>Desarrollador web</strong>; Innovaciones para la paz y el desarrollo, (Austin,TX)</p>
+<ul>
+<li>Implementó css bootstrap y utilizó JavaScript para formatear sitios web rápidamente e incrustar varios enlaces.</li>
+<li>Realizó SEO con el fin de aumentar el tráfico web y aumentar la facilidad de interacción.</li>
+<li>Se le concedió un puesto de investigador afiliado por sus contribuciones</li>
+</ul>
+</dd>
+<dd>
+<p>Ago 2015 - Ago 2016 <strong>Asistente de investigación</strong>; Cormack Lab: 3D Vision, (Austin,TX)</p>
+<ul>
+<li>Limpié 20 horas de datos de sujetos y tanto exploré como analicé los datos con un MATlab y luego los visualicé con heatplot.</li>
+<li>Recogió datos de 8 sujetos utilizando un filtro de Kalman inverso construido en Matlab.</li>
+<li>Más de 300 horas académicas de investigación en neurofisiología de la visión, percepción y procesamiento del movimiento.</li>
+</ul>
+</dd>
+<dd>
+<p>Ago 2014 - Ago 2016 <strong>Asistente de investigación</strong>; Laboratorio Jones: Materiales funcionales basados en complejos metálicos, (Austin,TX)</p>
+<ul>
+<li>Sintetizó complejos metálicos de lantánidos con técnicas de química inorgánica.</li>
+<li>Análisis de la estructura cristalina mediante RMN.</li>
+<li>Más de 200 horas académicas de investigación en química inorgánica.</li>
+</ul>
+</dd>
+</dl>
+<hr>
+<dl>
+<dt>Proyectos</dt>
+<dd>
+<p>Julio 2019 <strong>Análisis del discurso</strong>; Prof. Sahotra Sarkar, (Austin,TX)</p>
+<ul>
+<li>Recogida y análisis de más de 100 artículos desde 1949 hasta la actualidad.
+-Aglutinó los artículos por año y analizó cada artículo utilizando el análisis del discurso.</li>
+<li>Implementación de la regresión logística en R con los artículos analizados.</li>
+</ul>
+</dd>
+<dd>
+<p>Ago 2017 - Ene 2018 <strong>Estudio dirigido: Procesamiento del lenguaje natural (NLP)</strong>; Prof. Andrew Blumberg, (Austin,TX)</p>
+<ul>
+<li>Revisó los métodos modernos de parsing de oraciones a través de métodos probabilísticos.</li>
+<li>Construí e implementé un stemmer de palabras, parser de partes del habla y parser de oraciones en Python base.</li>
+<li>Analizó la distribución estadística de palabras de alta frecuencia en cuerpos de texto con al menos 10000 palabras</li>
+</ul>
+</dd>
+<dd>
+<p>Ago 2017 - Ene 2018 <strong>Investigación dirigida: Teoría de la percolación</strong>; Dirigida por Natasa Dragovic, (Austin,TX)</p>
+<ul>
+<li>Estudió la probabilidad de los paseos aleatorios en celosías y los encuentros entre bolas distribuidas de Poisson en el espacio euclidiano.</li>
+<li>Aplicaciones de los modelos a las redes de líneas eléctricas a escala comercial y para modelar la permeabilidad del agua en la superficie del suelo.</li>
+<li>Impartió conferencias sobre el tema estudiado a estudiantes de grado, estudiantes de posgrado y profesores.</li>
+</ul>
+</dd>
+<dd>
+<p>Mayo 2018 <strong>Tarea de clasificación de yesca</strong>; Prof. Michael Mahometa, (Austin,TX)</p>
+<ul>
+<li>Implementé una regresión logística para determinar la frecuencia en la que los hombres y las mujeres recibieron coincidencias en tinder en R.</li>
+<li>Limpió y exploró los datos en bruto usando excel y python</li>
+</ul>
+</dd>
+<dd>
+<p>Nov 2017 <strong>Construyó una IA que jugaba al tetris</strong>; Prof. Ila Fiete, (Austin,TX)</p>
+<ul>
+<li>Implementó las redes neuronales evolutivas originales a través del papel de topologías de aumento.</li>
+<li>Construido tetris usando gamepy y otros paquetes de python.</li>
+<li>Construyó e implementó una red neuronal artificial utilizando el paquete NEAT de python.</li>
+</ul>
+</dd>
+<dd>
+<p>Julio 2016 <strong>Experimento de pares emparejados</strong>; Prof. Gustavo Cepparo, (Austin,TX)</p>
+<ul>
+<li>Reclutó 7 sujetos y recolectó datos de los sujetos para la tarea.</li>
+<li>Implementó un bootstrap en la distribución resultante y calculó la significación usando la prueba t.</li>
+</ul>
+</dd>
+</dl>
+<hr>
+<dl>
+<dt>Habilidades</dt>
+<dd>
+<p>Codificación</p>
+<ul>
+<li>Python, C/C++, R, Matlab</li>
+</ul>
+</dd>
+<dd>Frameworks
+<ul>
+<li>Keras, Pytorch, Tensorflow</li>
+</ul>
+</dd>
+<dd>Desarrollo web
+<ul>
+<li>HTML/CSS, Hugo</li>
+</ul>
+</dd>
+<dd>Utilidades
+<ul>
+<li>Anaconda, Git, Sublime Text, Atom, Vim, RStudio, Visual Studio Code</li>
+</ul>
+</dd>
+<dd>Marcado
+<ul>
+<li>Latex, Markdown</li>
+</ul>
+</dd>
+<dd>Softskills
+<ul>
+<li>Comunicador eficaz, jugador de equipo, flexible, auto-motivador, entusiasta, pensador crítico</li>
+</ul>
+</dd>
+<dd>Idiomas
+<ul>
+<li>Inglés (nativo), español (C1), francés (B1)</li>
+</ul>
+</dd>
+</dl>
+<hr>
+<dl>
+<dt>Voluntariado</dt>
+<dd>
+<p>Jan 2022 - Ahora <strong>La Cruz Roja</strong></p>
+<ul>
+<li>Ayudé en la preparación y servicio de alimentos a las personas desatendidas durante las comidas.</li>
+<li>Hablaba y empatizaba genuinamente con los que requerían los servicios.</li>
+</ul>
+</dd>
+<dd>
+<p>Enero 2022 - Ahora <strong>Cruz Roja</strong></p>
+<ul>
+<li>Monitorear y controlar semanalmente la presión arterial y el peso de los pacientes de edad avanzada.</li>
+<li>Ayudé a plantar, cuidar y cosechar las verduras del huerto urbano.</li>
+</ul>
+</dd>
+<dd>
+<p>Agosto 2020 - Ahora <strong>Medicusmuni La Rioja</strong>;</p>
+<ul>
+<li>Investigó mapas y ubicaciones para sistemas de agua en Panchimalco para una subvención de más de 50 mil euros.</li>
+<li>Tradujo las subvenciones del español al inglés para la propuesta en el ayuntamiento</li>
+<li>Visitamos escuelas en pueblos desatendidos para explicar cómo integrar los ODS en nuestras comunidades.</li>
+</ul>
+</dd>
+</dl>
+<hr>
+<dl>
+<dt>Publicaciones</dt>
+<dd>
+<p>Mayo de 2019 <strong>Publicación sobre recursos naturales y conflictos civiles</strong>;</p>
+<ul>
+<li>Contribuyó a la publicación para su revisión sobre la ubicación de los recursos naturales y el conflicto civil en la zona.</li>
+</ul>
+</dd>
+</dl>
+<hr>
+<dl>
+<dt>Logros</dt>
+<dd>
+<p>Mayo de 2018 <strong>Presentación de la teoría de la percolación</strong>; (Austin, TX)</p>
+<ul>
+<li>Presentado a estudiantes y compañeros sobre la probabilidad en el contexto de la teoría de la percolación.</li>
+</ul>
+</dd>
+<dd>
+<p>Mayo de 2018 <strong>Cumbre de la energía de Longhorn</strong>; (Austin,TX)</p>
+<ul>
+<li>Clasificado 6 entre 53 equipos(TOP 11%) en la competencia de negocios con estilo de caso.</li>
+<li>Desarrollaron una estrategia empresarial para resolver el problema de las baterías no renovables</li>
+</ul>
+</dd>
+<dd>
+<p>Abril 2017 <strong>Presentación de Procesos Markov y Semigrupos</strong>; (Uppsala, Suecia)</p>
+<ul>
+<li>Presentación a compañeros de grado de una introducción a la teoría de los procesos de Markov y semigrupos en el contexto de la probabilidad.</li>
+</ul>
+</dd>
+</dl>
+<hr>
+<dl>
+<dt>Trabajo del curso</dt>
+<dd>
+<p><em>Lingüística, Álgebra Lineal, Cálculo Diferencial e Integral, Ecuaciones Diferenciales, Estructuras Algebraicas,
+Análisis real, Análisis complejo, Análisis de regresión, Modelos lineales generalizados, Estadística aplicada,
+Neurociencia Computacional, Teoría de Números, Matemáticas Discretas, Macroeconomía, Microeconomía</em>.</p>
+</dd>
+</dl>
+
+
+
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+      <footer>
+        
+   <div>
+      
+
+      <div class="footer-box">
+
+        
+        <div class="recent-posts">
+            <strong>Latest Posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="/es/posts/crispy/">Crispy</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/ghgemissions/">Ghgemissions</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/praisethesun/">Praisethesun</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/beecolonycollapse/">Beecolonycollapse</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/projects/poisson_tiles_intro/">Azulejos de Poisson: parte 1</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/posts/googoogogo/">Googoogogo</a>
+                    </li>
+                
+                    <li>
+                        <a href="/es/projects/climbingcenters/">¿Cuántos centros de escalada debería haber en una ciudad?</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="languages">
+            <strong>Languages</strong><br>
+            
+            
+            <a href="/es/" class="active">es</a>
+            
+            
+            
+            <a href="/">en</a>
+            
+            
+        </div>
+        
+      
+      </div>
+
+        <div class="credits">
+          <div class="footer-box">
+              <div class="copyright">
+                  <a href="https://github.com/skyetomez" target="_blank">
+                      &copy;
+                      
+                      2018
+                      
+                      by Skyler
+                  </a>
+                  
+              </div>
+              <div class="author">
+                  <a href="https://github.com/skyetomez/skyetomez.github.io"
+                      target="_blank">Skyler&#39;s Theme</a>
+              </div>
+
+              <span class = "social_icons">
+
+                <button>
+                  <a href="http://www.twitter.com/t42639805"><i class="bi bi-twitter"></i></a>  
+                </button>
+          
+                <button>
+                  <a href= "http://www.instagram.com/skylerase"><i class="bi bi-instagram"></i></a>
+                </button>
+                
+                <button>
+                  <a href="/">
+                    <img src=/logo_sq.png >
+                  </a> 
+                </button> 
+              
+                <button>
+                  <a href="http://www.github.com/skyetomez"><i class="bi bi-github"></i></a>  
+                </button>
+               
+             
+                
+                <button>
+                  <a href="https://www.linkedin.com/in/skyler-thomas-aa494615b">
+                  <i class="bi bi-linkedin"></i>
+                  </a>
+                </button>
+          
+                </span>
+
+
+          </div>
+      
+
+
+
+      <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+
+
+    </div>
+  
+      </footer>
+
+
+    </body>
+
+
+    
+</html>
