@@ -19,7 +19,7 @@
 
     
     
-    <title>Crispy | Skyler blog ES</title>
+    <title>CRISPR: usos/usos malos/posibilidades | Skyler blog ES</title>
     <style>
 
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
@@ -91,26 +91,36 @@ footer{
     border-width: 2px;
 }
 
-.recent-posts{
+.footer-box >.recent-posts{
     width: 75%;
 }
-.languages{
+.footer-box > .languages{
     width: 25%; 
 }
 .credits{
  
+    display: flex;
+    flex-direction: row; 
 
+    border-color:black;
+    border-top: solid;
+    border-width: 2px;
 
 }
 
-.social_icons{
-    
-    margin-left: auto;
-    margin-right: auto;
+.credits > .social_icons{
+    width: 75%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right; 
     
+
+}
+
+.credits > .author{
+    width: 25%;
 
 }
 
@@ -118,12 +128,10 @@ button {
   background-color: whitesmoke;  
   border: none;
   color: #007bff;
-   
-  padding: 2% 15%;
-  text-align: center;
+  padding: 0% 4%;
   text-decoration: none;
   display: inline-block;
-  font-size: 2em;
+  font-size: 3.5vw;
 
 
   text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
@@ -271,11 +279,27 @@ body{
 }
 
 
-
-
 header{
 
 margin-top: 1.5em;
+}
+
+
+.credits > .social_icons{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right; 
+    
+
+}
+
+.credits > .author{
+    width: 45%;
+    font-size: clamp(.7em, 3vw, 1em); 
+    
 }
 
 
@@ -285,11 +309,10 @@ button {
   border: none;
   color: #007bff;
    
-  padding: 1% 5%;
-  text-align: center;
+  padding: 0% 4%;
   text-decoration: none;
   display: inline-block;
-  font-size: 1em;
+  font-size: 3.5vw;
 
 
   text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
@@ -338,8 +361,157 @@ button >a> img{
       <div>      
       
 
-<h1>Crispy</h1> 
+<h1>CRISPR: usos/usos malos/posibilidades</h1> 
 
+<h2 id="1-resumen-y-antecedentes">1 Resumen y antecedentes</h2>
+<p><em>Esto fue escrito en 2018 como parte del curso sobre ser verde y fuentes de energía renovables en los tiempos modernos.</em></p>
+<p>Una nueva y revolucionaria herramienta de edición del genoma llamada CRISPR ha sido y sigue cambiando el
+paisaje de la genética y la bioingeniería. Al tomar prestado este sistema de defensa selectivo y programable de bacterias/arqueas, los científicos han sido capaces de hacer cosas como: prevenir enfermedades del corazón
+a nivel del embrión humano y desarrollar tiras reactivas para el diagnóstico médico de campo. Como resultado
+Como resultado de estos logros y de la versatilidad de CRISPR, se ha despertado el interés general del público
+público se ha despertado y ha dado lugar a muchas especulaciones sobre un futuro de ingeniería genética. No cabe duda de que
+que la ingeniería genética y biológica está siendo y ha sido revolucionada por esta nueva tecnología,
+sin embargo, algunos casos límite de sus usos son más ficción que realidad.</p>
+<hr>
+<h2 id="2-introducción">2 Introducción</h2>
+<p>Las repeticiones palindrómicas cortas agrupadas y regularmente espaciadas (CRISPR) es el nombre de la parte de
+genoma responsable de almacenar la información genética de los bacteriófagos invasores. Se trata de una
+sistema de defnición evolucionado y adaptativo utilizado por bacterias y arqueas [1]. El sistema se basa en pequeños
+ARN para la detección y el silenciamiento de ácidos nucleicos extraños según la secuencia [1]. El sistema está
+compuesto por genes cas organizados en operones formados por secuencias que apuntan al genoma llamadas
+espaciadores que se intercalan en intervalos regulativos entre repeticiones palindrómicas [1].
+El sistema CRISPR Cas funciona reconociendo selectivamente y luego cortando o silenciando secuencias específicas de ácido
+secuencias de ácido nucleico. Un ARN guía (ARNg), un ARN de transferencia (ARNtrans) y una secuencia objetivo
+son utilizados por la proteína cas para encontrar una cadena de ARN complementaria a la secuencia objetivo. Una vez
+Una vez que se encuentra la secuencia objetivo y un motivo adyacente al protoespaciador (PAM), la proteína
+se une y luego hace algo dependiendo de cómo haya madurado o mutado la proteína [2]. En
+su forma salvaje, la proteína Cas9 cortará en la región de ambos lados del ADN, en la
+aproximadamente la misma longitud, o en el lado único del ARN [3]. Hay tres clases de</p>
+<p>sistemas CRISPR/Cas. Los tipos 1 y 3 son similares en el sentido de que la proteína cas procesa
+el ARN pre-CRISPR (pre-crRNA), se convierten en una proteína completa, y escinden el ARN complementario
+a este ARN. El tipo 2 contrasta en que se desarrolla utilizando un ARN de doble cadena (ds) específico
+ribonucleo en presencia de Cas9 y esta proteína es necesaria en el silenciamiento guiado por crRNA
+del ADN extraño [1]. Del mismo modo, Cas13 es necesaria en el procesamiento de ARN extraño [4].
+Dado que el sistema CRISPR/Cas sólo necesita tener la secuencia de ADN de interés en su
+biblioteca, es altamente programable y fácil de emplear. Por eso CRISPR es una técnica tan prometedora.
+técnica tan prometedora. Además, ha captado la atención y la imaginación de la gente en
+la población en general, con la publicación de libros como Prometheus [5], académicos, políticos
+y los negocios, con varias empresas de bioingeniería [6]. CRISPR tiene potencial para ser utilizado
+para realizar ediciones en cualquier lugar donde se utilice material nucleico, por ejemplo, embriones de animales, semillas de plantas, parásitos
+virus, etc., por lo que sus usos son muy amplios. Además, permite la facilidad de detección de dicho material debido a
+la programabilidad y selectividad de Cas9/13 [6].</p>
+<hr>
+<h2 id="3-resultados">3 Resultados</h2>
+<h3 id="31-edición-de-arn-con-crispr-cas13">3.1 Edición de ARN con CRISPR-Cas13</h3>
+<p>Cox et. al. demostraron que el sistema CRISPR-Cas13 podía realizar ediciones de ARN con
+precisión quirúrgica. Se introdujo un reportero de edición de ARN en un Cluc mediante una mutación puntual en
+un solo nucleótido, cambiando el nucleótido de guanina por uno de adenosina. Esta mutación sin sentido
+Esta mutación sin sentido puede ser reparada funcionalmente a su codón de tipo salvaje mutando la A a una I mediante el uso de
+dCas13b-ADARDD(E488Q) [3]. Este sistema, denominado RNA Editing for Programmable A to I
+versión 1 (REPAIRv1), validó que se podía lograr una edición precisa del ARN en
+sitio de prueba. También se observó que esta edición se produce con mayor precisión con espaciadores más largos (50 nucleótidos
+de nucleótidos) frente a los más cortos (30 nucleótidos), pero con los espaciadores más largos
+alrededor del sitio objetivo, hubo una mayor propensión a la edición en adenosinas no objetivo
+dentro de una ventana de secuenciación determinada [3]. Además, se demostró que el sistema REPAIRv1
+que funciona en células vivas de mamíferos para corregir enfermedades humanas relacionadas con mutaciones [3].</p>
+<h3 id="32-orientación-del-arn-con-crispr-cas13">3.2 Orientación del ARN con CRISPR-Cas13</h3>
+<p>Abudayyeh y otros demostraron que el sistema CRISPR-Cas13
+puede ser diseñado para el derribo y la unión de ARN en células de mamíferos. La especificidad de Cas13a
+se probó in vivo mediante la introducción de desajustes individuales en una guía dirigida a Gluc, un
+o genes endógenos. Se comprobó que el knockdown era sensible a los desajustes en la región central de la semilla del gen.
+en la región central del dúplex guía-objetivo, lo que se confirmó además
+por medio de perfiles bioquímicos. Dado que la interferencia de ARN es conocida por tener efectos fuera del objetivo, se realizó una
+se llevó a cabo una secuencia de ARNm en todo el transcriptoma para evaluar los efectos fuera del objetivo. Esto se hizo
+Se realizó proporcionando al Cas13 una opción de la región objetivo o de la construcción de ARNhc y se
+se encontró que un derribo significativo de la transcripción objetivo (P &lt; 0,01) [4].</p>
+<h3 id="33-modelo-computacional-de-conducción-génica">3.3 Modelo Computacional de Conducción Génica</h3>
+<p>Se desarrolló un modelo estocástico de flujo de genes por impulso genético para entender cómo el impulso genético podría llevar a la fijación.
+de genes puede llevar a la fijación. Los supuestos subyacentes del modelo son una población finita
+y que se basa en un modelo basado en Moran. Se encontró, a través de la simulación numérica de
+subpoblaciones y 3 alelos, tipo salvaje, impulso genético, resistencia, en organismos diploides, que el aislamiento
+como prevención de la invasión de las poblaciones impulsadas por genes de una especie, a menos que la tasa de migración se mantenga
+se mantenga extremadamente baja (10-5 en una escala de 0 a 1), que el flujo de genes está casi garantizado en invadir todas
+las subpoblaciones vinculadas a la originaria, lo que conduce a la fijación del impulso génico [7]. Es decir,
+Los sistemas de impulsores genéticos CRISPR son capaces de propagarse a gran distancia, a menos que estén fuertemente aislados.</p>
+<hr>
+<h2 id="4-discusión">4 Discusión</h2>
+<p>La facilidad de uso, la rapidez de aplicación y la falta de sensibilidad de CRISPR es la razón por la que es una tecnología tan emocionante.
+tecnología. En particular, el potencial para modificar genéticamente embriones humanos in vivo ha atraído
+la atención del público en general por sus ramificaciones éticas y genéticas [8]. Las preguntas de cómo
+de cómo se regularía esta tecnología, cuánto costaría y quién tendría acceso a ella.
+son cuestiones inmediatas a la posibilidad de que esta edición embrionaria se comercialice. [5]
+Además, el potencial de CRISPR para optimizar los organismos podría dar lugar a especies altamente invasivas en las poblaciones silvestres [7]. Sin embargo, la realidad de CRISPR es que actualmente se está utilizando para
+rápidamente el material nucleico de cosas potencialmente dañinas [9].</p>
+<h3 id="41-usos-prueba-de-campo-para-enfermedades">4.1 Usos: Prueba de campo para enfermedades</h3>
+<p>Un laboratorio del MIT desarrolló una forma de utilizar CRISPR para detectar de forma rápida y barata material de ácido nucleico
+nucleico. La herramienta de diagnóstico SHERLOCK (Specific High Sensitivity Reporter unLOCKing) es una
+de papel que utiliza un reportero de ARN fluorescente para informar de la presencia o no de un
+material de ácido nucleico está presente en un medio [6]. Si el material nuclear está presente, Cas13 se
+Si el material nuclear está presente, Cas13 se unirá al material y lo cortará, pero debido a la naturaleza de la enzima, se unirá y cortará el
+reportero, así como a otro material nuclear cercano. Este efecto secundario se aprovechó y
+se utilizó para hacer que una tira reactiva mostrara una línea negra, similar a la de un test de embarazo, en cuestión de minutos. Esta
+rapidez y facilidad de uso le da el potencial de cambiar la salud pública en zonas como África y
+Sudamérica o incluso en hospitales para la detección de células tumorales [9].</p>
+<h3 id="42-usos-indebidos-bebés-de-diseño">4.2 Usos indebidos: Bebés de diseño</h3>
+<p>La edición genética mediante el sistema CRISPR/Cas se ha utilizado tanto en China como en Estados Unidos
+para editar la genética de los embriones. En Estados Unidos, CRISPR-Cas9 se ha utilizado para corregir un
+defecto genético que puede provocar un fallo cardíaco [10]. Como el cambio se realizó en el diploide formado
+tras el encuentro del esperma con el óvulo, el cambio es heredable. La noticia de poder hacer esto ha provocado un
+de la edición de la línea germinal humana para alterar a los humanos para que tengan cualquier cosa, desde pelo rubio hasta alas.
+desde pelo rubio hasta alas. A pesar del poder de CRISPR, es poco probable que esto ocurra. La idea de
+La idea de esto se basa en el adagio de la naturaleza contra la crianza y que se dice que los talentos y habilidades de un niño caen
+más en la segunda categoría que en la primera. Además, incluso el caso de que pudiéramos alterar
+seres humanos a nivel de talento desde el nivel de la genética, los efectos fuera de objetivo o si
+el embrión resultante se desarrollaría son especulativos [8]. La literatura demuestra cambios en un
+único locus y más aún en uno o unos pocos nucleótidos, no en múltiples loci por un gran número
+de nucleótidos.</p>
+<h3 id="43-potencial-invasividad">4.3 Potencial: Invasividad</h3>
+<p>Otro uso potencial del CRISPR es la bioingeniería de impulsores genéticos. Los impulsores genéticos son ventajas genéticas
+ventajas genéticas programadas a alelos específicos de tal manera que si una copia del alelo está presente, se
+en los organismos que se reproducen sexualmente, con una probabilidad muy superior al 50% [11].
+probabilidad [11]. Esta fenomenología no es nueva y se ha observado en las moscas de la fruta desde los
+década de 1950 [11], sin embargo, la idea de utilizarla como herramienta para controlar o eliminar la propagación de ciertas
+enfermedades es nueva y punto de controversia. Hay argumentos a favor del uso de los impulsores genéticos que sostienen
+que es beneficioso para eliminar especies invasoras y patógenos como la malaria y que en el
+caso de mezclarse con alelos de tipo salvaje, la resistencia en el locus impediría la fijación del impulsor [12].
+Sin embargo, otros sostienen que este mecanismo es probable que sea muy invasivo y puede dar lugar a
+fijación del alelo elegido en una población [7].</p>
+<hr>
+<h2 id="referencias">Referencias</h2>
+<ol>
+<li>Martin Jinek et al. “A Programmable Dual-RNA-Guided DNA Endonuclease in Adaptive
+Bacterial Immunity”. In: 337 (June 2012), pp. 816–21.</li>
+<li>Shiraz Shah et al. “Protospacer recognition motifs”. In: 10 (Feb. 2013).</li>
+<li>David B. T. Cox et al. “RNA editing with CRISPR-Cas13”. In: Science (2017). doi: 10.
+1126/science.aaq0180. eprint: <a href="http://science.sciencemag.org/content/early/">http://science.sciencemag.org/content/early/</a>
+2017/10/24/science.aaq0180.full.pdf. url: <a href="http://science.sciencemag.org/">http://science.sciencemag.org/</a>
+content/early/2017/10/24/science.aaq0180.</li>
+<li>Omar Abudayyeh et al. “RNA targeting with CRISPR–Cas13”. In: 550 (Oct. 2017).</li>
+<li>Jessica Berg. “Editing human embryos with CRISPR is moving ahead – now’s the time
+to work out the ethics”. In: THE CONVERSATION: Academic rigor, journalistic flair
+(July 2017). url: <a href="https://theconversation.com/editing-human-embryos-with-">https://theconversation.com/editing-human-embryos-with-</a>
+crispr-is-moving-ahead-nows-the-time-to-work-out-the-ethics-81732.</li>
+<li>Broad Institue. “Researchers advance CRISPR-based tool for diagnosing disease”. In: (Feb.
+2018).</li>
+<li>Charleston Noble et al. “Current CRISPR gene drive systems are likely to be highly invasive
+in wild populations”. In: bioRxiv (2017). doi: 10.1101/219022. eprint: https://www.
+biorxiv.org/content/early/2017/11/16/219022.full.pdf. url: https://www.
+biorxiv.org/content/early/2017/11/16/219022.</li>
+<li>Pam Belluck. “Gene Editing for ‘Designer Babies’ ? Highly Unlikely, Scientists Say”. In: New
+York Times (Aug. 2017). url: <a href="https://www.nytimes.com/2017/08/04/science/">https://www.nytimes.com/2017/08/04/science/</a>
+gene-editing-embryos-designer-babies.html.</li>
+<li>Alessandra Potenza. “With a little detective work, CRISPR can say what the infection is”.
+In: The Verge (Apr. 2017).
+6</li>
+<li>Tina Hesman Saey. “Gene editing of human embryos gets rid of a mutation that causes
+heart failure”. In: ScienceNews: Magazine of the Society for Science the Public 192.03
+(Sept. 2017). url: https : / / www . sciencenews . org / article / crispr - gene -
+editing-human-embryos.</li>
+<li>FAQs:Gene drives. url: https : / / wyss . harvard . edu / staticfiles / newsroom /
+pressreleases/Gene%5C%20drives%5C%20FAQ%5C%20FINAL.pdf.</li>
+<li>Wyss Institue. “A new genome editing strategy offers potential way to control spread of
+insect-borne disease and invasive species”. In: (July 2014).</li>
+</ol>
 
 
 
@@ -361,7 +533,7 @@ button >a> img{
                 
                 
                     <li>
-                        <a href="/es/posts/crispy/">Crispy</a>
+                        <a href="/es/posts/crispy/">CRISPR: usos/usos malos/posibilidades</a>
                     </li>
                 
                     <li>
@@ -369,11 +541,11 @@ button >a> img{
                     </li>
                 
                     <li>
-                        <a href="/es/posts/praisethesun/">Praisethesun</a>
+                        <a href="/es/posts/praisethesun/">Saludo al Sol</a>
                     </li>
                 
                     <li>
-                        <a href="/es/posts/beecolonycollapse/">Beecolonycollapse</a>
+                        <a href="/es/posts/beecolonycollapse/">Colapso de las colonias de abejas: Estudio de causas y soluciones</a>
                     </li>
                 
                     <li>
@@ -409,8 +581,9 @@ button >a> img{
       </div>
 
         <div class="credits">
-          <div class="footer-box">
+          
               
+          
               <div class="author">
                   <a href="https://github.com/skyetomez/skyetomez.github.io"
                       target="_blank"> Skyler&#39;s Theme</a>
@@ -447,7 +620,7 @@ button >a> img{
                 </span>
 
 
-          </div>
+        </div>
       
 
 

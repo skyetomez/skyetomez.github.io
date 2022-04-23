@@ -91,26 +91,36 @@ footer{
     border-width: 2px;
 }
 
-.recent-posts{
+.footer-box >.recent-posts{
     width: 75%;
 }
-.languages{
+.footer-box > .languages{
     width: 25%; 
 }
 .credits{
  
+    display: flex;
+    flex-direction: row; 
 
+    border-color:black;
+    border-top: solid;
+    border-width: 2px;
 
 }
 
-.social_icons{
-    
-    margin-left: auto;
-    margin-right: auto;
+.credits > .social_icons{
+    width: 75%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right; 
     
+
+}
+
+.credits > .author{
+    width: 25%;
 
 }
 
@@ -118,12 +128,10 @@ button {
   background-color: whitesmoke;  
   border: none;
   color: #007bff;
-   
-  padding: 2% 15%;
-  text-align: center;
+  padding: 0% 4%;
   text-decoration: none;
   display: inline-block;
-  font-size: 2em;
+  font-size: 3.5vw;
 
 
   text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
@@ -271,11 +279,27 @@ body{
 }
 
 
-
-
 header{
 
 margin-top: 1.5em;
+}
+
+
+.credits > .social_icons{
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: right; 
+    
+
+}
+
+.credits > .author{
+    width: 45%;
+    font-size: clamp(.7em, 3vw, 1em); 
+    
 }
 
 
@@ -285,11 +309,10 @@ button {
   border: none;
   color: #007bff;
    
-  padding: 1% 5%;
-  text-align: center;
+  padding: 0% 4%;
   text-decoration: none;
   display: inline-block;
-  font-size: 1em;
+  font-size: 3.5vw;
 
 
   text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
@@ -341,7 +364,7 @@ button >a> img{
 <h1>Bee colony collapse: Causes and Solutions survey</h1> 
 
 <h2 id="summary-and-motivation">Summary and Motivation</h2>
-<p>This was written in 2018 as part of course on being green and renewable energy sources in modern times. During this time, bee colonies were collapsing and caused a huge scare in the USA especially in the almond industry.</p>
+<p><em>This was written in 2018 as part of course on being green and renewable energy sources in modern times. During this time, bee colonies were collapsing and caused a huge scare in the USA especially in the almond industry.</em></p>
 <p>Apis mellifera (honeybee) are one of the most studied insects in the world due to their crucial role as a
 pollinator of almost 85% of North American and European crops. Prior to 2013, Colony Collapse Disorder
 (CCD) was a new and dangerous phenomena causing wide spread hive loss which directly impacted the
@@ -593,8 +616,9 @@ tor by a systemic mode of action”. In: 8 (Dec. 2018).</p>
       </div>
 
         <div class="credits">
-          <div class="footer-box">
+          
               
+          
               <div class="author">
                   <a href="https://github.com/skyetomez/skyetomez.github.io"
                       target="_blank"> Skyler&#39;s Theme</a>
@@ -631,7 +655,7 @@ tor by a systemic mode of action”. In: 8 (Dec. 2018).</p>
                 </span>
 
 
-          </div>
+        </div>
       
 
 
