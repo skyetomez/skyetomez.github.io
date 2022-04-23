@@ -91,26 +91,36 @@ footer{
     border-width: 2px;
 }
 
-.recent-posts{
+.footer-box >.recent-posts{
     width: 75%;
 }
-.languages{
+.footer-box > .languages{
     width: 25%; 
 }
 .credits{
  
+    display: flex;
+    flex-direction: row; 
 
+    border-color:black;
+    border-top: solid;
+    border-width: 2px;
 
 }
 
-.social_icons{
-    
-    margin-left: auto;
-    margin-right: auto;
+.credits > .social_icons{
+    max-width: 75%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center; 
     
+
+}
+
+.credits > .author{
+    width: 25%;
 
 }
 
@@ -370,7 +380,7 @@ button >a> img{
                     </li>
                 
                     <li>
-                        <a href="/es/posts/ghgemissions/">Ghgemissions</a>
+                        <a href="/es/posts/ghgemissions/">Emisiones GEI</a>
                     </li>
                 
                     <li>
@@ -414,20 +424,12 @@ button >a> img{
       </div>
 
         <div class="credits">
-          <div class="footer-box">
-              <div class="copyright">
-                  <a href="https://github.com/skyetomez" target="_blank">
-                      &copy;
-                      
-                      2018
-                      
-                      by Skyler
-                  </a>
-                  
-              </div>
+          
+              
+          
               <div class="author">
                   <a href="https://github.com/skyetomez/skyetomez.github.io"
-                      target="_blank">Skyler&#39;s Theme</a>
+                      target="_blank"> Skyler&#39;s Theme</a>
               </div>
 
               <span class = "social_icons">
@@ -461,7 +463,7 @@ button >a> img{
                 </span>
 
 
-          </div>
+        </div>
       
 
 
