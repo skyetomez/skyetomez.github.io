@@ -6,10 +6,46 @@
     <description>Recent content in Tags on Skyler blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Apr 2022 20:43:03 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 10 Sep 2022 17:35:49 -0400</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>en</title>
+      <link>http://localhost:1313/tags/en/</link>
+      <pubDate>Sat, 10 Sep 2022 17:35:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/en/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eng</title>
+      <link>http://localhost:1313/tags/eng/</link>
+      <pubDate>Sat, 10 Sep 2022 17:35:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/eng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>resources</title>
+      <link>http://localhost:1313/tags/resources/</link>
+      <pubDate>Sat, 10 Sep 2022 17:35:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/resources/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>study</title>
+      <link>http://localhost:1313/tags/study/</link>
+      <pubDate>Sat, 10 Sep 2022 17:35:49 -0400</pubDate>
+      
+      <guid>http://localhost:1313/tags/study/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>math</title>
@@ -26,15 +62,6 @@
       <pubDate>Sun, 03 Apr 2022 20:43:03 +0200</pubDate>
       
       <guid>http://localhost:1313/tags/probability/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>en</title>
-      <link>http://localhost:1313/tags/en/</link>
-      <pubDate>Mon, 07 Mar 2022 18:57:23 +0100</pubDate>
-      
-      <guid>http://localhost:1313/tags/en/</guid>
       <description></description>
     </item>
     

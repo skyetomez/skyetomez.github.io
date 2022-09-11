@@ -3,6 +3,51 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost:1313/posts/learneng/resouce_list/</loc>
+    <lastmod>2022-09-10T18:23:29-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/en/</loc>
+    <lastmod>2022-09-10T17:35:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/eng/</loc>
+    <lastmod>2022-09-10T17:35:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/posts/learneng/</loc>
+    <lastmod>2022-09-10T17:35:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/resources/</loc>
+    <lastmod>2022-09-10T17:35:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/study/</loc>
+    <lastmod>2022-09-10T17:35:49-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2022-09-10T17:35:49-04:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost:1313/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/tags/"
+                />
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/posts/crispy/</loc>
     <lastmod>2022-04-15T02:59:03+02:00</lastmod>
     <xhtml:link
@@ -105,26 +150,6 @@
                 hreflang="en"
                 href="http://localhost:1313/tags/probability/"
                 />
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2022-04-03T20:43:03+02:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://localhost:1313/es/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/tags/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://localhost:1313/tags/en/</loc>
-    <lastmod>2022-03-07T18:57:23+01:00</lastmod>
   </url>
   
   <url>

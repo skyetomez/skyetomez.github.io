@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://localhost:1313/es/posts/aprendeng/pagina_principal/</loc>
+    <lastmod>2022-09-10T22:50:38-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/es/posts/aprendeng/</loc>
+    <lastmod>2022-09-10T22:44:50-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://localhost:1313/es/cv/</loc>
     <lastmod>2022-04-19T14:50:05+02:00</lastmod>
     <xhtml:link
