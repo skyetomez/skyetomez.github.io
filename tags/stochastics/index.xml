@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>probability on Skyler blog</title>
-    <link>http://localhost:1313/tags/probability/</link>
-    <description>Recent content in probability on Skyler blog</description>
+    <title>stochastics on Skyler blog</title>
+    <link>http://localhost:1313/tags/stochastics/</link>
+    <description>Recent content in stochastics on Skyler blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Nov 2022 22:05:29 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/probability/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Nov 2022 22:05:29 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/stochastics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Stochastic Processes</title>
       <link>http://localhost:1313/projects/math/introduction-to-stochastic-processes/</link>
@@ -28,16 +28,6 @@ We solve this by eliminating variables.
 Find the function $f(n), n = 0,1,&amp;hellip;,10$ that satisfies \begin{equation*} f(n) = \frac{1}{4}f(n-1)+\frac{3}{4}f(n+1), n=1,2,..,9, \end{equation*} and $f(0)=0,~f(1)=1$.
 Solution :
 The Fibonacci numbers $F_n$ are defined by $F_1=1,~F_2=1$ and for $n&amp;gt;2$, $F_n=F_{n-1}+F_{n-2}$. Find a formula for $F_n$ by solving the difference equation.</description>
-    </item>
-    
-    <item>
-      <title>Poisson tiles: part 1</title>
-      <link>http://localhost:1313/projects/poisson_tiles_intro/</link>
-      <pubDate>Sun, 03 Apr 2022 20:43:03 +0200</pubDate>
-      
-      <guid>http://localhost:1313/projects/poisson_tiles_intro/</guid>
-      <description>Summary The motivation for this mini-project was to not only get more familiar with working with $\tt{pygame}$ but also to give myself a playground that I could hook into other packages like $\tt{networkx}$. I also wanted to practice generating fractals. While looking over old notes, I came across the rules for a random process that looked interesting to visualize and potential to become fractal-like.
-Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Enlightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
     </item>
     
   </channel>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-	
-	<sitemap>
-	   	<loc>http://localhost:1313/es/sitemap.xml</loc>
-		
-	   	<lastmod>2022-09-10T22:50:38-04:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>http://localhost:1313/en/sitemap.xml</loc>
-		
-	   	<lastmod>2022-09-10T18:23:29-04:00</lastmod>
-		
-	</sitemap>
-	
+  
+  <sitemap>
+    <loc>http://localhost:1313/es/sitemap.xml</loc>
+    
+      <lastmod>2022-09-10T22:50:38-04:00</lastmod>
+    
+  </sitemap>
+  
+  <sitemap>
+    <loc>http://localhost:1313/en/sitemap.xml</loc>
+    
+      <lastmod>2022-11-08T22:05:29-05:00</lastmod>
+    
+  </sitemap>
+  
 </sitemapindex>

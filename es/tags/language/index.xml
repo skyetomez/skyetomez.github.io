@@ -6,11 +6,7 @@
     <description>Recent content in language on Skyler blog ES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 07 Mar 2022 21:09:16 +0100</lastBuildDate>
-    
-	<atom:link href="http://localhost:1313/es/tags/language/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 07 Mar 2022 21:09:16 +0100</lastBuildDate><atom:link href="http://localhost:1313/es/tags/language/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Googoogogo</title>
       <link>http://localhost:1313/es/posts/googoogogo/</link>

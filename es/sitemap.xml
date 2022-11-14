@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>http://localhost:1313/es/posts/aprendeng/pagina_principal/</loc>
     <lastmod>2022-09-10T22:50:38-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/posts/aprendeng/</loc>
     <lastmod>2022-09-10T22:44:50-04:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/cv/</loc>
     <lastmod>2022-04-19T14:50:05+02:00</lastmod>
     <xhtml:link
@@ -25,9 +20,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/cv/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/posts/crispy/</loc>
     <lastmod>2022-04-15T02:59:12+02:00</lastmod>
     <xhtml:link
@@ -40,9 +33,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/posts/crispy/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/posts/ghgemissions/</loc>
     <lastmod>2022-04-15T02:35:38+02:00</lastmod>
     <xhtml:link
@@ -55,9 +46,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/posts/ghgemissions/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/posts/praisethesun/</loc>
     <lastmod>2022-04-15T02:19:58+02:00</lastmod>
     <xhtml:link
@@ -70,9 +59,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/posts/praisethesun/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/posts/beecolonycollapse/</loc>
     <lastmod>2022-04-15T01:58:02+02:00</lastmod>
     <xhtml:link
@@ -85,9 +72,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/posts/beecolonycollapse/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/projects/poisson_tiles_intro/</loc>
     <lastmod>2022-04-03T20:43:20+02:00</lastmod>
     <xhtml:link
@@ -100,9 +85,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/projects/poisson_tiles_intro/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/tags/math/</loc>
     <lastmod>2022-04-03T20:43:20+02:00</lastmod>
     <xhtml:link
@@ -115,9 +98,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/tags/math/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/tags/probability/</loc>
     <lastmod>2022-04-03T20:43:20+02:00</lastmod>
     <xhtml:link
@@ -130,9 +111,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/tags/probability/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/tags/</loc>
     <lastmod>2022-04-03T20:43:20+02:00</lastmod>
     <xhtml:link
@@ -145,9 +124,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/tags/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/tags/english/</loc>
     <lastmod>2022-03-07T21:09:16+01:00</lastmod>
     <xhtml:link
@@ -160,9 +137,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/tags/english/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/posts/googoogogo/</loc>
     <lastmod>2022-03-07T21:09:16+01:00</lastmod>
     <xhtml:link
@@ -175,9 +150,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/posts/googoogogo/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/tags/language/</loc>
     <lastmod>2022-03-07T21:09:16+01:00</lastmod>
     <xhtml:link
@@ -190,14 +163,10 @@
                 hreflang="es"
                 href="http://localhost:1313/es/tags/language/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/tags/linguisics/</loc>
     <lastmod>2022-03-07T21:09:16+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/projects/climbingcenters/</loc>
     <lastmod>2022-01-09T22:16:18+01:00</lastmod>
     <xhtml:link
@@ -210,9 +179,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/projects/climbingcenters/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/posts/mrna_vaccines/</loc>
     <lastmod>2021-08-29T21:44:18+02:00</lastmod>
     <xhtml:link
@@ -225,9 +192,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/posts/mrna_vaccines/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/posts/phosphofructokinase_2/</loc>
     <lastmod>2021-08-29T21:42:39+02:00</lastmod>
     <xhtml:link
@@ -240,9 +205,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/posts/phosphofructokinase_2/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/tags/bchem/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
     <xhtml:link
@@ -255,9 +218,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/tags/bchem/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/tags/bio/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
     <xhtml:link
@@ -270,9 +231,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/tags/bio/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/posts/gerd/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
     <xhtml:link
@@ -285,9 +244,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/posts/gerd/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/tags/science/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
     <xhtml:link
@@ -300,9 +257,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/tags/science/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/posts/vitamin_k_cofactor/</loc>
     <lastmod>2021-08-29T20:41:09+02:00</lastmod>
     <xhtml:link
@@ -315,9 +270,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/posts/vitamin_k_cofactor/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/projects/</loc>
     <lastmod>2020-04-22T16:48:50+02:00</lastmod>
     <xhtml:link
@@ -330,9 +283,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/projects/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/posts/</loc>
     <lastmod>2020-04-22T16:48:36+02:00</lastmod>
     <xhtml:link
@@ -345,9 +296,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/posts/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/</loc>
     <lastmod>2020-03-23T16:29:23+01:00</lastmod>
     <xhtml:link
@@ -360,9 +309,7 @@
                 hreflang="es"
                 href="http://localhost:1313/es/"
                 />
-  </url>
-  
-  <url>
+  </url><url>
     <loc>http://localhost:1313/es/about/</loc>
     <lastmod>2019-09-12T12:17:58+02:00</lastmod>
     <xhtml:link
@@ -376,5 +323,4 @@
                 href="http://localhost:1313/es/about/"
                 />
   </url>
-  
 </urlset>

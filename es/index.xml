@@ -6,11 +6,7 @@
     <description>Recent content in Khanhai&#39;s Blog on Skyler blog ES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Mon, 23 Mar 2020 16:29:23 +0100</lastBuildDate>
-    
-	<atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 23 Mar 2020 16:29:23 +0100</lastBuildDate><atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Pagina Principal</title>
       <link>http://localhost:1313/es/posts/aprendeng/pagina_principal/</link>
@@ -28,11 +24,12 @@ Developed by the University of Cambridge, Write &amp;amp; Improve is a FREE tool
       <pubDate>Tue, 19 Apr 2022 14:50:05 +0200</pubDate>
       
       <guid>http://localhost:1313/es/cv/</guid>
-      <description>Educación  2015-2019 BS, Matemáticas Puras; Universidad de Texas en Austin, (Austin,TX)
-  2014-2019 BSA, Neurociencia; Universidad de Texas en Austin, (Austin,TX)
-  Ene 2017 - Jun 2017 Estudio en el extranjero; Universidad de Uppsala, (Uppsala,Suecia)
-    Certificaciones  2019 Certificado en la enseñanza de inglés a hablantes de otros idiomas (CELTA); CLIC International House, (Sevilla, España)
-  2019 Pre- profesiones de la salud; La Universidad de Texas en Austin, (Austin,TX)</description>
+      <description>Educación 2015-2019 BS, Matemáticas Puras; Universidad de Texas en Austin, (Austin,TX)
+2014-2019 BSA, Neurociencia; Universidad de Texas en Austin, (Austin,TX)
+Ene 2017 - Jun 2017 Estudio en el extranjero; Universidad de Uppsala, (Uppsala,Suecia)
+Certificaciones 2019 Certificado en la enseñanza de inglés a hablantes de otros idiomas (CELTA); CLIC International House, (Sevilla, España)
+2019 Pre- profesiones de la salud; La Universidad de Texas en Austin, (Austin,TX)
+Experiencia Junio 2022 - Ahora Asistente de Investigación; Universidad de Massachusetts; (Amherst, MA)</description>
     </item>
     
     <item>
@@ -82,7 +79,7 @@ La Apis mellifera (abeja melífera) es uno de los insectos más estudiados del m
       
       <guid>http://localhost:1313/es/projects/poisson_tiles_intro/</guid>
       <description>Summary La motivación para este mini-proyecto fue no sólo para familiarizarse con el trabajo con $\tt{pygame}$, sino también para darme un campo de juego que podría enganchar en otros paquetes como $\tt{networkx}$. También quería practicar la generación de fractales. Mientras revisaba viejas notas, me encontré con las reglas de un proceso aleatorio que parecía interesante de visualizar y con potencial para convertirse en un fractal.
- Introduction Simeon Denis Poisson vivió entre 1781 y 1840, durante el final del Siglo de las Luces, un periodo de tiempo caracterizado por un cambio hacia la búsqueda del conocimiento.</description>
+Introduction Simeon Denis Poisson vivió entre 1781 y 1840, durante el final del Siglo de las Luces, un periodo de tiempo caracterizado por un cambio hacia la búsqueda del conocimiento.</description>
     </item>
     
     <item>
@@ -101,7 +98,7 @@ La Apis mellifera (abeja melífera) es uno de los insectos más estudiados del m
       
       <guid>http://localhost:1313/es/projects/climbingcenters/</guid>
       <description>Resumen Mi amigo se preguntaba si había suficientes centros de escalada por ciudad en función de la cantidad de gente que vivía en la ciudad y aquí está mi intento rudimentario de intentar responder a esa pregunta sin nada del otro mundo.
- Introducción Este proyecto se inició como un proyecto conjunto entre un amigo que disfruta de la escalada y yo. Me señaló que estaba convencido de que el número de centros de escalada en nuestra ciudad se correspondía con su tamaño.</description>
+Introducción Este proyecto se inició como un proyecto conjunto entre un amigo que disfruta de la escalada y yo. Me señaló que estaba convencido de que el número de centros de escalada en nuestra ciudad se correspondía con su tamaño.</description>
     </item>
     
     <item>
