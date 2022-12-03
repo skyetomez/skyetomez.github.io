@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bio on Skyler blog</title>
-    <link>http://localhost:1313/tags/bio/</link>
+    <link>http://localhost:41339/tags/bio/</link>
     <description>Recent content in bio on Skyler blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Aug 2021 21:39:40 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/bio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Aug 2021 21:39:40 +0200</lastBuildDate><atom:link href="http://localhost:41339/tags/bio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GERD</title>
-      <link>http://localhost:1313/posts/gerd/</link>
+      <link>http://localhost:41339/posts/gerd/</link>
       <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
       
-      <guid>http://localhost:1313/posts/gerd/</guid>
+      <guid>http://localhost:41339/posts/gerd/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 Gastroesophageal reflux disease (GERD) is a condition affects a lot of people in the world and, sure enough, even without suffering from its chronic effects, the discomfort that comes with acid reflux is a pain that can be appreciated by many. Anyone who has had the bittersweet experience of chowing-down on a scrumptious taco and, realizing only too late, that you forgot to ask for no jalapenos.</description>
     </item>
     
     <item>
       <title>Cofactor: Vitamin K</title>
-      <link>http://localhost:1313/posts/vitamin_k_cofactor/</link>
+      <link>http://localhost:41339/posts/vitamin_k_cofactor/</link>
       <pubDate>Sun, 29 Aug 2021 20:41:09 +0200</pubDate>
       
-      <guid>http://localhost:1313/posts/vitamin_k_cofactor/</guid>
+      <guid>http://localhost:41339/posts/vitamin_k_cofactor/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 The cofactor vitamin K is not only known for its importance in the process of blood coagulation, rather it is also recognized for its ubiquity in photosynthesis as well.
 I learned about this vitamin in a rather uneventful mundane way. I was reading a book (or something) about something and the use of the drug dicoumarol to deplete vitamin K storage was being used to illustrate something else.</description>

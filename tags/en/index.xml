@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>en on Skyler blog</title>
-    <link>http://localhost:1313/tags/en/</link>
+    <link>http://localhost:41339/tags/en/</link>
     <description>Recent content in en on Skyler blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Sep 2022 17:35:49 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/en/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Sep 2022 17:35:49 -0400</lastBuildDate><atom:link href="http://localhost:41339/tags/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>English Learning Materials 📁</title>
-      <link>http://localhost:1313/posts/learneng/</link>
+      <link>http://localhost:41339/posts/learneng/</link>
       <pubDate>Sat, 10 Sep 2022 17:35:49 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/learneng/</guid>
+      <guid>http://localhost:41339/posts/learneng/</guid>
       <description>After teaching English for three years, I&amp;rsquo;ve amassed some class room resouces for various learners&amp;rsquo; levels. These levels are designated by the common european framework of reference for langauges (CEFR) and the material is mostly for levels A2-C1.
 Quizizz quizzes</description>
     </item>
     
     <item>
       <title>Goo goo go go?</title>
-      <link>http://localhost:1313/posts/googoogogo/</link>
+      <link>http://localhost:41339/posts/googoogogo/</link>
       <pubDate>Mon, 07 Mar 2022 18:57:23 +0100</pubDate>
       
-      <guid>http://localhost:1313/posts/googoogogo/</guid>
+      <guid>http://localhost:41339/posts/googoogogo/</guid>
       <description>When I was growing up, I was always deeply interested in languages. I learned some Russian, Italian, Mandarin, and Spanish. During this time, I would occasionally hear the word ‘critical period’ which refers to the hypothesis that prior to a certain time during childhood, a language can be learned to native proficiency and without effort given only input from a more knowledgeable other. From my own experience as a language learner, I believe this as well.</description>
     </item>
     

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>math 📁 on Skyler blog</title>
-    <link>http://localhost:1313/projects/math/</link>
+    <link>http://localhost:41339/projects/math/</link>
     <description>Recent content in math 📁 on Skyler blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Mar 2020 16:30:26 +0100</lastBuildDate><atom:link href="http://localhost:1313/projects/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Mar 2020 16:30:26 +0100</lastBuildDate><atom:link href="http://localhost:41339/projects/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Polynomials by Barbeau</title>
-      <link>http://localhost:1313/projects/math/polynomials/</link>
+      <link>http://localhost:41339/projects/math/polynomials/</link>
       <pubDate>Sun, 15 Sep 2019 13:29:55 +0200</pubDate>
       
-      <guid>http://localhost:1313/projects/math/polynomials/</guid>
+      <guid>http://localhost:41339/projects/math/polynomials/</guid>
       <description> Here are some solutions to the questions in the work book Polynomial by Edward J. Barbeau
 Chapter 1 Section 1 Section 2 Section 3 </description>
     </item>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dsp on Skyler blog</title>
+    <link>http://localhost:41339/tags/dsp/</link>
+    <description>Recent content in dsp on Skyler blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 29 Nov 2022 02:37:31 -0500</lastBuildDate><atom:link href="http://localhost:41339/tags/dsp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Yes/No Hebrew CNN Classification</title>
+      <link>http://localhost:41339/projects/word_classification/</link>
+      <pubDate>Tue, 29 Nov 2022 02:37:31 -0500</pubDate>
+      
+      <guid>http://localhost:41339/projects/word_classification/</guid>
+      <description>Summary Sounds are cool because they’re just a type of signal. Signals are often better understood in their spectrogram form. All of this information can be used by a neural network to learn something. In this case, it learns to identify a word (either a yes or no) by is spectrogram.
+All code is available on my github or the colab notebook here
+Background and Motivation I’ve been interested in machine learning and neural networks since my exposure to it during a computational neuroscience class.</description>
+    </item>
+    
+  </channel>
+</rss>

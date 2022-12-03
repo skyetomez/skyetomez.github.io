@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bio on Skyler blog ES</title>
-    <link>http://localhost:1313/es/tags/bio/</link>
+    <link>http://localhost:41339/es/tags/bio/</link>
     <description>Recent content in bio on Skyler blog ES</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 29 Aug 2021 21:39:40 +0200</lastBuildDate><atom:link href="http://localhost:1313/es/tags/bio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Aug 2021 21:39:40 +0200</lastBuildDate><atom:link href="http://localhost:41339/es/tags/bio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GERD</title>
-      <link>http://localhost:1313/es/posts/gerd/</link>
+      <link>http://localhost:41339/es/posts/gerd/</link>
       <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
       
-      <guid>http://localhost:1313/es/posts/gerd/</guid>
+      <guid>http://localhost:41339/es/posts/gerd/</guid>
       <description>Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.
 La enfermedad por reflujo gastroesofágico (ERGE) es una afección que afecta a muchas personas en el mundo y, ciertamente, incluso sin sufrir sus efectos crónicos, el malestar que conlleva el reflujo ácido es un dolor que puede ser apreciado por muchos. Cualquiera que haya tenido la agridulce experiencia de comer un delicioso taco y darse cuenta demasiado tarde de que se olvidó de pedir que no hubiera jalapeños.</description>
     </item>
     
     <item>
       <title>Cofactor: Vitamina K</title>
-      <link>http://localhost:1313/es/posts/vitamin_k_cofactor/</link>
+      <link>http://localhost:41339/es/posts/vitamin_k_cofactor/</link>
       <pubDate>Sun, 29 Aug 2021 20:41:09 +0200</pubDate>
       
-      <guid>http://localhost:1313/es/posts/vitamin_k_cofactor/</guid>
+      <guid>http://localhost:41339/es/posts/vitamin_k_cofactor/</guid>
       <description>Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.
 El cofactor vitamina K no sólo es conocido por su importancia en el proceso de coagulación de la sangre, sino que también es reconocido por su ubicuidad en la fotosíntesis.
 Me enteré de la existencia de esta vitamina de una manera bastante mundana. Estaba leyendo un libro (o algo así) sobre algo y se utilizaba el uso del fármaco dicumarol para agotar el almacenamiento de vitamina K para ilustrar otra cosa.</description>

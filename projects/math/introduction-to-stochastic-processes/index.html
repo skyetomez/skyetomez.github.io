@@ -1,10 +1,10 @@
 <!doctype html>
 <html lang="en">
   
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=41339&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.104.3" />
+    <meta name="generator" content="Hugo 0.105.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
@@ -46,6 +46,39 @@
 .poisson_images > img{
     max-width: 80%;
 }
+
+.yes_no_images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "sp_i_1 sp_i_2";
+    gap: 1% 2% ;
+    max-width: fit-content;
+
+}
+
+.yes_no_images > img{
+    max-width: 80%;
+}
+
+
+.audio_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+        "audio_1 audio_2";
+    gap: 1% 2% ;
+    max-width: fit-content;
+}
+
+.center_image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+
 
 body{
 
@@ -392,6 +425,10 @@ button >a> img{
                 
                 
                     <li>
+                        <a href="/projects/word_classification/">Yes/No Hebrew CNN Classification</a>
+                    </li>
+                
+                    <li>
                         <a href="/projects/math/introduction-to-stochastic-processes/chapter_0/">Chapter 0</a>
                     </li>
                 
@@ -413,10 +450,6 @@ button >a> img{
                 
                     <li>
                         <a href="/posts/beecolonycollapse/">Bee colony collapse: Causes and Solutions survey</a>
-                    </li>
-                
-                    <li>
-                        <a href="/projects/poisson_tiles_intro/">Poisson tiles: part 1</a>
                     </li>
                 
             </ul>
