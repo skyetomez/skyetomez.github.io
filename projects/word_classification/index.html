@@ -4,7 +4,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.105.0">
+    <meta name="generator" content="Hugo 0.108.0">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
@@ -455,7 +455,7 @@ button >a> img{
 </figure>
 <h2 id="discussion">Discussion</h2>
 <p>The most challenging part of this project, like in any data science project, is the preparation of the data set for the tool being used. Since the goal of this project was to classify the utterance using its spectrogram, the approach I am taking is to feed the neural network batches of labeled spectrograms containing only a yes or a no.</p>
-<p>The spectrogram representation of a sound is only as well defined as how little noise is present. This is what makes isolation of the sounds in this form difficult. Often a lot of per-processing is required to produce a clean representation of sound.</p>
+<p>The spectrogram representation of a sound is only as well defined as how little noise is present. This is what makes isolation of the sounds in this form difficult. Often a lot of pre-processing is required to produce a clean representation of sound.</p>
 <p>One approach might be to slice at intervals where the sound in decibels is minimal. This is a fair approach and follows how you hear sound. However, when noise is introduced, these points are not well defined as it is possible to have noisy data that competes on a similar decibel level as the signal of interest. An improvement on this approach might be taking averages. This could be across time segments, frequency bins or by passing kernels that compute local means or medians of pixel values.</p>
 <p>They still have the drawback of having to reduce the noise in the spectrogram sufficiently enough to process the signal.</p>
 <p>Since the goal of this project was just to classify the data set using a neural network, there is no cleaning of the data; however, in practice this is a crucial step to ensure that the signal will be processed by the network.</p>

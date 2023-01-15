@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>posts on Skyler blog</title>
-    <link>http://localhost:41339/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in posts on Skyler blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2020 16:48:36 +0200</lastBuildDate><atom:link href="http://localhost:41339/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Apr 2020 16:48:36 +0200</lastBuildDate><atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CRISPR uses / misuses / potential</title>
-      <link>http://localhost:41339/posts/crispy/</link>
+      <link>http://localhost:1313/posts/crispy/</link>
       <pubDate>Fri, 15 Apr 2022 02:59:03 +0200</pubDate>
       
-      <guid>http://localhost:41339/posts/crispy/</guid>
+      <guid>http://localhost:1313/posts/crispy/</guid>
       <description>1 Summary and Background This was written in 2018 as part of course on being green and renewable energy sources in modern times.
 A new revolutionary genome-editing tool called CRISPR has been and continues to change the landscape of genetics and bioengineering. In borrowing this selective and programmable bacteria/archaea defense system, scientists have been able to do things such as: prevent heart disease at the level of the human embryo and develop test strips for field medical diagnostics.</description>
     </item>
     
     <item>
       <title>GHG emissions and Farming</title>
-      <link>http://localhost:41339/posts/ghgemissions/</link>
+      <link>http://localhost:1313/posts/ghgemissions/</link>
       <pubDate>Fri, 15 Apr 2022 02:35:30 +0200</pubDate>
       
-      <guid>http://localhost:41339/posts/ghgemissions/</guid>
+      <guid>http://localhost:1313/posts/ghgemissions/</guid>
       <description>Summary and Background This was written in 2018 as part of course on being green and renewable energy sources in modern times.
 Greenhouse Gas (GHG) emissions from the U.S. department of agriculture are mostly from studied from transportation, industry, and electricity generation despite the fundamental importance of agriculture, forestry and other land usage (AFOLU) . Little has been done until recent decades to understand the impact on climate change by this sector in America and moreover the world.</description>
     </item>
     
     <item>
       <title>Praise the sun</title>
-      <link>http://localhost:41339/posts/praisethesun/</link>
+      <link>http://localhost:1313/posts/praisethesun/</link>
       <pubDate>Fri, 15 Apr 2022 02:20:15 +0200</pubDate>
       
-      <guid>http://localhost:41339/posts/praisethesun/</guid>
+      <guid>http://localhost:1313/posts/praisethesun/</guid>
       <description>Summary and Background This was written in 2018 as part of course on being green and renewable energy sources in modern times.
 Solar power as an alternative source of energy is still facing push back by those who stem to profit from not moving to photovoltaics as a source of electricity despite large number of active projects and movement in tends in research and development to solar power over the past 2 decades.</description>
     </item>
     
     <item>
       <title>Bee colony collapse: Causes and Solutions survey</title>
-      <link>http://localhost:41339/posts/beecolonycollapse/</link>
+      <link>http://localhost:1313/posts/beecolonycollapse/</link>
       <pubDate>Fri, 15 Apr 2022 01:57:56 +0200</pubDate>
       
-      <guid>http://localhost:41339/posts/beecolonycollapse/</guid>
+      <guid>http://localhost:1313/posts/beecolonycollapse/</guid>
       <description>Summary and Motivation This was written in 2018 as part of course on being green and renewable energy sources in modern times. During this time, bee colonies were collapsing and caused a huge scare in the USA especially in the almond industry.
 Apis mellifera (honeybee) are one of the most studied insects in the world due to their crucial role as a pollinator of almost 85% of North American and European crops.</description>
     </item>
     
     <item>
       <title>Goo goo go go?</title>
-      <link>http://localhost:41339/posts/googoogogo/</link>
+      <link>http://localhost:1313/posts/googoogogo/</link>
       <pubDate>Mon, 07 Mar 2022 18:57:23 +0100</pubDate>
       
-      <guid>http://localhost:41339/posts/googoogogo/</guid>
+      <guid>http://localhost:1313/posts/googoogogo/</guid>
       <description>When I was growing up, I was always deeply interested in languages. I learned some Russian, Italian, Mandarin, and Spanish. During this time, I would occasionally hear the word ‘critical period’ which refers to the hypothesis that prior to a certain time during childhood, a language can be learned to native proficiency and without effort given only input from a more knowledgeable other. From my own experience as a language learner, I believe this as well.</description>
     </item>
     
     <item>
       <title>mRNA Vaccines with Dr. Kizzy</title>
-      <link>http://localhost:41339/posts/mrna_vaccines/</link>
+      <link>http://localhost:1313/posts/mrna_vaccines/</link>
       <pubDate>Sun, 29 Aug 2021 21:44:18 +0200</pubDate>
       
-      <guid>http://localhost:41339/posts/mrna_vaccines/</guid>
+      <guid>http://localhost:1313/posts/mrna_vaccines/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 Kizzy did an amazing job making vaccine efficacy easy to understand when she showed that it is just the number of people of the got sick with the placebo compared to the total number of people that got sick. In other words, it&amp;rsquo;s a percentage that hides a ratio.
 I found this interesting because if 18/20 is the the vaccine efficacy, then 20-18 is the number of people who got sick with the vaccine.</description>
@@ -69,10 +69,10 @@ I found this interesting because if 18/20 is the the vaccine efficacy, then 20-1
     
     <item>
       <title>Phosphofructokinase-2</title>
-      <link>http://localhost:41339/posts/phosphofructokinase_2/</link>
+      <link>http://localhost:1313/posts/phosphofructokinase_2/</link>
       <pubDate>Sun, 29 Aug 2021 21:42:39 +0200</pubDate>
       
-      <guid>http://localhost:41339/posts/phosphofructokinase_2/</guid>
+      <guid>http://localhost:1313/posts/phosphofructokinase_2/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 PHK2 is an important enzyme in the regulation of blood sugar levels as it responds to the peptide hormones insulin and glucagon that are both released by the pancreas.
 I&amp;rsquo;ve chosen the enzyme phosphofructokinase-2 (PHK2) and for 2 principle reasons: (1) I find this enzyme interesting because of how it differs from phosphofructokinase-1 (PFK1) in that it has a much lower affinity (greater K_m) for the same substrate glucose 6-phosphate (G6P) than PFK1 [1].</description>
@@ -80,20 +80,20 @@ I&amp;rsquo;ve chosen the enzyme phosphofructokinase-2 (PHK2) and for 2 principl
     
     <item>
       <title>GERD</title>
-      <link>http://localhost:41339/posts/gerd/</link>
+      <link>http://localhost:1313/posts/gerd/</link>
       <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
       
-      <guid>http://localhost:41339/posts/gerd/</guid>
+      <guid>http://localhost:1313/posts/gerd/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 Gastroesophageal reflux disease (GERD) is a condition affects a lot of people in the world and, sure enough, even without suffering from its chronic effects, the discomfort that comes with acid reflux is a pain that can be appreciated by many. Anyone who has had the bittersweet experience of chowing-down on a scrumptious taco and, realizing only too late, that you forgot to ask for no jalapenos.</description>
     </item>
     
     <item>
       <title>Cofactor: Vitamin K</title>
-      <link>http://localhost:41339/posts/vitamin_k_cofactor/</link>
+      <link>http://localhost:1313/posts/vitamin_k_cofactor/</link>
       <pubDate>Sun, 29 Aug 2021 20:41:09 +0200</pubDate>
       
-      <guid>http://localhost:41339/posts/vitamin_k_cofactor/</guid>
+      <guid>http://localhost:1313/posts/vitamin_k_cofactor/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 The cofactor vitamin K is not only known for its importance in the process of blood coagulation, rather it is also recognized for its ubiquity in photosynthesis as well.
 I learned about this vitamin in a rather uneventful mundane way. I was reading a book (or something) about something and the use of the drug dicoumarol to deplete vitamin K storage was being used to illustrate something else.</description>
