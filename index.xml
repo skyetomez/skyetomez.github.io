@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Khanhai&#39;s Blog on Skyler blog</title>
+    <title>Skyetomez&#39;s Blog on Skyler blog</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Khanhai&#39;s Blog on Skyler blog</description>
+    <description>Recent content in Skyetomez&#39;s Blog on Skyler blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 23 Mar 2020 16:29:23 +0100</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
@@ -24,12 +24,12 @@ Background and Motivation I’ve been interested in machine learning and neural 
       <pubDate>Tue, 01 Nov 2022 05:07:23 -0400</pubDate>
       
       <guid>http://localhost:1313/projects/math/introduction-to-stochastic-processes/chapter_0/</guid>
-      <description>Find all functions $x(t),~y(t)$ satisfying $$x&amp;rsquo;(t) = y(t) - x(t)$$ $$y&amp;rsquo;(t) = 3x(t) - 3y(t) $$. Find the Particular pair of functions satisfying $x(0)=y(0)=1/2$
+      <description>Find all functions $x(t),~y(t)$ satisfying $$x&#39;(t) = y(t) - x(t)$$ $$y&#39;(t) = 3x(t) - 3y(t) $$. Find the Particular pair of functions satisfying $x(0)=y(0)=1/2$
 Solution :
 We solve this by eliminating variables.
-Find the function $f(n), n = 0,1,&amp;hellip;,10$ that satisfies \begin{equation*} f(n) = \frac{1}{4}f(n-1)+\frac{3}{4}f(n+1), n=1,2,..,9, \end{equation*} and $f(0)=0,~f(1)=1$.
+  Find the function $f(n), n = 0,1,&amp;hellip;,10$ that satisfies \begin{equation*} f(n) = \frac{1}{4}f(n-1)+\frac{3}{4}f(n+1), n=1,2,..,9, \end{equation*} and $f(0)=0,~f(1)=1$.
 Solution :
-The Fibonacci numbers $F_n$ are defined by $F_1=1,~F_2=1$ and for $n&amp;gt;2$, $F_n=F_{n-1}+F_{n-2}$. Find a formula for $F_n$ by solving the difference equation.</description>
+  The Fibonacci numbers $F_n$ are defined by $F_1=1,~F_2=1$ and for $n&amp;gt;2$, $F_n=F_{n-1}+F_{n-2}$. Find a formula for $F_n$ by solving the difference equation.</description>
     </item>
     
     <item>
@@ -90,7 +90,7 @@ Apis mellifera (honeybee) are one of the most studied insects in the world due t
       
       <guid>http://localhost:1313/projects/poisson_tiles_intro/</guid>
       <description>Summary The motivation for this mini-project was to not only get more familiar with working with $\tt{pygame}$ but also to give myself a playground that I could hook into other packages like $\tt{networkx}$. I also wanted to practice generating fractals. While looking over old notes, I came across the rules for a random process that looked interesting to visualize and potential to become fractal-like.
-Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Enlightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
+ Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Enlightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
     </item>
     
     <item>
@@ -108,7 +108,7 @@ Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of
       <pubDate>Sun, 09 Jan 2022 22:16:18 +0100</pubDate>
       
       <guid>http://localhost:1313/projects/climbingcenters/</guid>
-      <description>Summary My friend was wondering about if there were enough climbing centers per city depending on how many people lived in the city and here is my rudimentary attempt to try to answer that question without anything fancy. Introduction This project was started as a joint project between a friend that enjoys climbing and myself. He pointed out that he was convinced that the number of climbing centers in our city corresponded with it’s size.</description>
+      <description>Summary My friend was wondering about if there were enough climbing centers per city depending on how many people lived in the city and here is my rudimentary attempt to try to answer that question without anything fancy.  Introduction This project was started as a joint project between a friend that enjoys climbing and myself. He pointed out that he was convinced that the number of climbing centers in our city corresponded with it’s size.</description>
     </item>
     
     <item>
@@ -118,11 +118,10 @@ Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of
       
       <guid>http://localhost:1313/posts/iwp/interesting_words_and_phrases_8/</guid>
       <description>Fettered -to be chained, confined, restrainted &amp;ndash; shakled at the feet.
-Tutelage - a guiding influence or instruction esp. of a individual
-Precococious - showing mature qualities at an early age or exceptionally early in development or occurrence.
-Erudition - having proufound, recondite or bookish knowledge largely from, well, books.
-Gratuitous - not necessary or appropriate in the situation, given freely or without compensation.
-Digression - leaving the main subject in an extended style while speaking or writting.</description>
+  Tutelage - a guiding influence or instruction esp. of a individual
+  Precococious - showing mature qualities at an early age or exceptionally early in development or occurrence.
+  Erudition - having proufound, recondite or bookish knowledge largely from, well, books.
+  Gratuitous - not necessary or appropriate in the situation, given freely or without compensation.</description>
     </item>
     
     <item>
@@ -132,11 +131,10 @@ Digression - leaving the main subject in an extended style while speaking or wri
       
       <guid>http://localhost:1313/posts/iwp/interesting_words_and_phrases_7/</guid>
       <description>Rebuke - to sharply critize
-Apostle - someone with strong religious faith that goes out to preach or spread gospel
-Absolve - to set someone free of or forgive them of guilt or a sin
-Proselytize - to convince someone to join or convert to a religion, instituion, cause etc.
-Evangelize - to preach gospel (to someone) or convert to Christianity
-Veda - from the Sanskrit word &amp;ldquo;veda&amp;rdquo; meaning knowledge, it refers to any of the 4 sacred Hindu texts.</description>
+  Apostle - someone with strong religious faith that goes out to preach or spread gospel
+  Absolve - to set someone free of or forgive them of guilt or a sin
+  Proselytize - to convince someone to join or convert to a religion, instituion, cause etc.
+  Evangelize - to preach gospel (to someone) or convert to Christianity</description>
     </item>
     
     <item>
@@ -188,8 +186,8 @@ I learned about this vitamin in a rather uneventful mundane way. I was reading a
       <pubDate>Sun, 15 Sep 2019 13:29:55 +0200</pubDate>
       
       <guid>http://localhost:1313/projects/math/polynomials/</guid>
-      <description> Here are some solutions to the questions in the work book Polynomial by Edward J. Barbeau
-Chapter 1 Section 1 Section 2 Section 3 </description>
+      <description>Here are some solutions to the questions in the work book Polynomial by Edward J. Barbeau
+Chapter 1  Section 1 Section 2 Section 3  </description>
     </item>
     
     <item>
@@ -199,8 +197,8 @@ Chapter 1 Section 1 Section 2 Section 3 </description>
       
       <guid>http://localhost:1313/posts/iwp/interesting_words_and_phrases_6/</guid>
       <description>Burgeon - Begin to grow or increase rapidly; flourish.
-Culture - The arts and other manifestations of human intellectual achievement regarded collectively.
-Collectivism - The practice or principle of giving a group priority over each individual in it.
+Culture  - The arts and other manifestations of human intellectual achievement regarded collectively.
+Collectivism  - The practice or principle of giving a group priority over each individual in it.
 Dualism - The division of something conceptually into two opposed or contrasted aspects, or the state of being so divided
 Individualism - A social theory favouring freedom of action for individuals over collective or state control.</description>
     </item>
@@ -232,13 +230,12 @@ You can see what I am currently or going to read through my goodreads account.</
       <pubDate>Thu, 12 Sep 2019 12:17:58 +0200</pubDate>
       
       <guid>http://localhost:1313/cv/</guid>
-      <description>Education 2015-2019 BS, Pure Mathematics; The University of Texas at Austin, (Austin,TX)
-2014-2019 BSA, Neuroscience; The University of Texas at Austin, (Austin,TX)
-Spring 2017 Study Abroad; Uppsala University, (Uppsala,Sweden)
-Certifications 2019 Certificate in Teaching English to Speakers of Other Languages (CELTA); CLIC International House, (Seville, Spain)
-2019 Pre-Health Professions; The University of Texas at Austin, (Austin,TX)
-Experience June 2022 - Now Research Assistant; University of Massachusetts; (Amherst, MA)
-Analyzed and processed high dimensional data on high performance computing cluster using AI and signal processing.</description>
+      <description>Education  2015-2019 BS, Pure Mathematics; The University of Texas at Austin, (Austin,TX)
+  2014-2019 BSA, Neuroscience; The University of Texas at Austin, (Austin,TX)
+  Spring 2017 Study Abroad; Uppsala University, (Uppsala,Sweden)
+    Certifications  2019 Certificate in Teaching English to Speakers of Other Languages (CELTA); CLIC International House, (Seville, Spain)
+  2019 Pre-Health Professions; The University of Texas at Austin, (Austin,TX)
+    Experience  June 2022 - Now Research Assistant; University of Massachusetts; (Amherst, MA)</description>
     </item>
     
     <item>
@@ -248,7 +245,7 @@ Analyzed and processed high dimensional data on high performance computing clust
       
       <guid>http://localhost:1313/posts/iwp/interesting_words_and_phrases_4/</guid>
       <description>Aggrandize - Increase the power, status, or wealth of. Enhance the reputation of (someone) beyond what is justified by the facts. Bereave - Be deprived of a loved one through a profound absence especially due to the loved one&amp;rsquo;s death.
-Mania - Mental illness marked by periods of great excitement or euphoria, delusions, and overactivity. An excessive enthusiasm or desire; obsession. Chagrin - Distress or embarrassment at having failed or been humiliated.</description>
+Mania  - Mental illness marked by periods of great excitement or euphoria, delusions, and overactivity. An excessive enthusiasm or desire; obsession. Chagrin - Distress or embarrassment at having failed or been humiliated.</description>
     </item>
     
     <item>

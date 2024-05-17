@@ -4,7 +4,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Hugo 0.92.2" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
@@ -22,346 +22,286 @@
     <title>Colapso de las colonias de abejas: Estudio de causas y soluciones | Skyler blog ES</title>
     <style>
 
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
-
-
-.wrapper{
-
-    display:flex;
-    max-width: auto;
-
-}
-
-.poisson_images{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "p_i_1 p_i_2"
-        "p_i_3 p_i_4";
-    gap: 1% 2% ;
-    max-width: fit-content;
-
-}
-
-.poisson_images > img{
-    max-width: 80%;
-}
-
-.yes_no_images{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "sp_i_1 sp_i_2";
-    gap: 1% 2% ;
-    max-width: fit-content;
-
-}
-
-.yes_no_images > img{
-    max-width: 80%;
-}
-
-
-.audio_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "audio_1 audio_2";
-    gap: 1% 2% ;
-    max-width: fit-content;
-}
-
-.center_image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
-}
-
-
-body{
-
-    display: flex;
-    flex-direction: column; 
-
-    background-color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.32em;
-    line-height: 1.8em;
-    font-weight: 300;
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
     
-
-    max-width: 100ch;
-    margin-left: auto;
-    margin-right: auto;
-
-    overflow-wrap: break-word;
-
-    padding: 0em 5em 0em 5em; 
-
-}
-header{
-
-    margin-top: 5em;
-}
-
-footer{
-
-    border-color:black;
+    body {
+        background-color: whitesmoke;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
+        line-height: 1.9em;
+        font-weight: 300;
+        max-width: 100ch;
+        margin: 0 auto;  
+        overflow-wrap: break-word;
+        padding: 0 5em;
+    }
+    
+    .homepage-content {
+        display: block;
+        text-align: left;
+    }
+    
+    .homepage-content img {
+        display: block;
+        float: right;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    }
+    
+    .homepage-content p {
      
-    border-width: 2px;
+    color: #333;  
+}
     
-    margin-top: 5em;
-}
-
-.footer-box{
-    display: flex;
-    flex-direction: row; 
-
-    border-color:black;
-    border-top: solid;
-    border-width: 2px;
-}
-
-.footer-box >.recent-posts{
-    width: 75%;
-}
-.footer-box > .languages{
-    width: 25%; 
-}
-.credits{
- 
-    display: flex;
-    flex-direction: row; 
-
-    border-color:black;
-    border-top: solid;
-    border-width: 2px;
-
-}
-
-.credits > .social_icons{
-    width: 75%;
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: right; 
+    .wrapper {
+        display: flex;
+        max-width: auto;
+    }
     
-
-}
-
-.credits > .author{
-    width: 25%;
-
-}
-
-button {
-  background-color: whitesmoke;  
-  border: none;
-  color: #007bff;
-  padding: 0% 4%;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3.5vw;
-
-
-  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
-
-  
-}
-
-button >a> img{
-
-width: 1em;
-height: 1em;
-
-}
-
-
-
-button:hover, a:hover{
-    color: #cda397;
-    text-decoration: none;
-
-}
-
-
-.homepage-content{
-
-    display:flex;
-    flex-direction: column;
+    .poisson_images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "p_i_1 p_i_2"
+            "p_i_3 p_i_4";
+        gap: 1% 2%;
+        max-width: fit-content;
+    }
     
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3em;
-    font-weight: 300;
-
-    color: black;
-    text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+    .poisson_images > img {
+        max-width: 80%;
+    }
     
-
-}
-
-.wrapper > div {
-    background-color: whitesmoke;
-}
-
-img{
-    max-width: auto;
-    height: auto;
-    margin-left:auto;
-    margin-right: auto;
-    display: block; 
-}
-
-nav{
-    font-size: xx-large;
-
-    border-color:black;
-    border-bottom: solid;
-    border-width: 3px;
+    .yes_no_images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "sp_i_1 sp_i_2";
+        gap: 1% 2%;
+        max-width: fit-content;
+    }
     
-    display:flex; 
-    justify-content:space-evenly;
-
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-div> p{
-    flex:inherit;
-    flex-direction: inherit;
-    justify-content: space-between;
-}
-
-.welcome{
-    display: flex;
-    justify-content: center;
-
-    font-size: 40px;
-
-    text-transform: lowercase;
-
-    color:black;
-}
-.poly{
-    display: flex;
-    justify-content: center;
-
-    height: 100px;
-    min-height: 25%;
-    min-width: 25%;
-
-}
-
-
-
-
-@media screen and (max-width: 767px){
-
-
-nav{
-    font-size: large;
-}
-
-.welcome{
-    font-size: 20px;
-}
-
-.homepage-content{
-
-    font-size: 100%;
-    display: flex;
-    flex-direction: column;
+    .yes_no_images > img {
+        max-width: 80%;
+    }
     
-}
-
-.homepage-content> div{
-    grid-column: auto;
-    grid-row: auto;
-}
-
-img{
-    max-width: auto;
-    height: auto;
-    margin-left:auto;
-    margin-right: auto;
-    display: block; 
-}
-
-body{
-    display: flex;
-    flex-direction: column; 
-
-    background-color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-    font-size: 95%;
-    font-weight: 300;
+    .audio_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "audio_1 audio_2";
+        gap: 1% 2%;
+        max-width: fit-content;
+    }
     
-
-    margin-left: auto;
-    margin-right: auto;
-
-    overflow-wrap: break-word;
-
-    padding: 0em 2.5em ; 
-
-}
-
-
-header{
-
-margin-top: 1.5em;
-}
-
-
-.credits > .social_icons{
-    width: 55%;
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: right; 
+    .center_image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
     
-
-}
-
-.credits > .author{
-    width: 45%;
-    font-size: clamp(.7em, 3vw, 1em); 
+    header {
+        margin-top: 5em;
+    }
     
-}
+    footer {
+        border-color: black;
+        border-width: 2px;
+        margin-top: 5em;
+    }
+    
+    .footer-box {
+        display: flex;
+        flex-direction: row;
+        border-color: black;
+        border-top: solid;
+        border-width: 2px;
+    }
+    
+    .footer-box > .recent-posts {
+        width: 75%;
+    }
+    
+    .footer-box > .languages {
+        width: 25%;
+    }
+    
+    .credits {
+        display: flex;
+        flex-direction: row;
+        border-color: black;
+        border-top: solid;
+        border-width: 2px;
+    }
+    
+    .credits > .social_icons {
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: right;
+    }
+    
+    .credits > .author {
+        width: 25%;
+    }
+    
+    button {
+        background-color: whitesmoke;
+        border: none;
+        color: #007bff;
+        padding: 0% 4%;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 3.5vw;
+        text-shadow: .5px 1px 2px rgba(128, 128, 128, 0.274);
+    }
+    
+    button > a > img {
+        width: 1em;
+        height: 1em;
+    }
+    
+    button:hover, a:hover {
+        color: #cda397;
+        text-decoration: none;
+    }
+    
+    img {
+        max-width: auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    nav {
+        font-size: xx-large;
+        border-color: black;
+        border-bottom: solid;
+        border-width: 3px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    div > p {
+        flex: inherit;
+        flex-direction: inherit;
+        justify-content: space-between;
+    }
+    
+    .welcome {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        text-transform: lowercase;
+        color: black;
+    }
+    
+    .poly {
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        min-height: 25%;
+        min-width: 25%;
+    }
+    
+    @media screen and (max-width: 767px) {
+        nav {
+            font-size:large
+        }
+    
+        .welcome {
+            font-size: 20px;
+        }
+    
+        .homepage-content {
+            font-size: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .homepage-content > div {
+            grid-column: auto;
+            grid-row: auto;
+        }
+        
+        .homepage-content img {
+        float: none;
+        display: block;
+        margin: 0 auto;  
+        width: 60%;  
+        height: 60%
+    }
+    
+        img {
+            max-width: auto;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    
+        body {
+        
+        font-size: 4vw;  
+        font-weight: 300;
+        margin: 0 auto; 
+        overflow-wrap: break-word;
+        padding: 0em 2.5em;
+
+    }
+    
+        header {
+            margin-top: 1.5em;
+        }
+    
+        .credits > .social_icons {
+            width: 55%;
+            display: flex;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: right;
+        }
+    
+        .credits > .author {
+            width: 45%;
+            font-size: clamp(.7em, 3vw, 1em);
+        }
+    
+        button {
+            background-color: whitesmoke;
+            border: none;
+            color: #007bff;
+            padding: 0% 4%;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 3.5vw;
+            text-shadow: .5px 1px 2px rgba(128, 128, 128, 0.274);
+        }
+    
+        button > a > img {
+            width: 1em;
+            height: 1em;
+        }
+
+        .footer-box {
+        display: none;
+        }
 
 
-button {
-
-  background-color: whitesmoke;  
-  border: none;
-  color: #007bff;
-   
-  padding: 0% 4%;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3.5vw;
 
 
-  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
-
-
-}
-
-button >a> img{
-
-    width: 1em;
-    height: 1em;
-
-}
-
-
-</style>
+    }
+    </style>
+    
 </head>
 
   <header> 
@@ -659,13 +599,6 @@ tor by a systemic mode of action”. In: 8 (Dec. 2018).</p>
 
               <span class = "social_icons">
 
-                <button>
-                  <a href="http://www.twitter.com/t42639805"><i class="bi bi-twitter"></i></a>  
-                </button>
-          
-                <button>
-                  <a href= "http://www.instagram.com/skylerase"><i class="bi bi-instagram"></i></a>
-                </button>
                 
                 <button>
                   <a href="/">
@@ -676,14 +609,7 @@ tor by a systemic mode of action”. In: 8 (Dec. 2018).</p>
                 <button>
                   <a href="http://www.github.com/skyetomez"><i class="bi bi-github"></i></a>  
                 </button>
-               
-             
-                
-                <button>
-                  <a href="https://www.linkedin.com/in/skyler-thomas-aa494615b">
-                  <i class="bi bi-linkedin"></i>
-                  </a>
-                </button>
+
           
                 </span>
 

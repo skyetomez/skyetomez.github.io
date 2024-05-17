@@ -14,7 +14,7 @@
       
       <guid>http://localhost:1313/es/projects/poisson_tiles_intro/</guid>
       <description>Summary La motivación para este mini-proyecto fue no sólo para familiarizarse con el trabajo con $\tt{pygame}$, sino también para darme un campo de juego que podría enganchar en otros paquetes como $\tt{networkx}$. También quería practicar la generación de fractales. Mientras revisaba viejas notas, me encontré con las reglas de un proceso aleatorio que parecía interesante de visualizar y con potencial para convertirse en un fractal.
-Introduction Simeon Denis Poisson vivió entre 1781 y 1840, durante el final del Siglo de las Luces, un periodo de tiempo caracterizado por un cambio hacia la búsqueda del conocimiento.</description>
+ Introduction Simeon Denis Poisson vivió entre 1781 y 1840, durante el final del Siglo de las Luces, un periodo de tiempo caracterizado por un cambio hacia la búsqueda del conocimiento.</description>
     </item>
     
   </channel>

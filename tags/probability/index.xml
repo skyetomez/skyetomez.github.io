@@ -22,12 +22,12 @@
       <pubDate>Tue, 01 Nov 2022 05:07:23 -0400</pubDate>
       
       <guid>http://localhost:1313/projects/math/introduction-to-stochastic-processes/chapter_0/</guid>
-      <description>Find all functions $x(t),~y(t)$ satisfying $$x&amp;rsquo;(t) = y(t) - x(t)$$ $$y&amp;rsquo;(t) = 3x(t) - 3y(t) $$. Find the Particular pair of functions satisfying $x(0)=y(0)=1/2$
+      <description>Find all functions $x(t),~y(t)$ satisfying $$x&#39;(t) = y(t) - x(t)$$ $$y&#39;(t) = 3x(t) - 3y(t) $$. Find the Particular pair of functions satisfying $x(0)=y(0)=1/2$
 Solution :
 We solve this by eliminating variables.
-Find the function $f(n), n = 0,1,&amp;hellip;,10$ that satisfies \begin{equation*} f(n) = \frac{1}{4}f(n-1)+\frac{3}{4}f(n+1), n=1,2,..,9, \end{equation*} and $f(0)=0,~f(1)=1$.
+  Find the function $f(n), n = 0,1,&amp;hellip;,10$ that satisfies \begin{equation*} f(n) = \frac{1}{4}f(n-1)+\frac{3}{4}f(n+1), n=1,2,..,9, \end{equation*} and $f(0)=0,~f(1)=1$.
 Solution :
-The Fibonacci numbers $F_n$ are defined by $F_1=1,~F_2=1$ and for $n&amp;gt;2$, $F_n=F_{n-1}+F_{n-2}$. Find a formula for $F_n$ by solving the difference equation.</description>
+  The Fibonacci numbers $F_n$ are defined by $F_1=1,~F_2=1$ and for $n&amp;gt;2$, $F_n=F_{n-1}+F_{n-2}$. Find a formula for $F_n$ by solving the difference equation.</description>
     </item>
     
     <item>
@@ -37,7 +37,7 @@ The Fibonacci numbers $F_n$ are defined by $F_1=1,~F_2=1$ and for $n&amp;gt;2$, 
       
       <guid>http://localhost:1313/projects/poisson_tiles_intro/</guid>
       <description>Summary The motivation for this mini-project was to not only get more familiar with working with $\tt{pygame}$ but also to give myself a playground that I could hook into other packages like $\tt{networkx}$. I also wanted to practice generating fractals. While looking over old notes, I came across the rules for a random process that looked interesting to visualize and potential to become fractal-like.
-Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Enlightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
+ Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Enlightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
     </item>
     
   </channel>

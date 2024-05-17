@@ -4,7 +4,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Hugo 0.92.2" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
@@ -22,346 +22,286 @@
     <title>Cofactor: Vitamin K | Skyler blog</title>
     <style>
 
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
-
-
-.wrapper{
-
-    display:flex;
-    max-width: auto;
-
-}
-
-.poisson_images{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "p_i_1 p_i_2"
-        "p_i_3 p_i_4";
-    gap: 1% 2% ;
-    max-width: fit-content;
-
-}
-
-.poisson_images > img{
-    max-width: 80%;
-}
-
-.yes_no_images{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "sp_i_1 sp_i_2";
-    gap: 1% 2% ;
-    max-width: fit-content;
-
-}
-
-.yes_no_images > img{
-    max-width: 80%;
-}
-
-
-.audio_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "audio_1 audio_2";
-    gap: 1% 2% ;
-    max-width: fit-content;
-}
-
-.center_image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
-}
-
-
-body{
-
-    display: flex;
-    flex-direction: column; 
-
-    background-color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.32em;
-    line-height: 1.8em;
-    font-weight: 300;
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
     
-
-    max-width: 100ch;
-    margin-left: auto;
-    margin-right: auto;
-
-    overflow-wrap: break-word;
-
-    padding: 0em 5em 0em 5em; 
-
-}
-header{
-
-    margin-top: 5em;
-}
-
-footer{
-
-    border-color:black;
+    body {
+        background-color: whitesmoke;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
+        line-height: 1.9em;
+        font-weight: 300;
+        max-width: 100ch;
+        margin: 0 auto;  
+        overflow-wrap: break-word;
+        padding: 0 5em;
+    }
+    
+    .homepage-content {
+        display: block;
+        text-align: left;
+    }
+    
+    .homepage-content img {
+        display: block;
+        float: right;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    }
+    
+    .homepage-content p {
      
-    border-width: 2px;
+    color: #333;  
+}
     
-    margin-top: 5em;
-}
-
-.footer-box{
-    display: flex;
-    flex-direction: row; 
-
-    border-color:black;
-    border-top: solid;
-    border-width: 2px;
-}
-
-.footer-box >.recent-posts{
-    width: 75%;
-}
-.footer-box > .languages{
-    width: 25%; 
-}
-.credits{
- 
-    display: flex;
-    flex-direction: row; 
-
-    border-color:black;
-    border-top: solid;
-    border-width: 2px;
-
-}
-
-.credits > .social_icons{
-    width: 75%;
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: right; 
+    .wrapper {
+        display: flex;
+        max-width: auto;
+    }
     
-
-}
-
-.credits > .author{
-    width: 25%;
-
-}
-
-button {
-  background-color: whitesmoke;  
-  border: none;
-  color: #007bff;
-  padding: 0% 4%;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3.5vw;
-
-
-  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
-
-  
-}
-
-button >a> img{
-
-width: 1em;
-height: 1em;
-
-}
-
-
-
-button:hover, a:hover{
-    color: #cda397;
-    text-decoration: none;
-
-}
-
-
-.homepage-content{
-
-    display:flex;
-    flex-direction: column;
+    .poisson_images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "p_i_1 p_i_2"
+            "p_i_3 p_i_4";
+        gap: 1% 2%;
+        max-width: fit-content;
+    }
     
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3em;
-    font-weight: 300;
-
-    color: black;
-    text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+    .poisson_images > img {
+        max-width: 80%;
+    }
     
-
-}
-
-.wrapper > div {
-    background-color: whitesmoke;
-}
-
-img{
-    max-width: auto;
-    height: auto;
-    margin-left:auto;
-    margin-right: auto;
-    display: block; 
-}
-
-nav{
-    font-size: xx-large;
-
-    border-color:black;
-    border-bottom: solid;
-    border-width: 3px;
+    .yes_no_images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "sp_i_1 sp_i_2";
+        gap: 1% 2%;
+        max-width: fit-content;
+    }
     
-    display:flex; 
-    justify-content:space-evenly;
-
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-div> p{
-    flex:inherit;
-    flex-direction: inherit;
-    justify-content: space-between;
-}
-
-.welcome{
-    display: flex;
-    justify-content: center;
-
-    font-size: 40px;
-
-    text-transform: lowercase;
-
-    color:black;
-}
-.poly{
-    display: flex;
-    justify-content: center;
-
-    height: 100px;
-    min-height: 25%;
-    min-width: 25%;
-
-}
-
-
-
-
-@media screen and (max-width: 767px){
-
-
-nav{
-    font-size: large;
-}
-
-.welcome{
-    font-size: 20px;
-}
-
-.homepage-content{
-
-    font-size: 100%;
-    display: flex;
-    flex-direction: column;
+    .yes_no_images > img {
+        max-width: 80%;
+    }
     
-}
-
-.homepage-content> div{
-    grid-column: auto;
-    grid-row: auto;
-}
-
-img{
-    max-width: auto;
-    height: auto;
-    margin-left:auto;
-    margin-right: auto;
-    display: block; 
-}
-
-body{
-    display: flex;
-    flex-direction: column; 
-
-    background-color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-    font-size: 95%;
-    font-weight: 300;
+    .audio_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "audio_1 audio_2";
+        gap: 1% 2%;
+        max-width: fit-content;
+    }
     
-
-    margin-left: auto;
-    margin-right: auto;
-
-    overflow-wrap: break-word;
-
-    padding: 0em 2.5em ; 
-
-}
-
-
-header{
-
-margin-top: 1.5em;
-}
-
-
-.credits > .social_icons{
-    width: 55%;
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: right; 
+    .center_image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
     
-
-}
-
-.credits > .author{
-    width: 45%;
-    font-size: clamp(.7em, 3vw, 1em); 
+    header {
+        margin-top: 5em;
+    }
     
-}
+    footer {
+        border-color: black;
+        border-width: 2px;
+        margin-top: 5em;
+    }
+    
+    .footer-box {
+        display: flex;
+        flex-direction: row;
+        border-color: black;
+        border-top: solid;
+        border-width: 2px;
+    }
+    
+    .footer-box > .recent-posts {
+        width: 75%;
+    }
+    
+    .footer-box > .languages {
+        width: 25%;
+    }
+    
+    .credits {
+        display: flex;
+        flex-direction: row;
+        border-color: black;
+        border-top: solid;
+        border-width: 2px;
+    }
+    
+    .credits > .social_icons {
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: right;
+    }
+    
+    .credits > .author {
+        width: 25%;
+    }
+    
+    button {
+        background-color: whitesmoke;
+        border: none;
+        color: #007bff;
+        padding: 0% 4%;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 3.5vw;
+        text-shadow: .5px 1px 2px rgba(128, 128, 128, 0.274);
+    }
+    
+    button > a > img {
+        width: 1em;
+        height: 1em;
+    }
+    
+    button:hover, a:hover {
+        color: #cda397;
+        text-decoration: none;
+    }
+    
+    img {
+        max-width: auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    nav {
+        font-size: xx-large;
+        border-color: black;
+        border-bottom: solid;
+        border-width: 3px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    div > p {
+        flex: inherit;
+        flex-direction: inherit;
+        justify-content: space-between;
+    }
+    
+    .welcome {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        text-transform: lowercase;
+        color: black;
+    }
+    
+    .poly {
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        min-height: 25%;
+        min-width: 25%;
+    }
+    
+    @media screen and (max-width: 767px) {
+        nav {
+            font-size:large
+        }
+    
+        .welcome {
+            font-size: 20px;
+        }
+    
+        .homepage-content {
+            font-size: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .homepage-content > div {
+            grid-column: auto;
+            grid-row: auto;
+        }
+        
+        .homepage-content img {
+        float: none;
+        display: block;
+        margin: 0 auto;  
+        width: 60%;  
+        height: 60%
+    }
+    
+        img {
+            max-width: auto;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    
+        body {
+        
+        font-size: 4vw;  
+        font-weight: 300;
+        margin: 0 auto; 
+        overflow-wrap: break-word;
+        padding: 0em 2.5em;
+
+    }
+    
+        header {
+            margin-top: 1.5em;
+        }
+    
+        .credits > .social_icons {
+            width: 55%;
+            display: flex;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: right;
+        }
+    
+        .credits > .author {
+            width: 45%;
+            font-size: clamp(.7em, 3vw, 1em);
+        }
+    
+        button {
+            background-color: whitesmoke;
+            border: none;
+            color: #007bff;
+            padding: 0% 4%;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 3.5vw;
+            text-shadow: .5px 1px 2px rgba(128, 128, 128, 0.274);
+        }
+    
+        button > a > img {
+            width: 1em;
+            height: 1em;
+        }
+
+        .footer-box {
+        display: none;
+        }
 
 
-button {
-
-  background-color: whitesmoke;  
-  border: none;
-  color: #007bff;
-   
-  padding: 0% 4%;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3.5vw;
 
 
-  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
-
-
-}
-
-button >a> img{
-
-    width: 1em;
-    height: 1em;
-
-}
-
-
-</style>
+    }
+    </style>
+    
 </head>
 
   <header> 
@@ -400,7 +340,7 @@ button >a> img{
 <p>The cofactor vitamin K  is not only known for its importance in the process of blood coagulation, rather it is also recognized for its ubiquity in photosynthesis as well.</p>
 <p>I learned about this vitamin in a rather uneventful mundane way. I was reading a book (or something) about something and the use of the drug dicoumarol to deplete vitamin K storage was being used to illustrate something else. Curious as to know how exactly, being the Millennial/Gen-Z that I am, naturally looked for dicoumarol on YouTube. For literally weeks, like an ear worm, my brain would inaccurately remind me that &lsquo;vitamin K is used by the drug dioumal? diamoleral? dicoutperate?&rsquo; This lack of accuracy being wantonly annoying, would lead me to re-trace my google and youtube searches until I found the name of the drug again. Repeating this ritual every week or so, I eventually decided the intelligent action simply would be to jot the name of the drug down so that I could easily find the drug anytime my brain, unprovoked, desired to wake the obnoxious ear worm.  Anecdote aside, the Vitamin K cofactor is particularly interesting to me because (1) it&rsquo;s the first vitamin the comes to mind (after being haunted by the drug dicoumarol for more than an month) that is also a cofactor and (2) it is has an important role in the prevention of haemorrhaging in baby chickens (and people).</p>
 <p>Mothers, fathers and governments are always effusing the importance of eating your vegetables and leafy greens and vitamin K is a very important vitamin that  is densely found in leafy greens, tomatoes. It is also found in some meats and poultry [8]. As a vitamer, there are three main types of vitamin K:  K1, K2 and K3. Vitamers are chemically similar substances that have a qualitatively similar vitamin activity [4] and all three have important roles. Nevertheless, as it relates to a cofactor, the K1 vitamer will be our focus.</p>
-<p>This vitamin has evolutionary significance given its ubiquity in the plant kingdom. In fact, vitamin K1 &lsquo;&lsquo;is a compound present in all photosynthetic plants serving as cofactor for Photosystem I-mediated electron transport [2]&rsquo;&rsquo;. More recently, in humans it has be noted to be the Koagulations-Vitamin (in german) or Vitamin K from where its name is derived. Without such a vitamin, a bruise should result in death by internal hemorrhaging. It follows that, given its vital role in keeping us alive, reasonably vitamin K must have been common throughout our evolutionary history and easy for people to get. There has also been work into the understanding of why neonates have such low vitamin K reserves and how breast milk work to provide that and other important developmental roles[6].</p>
+<p>This vitamin has evolutionary significance given its ubiquity in the plant kingdom. In fact, vitamin K1 &lsquo;&lsquo;is a compound present in all photosynthetic plants serving as cofactor for Photosystem I-mediated electron transport [2]'&rsquo;. More recently, in humans it has be noted to be the Koagulations-Vitamin (in german) or Vitamin K from where its name is derived. Without such a vitamin, a bruise should result in death by internal hemorrhaging. It follows that, given its vital role in keeping us alive, reasonably vitamin K must have been common throughout our evolutionary history and easy for people to get. There has also been work into the understanding of why neonates have such low vitamin K reserves and how breast milk work to provide that and other important developmental roles[6].</p>
 <p>As previously mentioned, plants use it for photosynthesis and we use it for blood clotting, its also found in natto, a japanese fermeted bean meal according to wikipedia [3]; however, this wasn&rsquo;t always known. This biological significance was the basis of the international award in 1943 to</p>
 <p>Henrik Dam who discovered that when removing the fat from the food given to white leghorn chickens, that that they would bleed to death as a result of their blood not clotting correctly. In order to spare the gory details of the incisions into chick brachial veins, it was reported that certain foods would allow the chickens to clot while others wouldn&rsquo;t in his paper[5]. Eventually this lead to the discovery of Vitamin K and Hernik Dam a Nobel Price for this discovery [7].  Specifically they found that hog-liver, tomatoes, hemp seeds and certain cereals promoted clotting [5]. Unsurprisingly, a quick google search will illuminate as to why. Hemp seeds are high in Vitamin E, a vitamin required to efficiently process and use vitamin K. While tomatoes and the cereals mentioned in the paper are high in Vitamin K.</p>
 <p>In particular, vitamin K serves as an essential cofactor in the conversion of glutamic acid to 𝛾-carboxyglutamic acid with Vitamin K-dependent carboxylase[2]. The modified amino acid is unique in that it binds calcium [2]. Without this amino acid, the necessary proteins for clotting cannot bind to the exposed cell wall after damage and the blood-clotting process won&rsquo;t occur[1]. Specifically prothombin and factor VII, which is converted into other factors, will not be biologically active and neither will any of its derivatives [1]. That is to say, without vitamin K in the diet, the body lacks prothrombin without prothrombin, the first stage of the blood coagulation cascade fails, ???, death</p>
@@ -497,13 +437,6 @@ button >a> img{
 
               <span class = "social_icons">
 
-                <button>
-                  <a href="http://www.twitter.com/t42639805"><i class="bi bi-twitter"></i></a>  
-                </button>
-          
-                <button>
-                  <a href= "http://www.instagram.com/skylerase"><i class="bi bi-instagram"></i></a>
-                </button>
                 
                 <button>
                   <a href="/">
@@ -514,14 +447,7 @@ button >a> img{
                 <button>
                   <a href="http://www.github.com/skyetomez"><i class="bi bi-github"></i></a>  
                 </button>
-               
-             
-                
-                <button>
-                  <a href="https://www.linkedin.com/in/skyler-thomas-aa494615b">
-                  <i class="bi bi-linkedin"></i>
-                  </a>
-                </button>
+
           
                 </span>
 

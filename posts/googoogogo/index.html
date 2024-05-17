@@ -4,7 +4,7 @@
   <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="generator" content="Hugo 0.111.3">
+    <meta name="generator" content="Hugo 0.92.2" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
@@ -22,346 +22,286 @@
     <title>Goo goo go go? | Skyler blog</title>
     <style>
 
-@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
-
-
-.wrapper{
-
-    display:flex;
-    max-width: auto;
-
-}
-
-.poisson_images{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "p_i_1 p_i_2"
-        "p_i_3 p_i_4";
-    gap: 1% 2% ;
-    max-width: fit-content;
-
-}
-
-.poisson_images > img{
-    max-width: 80%;
-}
-
-.yes_no_images{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "sp_i_1 sp_i_2";
-    gap: 1% 2% ;
-    max-width: fit-content;
-
-}
-
-.yes_no_images > img{
-    max-width: 80%;
-}
-
-
-.audio_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: 
-        "audio_1 audio_2";
-    gap: 1% 2% ;
-    max-width: fit-content;
-}
-
-.center_image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-
-}
-
-
-body{
-
-    display: flex;
-    flex-direction: column; 
-
-    background-color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.32em;
-    line-height: 1.8em;
-    font-weight: 300;
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
     
-
-    max-width: 100ch;
-    margin-left: auto;
-    margin-right: auto;
-
-    overflow-wrap: break-word;
-
-    padding: 0em 5em 0em 5em; 
-
-}
-header{
-
-    margin-top: 5em;
-}
-
-footer{
-
-    border-color:black;
+    body {
+        background-color: whitesmoke;
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.3em;
+        line-height: 1.9em;
+        font-weight: 300;
+        max-width: 100ch;
+        margin: 0 auto;  
+        overflow-wrap: break-word;
+        padding: 0 5em;
+    }
+    
+    .homepage-content {
+        display: block;
+        text-align: left;
+    }
+    
+    .homepage-content img {
+        display: block;
+        float: right;
+        width: 300px;
+        height: 300px;
+        margin: 10px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    }
+    
+    .homepage-content p {
      
-    border-width: 2px;
+    color: #333;  
+}
     
-    margin-top: 5em;
-}
-
-.footer-box{
-    display: flex;
-    flex-direction: row; 
-
-    border-color:black;
-    border-top: solid;
-    border-width: 2px;
-}
-
-.footer-box >.recent-posts{
-    width: 75%;
-}
-.footer-box > .languages{
-    width: 25%; 
-}
-.credits{
- 
-    display: flex;
-    flex-direction: row; 
-
-    border-color:black;
-    border-top: solid;
-    border-width: 2px;
-
-}
-
-.credits > .social_icons{
-    width: 75%;
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: right; 
+    .wrapper {
+        display: flex;
+        max-width: auto;
+    }
     
-
-}
-
-.credits > .author{
-    width: 25%;
-
-}
-
-button {
-  background-color: whitesmoke;  
-  border: none;
-  color: #007bff;
-  padding: 0% 4%;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3.5vw;
-
-
-  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
-
-  
-}
-
-button >a> img{
-
-width: 1em;
-height: 1em;
-
-}
-
-
-
-button:hover, a:hover{
-    color: #cda397;
-    text-decoration: none;
-
-}
-
-
-.homepage-content{
-
-    display:flex;
-    flex-direction: column;
+    .poisson_images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "p_i_1 p_i_2"
+            "p_i_3 p_i_4";
+        gap: 1% 2%;
+        max-width: fit-content;
+    }
     
-
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3em;
-    font-weight: 300;
-
-    color: black;
-    text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
+    .poisson_images > img {
+        max-width: 80%;
+    }
     
-
-}
-
-.wrapper > div {
-    background-color: whitesmoke;
-}
-
-img{
-    max-width: auto;
-    height: auto;
-    margin-left:auto;
-    margin-right: auto;
-    display: block; 
-}
-
-nav{
-    font-size: xx-large;
-
-    border-color:black;
-    border-bottom: solid;
-    border-width: 3px;
+    .yes_no_images {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "sp_i_1 sp_i_2";
+        gap: 1% 2%;
+        max-width: fit-content;
+    }
     
-    display:flex; 
-    justify-content:space-evenly;
-
-    margin-left: auto;
-    margin-right: auto;
-
-}
-
-div> p{
-    flex:inherit;
-    flex-direction: inherit;
-    justify-content: space-between;
-}
-
-.welcome{
-    display: flex;
-    justify-content: center;
-
-    font-size: 40px;
-
-    text-transform: lowercase;
-
-    color:black;
-}
-.poly{
-    display: flex;
-    justify-content: center;
-
-    height: 100px;
-    min-height: 25%;
-    min-width: 25%;
-
-}
-
-
-
-
-@media screen and (max-width: 767px){
-
-
-nav{
-    font-size: large;
-}
-
-.welcome{
-    font-size: 20px;
-}
-
-.homepage-content{
-
-    font-size: 100%;
-    display: flex;
-    flex-direction: column;
+    .yes_no_images > img {
+        max-width: 80%;
+    }
     
-}
-
-.homepage-content> div{
-    grid-column: auto;
-    grid-row: auto;
-}
-
-img{
-    max-width: auto;
-    height: auto;
-    margin-left:auto;
-    margin-right: auto;
-    display: block; 
-}
-
-body{
-    display: flex;
-    flex-direction: column; 
-
-    background-color: whitesmoke;
-    font-family: 'Roboto', sans-serif;
-    font-size: 95%;
-    font-weight: 300;
+    .audio_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas:
+            "audio_1 audio_2";
+        gap: 1% 2%;
+        max-width: fit-content;
+    }
     
-
-    margin-left: auto;
-    margin-right: auto;
-
-    overflow-wrap: break-word;
-
-    padding: 0em 2.5em ; 
-
-}
-
-
-header{
-
-margin-top: 1.5em;
-}
-
-
-.credits > .social_icons{
-    width: 55%;
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: right; 
+    .center_image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
     
-
-}
-
-.credits > .author{
-    width: 45%;
-    font-size: clamp(.7em, 3vw, 1em); 
+    header {
+        margin-top: 5em;
+    }
     
-}
+    footer {
+        border-color: black;
+        border-width: 2px;
+        margin-top: 5em;
+    }
+    
+    .footer-box {
+        display: flex;
+        flex-direction: row;
+        border-color: black;
+        border-top: solid;
+        border-width: 2px;
+    }
+    
+    .footer-box > .recent-posts {
+        width: 75%;
+    }
+    
+    .footer-box > .languages {
+        width: 25%;
+    }
+    
+    .credits {
+        display: flex;
+        flex-direction: row;
+        border-color: black;
+        border-top: solid;
+        border-width: 2px;
+    }
+    
+    .credits > .social_icons {
+        width: 75%;
+        display: flex;
+        flex-direction: row;
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: right;
+    }
+    
+    .credits > .author {
+        width: 25%;
+    }
+    
+    button {
+        background-color: whitesmoke;
+        border: none;
+        color: #007bff;
+        padding: 0% 4%;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 3.5vw;
+        text-shadow: .5px 1px 2px rgba(128, 128, 128, 0.274);
+    }
+    
+    button > a > img {
+        width: 1em;
+        height: 1em;
+    }
+    
+    button:hover, a:hover {
+        color: #cda397;
+        text-decoration: none;
+    }
+    
+    img {
+        max-width: auto;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    
+    nav {
+        font-size: xx-large;
+        border-color: black;
+        border-bottom: solid;
+        border-width: 3px;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    div > p {
+        flex: inherit;
+        flex-direction: inherit;
+        justify-content: space-between;
+    }
+    
+    .welcome {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+        text-transform: lowercase;
+        color: black;
+    }
+    
+    .poly {
+        display: flex;
+        justify-content: center;
+        height: 100px;
+        min-height: 25%;
+        min-width: 25%;
+    }
+    
+    @media screen and (max-width: 767px) {
+        nav {
+            font-size:large
+        }
+    
+        .welcome {
+            font-size: 20px;
+        }
+    
+        .homepage-content {
+            font-size: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .homepage-content > div {
+            grid-column: auto;
+            grid-row: auto;
+        }
+        
+        .homepage-content img {
+        float: none;
+        display: block;
+        margin: 0 auto;  
+        width: 60%;  
+        height: 60%
+    }
+    
+        img {
+            max-width: auto;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    
+        body {
+        
+        font-size: 4vw;  
+        font-weight: 300;
+        margin: 0 auto; 
+        overflow-wrap: break-word;
+        padding: 0em 2.5em;
+
+    }
+    
+        header {
+            margin-top: 1.5em;
+        }
+    
+        .credits > .social_icons {
+            width: 55%;
+            display: flex;
+            flex-direction: row;
+            margin-left: auto;
+            margin-right: auto;
+            justify-content: right;
+        }
+    
+        .credits > .author {
+            width: 45%;
+            font-size: clamp(.7em, 3vw, 1em);
+        }
+    
+        button {
+            background-color: whitesmoke;
+            border: none;
+            color: #007bff;
+            padding: 0% 4%;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 3.5vw;
+            text-shadow: .5px 1px 2px rgba(128, 128, 128, 0.274);
+        }
+    
+        button > a > img {
+            width: 1em;
+            height: 1em;
+        }
+
+        .footer-box {
+        display: none;
+        }
 
 
-button {
-
-  background-color: whitesmoke;  
-  border: none;
-  color: #007bff;
-   
-  padding: 0% 4%;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 3.5vw;
 
 
-  text-shadow:.5px 1px 2px rgba(128, 128, 128, 0.274);
-
-
-}
-
-button >a> img{
-
-    width: 1em;
-    height: 1em;
-
-}
-
-
-</style>
+    }
+    </style>
+    
 </head>
 
   <header> 
@@ -408,10 +348,10 @@ I’m sure that you’ve met someone who has a story of &ldquo;<em>I didn’t kn
 <li>win vs wine</li>
 <li>breath vs breathe (/a/ is not pronounced)</li>
 </ul>
-<p>Yet, &lsquo;go&rsquo; is said with a long vowel sound <strong>without</strong> an &rsquo;e&rsquo;. We say /gəʊ/ and not /gɒ/ as with the &lsquo;o&rsquo; from mop nor do we say &lsquo;goo&rsquo; like in  &ldquo;goo goo ga ga&rdquo;&rsquo;! Though, how come we&rsquo;ve got this rule with to and toe?</p>
+<p>Yet, &lsquo;go&rsquo; is said with a long vowel sound <strong>without</strong> an &lsquo;e&rsquo;. We say /gəʊ/ and not /gɒ/ as with the &lsquo;o&rsquo; from mop nor do we say &lsquo;goo&rsquo; like in  &ldquo;goo goo ga ga&rdquo;'! Though, how come we&rsquo;ve got this rule with to and toe?</p>
 <p>This could be for a number of reasons: the ‘to’ particle could be Germanic while &ldquo;so&rdquo; isn’t, it could differentiate between too and to, the vowel sounds may have changed over time, the pronunciation could have been preserved while the spelling was changed over time. Or even, there may be a hidden rule in English that a two letter word with &lsquo;o&rsquo; preceded by a consonant is not allowed to end in a short vowel sound.</p>
-<p>Another curious thing is that, excluding the prescribed combinations of &rsquo;s&rsquo; or &rsquo;n&rsquo; with &lsquo;o&rsquo;, all other pairs of consonants followed by &lsquo;o&rsquo; are often said to rhyme with &rsquo;to&rsquo; and &lsquo;do&rsquo;. This has been facetiously supported by a survey of n = 2 composed of myself and my friend. I might also be dependent on if you start your random rhyming walk with ‘go’ or ‘to’. Try it out for yourself.</p>
-<p>So, who is correct? The young children  whose internal, time-tested, machinery has elucidated what should be the correct pronunciation of ‘so’ or is it us without our imperfect and tainted rules of pronunciation? Should we change the orthography of &ldquo;go&rdquo; to add a new marker like &lsquo;ᶔ&rsquo; to separate &lsquo;goᶔ&rsquo; from to and do? What do would we do with &rsquo;no&rsquo;? I don&rsquo;t know.  What I do know, however, is that kids are really smart and ask incredible questions.</p>
+<p>Another curious thing is that, excluding the prescribed combinations of &rsquo;s' or &lsquo;n&rsquo; with &lsquo;o&rsquo;, all other pairs of consonants followed by &lsquo;o&rsquo; are often said to rhyme with &lsquo;to&rsquo; and &lsquo;do&rsquo;. This has been facetiously supported by a survey of n = 2 composed of myself and my friend. I might also be dependent on if you start your random rhyming walk with ‘go’ or ‘to’. Try it out for yourself.</p>
+<p>So, who is correct? The young children  whose internal, time-tested, machinery has elucidated what should be the correct pronunciation of ‘so’ or is it us without our imperfect and tainted rules of pronunciation? Should we change the orthography of &ldquo;go&rdquo; to add a new marker like &lsquo;ᶔ&rsquo; to separate &lsquo;goᶔ&rsquo; from to and do? What do would we do with &lsquo;no&rsquo;? I don&rsquo;t know.  What I do know, however, is that kids are really smart and ask incredible questions.</p>
 <p>If you’ve got an idea, feel free to share it with me or to point me in the correct direction.</p>
 
 
@@ -492,13 +432,6 @@ I’m sure that you’ve met someone who has a story of &ldquo;<em>I didn’t kn
 
               <span class = "social_icons">
 
-                <button>
-                  <a href="http://www.twitter.com/t42639805"><i class="bi bi-twitter"></i></a>  
-                </button>
-          
-                <button>
-                  <a href= "http://www.instagram.com/skylerase"><i class="bi bi-instagram"></i></a>
-                </button>
                 
                 <button>
                   <a href="/">
@@ -509,14 +442,7 @@ I’m sure that you’ve met someone who has a story of &ldquo;<em>I didn’t kn
                 <button>
                   <a href="http://www.github.com/skyetomez"><i class="bi bi-github"></i></a>  
                 </button>
-               
-             
-                
-                <button>
-                  <a href="https://www.linkedin.com/in/skyler-thomas-aa494615b">
-                  <i class="bi bi-linkedin"></i>
-                  </a>
-                </button>
+
           
                 </span>
 
