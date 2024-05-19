@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>language on Skyetomez</title>
-    <link>//localhost:36933/tags/language/</link>
+    <link>//localhost:46375/tags/language/</link>
     <description>Recent content in language on Skyetomez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Mar 2022 18:57:23 +0100</lastBuildDate><atom:link href="//localhost:36933/tags/language/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Mar 2022 18:57:23 +0100</lastBuildDate><atom:link href="//localhost:46375/tags/language/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Goo goo go go?</title>
-      <link>//localhost:36933/posts/googoogogo/</link>
+      <link>//localhost:46375/posts/googoogogo/</link>
       <pubDate>Mon, 07 Mar 2022 18:57:23 +0100</pubDate>
       
-      <guid>//localhost:36933/posts/googoogogo/</guid>
+      <guid>//localhost:46375/posts/googoogogo/</guid>
       <description>When I was growing up, I was always deeply interested in languages. I learned some Russian, Italian, Mandarin, and Spanish. During this time, I would occasionally hear the word ‘critical period’ which refers to the hypothesis that prior to a certain time during childhood, a language can be learned to native proficiency and without effort given only input from a more knowledgeable other. From my own experience as a language learner, I believe this as well.</description>
     </item>
     

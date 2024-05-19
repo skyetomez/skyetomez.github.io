@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Skyetomez&#39;s Blog on Skyetomez</title>
-    <link>//localhost:36933/</link>
+    <link>//localhost:46375/</link>
     <description>Recent content in Skyetomez&#39;s Blog on Skyetomez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Mar 2020 16:29:23 +0100</lastBuildDate><atom:link href="//localhost:36933/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Mar 2020 16:29:23 +0100</lastBuildDate><atom:link href="//localhost:46375/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Yes/No Hebrew CNN Classification</title>
-      <link>//localhost:36933/projects/word_classification/</link>
+      <link>//localhost:46375/projects/word_classification/</link>
       <pubDate>Tue, 29 Nov 2022 02:37:31 -0500</pubDate>
       
-      <guid>//localhost:36933/projects/word_classification/</guid>
+      <guid>//localhost:46375/projects/word_classification/</guid>
       <description>Summary Sounds are cool because they’re just a type of signal. Signals are often better understood in their spectrogram form. All of this information can be used by a neural network to learn something. In this case, it learns to identify a word (either a yes or no) by its spectrogram.
 All code is available on my github or the colab notebook here
 Background and Motivation I’ve been interested in machine learning and neural networks since my exposure to it during a computational neuroscience class.</description>
@@ -20,10 +20,10 @@ Background and Motivation I’ve been interested in machine learning and neural 
     
     <item>
       <title>Chapter 0</title>
-      <link>//localhost:36933/projects/math/introduction-to-stochastic-processes/chapter_0/</link>
+      <link>//localhost:46375/projects/math/introduction-to-stochastic-processes/chapter_0/</link>
       <pubDate>Tue, 01 Nov 2022 05:07:23 -0400</pubDate>
       
-      <guid>//localhost:36933/projects/math/introduction-to-stochastic-processes/chapter_0/</guid>
+      <guid>//localhost:46375/projects/math/introduction-to-stochastic-processes/chapter_0/</guid>
       <description>Find all functions $x(t),~y(t)$ satisfying $$x&#39;(t) = y(t) - x(t)$$ $$y&#39;(t) = 3x(t) - 3y(t) $$. Find the Particular pair of functions satisfying $x(0)=y(0)=1/2$
 Solution :
 We solve this by eliminating variables.
@@ -34,10 +34,10 @@ Solution :
     
     <item>
       <title>master sheet</title>
-      <link>//localhost:36933/posts/learneng/resouce_list/</link>
+      <link>//localhost:46375/posts/learneng/resouce_list/</link>
       <pubDate>Sat, 10 Sep 2022 18:23:29 -0400</pubDate>
       
-      <guid>//localhost:36933/posts/learneng/resouce_list/</guid>
+      <guid>//localhost:46375/posts/learneng/resouce_list/</guid>
       <description>Resources: A2-C2 teen and adult learners. Exam Skills Practice A2-C2 For teachers and students preparing for Cambridge English: exams, including Cambridge English First (FCE), Cambridge English Advanced (CAE) and Cambridge … https://www.flo-joe.co.uk/
 Learn English with these free learning English videos and materials from BBC Learning English. This site will help you learn English and improve your… https://www.bbc.co.uk/learningenglish/
 Developed by the University of Cambridge, Write &amp;amp; Improve is a FREE tool that helps every learner to improve their English writing.</description>
@@ -45,78 +45,78 @@ Developed by the University of Cambridge, Write &amp;amp; Improve is a FREE tool
     
     <item>
       <title>CRISPR uses / misuses / potential</title>
-      <link>//localhost:36933/posts/crispy/</link>
+      <link>//localhost:46375/posts/crispy/</link>
       <pubDate>Fri, 15 Apr 2022 02:59:03 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/crispy/</guid>
+      <guid>//localhost:46375/posts/crispy/</guid>
       <description>1 Summary and Background This was written in 2018 as part of course on being green and renewable energy sources in modern times.
 A new revolutionary genome-editing tool called CRISPR has been and continues to change the landscape of genetics and bioengineering. In borrowing this selective and programmable bacteria/archaea defense system, scientists have been able to do things such as: prevent heart disease at the level of the human embryo and develop test strips for field medical diagnostics.</description>
     </item>
     
     <item>
       <title>GHG emissions and Farming</title>
-      <link>//localhost:36933/posts/ghgemissions/</link>
+      <link>//localhost:46375/posts/ghgemissions/</link>
       <pubDate>Fri, 15 Apr 2022 02:35:30 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/ghgemissions/</guid>
+      <guid>//localhost:46375/posts/ghgemissions/</guid>
       <description>Summary and Background This was written in 2018 as part of course on being green and renewable energy sources in modern times.
 Greenhouse Gas (GHG) emissions from the U.S. department of agriculture are mostly from studied from transportation, industry, and electricity generation despite the fundamental importance of agriculture, forestry and other land usage (AFOLU) . Little has been done until recent decades to understand the impact on climate change by this sector in America and moreover the world.</description>
     </item>
     
     <item>
       <title>Praise the sun</title>
-      <link>//localhost:36933/posts/praisethesun/</link>
+      <link>//localhost:46375/posts/praisethesun/</link>
       <pubDate>Fri, 15 Apr 2022 02:20:15 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/praisethesun/</guid>
+      <guid>//localhost:46375/posts/praisethesun/</guid>
       <description>Summary and Background This was written in 2018 as part of course on being green and renewable energy sources in modern times.
 Solar power as an alternative source of energy is still facing push back by those who stem to profit from not moving to photovoltaics as a source of electricity despite large number of active projects and movement in tends in research and development to solar power over the past 2 decades.</description>
     </item>
     
     <item>
       <title>Bee colony collapse: Causes and Solutions survey</title>
-      <link>//localhost:36933/posts/beecolonycollapse/</link>
+      <link>//localhost:46375/posts/beecolonycollapse/</link>
       <pubDate>Fri, 15 Apr 2022 01:57:56 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/beecolonycollapse/</guid>
+      <guid>//localhost:46375/posts/beecolonycollapse/</guid>
       <description>Summary and Motivation This was written in 2018 as part of course on being green and renewable energy sources in modern times. During this time, bee colonies were collapsing and caused a huge scare in the USA especially in the almond industry.
 Apis mellifera (honeybee) are one of the most studied insects in the world due to their crucial role as a pollinator of almost 85% of North American and European crops.</description>
     </item>
     
     <item>
       <title>Poisson tiles: part 1</title>
-      <link>//localhost:36933/projects/poisson_tiles_intro/</link>
+      <link>//localhost:46375/projects/poisson_tiles_intro/</link>
       <pubDate>Sun, 03 Apr 2022 20:43:03 +0200</pubDate>
       
-      <guid>//localhost:36933/projects/poisson_tiles_intro/</guid>
+      <guid>//localhost:46375/projects/poisson_tiles_intro/</guid>
       <description>Summary The motivation for this mini-project was to not only get more familiar with working with $\tt{pygame}$ but also to give myself a playground that I could hook into other packages like $\tt{networkx}$. I also wanted to practice generating fractals. While looking over old notes, I came across the rules for a random process that looked interesting to visualize and potential to become fractal-like.
  Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Enlightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
     </item>
     
     <item>
       <title>Goo goo go go?</title>
-      <link>//localhost:36933/posts/googoogogo/</link>
+      <link>//localhost:46375/posts/googoogogo/</link>
       <pubDate>Mon, 07 Mar 2022 18:57:23 +0100</pubDate>
       
-      <guid>//localhost:36933/posts/googoogogo/</guid>
+      <guid>//localhost:46375/posts/googoogogo/</guid>
       <description>When I was growing up, I was always deeply interested in languages. I learned some Russian, Italian, Mandarin, and Spanish. During this time, I would occasionally hear the word ‘critical period’ which refers to the hypothesis that prior to a certain time during childhood, a language can be learned to native proficiency and without effort given only input from a more knowledgeable other. From my own experience as a language learner, I believe this as well.</description>
     </item>
     
     <item>
       <title>How many climbing centers should there be in a city?</title>
-      <link>//localhost:36933/projects/climbingcenters/</link>
+      <link>//localhost:46375/projects/climbingcenters/</link>
       <pubDate>Sun, 09 Jan 2022 22:16:18 +0100</pubDate>
       
-      <guid>//localhost:36933/projects/climbingcenters/</guid>
+      <guid>//localhost:46375/projects/climbingcenters/</guid>
       <description>Summary My friend was wondering about if there were enough climbing centers per city depending on how many people lived in the city and here is my rudimentary attempt to try to answer that question without anything fancy.  Introduction This project was started as a joint project between a friend that enjoys climbing and myself. He pointed out that he was convinced that the number of climbing centers in our city corresponded with it’s size.</description>
     </item>
     
     <item>
       <title>Interesting Words and Phrases 8</title>
-      <link>//localhost:36933/posts/iwp/interesting_words_and_phrases_8/</link>
+      <link>//localhost:46375/posts/iwp/interesting_words_and_phrases_8/</link>
       <pubDate>Wed, 08 Dec 2021 16:16:58 +0100</pubDate>
       
-      <guid>//localhost:36933/posts/iwp/interesting_words_and_phrases_8/</guid>
+      <guid>//localhost:46375/posts/iwp/interesting_words_and_phrases_8/</guid>
       <description>Fettered -to be chained, confined, restrainted &amp;ndash; shakled at the feet.
   Tutelage - a guiding influence or instruction esp. of a individual
   Precococious - showing mature qualities at an early age or exceptionally early in development or occurrence.
@@ -126,10 +126,10 @@ Apis mellifera (honeybee) are one of the most studied insects in the world due t
     
     <item>
       <title>Interesting Words and Phrases 7</title>
-      <link>//localhost:36933/posts/iwp/interesting_words_and_phrases_7/</link>
+      <link>//localhost:46375/posts/iwp/interesting_words_and_phrases_7/</link>
       <pubDate>Wed, 08 Dec 2021 15:13:41 +0100</pubDate>
       
-      <guid>//localhost:36933/posts/iwp/interesting_words_and_phrases_7/</guid>
+      <guid>//localhost:46375/posts/iwp/interesting_words_and_phrases_7/</guid>
       <description>Rebuke - to sharply critize
   Apostle - someone with strong religious faith that goes out to preach or spread gospel
   Absolve - to set someone free of or forgive them of guilt or a sin
@@ -139,10 +139,10 @@ Apis mellifera (honeybee) are one of the most studied insects in the world due t
     
     <item>
       <title>mRNA Vaccines with Dr. Kizzy</title>
-      <link>//localhost:36933/posts/mrna_vaccines/</link>
+      <link>//localhost:46375/posts/mrna_vaccines/</link>
       <pubDate>Sun, 29 Aug 2021 21:44:18 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/mrna_vaccines/</guid>
+      <guid>//localhost:46375/posts/mrna_vaccines/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 Kizzy did an amazing job making vaccine efficacy easy to understand when she showed that it is just the number of people of the got sick with the placebo compared to the total number of people that got sick. In other words, it&amp;rsquo;s a percentage that hides a ratio.
 I found this interesting because if 18/20 is the the vaccine efficacy, then 20-18 is the number of people who got sick with the vaccine.</description>
@@ -150,10 +150,10 @@ I found this interesting because if 18/20 is the the vaccine efficacy, then 20-1
     
     <item>
       <title>Phosphofructokinase-2</title>
-      <link>//localhost:36933/posts/phosphofructokinase_2/</link>
+      <link>//localhost:46375/posts/phosphofructokinase_2/</link>
       <pubDate>Sun, 29 Aug 2021 21:42:39 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/phosphofructokinase_2/</guid>
+      <guid>//localhost:46375/posts/phosphofructokinase_2/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 PHK2 is an important enzyme in the regulation of blood sugar levels as it responds to the peptide hormones insulin and glucagon that are both released by the pancreas.
 I&amp;rsquo;ve chosen the enzyme phosphofructokinase-2 (PHK2) and for 2 principle reasons: (1) I find this enzyme interesting because of how it differs from phosphofructokinase-1 (PFK1) in that it has a much lower affinity (greater K_m) for the same substrate glucose 6-phosphate (G6P) than PFK1 [1].</description>
@@ -161,20 +161,20 @@ I&amp;rsquo;ve chosen the enzyme phosphofructokinase-2 (PHK2) and for 2 principl
     
     <item>
       <title>GERD</title>
-      <link>//localhost:36933/posts/gerd/</link>
+      <link>//localhost:46375/posts/gerd/</link>
       <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/gerd/</guid>
+      <guid>//localhost:46375/posts/gerd/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 Gastroesophageal reflux disease (GERD) is a condition affects a lot of people in the world and, sure enough, even without suffering from its chronic effects, the discomfort that comes with acid reflux is a pain that can be appreciated by many. Anyone who has had the bittersweet experience of chowing-down on a scrumptious taco and, realizing only too late, that you forgot to ask for no jalapenos.</description>
     </item>
     
     <item>
       <title>Cofactor: Vitamin K</title>
-      <link>//localhost:36933/posts/vitamin_k_cofactor/</link>
+      <link>//localhost:46375/posts/vitamin_k_cofactor/</link>
       <pubDate>Sun, 29 Aug 2021 20:41:09 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/vitamin_k_cofactor/</guid>
+      <guid>//localhost:46375/posts/vitamin_k_cofactor/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 The cofactor vitamin K is not only known for its importance in the process of blood coagulation, rather it is also recognized for its ubiquity in photosynthesis as well.
 I learned about this vitamin in a rather uneventful mundane way. I was reading a book (or something) about something and the use of the drug dicoumarol to deplete vitamin K storage was being used to illustrate something else.</description>
@@ -182,20 +182,20 @@ I learned about this vitamin in a rather uneventful mundane way. I was reading a
     
     <item>
       <title>Polynomials by Barbeau</title>
-      <link>//localhost:36933/projects/math/polynomials/</link>
+      <link>//localhost:46375/projects/math/polynomials/</link>
       <pubDate>Sun, 15 Sep 2019 13:29:55 +0200</pubDate>
       
-      <guid>//localhost:36933/projects/math/polynomials/</guid>
+      <guid>//localhost:46375/projects/math/polynomials/</guid>
       <description>Here are some solutions to the questions in the work book Polynomial by Edward J. Barbeau
 Chapter 1  Section 1 Section 2 Section 3  </description>
     </item>
     
     <item>
       <title>Interesting Words and Phrases 6</title>
-      <link>//localhost:36933/posts/iwp/interesting_words_and_phrases_6/</link>
+      <link>//localhost:46375/posts/iwp/interesting_words_and_phrases_6/</link>
       <pubDate>Fri, 13 Sep 2019 12:31:16 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/iwp/interesting_words_and_phrases_6/</guid>
+      <guid>//localhost:46375/posts/iwp/interesting_words_and_phrases_6/</guid>
       <description>Burgeon - Begin to grow or increase rapidly; flourish.
 Culture  - The arts and other manifestations of human intellectual achievement regarded collectively.
 Collectivism  - The practice or principle of giving a group priority over each individual in it.
@@ -205,19 +205,19 @@ Individualism - A social theory favouring freedom of action for individuals over
     
     <item>
       <title>Interesting Words and Phrases 5</title>
-      <link>//localhost:36933/posts/iwp/interesting_words_and_phrases_5/</link>
+      <link>//localhost:46375/posts/iwp/interesting_words_and_phrases_5/</link>
       <pubDate>Thu, 12 Sep 2019 15:13:16 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/iwp/interesting_words_and_phrases_5/</guid>
+      <guid>//localhost:46375/posts/iwp/interesting_words_and_phrases_5/</guid>
       <description>Exemption - This is a deduction allowed by law to reduce the amount of income that would otherwise be taxed. There are two types offered by the IRS: personal exemptions and dependent exemptions. Deduction - This is any item or expenditure subtracted from gross income to reduce the amount of income subject to income tax. This is also referred to as an &amp;ldquo;allowable deduction&amp;rdquo;. Dependent - A dependent is a person who entitles a taxpayer to claim dependent-related tax benefits that reduce that amount of tax that taxpayer owes.</description>
     </item>
     
     <item>
       <title>about</title>
-      <link>//localhost:36933/about/</link>
+      <link>//localhost:46375/about/</link>
       <pubDate>Thu, 12 Sep 2019 12:17:58 +0200</pubDate>
       
-      <guid>//localhost:36933/about/</guid>
+      <guid>//localhost:46375/about/</guid>
       <description>I graduated from the University of Texas at Austin studying Pure Mathematics and Neuroscience. I am interested in efficiency, probability, languages, and mental health.
 I initially created this blog as as a way to share my thoughts and projects.
 I enjoy reading&amp;ndash; anything &amp;ndash; fiction, non-fiction, nutrition labels. Some particular topics that I enjoy to read about are: mysteries, comedy, fiction, philosophy amongst other thing.
@@ -226,10 +226,10 @@ You can see what I am currently or going to read through my goodreads account.</
     
     <item>
       <title>Skyetomez CV</title>
-      <link>//localhost:36933/cv/</link>
+      <link>//localhost:46375/cv/</link>
       <pubDate>Thu, 12 Sep 2019 12:17:58 +0200</pubDate>
       
-      <guid>//localhost:36933/cv/</guid>
+      <guid>//localhost:46375/cv/</guid>
       <description>Education  2023-2024 PhD, Biomedical Engineering; Johns Hopkins Univeristy, (Baltimore, MD)
   2015-2019 BS, Pure Mathematics; The University of Texas at Austin, (Austin,TX)
   2014-2019 BSA, Neuroscience; The University of Texas at Austin, (Austin,TX)
@@ -240,20 +240,20 @@ You can see what I am currently or going to read through my goodreads account.</
     
     <item>
       <title>Interesting Words and Phrases 4</title>
-      <link>//localhost:36933/posts/iwp/interesting_words_and_phrases_4/</link>
+      <link>//localhost:46375/posts/iwp/interesting_words_and_phrases_4/</link>
       <pubDate>Wed, 11 Sep 2019 15:13:14 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/iwp/interesting_words_and_phrases_4/</guid>
+      <guid>//localhost:46375/posts/iwp/interesting_words_and_phrases_4/</guid>
       <description>Aggrandize - Increase the power, status, or wealth of. Enhance the reputation of (someone) beyond what is justified by the facts. Bereave - Be deprived of a loved one through a profound absence especially due to the loved one&amp;rsquo;s death.
 Mania  - Mental illness marked by periods of great excitement or euphoria, delusions, and overactivity. An excessive enthusiasm or desire; obsession. Chagrin - Distress or embarrassment at having failed or been humiliated.</description>
     </item>
     
     <item>
       <title>Interesting Words and Phrases 3</title>
-      <link>//localhost:36933/posts/iwp/interesting_words_and_phrases_3/</link>
+      <link>//localhost:46375/posts/iwp/interesting_words_and_phrases_3/</link>
       <pubDate>Tue, 10 Sep 2019 15:13:11 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/iwp/interesting_words_and_phrases_3/</guid>
+      <guid>//localhost:46375/posts/iwp/interesting_words_and_phrases_3/</guid>
       <description>Depression - Feelings of severe despondency and dejection, typically also with feelings of inadequacy and guilt, often accompanied by lack of energy and disturbance of appetite and sleep. Morbidity - The condition of being diseased. Mortality - The state of being subject to death.
 Comorbidity - The simultaneous presense of two chronic diseases or conditions in a patient.
 Narrative theory - The study of how stories help people make sense of the world, while also studying how people make sense of stories.</description>
@@ -261,10 +261,10 @@ Narrative theory - The study of how stories help people make sense of the world,
     
     <item>
       <title>Interesting Words and Phrases 2</title>
-      <link>//localhost:36933/posts/iwp/interesting_words_and_phrases_2/</link>
+      <link>//localhost:46375/posts/iwp/interesting_words_and_phrases_2/</link>
       <pubDate>Mon, 09 Sep 2019 15:12:25 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/iwp/interesting_words_and_phrases_2/</guid>
+      <guid>//localhost:46375/posts/iwp/interesting_words_and_phrases_2/</guid>
       <description>Accost – Approach and address (someone) boldly or aggressively.
 Aflutter – In a state of tremulous excitement.
 Apocryphal – (of a story or statement) of doubtful authenticity, although widely circulated as being true.
@@ -276,10 +276,10 @@ Deference – Polite submission and respect.</description>
     
     <item>
       <title>Interesting Words and Phrases 1</title>
-      <link>//localhost:36933/posts/iwp/interesting_words_and_phrases_1/</link>
+      <link>//localhost:46375/posts/iwp/interesting_words_and_phrases_1/</link>
       <pubDate>Sun, 08 Sep 2019 14:08:53 +0200</pubDate>
       
-      <guid>//localhost:36933/posts/iwp/interesting_words_and_phrases_1/</guid>
+      <guid>//localhost:46375/posts/iwp/interesting_words_and_phrases_1/</guid>
       <description>Acquiesce – Accept something reluctantly but without protest.
 Adroit – Clever or skilful.
 Amidst - Surrounded by; in the middle of.
