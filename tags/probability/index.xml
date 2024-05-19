@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>probability on Skyler blog</title>
-    <link>http://localhost:1313/tags/probability/</link>
-    <description>Recent content in probability on Skyler blog</description>
+    <title>probability on Skyetomez</title>
+    <link>//localhost:36933/tags/probability/</link>
+    <description>Recent content in probability on Skyetomez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 08 Nov 2022 22:05:29 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/probability/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Nov 2022 22:05:29 -0500</lastBuildDate><atom:link href="//localhost:36933/tags/probability/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction to Stochastic Processes</title>
-      <link>http://localhost:1313/projects/math/introduction-to-stochastic-processes/</link>
+      <link>//localhost:36933/projects/math/introduction-to-stochastic-processes/</link>
       <pubDate>Tue, 08 Nov 2022 22:05:29 -0500</pubDate>
       
-      <guid>http://localhost:1313/projects/math/introduction-to-stochastic-processes/</guid>
+      <guid>//localhost:36933/projects/math/introduction-to-stochastic-processes/</guid>
       <description>My solutions to Introduction to Stochastic Processes by Greg Lawler.</description>
     </item>
     
     <item>
       <title>Chapter 0</title>
-      <link>http://localhost:1313/projects/math/introduction-to-stochastic-processes/chapter_0/</link>
+      <link>//localhost:36933/projects/math/introduction-to-stochastic-processes/chapter_0/</link>
       <pubDate>Tue, 01 Nov 2022 05:07:23 -0400</pubDate>
       
-      <guid>http://localhost:1313/projects/math/introduction-to-stochastic-processes/chapter_0/</guid>
+      <guid>//localhost:36933/projects/math/introduction-to-stochastic-processes/chapter_0/</guid>
       <description>Find all functions $x(t),~y(t)$ satisfying $$x&#39;(t) = y(t) - x(t)$$ $$y&#39;(t) = 3x(t) - 3y(t) $$. Find the Particular pair of functions satisfying $x(0)=y(0)=1/2$
 Solution :
 We solve this by eliminating variables.
@@ -32,10 +32,10 @@ Solution :
     
     <item>
       <title>Poisson tiles: part 1</title>
-      <link>http://localhost:1313/projects/poisson_tiles_intro/</link>
+      <link>//localhost:36933/projects/poisson_tiles_intro/</link>
       <pubDate>Sun, 03 Apr 2022 20:43:03 +0200</pubDate>
       
-      <guid>http://localhost:1313/projects/poisson_tiles_intro/</guid>
+      <guid>//localhost:36933/projects/poisson_tiles_intro/</guid>
       <description>Summary The motivation for this mini-project was to not only get more familiar with working with $\tt{pygame}$ but also to give myself a playground that I could hook into other packages like $\tt{networkx}$. I also wanted to practice generating fractals. While looking over old notes, I came across the rules for a random process that looked interesting to visualize and potential to become fractal-like.
  Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Enlightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
     </item>

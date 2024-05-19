@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>math on Skyler blog</title>
-    <link>http://localhost:1313/tags/math/</link>
-    <description>Recent content in math on Skyler blog</description>
+    <title>math on Skyetomez</title>
+    <link>//localhost:36933/tags/math/</link>
+    <description>Recent content in math on Skyetomez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 03 Apr 2022 20:43:03 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Apr 2022 20:43:03 +0200</lastBuildDate><atom:link href="//localhost:36933/tags/math/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Poisson tiles: part 1</title>
-      <link>http://localhost:1313/projects/poisson_tiles_intro/</link>
+      <link>//localhost:36933/projects/poisson_tiles_intro/</link>
       <pubDate>Sun, 03 Apr 2022 20:43:03 +0200</pubDate>
       
-      <guid>http://localhost:1313/projects/poisson_tiles_intro/</guid>
+      <guid>//localhost:36933/projects/poisson_tiles_intro/</guid>
       <description>Summary The motivation for this mini-project was to not only get more familiar with working with $\tt{pygame}$ but also to give myself a playground that I could hook into other packages like $\tt{networkx}$. I also wanted to practice generating fractals. While looking over old notes, I came across the rules for a random process that looked interesting to visualize and potential to become fractal-like.
  Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Enlightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
     </item>
     
     <item>
       <title>How many climbing centers should there be in a city?</title>
-      <link>http://localhost:1313/projects/climbingcenters/</link>
+      <link>//localhost:36933/projects/climbingcenters/</link>
       <pubDate>Sun, 09 Jan 2022 22:16:18 +0100</pubDate>
       
-      <guid>http://localhost:1313/projects/climbingcenters/</guid>
+      <guid>//localhost:36933/projects/climbingcenters/</guid>
       <description>Summary My friend was wondering about if there were enough climbing centers per city depending on how many people lived in the city and here is my rudimentary attempt to try to answer that question without anything fancy.  Introduction This project was started as a joint project between a friend that enjoys climbing and myself. He pointed out that he was convinced that the number of climbing centers in our city corresponded with it’s size.</description>
     </item>
     

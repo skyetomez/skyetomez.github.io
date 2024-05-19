@@ -2,325 +2,325 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/es/posts/aprendeng/pagina_principal/</loc>
+    <loc>//localhost:36933/es/posts/aprendeng/pagina_principal/</loc>
     <lastmod>2022-09-10T22:50:38-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/posts/aprendeng/</loc>
+    <loc>//localhost:36933/es/posts/aprendeng/</loc>
     <lastmod>2022-09-10T22:44:50-04:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/cv/</loc>
+    <loc>//localhost:36933/es/cv/</loc>
     <lastmod>2022-04-19T14:50:05+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/cv/"
+                href="//localhost:36933/cv/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/cv/"
+                href="//localhost:36933/es/cv/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/crispy/</loc>
+    <loc>//localhost:36933/es/posts/crispy/</loc>
     <lastmod>2022-04-15T02:59:12+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/crispy/"
+                href="//localhost:36933/posts/crispy/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/crispy/"
+                href="//localhost:36933/es/posts/crispy/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/ghgemissions/</loc>
+    <loc>//localhost:36933/es/posts/ghgemissions/</loc>
     <lastmod>2022-04-15T02:35:38+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/ghgemissions/"
+                href="//localhost:36933/posts/ghgemissions/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/ghgemissions/"
+                href="//localhost:36933/es/posts/ghgemissions/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/praisethesun/</loc>
+    <loc>//localhost:36933/es/posts/praisethesun/</loc>
     <lastmod>2022-04-15T02:19:58+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/praisethesun/"
+                href="//localhost:36933/posts/praisethesun/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/praisethesun/"
+                href="//localhost:36933/es/posts/praisethesun/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/beecolonycollapse/</loc>
+    <loc>//localhost:36933/es/posts/beecolonycollapse/</loc>
     <lastmod>2022-04-15T01:58:02+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/beecolonycollapse/"
+                href="//localhost:36933/posts/beecolonycollapse/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/beecolonycollapse/"
+                href="//localhost:36933/es/posts/beecolonycollapse/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/projects/poisson_tiles_intro/</loc>
+    <loc>//localhost:36933/es/projects/poisson_tiles_intro/</loc>
     <lastmod>2022-04-03T20:43:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/projects/poisson_tiles_intro/"
+                href="//localhost:36933/projects/poisson_tiles_intro/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/projects/poisson_tiles_intro/"
+                href="//localhost:36933/es/projects/poisson_tiles_intro/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/math/</loc>
+    <loc>//localhost:36933/es/tags/math/</loc>
     <lastmod>2022-04-03T20:43:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/math/"
+                href="//localhost:36933/tags/math/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/math/"
+                href="//localhost:36933/es/tags/math/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/probability/</loc>
+    <loc>//localhost:36933/es/tags/probability/</loc>
     <lastmod>2022-04-03T20:43:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/probability/"
+                href="//localhost:36933/tags/probability/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/probability/"
+                href="//localhost:36933/es/tags/probability/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/</loc>
+    <loc>//localhost:36933/es/tags/</loc>
     <lastmod>2022-04-03T20:43:20+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/"
+                href="//localhost:36933/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/"
+                href="//localhost:36933/es/tags/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/english/</loc>
+    <loc>//localhost:36933/es/tags/english/</loc>
     <lastmod>2022-03-07T21:09:16+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/english/"
+                href="//localhost:36933/tags/english/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/english/"
+                href="//localhost:36933/es/tags/english/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/googoogogo/</loc>
+    <loc>//localhost:36933/es/posts/googoogogo/</loc>
     <lastmod>2022-03-07T21:09:16+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/googoogogo/"
+                href="//localhost:36933/posts/googoogogo/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/googoogogo/"
+                href="//localhost:36933/es/posts/googoogogo/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/language/</loc>
+    <loc>//localhost:36933/es/tags/language/</loc>
     <lastmod>2022-03-07T21:09:16+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/language/"
+                href="//localhost:36933/tags/language/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/language/"
+                href="//localhost:36933/es/tags/language/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/linguisics/</loc>
+    <loc>//localhost:36933/es/tags/linguisics/</loc>
     <lastmod>2022-03-07T21:09:16+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es/projects/climbingcenters/</loc>
+    <loc>//localhost:36933/es/projects/climbingcenters/</loc>
     <lastmod>2022-01-09T22:16:18+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/projects/climbingcenters/"
+                href="//localhost:36933/projects/climbingcenters/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/projects/climbingcenters/"
+                href="//localhost:36933/es/projects/climbingcenters/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/mrna_vaccines/</loc>
+    <loc>//localhost:36933/es/posts/mrna_vaccines/</loc>
     <lastmod>2021-08-29T21:44:18+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/mrna_vaccines/"
+                href="//localhost:36933/posts/mrna_vaccines/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/mrna_vaccines/"
+                href="//localhost:36933/es/posts/mrna_vaccines/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/phosphofructokinase_2/</loc>
+    <loc>//localhost:36933/es/posts/phosphofructokinase_2/</loc>
     <lastmod>2021-08-29T21:42:39+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/phosphofructokinase_2/"
+                href="//localhost:36933/posts/phosphofructokinase_2/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/phosphofructokinase_2/"
+                href="//localhost:36933/es/posts/phosphofructokinase_2/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/bchem/</loc>
+    <loc>//localhost:36933/es/tags/bchem/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/bchem/"
+                href="//localhost:36933/tags/bchem/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/bchem/"
+                href="//localhost:36933/es/tags/bchem/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/bio/</loc>
+    <loc>//localhost:36933/es/tags/bio/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/bio/"
+                href="//localhost:36933/tags/bio/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/bio/"
+                href="//localhost:36933/es/tags/bio/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/gerd/</loc>
+    <loc>//localhost:36933/es/posts/gerd/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/gerd/"
+                href="//localhost:36933/posts/gerd/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/gerd/"
+                href="//localhost:36933/es/posts/gerd/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/tags/science/</loc>
+    <loc>//localhost:36933/es/tags/science/</loc>
     <lastmod>2021-08-29T21:39:40+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/tags/science/"
+                href="//localhost:36933/tags/science/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/tags/science/"
+                href="//localhost:36933/es/tags/science/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/vitamin_k_cofactor/</loc>
+    <loc>//localhost:36933/es/posts/vitamin_k_cofactor/</loc>
     <lastmod>2021-08-29T20:41:09+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/vitamin_k_cofactor/"
+                href="//localhost:36933/posts/vitamin_k_cofactor/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/vitamin_k_cofactor/"
+                href="//localhost:36933/es/posts/vitamin_k_cofactor/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/projects/</loc>
+    <loc>//localhost:36933/es/projects/</loc>
     <lastmod>2020-04-22T16:48:50+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/projects/"
+                href="//localhost:36933/projects/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/projects/"
+                href="//localhost:36933/es/projects/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/posts/</loc>
+    <loc>//localhost:36933/es/posts/</loc>
     <lastmod>2020-04-22T16:48:36+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/posts/"
+                href="//localhost:36933/posts/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/posts/"
+                href="//localhost:36933/es/posts/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/</loc>
+    <loc>//localhost:36933/es/</loc>
     <lastmod>2020-03-23T16:29:23+01:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/"
+                href="//localhost:36933/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/"
+                href="//localhost:36933/es/"
                 />
   </url><url>
-    <loc>http://localhost:1313/es/about/</loc>
+    <loc>//localhost:36933/es/about/</loc>
     <lastmod>2019-09-12T12:17:58+02:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/about/"
+                href="//localhost:36933/about/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://localhost:1313/es/about/"
+                href="//localhost:36933/es/about/"
                 />
   </url>
 </urlset>

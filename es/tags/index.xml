@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Skyler blog ES</title>
-    <link>http://localhost:1313/es/tags/</link>
-    <description>Recent content in Tags on Skyler blog ES</description>
+    <title>Tags on Skyetomez</title>
+    <link>//localhost:36933/es/tags/</link>
+    <description>Recent content in Tags on Skyetomez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Sun, 03 Apr 2022 20:43:20 +0200</lastBuildDate><atom:link href="http://localhost:1313/es/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Apr 2022 20:43:20 +0200</lastBuildDate><atom:link href="//localhost:36933/es/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>math</title>
-      <link>http://localhost:1313/es/tags/math/</link>
+      <link>//localhost:36933/es/tags/math/</link>
       <pubDate>Sun, 03 Apr 2022 20:43:20 +0200</pubDate>
       
-      <guid>http://localhost:1313/es/tags/math/</guid>
+      <guid>//localhost:36933/es/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>probability</title>
-      <link>http://localhost:1313/es/tags/probability/</link>
+      <link>//localhost:36933/es/tags/probability/</link>
       <pubDate>Sun, 03 Apr 2022 20:43:20 +0200</pubDate>
       
-      <guid>http://localhost:1313/es/tags/probability/</guid>
+      <guid>//localhost:36933/es/tags/probability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>english</title>
-      <link>http://localhost:1313/es/tags/english/</link>
+      <link>//localhost:36933/es/tags/english/</link>
       <pubDate>Mon, 07 Mar 2022 21:09:16 +0100</pubDate>
       
-      <guid>http://localhost:1313/es/tags/english/</guid>
+      <guid>//localhost:36933/es/tags/english/</guid>
       <description></description>
     </item>
     
     <item>
       <title>language</title>
-      <link>http://localhost:1313/es/tags/language/</link>
+      <link>//localhost:36933/es/tags/language/</link>
       <pubDate>Mon, 07 Mar 2022 21:09:16 +0100</pubDate>
       
-      <guid>http://localhost:1313/es/tags/language/</guid>
+      <guid>//localhost:36933/es/tags/language/</guid>
       <description></description>
     </item>
     
     <item>
       <title>linguisics</title>
-      <link>http://localhost:1313/es/tags/linguisics/</link>
+      <link>//localhost:36933/es/tags/linguisics/</link>
       <pubDate>Mon, 07 Mar 2022 21:09:16 +0100</pubDate>
       
-      <guid>http://localhost:1313/es/tags/linguisics/</guid>
+      <guid>//localhost:36933/es/tags/linguisics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bchem</title>
-      <link>http://localhost:1313/es/tags/bchem/</link>
+      <link>//localhost:36933/es/tags/bchem/</link>
       <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
       
-      <guid>http://localhost:1313/es/tags/bchem/</guid>
+      <guid>//localhost:36933/es/tags/bchem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bio</title>
-      <link>http://localhost:1313/es/tags/bio/</link>
+      <link>//localhost:36933/es/tags/bio/</link>
       <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
       
-      <guid>http://localhost:1313/es/tags/bio/</guid>
+      <guid>//localhost:36933/es/tags/bio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>science</title>
-      <link>http://localhost:1313/es/tags/science/</link>
+      <link>//localhost:36933/es/tags/science/</link>
       <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
       
-      <guid>http://localhost:1313/es/tags/science/</guid>
+      <guid>//localhost:36933/es/tags/science/</guid>
       <description></description>
     </item>
     

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>resources on Skyler blog</title>
-    <link>http://localhost:1313/tags/resources/</link>
-    <description>Recent content in resources on Skyler blog</description>
+    <title>resources on Skyetomez</title>
+    <link>//localhost:36933/tags/resources/</link>
+    <description>Recent content in resources on Skyetomez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Sep 2022 17:35:49 -0400</lastBuildDate><atom:link href="http://localhost:1313/tags/resources/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Sep 2022 17:35:49 -0400</lastBuildDate><atom:link href="//localhost:36933/tags/resources/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>English Learning Materials 📁</title>
-      <link>http://localhost:1313/posts/learneng/</link>
+      <link>//localhost:36933/posts/learneng/</link>
       <pubDate>Sat, 10 Sep 2022 17:35:49 -0400</pubDate>
       
-      <guid>http://localhost:1313/posts/learneng/</guid>
+      <guid>//localhost:36933/posts/learneng/</guid>
       <description>After teaching English for three years, I&amp;rsquo;ve amassed some class room resouces for various learners&#39; levels. These levels are designated by the common european framework of reference for langauges (CEFR) and the material is mostly for levels A2-C1.
 Quizizz quizzes</description>
     </item>
