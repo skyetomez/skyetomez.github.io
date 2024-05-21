@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+  
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.92.2" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">    <link rel="" href="">
+    
+    
+
+
+    
+    
+    <title>How many climbing centers ... 2? | Skyetomez</title>
+    <link
+            rel="icon"
+            href="/logo_sq.png"
+            type="image/x-icon"
+        />
+    
+    <link rel="stylesheet" href="/css/style.min.css" media="screen">
+</head>
+
+  <header> 
+    
+
+
+<nav>
+    
+      
+      
+      <a href="/">home</a>
+    
+      &squf;
+      
+      <a href="/about">about</a>
+    
+      &squf;
+      
+      <a href="/posts">posts</a>
+    
+      &squf;
+      
+      <a href="/projects">projects</a>
+    
+ </nav>  
+  </header>
+
+    <body>
+
+      <div>      
+      
+
+<h1>How many climbing centers ... 2?</h1> 
+
+<style>
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        
+    }
+    .table th, .table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        font-size: 0.8em;
+    }
+    .table th {
+        background-color: #f2f2f2;
+        text-align: left;
+    }
+    .table-striped tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+</style>
+<h2 id="background">Background</h2>
+<p>As mentioned at the end of the <a href="https://skyetomez.github.io/projects/climbingcenters/">first part</a> of this project, the next step was to incorporate actual geographical and socioeconomic data into the analysis to either support or reject my friend&rsquo;s comments about the insufficient number of climbing centers. As an aside, I still don&rsquo;t climb. I went for the first time last year. It&rsquo;s definitely fun, but it&rsquo;s not something I&rsquo;ll think of doing in my free time.</p>
+<p>I started this project almost 3 years ago and I finally got around to finishing the second part of this project. Since then, I was accepted into a PhD program of my dreams and have been trying to learn as much and explore as much as possible about neuroscience, computational, and mathematical theory.</p>
+<p>With the updates out of the way, I&rsquo;d like to acknowledge that I had no idea how expensive GIS data could be until I started looking for data for this part of the project. I&rsquo;m very thankful to Kaggle for providing geopackage data (gpkg). I also didn&rsquo;t realize how costly GIS data processing software could be, so I&rsquo;m grateful for open-source packages like <code>geopandas</code>, <code>folium</code>, and <code>overpy</code>.</p>
+<figure class="climbing-folium-map">
+    <img src="/folium_spain.png" width=100%>
+</figure>
+<h2 id="methods-and-calculations">Methods and Calculations</h2>
+<p>After collecting the data, processing it can be done with a few lines of Python code. The most involved part of this project was learning how to properly query the Overpass API from <a href="https://www.openstreetmap.org/">OpenStreetMap</a> through the <code>overpy</code> Python package. All code was written in Python and executed in a Jupyter notebook. The hardware used was a DELL XPS 15 9570 with 16GB of RAM, an Intel Core i7-8750H CPU @ 2.20GHz×12, running Ubuntu 22.04 LTS with a 64-bit architecture.</p>
+<h3 id="data-collection">Data Collection</h3>
+<p>The geopackage data was available on <a href="https://www.kaggle.com/datasets/saldenisov/population-density-in-spain">Kaggle by saldenisov</a>, while the climbing center data was queried through OpenStreetMap. All data was freely available and non-proprietary.</p>
+<h3 id="data-preparation">Data Preparation</h3>
+<p>The population density data was already in a geopackage format with CRS of EPSG:4326. The climbing center data was queried from OpenStreetMap and returned in JSON format. This data was parsed and converted to a <code>geopandas</code> dataframe by taking the longitude and latitude of each climbing center location. They were converted to CRS EPSG:4326 format as well and then spatially joined with the population density data, associating the climbing centers to the regions given their coordinates relative to the population density data.</p>
+<table border="1" class="dataframe table table-striped"><thead><tr style="text-align: right;"><th>GID_1</th><th>community</th><th>code_dep</th><th>population</th><th>density</th><th>area</th></tr></thead><tbody><tr><td>ESP.1_1</td><td>Andalucía</td><td>ES.AN</td><td>8464411</td><td>96</td><td>87268.0</td></tr><tr><td>ESP.2_1</td><td>Aragón</td><td>ES.AR</td><td>1329391</td><td>28</td><td>47719.0</td></tr><tr><td>ESP.3_1</td><td>Cantabria</td><td>ES.CB</td><td>582905</td><td>109</td><td>5321.0</td></tr><tr><td>ESP.4_1</td><td>Castilla-La Mancha</td><td>ES.CM</td><td>2045221</td><td>26</td><td>79463.0</td></tr><tr><td>ESP.5_1</td><td>Castilla y León</td><td>ES.CL</td><td>2394918</td><td>25</td><td>94223.0</td></tr></tbody></table>
+<h4 id="coordinate-systems-and-projections">Coordinate Systems and Projections</h4>
+<p>I want to take a moment to talk about the world of encoding geographical coordinates and how rich this area is. For the hurried reader, the code and results are at the bottom of the page along with the Jupyter notebook. Interestingly, the only times I&rsquo;ve ever thought about the problem of recording the locations of something spherical or onto a plane was in a Human Geography course that I took in high school, specifically, the Mercator projection.</p>
+<p>In class, we discussed the difficulty of representing a sphere on a plane and how the Mercator projection tries to solve this problem by trading off the area and shape of the Earth for distance.</p>
+<img src="/mercator_projection.png" width=100%, object-position=-10>
+<p>Thanks to people on the internet who think learning is cool (and stackexchange for the picture above), there are websites that let people play with these distortions to gain an intuition about how much larger or smaller countries are in reality when compared to what is found on a map. The website <a href="www.thetruesize.com/">www.thetruesize.com/</a> went viral around 2017 for this reason.</p>
+<p>We can think of the coordinates of the points on the Earth locally as x and y coordinates. This makes sense because, if you go outside, the Earth around you looks flat. In fact, even from space, the Earth looks flat. However, the Earth is not flat, which is most easily reasoned by noticing that one cannot see the Great Wall of China from New York City (or even from the moon). There are other reasons, as shared <a href="https://askanearthspacescientist.asu.edu/top-question/flat-earth">here</a> in a response to a student&rsquo;s question from ASU. This relation between the Earth being flat around us (locally) yet spherical (globally) begs the question of how to flatten something round onto something flat without losing too much information.</p>
+<p>Using our current location as a reference, we use x and y coordinates. I can tell my friend Jane that I&rsquo;m located somewhere on the surface of the Earth by giving her a coordinate pair. Although this coordinate pair is helpful, it depends on where Jane and I are. If we are nearby, this approximation is sufficient and is what motivates some city layouts like Chicago. However, if Jane is currently touring the Great Zimbabwe ruins and I&rsquo;m eating BBQ in Austin, not only is our approximation bad, but we also have to figure out which of us will be the zero point!</p>
+<p>We can overcome this by both agreeing to use a common reference point and a common coordinate system. This is naturally done by picking the center of the Earth as the reference point and agreeing to convert our x and y coordinates into degrees relative to the equator and the prime meridian of the Earth. Concretely, these are the longitude and latitude, and the conversion can be done using the Haversine formula.</p>
+<p>The Haversine formula is given by:</p>
+<p>$$
+a = \sin^2\left(\frac{\Delta\phi}{2}\right) + \cos(\phi_1)\cos(\phi_2)\sin^2\left(\frac{\Delta\lambda}{2}\right)
+$$</p>
+<p>$$
+c = 2\cdot\text{atan2}\left(\sqrt{a}, \sqrt{1-a}\right)
+$$</p>
+<p>$$
+d = R\cdot c
+$$</p>
+<p>where:</p>
+<ul>
+<li>\(\phi_1\) and \(\phi_2\) are the latitudes of the two points</li>
+<li>\(\Delta\phi\) is the difference between the latitudes</li>
+<li>\(\Delta\lambda\) is the difference between the longitudes</li>
+<li>\(R\) is the radius of the Earth (e.g., 6371 km for kilometers)</li>
+</ul>
+<p>The formula calculates the great-circle distance between two points on a sphere given their latitudes and longitudes. The result, $d$, is the distance between the two points in the same units as the radius of the Earth. A really cool post about this can be found <a href="https://community.esri.com/t5/coordinate-reference-systems-blog/distance-on-a-sphere-the-haversine-formula/ba-p/902128#:~:text=For%20example%2C%20haversine(%CE%B8),longitude%20of%20the%20two%20points.">here</a></p>
+<p>It seems like we&rsquo;ve solved our problem. Clearly, sailors carried massive spheres and tables with them to perform conversions and calculations, right? Well, not quite. The Haversine formula is great for calculating distances between two points on a sphere, but it doesn&rsquo;t help us with the problem of representing the Earth on a flat surface. Indeed, we now have a common language for discussing locations on the sphere, but how is Jane to give me directions to meet her at the Great Zimbabwe ruins?</p>
+<p>There are many other different projections, as well as connections to homeomorphisms and diffeomorphisms from the sphere to other spaces, which I&rsquo;ll discuss in a separate post about these connections and geometries in the future.</p>
+<h2 id="results">Results</h2>
+<p>The final map of the climbing centers in Spain from the query is provided in the figure below.</p>
+<figure class="climbing-folium-map">
+    <img src="/folium_spain_centers.png" width=100%>
+</figure>
+<p>The map was made using the Python library <code>folium</code>.</p>
+<p>Through the spatial join of the data sets, we get the following counts of the number of climbing centers:</p>
+<table border="1" class="dataframe table table-striped">  <thead>    <tr style="text-align: right;">      <th>community</th>      <th>counts</th>      <th>density</th>      <th>area</th>    </tr>  </thead>  <tbody>    <tr>      <td>Andalucía</td>      <td>15</td>      <td>96</td>      <td>87268.0</td>    </tr>    <tr>      <td>Aragón</td>      <td>9</td>      <td>28</td>      <td>47719.0</td>    </tr>    <tr>      <td>Cantabria</td>      <td>2</td>      <td>109</td>      <td>5321.0</td>    </tr>    <tr>      <td>Castilla y León</td>      <td>8</td>      <td>25</td>      <td>94223.0</td>    </tr>    <tr>      <td>Cataluña</td>      <td>37</td>      <td>239</td>      <td>32114.0</td>    </tr>    <tr>      <td>Comunidad Foral de Navarra</td>      <td>6</td>      <td>63</td>      <td>10391.0</td>    </tr>    <tr>      <td>Comunidad Valenciana</td>      <td>26</td>      <td>215</td>      <td>23255.0</td>    </tr>    <tr>      <td>Comunidad de Madrid</td>      <td>22</td>      <td>830</td>      <td>8028.0</td>    </tr>    <tr>      <td>Extremadura</td>      <td>4</td>      <td>26</td>      <td>41634.0</td>    </tr>    <tr>      <td>Galicia</td>      <td>2</td>      <td>91</td>      <td>29574.0</td>    </tr>    <tr>      <td>Islas Baleares</td>      <td>21</td>      <td>230</td>      <td>4992.0</td>    </tr>    <tr>      <td>Islas Canarias</td>      <td>2</td>      <td>289</td>      <td>7447.0</td>    </tr>    <tr>      <td>La Rioja</td>      <td>1</td>      <td>63</td>      <td>5045.0</td>    </tr>    <tr>      <td>País Vasco</td>      <td>10</td>      <td>305</td>      <td>7234.0</td>    </tr>    <tr>      <td>Principado de Asturias</td>      <td>3</td>      <td>96</td>      <td>10604.0</td>    </tr>    <tr>      <td>Región de Murcia</td>      <td>4</td>      <td>132</td>      <td>11313.0</td>    </tr>  </tbody></table>
+<p>Which we can view as:</p>
+<figure class="climbing2-graph">
+   <img src = "/climbing_centers_vs_population_density.png" width=100%>
+</figure>
+<h2 id="discussion">Discussion</h2>
+<p>It&rsquo;s possible that some climbing centers were missed or that too many centers were included. Using only the queries that the location must be both a place where climbing is practiced and used for leisure as a sports center may have excluded places where competitive rock climbing is practiced.</p>
+<h2 id="code">Code:</h2>
+<p>All code is available in this github repo:</p>
+<ul>
+<li><a href="https://github.com/skyetomez/climbing2">https://github.com/skyetomez/climbing2</a></li>
+</ul>
+<p>A preview of the note book is available here:</p>
+<ul>
+<li><em>Coming soon</em></li>
+</ul>
+
+
+
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+      <footer>
+        
+   <div>
+      
+
+      <div class="footer-box">
+
+        
+        <div class="recent-posts">
+            <strong>Latest Posts</strong>
+            <ul>
+                
+                
+                    <li>
+                        <a href="/projects/cimbingcenters2/">How many climbing centers ... 2?</a>
+                    </li>
+                
+                    <li>
+                        <a href="/projects/word_classification/">Yes/No Hebrew CNN Classification</a>
+                    </li>
+                
+                    <li>
+                        <a href="/projects/math/introduction-to-stochastic-processes/chapter_0/">Chapter 0</a>
+                    </li>
+                
+            </ul>
+        </div>
+        
+
+        <div class="languages">
+            <strong>Languages</strong><br>
+            
+            
+            <a href="/es/">es</a>
+            
+            
+            
+            <a href="/" class="active">en</a>
+            
+            
+        </div>
+        
+      
+      </div>
+
+        <div class="credits">
+          
+              
+          
+              <div class="author">
+                  <a href="https://github.com/skyetomez/skyetomez.github.io"
+                      target="_blank"> Skyetomez&#39;s Theme</a>
+              </div>
+
+              <div class = "social_icons">
+
+                
+                <button>
+                  <a href="/">
+                    <img src=/logo_sq.png >
+                  </a> 
+                </button> 
+              
+                <button>
+                  <a href="http://www.github.com/skyetomez"><i class="bi bi-github"></i></a>  
+                </button>
+
+          
+                </div>
+
+
+        </div>
+      
+
+
+
+      <script type="text/javascript"
+        src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+      </script>
+
+
+    </div>
+  
+      </footer>
+
+
+    </body>
+
+
+    
+</html>

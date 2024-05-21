@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>science on Skyetomez</title>
-    <link>//localhost:46375/tags/science/</link>
+    <link>//localhost:1313/tags/science/</link>
     <description>Recent content in science on Skyetomez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Aug 2021 21:39:40 +0200</lastBuildDate><atom:link href="//localhost:46375/tags/science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Aug 2021 21:39:40 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GERD</title>
-      <link>//localhost:46375/posts/gerd/</link>
+      <link>//localhost:1313/posts/gerd/</link>
       <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
       
-      <guid>//localhost:46375/posts/gerd/</guid>
+      <guid>//localhost:1313/posts/gerd/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 Gastroesophageal reflux disease (GERD) is a condition affects a lot of people in the world and, sure enough, even without suffering from its chronic effects, the discomfort that comes with acid reflux is a pain that can be appreciated by many. Anyone who has had the bittersweet experience of chowing-down on a scrumptious taco and, realizing only too late, that you forgot to ask for no jalapenos.</description>
     </item>
     
     <item>
       <title>Cofactor: Vitamin K</title>
-      <link>//localhost:46375/posts/vitamin_k_cofactor/</link>
+      <link>//localhost:1313/posts/vitamin_k_cofactor/</link>
       <pubDate>Sun, 29 Aug 2021 20:41:09 +0200</pubDate>
       
-      <guid>//localhost:46375/posts/vitamin_k_cofactor/</guid>
+      <guid>//localhost:1313/posts/vitamin_k_cofactor/</guid>
       <description>The following was written in response to a class biochemistry dicussion post.
 The cofactor vitamin K is not only known for its importance in the process of blood coagulation, rather it is also recognized for its ubiquity in photosynthesis as well.
 I learned about this vitamin in a rather uneventful mundane way. I was reading a book (or something) about something and the use of the drug dicoumarol to deplete vitamin K storage was being used to illustrate something else.</description>

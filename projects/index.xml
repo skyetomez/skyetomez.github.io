@@ -2,17 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Skyetomez</title>
-    <link>//localhost:46375/projects/</link>
+    <link>//localhost:1313/projects/</link>
     <description>Recent content in Projects on Skyetomez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 22 Apr 2020 16:48:50 +0200</lastBuildDate><atom:link href="//localhost:46375/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Apr 2020 16:48:50 +0200</lastBuildDate><atom:link href="//localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How many climbing centers ... 2?</title>
+      <link>//localhost:1313/projects/cimbingcenters2/</link>
+      <pubDate>Tue, 21 May 2024 00:52:30 -0400</pubDate>
+      
+      <guid>//localhost:1313/projects/cimbingcenters2/</guid>
+      <description>.table { width: 100%; border-collapse: collapse; } .table th, .table td { border: 1px solid #ddd; padding: 8px; font-size: 0.8em; } .table th { background-color: #f2f2f2; text-align: left; } .table-striped tr:nth-child(even) { background-color: #f9f9f9; }  Background As mentioned at the end of the first part of this project, the next step was to incorporate actual geographical and socioeconomic data into the analysis to either support or reject my friend&amp;rsquo;s comments about the insufficient number of climbing centers.</description>
+    </item>
+    
     <item>
       <title>Yes/No Hebrew CNN Classification</title>
-      <link>//localhost:46375/projects/word_classification/</link>
+      <link>//localhost:1313/projects/word_classification/</link>
       <pubDate>Tue, 29 Nov 2022 02:37:31 -0500</pubDate>
       
-      <guid>//localhost:46375/projects/word_classification/</guid>
+      <guid>//localhost:1313/projects/word_classification/</guid>
       <description>Summary Sounds are cool because they’re just a type of signal. Signals are often better understood in their spectrogram form. All of this information can be used by a neural network to learn something. In this case, it learns to identify a word (either a yes or no) by its spectrogram.
 All code is available on my github or the colab notebook here
 Background and Motivation I’ve been interested in machine learning and neural networks since my exposure to it during a computational neuroscience class.</description>
@@ -20,20 +29,20 @@ Background and Motivation I’ve been interested in machine learning and neural 
     
     <item>
       <title>Poisson tiles: part 1</title>
-      <link>//localhost:46375/projects/poisson_tiles_intro/</link>
+      <link>//localhost:1313/projects/poisson_tiles_intro/</link>
       <pubDate>Sun, 03 Apr 2022 20:43:03 +0200</pubDate>
       
-      <guid>//localhost:46375/projects/poisson_tiles_intro/</guid>
+      <guid>//localhost:1313/projects/poisson_tiles_intro/</guid>
       <description>Summary The motivation for this mini-project was to not only get more familiar with working with $\tt{pygame}$ but also to give myself a playground that I could hook into other packages like $\tt{networkx}$. I also wanted to practice generating fractals. While looking over old notes, I came across the rules for a random process that looked interesting to visualize and potential to become fractal-like.
  Introduction Simeon Denis Poisson lived between 1781-1840 during the tail end of the Age of Enlightenment, a time period characterized by a shift towards the pursuit for knowledge.</description>
     </item>
     
     <item>
       <title>How many climbing centers should there be in a city?</title>
-      <link>//localhost:46375/projects/climbingcenters/</link>
+      <link>//localhost:1313/projects/climbingcenters/</link>
       <pubDate>Sun, 09 Jan 2022 22:16:18 +0100</pubDate>
       
-      <guid>//localhost:46375/projects/climbingcenters/</guid>
+      <guid>//localhost:1313/projects/climbingcenters/</guid>
       <description>Summary My friend was wondering about if there were enough climbing centers per city depending on how many people lived in the city and here is my rudimentary attempt to try to answer that question without anything fancy.  Introduction This project was started as a joint project between a friend that enjoys climbing and myself. He pointed out that he was convinced that the number of climbing centers in our city corresponded with it’s size.</description>
     </item>
     

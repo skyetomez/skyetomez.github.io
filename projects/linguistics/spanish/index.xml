@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>spanish on Skyetomez</title>
-    <link>//localhost:46375/projects/linguistics/spanish/</link>
+    <link>//localhost:1313/projects/linguistics/spanish/</link>
     <description>Recent content in spanish on Skyetomez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 23 Mar 2020 16:30:13 +0100</lastBuildDate><atom:link href="//localhost:46375/projects/linguistics/spanish/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Mar 2020 16:30:13 +0100</lastBuildDate><atom:link href="//localhost:1313/projects/linguistics/spanish/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

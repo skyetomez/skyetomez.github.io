@@ -2,170 +2,170 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Skyetomez</title>
-    <link>//localhost:46375/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on Skyetomez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 29 Nov 2022 02:37:31 -0500</lastBuildDate><atom:link href="//localhost:46375/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 May 2024 00:52:30 -0400</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>math</title>
+      <link>//localhost:1313/tags/math/</link>
+      <pubDate>Tue, 21 May 2024 00:52:30 -0400</pubDate>
+      
+      <guid>//localhost:1313/tags/math/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>dsp</title>
-      <link>//localhost:46375/tags/dsp/</link>
+      <link>//localhost:1313/tags/dsp/</link>
       <pubDate>Tue, 29 Nov 2022 02:37:31 -0500</pubDate>
       
-      <guid>//localhost:46375/tags/dsp/</guid>
+      <guid>//localhost:1313/tags/dsp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ml</title>
-      <link>//localhost:46375/tags/ml/</link>
+      <link>//localhost:1313/tags/ml/</link>
       <pubDate>Tue, 29 Nov 2022 02:37:31 -0500</pubDate>
       
-      <guid>//localhost:46375/tags/ml/</guid>
+      <guid>//localhost:1313/tags/ml/</guid>
       <description></description>
     </item>
     
     <item>
       <title>nn</title>
-      <link>//localhost:46375/tags/nn/</link>
+      <link>//localhost:1313/tags/nn/</link>
       <pubDate>Tue, 29 Nov 2022 02:37:31 -0500</pubDate>
       
-      <guid>//localhost:46375/tags/nn/</guid>
+      <guid>//localhost:1313/tags/nn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>probability</title>
-      <link>//localhost:46375/tags/probability/</link>
+      <link>//localhost:1313/tags/probability/</link>
       <pubDate>Tue, 08 Nov 2022 22:05:29 -0500</pubDate>
       
-      <guid>//localhost:46375/tags/probability/</guid>
+      <guid>//localhost:1313/tags/probability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>stochastics</title>
-      <link>//localhost:46375/tags/stochastics/</link>
+      <link>//localhost:1313/tags/stochastics/</link>
       <pubDate>Tue, 08 Nov 2022 22:05:29 -0500</pubDate>
       
-      <guid>//localhost:46375/tags/stochastics/</guid>
+      <guid>//localhost:1313/tags/stochastics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>en</title>
-      <link>//localhost:46375/tags/en/</link>
+      <link>//localhost:1313/tags/en/</link>
       <pubDate>Sat, 10 Sep 2022 17:35:49 -0400</pubDate>
       
-      <guid>//localhost:46375/tags/en/</guid>
+      <guid>//localhost:1313/tags/en/</guid>
       <description></description>
     </item>
     
     <item>
       <title>eng</title>
-      <link>//localhost:46375/tags/eng/</link>
+      <link>//localhost:1313/tags/eng/</link>
       <pubDate>Sat, 10 Sep 2022 17:35:49 -0400</pubDate>
       
-      <guid>//localhost:46375/tags/eng/</guid>
+      <guid>//localhost:1313/tags/eng/</guid>
       <description></description>
     </item>
     
     <item>
       <title>resources</title>
-      <link>//localhost:46375/tags/resources/</link>
+      <link>//localhost:1313/tags/resources/</link>
       <pubDate>Sat, 10 Sep 2022 17:35:49 -0400</pubDate>
       
-      <guid>//localhost:46375/tags/resources/</guid>
+      <guid>//localhost:1313/tags/resources/</guid>
       <description></description>
     </item>
     
     <item>
       <title>study</title>
-      <link>//localhost:46375/tags/study/</link>
+      <link>//localhost:1313/tags/study/</link>
       <pubDate>Sat, 10 Sep 2022 17:35:49 -0400</pubDate>
       
-      <guid>//localhost:46375/tags/study/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>//localhost:46375/tags/math/</link>
-      <pubDate>Sun, 03 Apr 2022 20:43:03 +0200</pubDate>
-      
-      <guid>//localhost:46375/tags/math/</guid>
+      <guid>//localhost:1313/tags/study/</guid>
       <description></description>
     </item>
     
     <item>
       <title>english</title>
-      <link>//localhost:46375/tags/english/</link>
+      <link>//localhost:1313/tags/english/</link>
       <pubDate>Mon, 07 Mar 2022 18:57:23 +0100</pubDate>
       
-      <guid>//localhost:46375/tags/english/</guid>
+      <guid>//localhost:1313/tags/english/</guid>
       <description></description>
     </item>
     
     <item>
       <title>language</title>
-      <link>//localhost:46375/tags/language/</link>
+      <link>//localhost:1313/tags/language/</link>
       <pubDate>Mon, 07 Mar 2022 18:57:23 +0100</pubDate>
       
-      <guid>//localhost:46375/tags/language/</guid>
+      <guid>//localhost:1313/tags/language/</guid>
       <description></description>
     </item>
     
     <item>
       <title>learning</title>
-      <link>//localhost:46375/tags/learning/</link>
+      <link>//localhost:1313/tags/learning/</link>
       <pubDate>Mon, 07 Mar 2022 18:57:23 +0100</pubDate>
       
-      <guid>//localhost:46375/tags/learning/</guid>
+      <guid>//localhost:1313/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>lingustics</title>
-      <link>//localhost:46375/tags/lingustics/</link>
+      <link>//localhost:1313/tags/lingustics/</link>
       <pubDate>Mon, 07 Mar 2022 18:57:23 +0100</pubDate>
       
-      <guid>//localhost:46375/tags/lingustics/</guid>
+      <guid>//localhost:1313/tags/lingustics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bchem</title>
-      <link>//localhost:46375/tags/bchem/</link>
+      <link>//localhost:1313/tags/bchem/</link>
       <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
       
-      <guid>//localhost:46375/tags/bchem/</guid>
+      <guid>//localhost:1313/tags/bchem/</guid>
       <description></description>
     </item>
     
     <item>
       <title>bio</title>
-      <link>//localhost:46375/tags/bio/</link>
+      <link>//localhost:1313/tags/bio/</link>
       <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
       
-      <guid>//localhost:46375/tags/bio/</guid>
+      <guid>//localhost:1313/tags/bio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>science</title>
-      <link>//localhost:46375/tags/science/</link>
+      <link>//localhost:1313/tags/science/</link>
       <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
       
-      <guid>//localhost:46375/tags/science/</guid>
+      <guid>//localhost:1313/tags/science/</guid>
       <description></description>
     </item>
     
     <item>
       <title>iwp</title>
-      <link>//localhost:46375/tags/iwp/</link>
+      <link>//localhost:1313/tags/iwp/</link>
       <pubDate>Fri, 13 Sep 2019 12:31:16 +0200</pubDate>
       
-      <guid>//localhost:46375/tags/iwp/</guid>
+      <guid>//localhost:1313/tags/iwp/</guid>
       <description></description>
     </item>
     

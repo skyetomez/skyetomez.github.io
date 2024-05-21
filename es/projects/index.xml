@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Skyetomez</title>
-    <link>//localhost:46375/es/projects/</link>
+    <link>//localhost:1313/es/projects/</link>
     <description>Recent content in Projects on Skyetomez</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-es</language>
-    <lastBuildDate>Wed, 22 Apr 2020 16:48:50 +0200</lastBuildDate><atom:link href="//localhost:46375/es/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 22 Apr 2020 16:48:50 +0200</lastBuildDate><atom:link href="//localhost:1313/es/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Azulejos de Poisson: parte 1</title>
-      <link>//localhost:46375/es/projects/poisson_tiles_intro/</link>
+      <link>//localhost:1313/es/projects/poisson_tiles_intro/</link>
       <pubDate>Sun, 03 Apr 2022 20:43:20 +0200</pubDate>
       
-      <guid>//localhost:46375/es/projects/poisson_tiles_intro/</guid>
+      <guid>//localhost:1313/es/projects/poisson_tiles_intro/</guid>
       <description>Summary La motivación para este mini-proyecto fue no sólo para familiarizarse con el trabajo con $\tt{pygame}$, sino también para darme un campo de juego que podría enganchar en otros paquetes como $\tt{networkx}$. También quería practicar la generación de fractales. Mientras revisaba viejas notas, me encontré con las reglas de un proceso aleatorio que parecía interesante de visualizar y con potencial para convertirse en un fractal.
  Introduction Simeon Denis Poisson vivió entre 1781 y 1840, durante el final del Siglo de las Luces, un periodo de tiempo caracterizado por un cambio hacia la búsqueda del conocimiento.</description>
     </item>
     
     <item>
       <title>¿Cuántos centros de escalada debería haber en una ciudad?</title>
-      <link>//localhost:46375/es/projects/climbingcenters/</link>
+      <link>//localhost:1313/es/projects/climbingcenters/</link>
       <pubDate>Sun, 09 Jan 2022 22:16:18 +0100</pubDate>
       
-      <guid>//localhost:46375/es/projects/climbingcenters/</guid>
+      <guid>//localhost:1313/es/projects/climbingcenters/</guid>
       <description>Resumen Mi amigo se preguntaba si había suficientes centros de escalada por ciudad en función de la cantidad de gente que vivía en la ciudad y aquí está mi intento rudimentario de intentar responder a esa pregunta sin nada del otro mundo.
  Introducción Este proyecto se inició como un proyecto conjunto entre un amigo que disfruta de la escalada y yo. Me señaló que estaba convencido de que el número de centros de escalada en nuestra ciudad se correspondía con su tamaño.</description>
     </item>
