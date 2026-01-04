@@ -1,32 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>bio on Skyetomez</title>
-    <link>//localhost:1313/es/tags/bio/</link>
-    <description>Recent content in bio on Skyetomez</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-es</language>
-    <lastBuildDate>Sun, 29 Aug 2021 21:39:40 +0200</lastBuildDate><atom:link href="//localhost:1313/es/tags/bio/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>GERD</title>
-      <link>//localhost:1313/es/posts/gerd/</link>
-      <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
-      
-      <guid>//localhost:1313/es/posts/gerd/</guid>
-      <description>Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.
-La enfermedad por reflujo gastroesofágico (ERGE) es una afección que afecta a muchas personas en el mundo y, ciertamente, incluso sin sufrir sus efectos crónicos, el malestar que conlleva el reflujo ácido es un dolor que puede ser apreciado por muchos. Cualquiera que haya tenido la agridulce experiencia de comer un delicioso taco y darse cuenta demasiado tarde de que se olvidó de pedir que no hubiera jalapeños.</description>
-    </item>
-    
-    <item>
-      <title>Cofactor: Vitamina K</title>
-      <link>//localhost:1313/es/posts/vitamin_k_cofactor/</link>
-      <pubDate>Sun, 29 Aug 2021 20:41:09 +0200</pubDate>
-      
-      <guid>//localhost:1313/es/posts/vitamin_k_cofactor/</guid>
-      <description>Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.
-El cofactor vitamina K no sólo es conocido por su importancia en el proceso de coagulación de la sangre, sino que también es reconocido por su ubicuidad en la fotosíntesis.
-Me enteré de la existencia de esta vitamina de una manera bastante mundana. Estaba leyendo un libro (o algo así) sobre algo y se utilizaba el uso del fármaco dicumarol para agotar el almacenamiento de vitamina K para ilustrar otra cosa.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bio on Skyetomez</title><link>/es/tags/bio/</link><description>Recent content in Bio on Skyetomez</description><generator>Hugo</generator><language>es-es</language><lastBuildDate>Sun, 29 Aug 2021 21:39:40 +0200</lastBuildDate><atom:link href="/es/tags/bio/index.xml" rel="self" type="application/rss+xml"/><item><title>GERD</title><link>/es/posts/gerd/</link><pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate><guid>/es/posts/gerd/</guid><description>&lt;p&gt;Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.&lt;/p&gt;
+&lt;p&gt;La enfermedad por reflujo gastroesofágico (ERGE) es una afección que afecta a muchas personas en el mundo y, ciertamente, incluso sin sufrir sus efectos crónicos, el malestar que conlleva el reflujo ácido es un dolor que puede ser apreciado por muchos. Cualquiera que haya tenido la agridulce experiencia de comer un delicioso taco y darse cuenta demasiado tarde de que se olvidó de pedir que no hubiera jalapeños. Como he elegido el proceso de la digestión como tema de interés, hay muchas enzimas y mecanismos homeostáticos de interés, y a lo largo de este artículo se señalarán algunos interesantes.&lt;/p&gt;</description></item><item><title>Cofactor: Vitamina K</title><link>/es/posts/vitamin_k_cofactor/</link><pubDate>Sun, 29 Aug 2021 20:41:09 +0200</pubDate><guid>/es/posts/vitamin_k_cofactor/</guid><description>&lt;hr&gt;
+&lt;p&gt;Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.&lt;/p&gt;
+&lt;p&gt;El cofactor vitamina K no sólo es conocido por su importancia en el proceso de coagulación de la sangre, sino que también es reconocido por su ubicuidad en la fotosíntesis.&lt;/p&gt;
+&lt;p&gt;Me enteré de la existencia de esta vitamina de una manera bastante mundana. Estaba leyendo un libro (o algo así) sobre algo y se utilizaba el uso del fármaco dicumarol para agotar el almacenamiento de vitamina K para ilustrar otra cosa. Curioso por saber cómo exactamente, siendo el Millennial/Gen-Z que soy, naturalmente busqué dicoumarol en YouTube. Durante literalmente semanas, como un gusano del oído, mi cerebro me recordaba inexactamente que &amp;ldquo;la vitamina K es utilizada por el medicamento dioumal? diamoleral? dicoutperate?&amp;rdquo;. Esta falta de precisión, que me molestaba gratuitamente, me llevaba a desandar mis búsquedas en google y youtube hasta encontrar de nuevo el nombre del fármaco. Repitiendo este ritual cada semana más o menos, finalmente decidí que la acción inteligente sería simplemente anotar el nombre del medicamento para poder encontrarlo fácilmente cada vez que mi cerebro, sin provocarlo, deseara despertar al odioso gusano del oído. Anécdota aparte, el cofactor de la vitamina K me resulta especialmente interesante porque (1) es la primera vitamina que me viene a la cabeza (después de haber sido perseguido por el fármaco dicumarol durante más de un mes) que también es un cofactor y (2) tiene un papel importante en la prevención de las hemorragias en las crías de pollo (y en las personas).&lt;/p&gt;</description></item></channel></rss>

@@ -1,103 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>posts on Skyetomez</title>
-    <link>//localhost:1313/es/posts/</link>
-    <description>Recent content in posts on Skyetomez</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-es</language>
-    <lastBuildDate>Wed, 22 Apr 2020 16:48:36 +0200</lastBuildDate><atom:link href="//localhost:1313/es/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CRISPR: usos/usos malos/posibilidades</title>
-      <link>//localhost:1313/es/posts/crispy/</link>
-      <pubDate>Fri, 15 Apr 2022 02:59:12 +0200</pubDate>
-      
-      <guid>//localhost:1313/es/posts/crispy/</guid>
-      <description>1 Resumen y antecedentes Esto fue escrito en 2018 como parte del curso sobre ser verde y fuentes de energía renovables en los tiempos modernos.
-Una nueva y revolucionaria herramienta de edición del genoma llamada CRISPR ha sido y sigue cambiando el paisaje de la genética y la bioingeniería. Al tomar prestado este sistema de defensa selectivo y programable de bacterias/arqueas, los científicos han sido capaces de hacer cosas como: prevenir enfermedades del corazón a nivel del embrión humano y desarrollar tiras reactivas para el diagnóstico médico de campo.</description>
-    </item>
-    
-    <item>
-      <title>Emisiones GEI</title>
-      <link>//localhost:1313/es/posts/ghgemissions/</link>
-      <pubDate>Fri, 15 Apr 2022 02:35:38 +0200</pubDate>
-      
-      <guid>//localhost:1313/es/posts/ghgemissions/</guid>
-      <description>Resumen y antecedentes Esto fue escrito en 2018 como parte del curso sobre ser verde y las fuentes de energía renovables en los tiempos modernos.
-Las emisiones de Gases de Efecto Invernadero (GEI) del departamento de agricultura de Estados Unidos provienen en su mayoría de las estudiadas del transporte, la industria y la generación de electricidad, a pesar de la importancia fundamental de la Agricultura, Silvicultura y Otros Usos de la Tierra (AFOLU) .</description>
-    </item>
-    
-    <item>
-      <title>Saludo al Sol</title>
-      <link>//localhost:1313/es/posts/praisethesun/</link>
-      <pubDate>Fri, 15 Apr 2022 02:19:58 +0200</pubDate>
-      
-      <guid>//localhost:1313/es/posts/praisethesun/</guid>
-      <description>Resumen y antecedentes Esto fue escrito en 2018 como parte del curso sobre ser verde y las fuentes de energía renovables en los tiempos modernos.
-La energía solar como fuente de energía alternativa sigue enfrentándose a la presión de quienes pretenden beneficiarse de no pasar a la fotovoltaica como fuente de electricidad a pesar del gran número de proyectos activos y el movimiento en tiende a la investigación y el desarrollo de la energía solar en las últimas 2 décadas.</description>
-    </item>
-    
-    <item>
-      <title>Colapso de las colonias de abejas: Estudio de causas y soluciones</title>
-      <link>//localhost:1313/es/posts/beecolonycollapse/</link>
-      <pubDate>Fri, 15 Apr 2022 01:58:02 +0200</pubDate>
-      
-      <guid>//localhost:1313/es/posts/beecolonycollapse/</guid>
-      <description>Resumen y Motivación Esto fue escrito en 2018 como parte del curso sobre ser verde y fuentes de energía renovables en los tiempos modernos. Durante este tiempo, las colonias de abejas estaban colapsando y causaron un gran susto en los Estados Unidos, especialmente en la industria de la almendra.
-La Apis mellifera (abeja melífera) es uno de los insectos más estudiados del mundo debido a su papel crucial como polinizador de casi el 85% de los cultivos norteamericanos y europeos.</description>
-    </item>
-    
-    <item>
-      <title>Googoogogo</title>
-      <link>//localhost:1313/es/posts/googoogogo/</link>
-      <pubDate>Mon, 07 Mar 2022 21:09:16 +0100</pubDate>
-      
-      <guid>//localhost:1313/es/posts/googoogogo/</guid>
-      <description>Cuando crecí, siempre me interesaron mucho los idiomas. Aprendí algo de ruso, italiano, mandarín y español. Durante esta época, oía de vez en cuando la palabra &amp;ldquo;periodo crítico&amp;rdquo;, que se refiere a la hipótesis de que antes de un determinado momento de la infancia, un idioma puede aprenderse hasta alcanzar la competencia nativa y sin esfuerzo si sólo se recibe información de otra persona con más conocimientos. Por mi propia experiencia como estudiante de idiomas, yo también lo creo.</description>
-    </item>
-    
-    <item>
-      <title>Vacunas de ARNm con el Dr. Kizzy</title>
-      <link>//localhost:1313/es/posts/mrna_vaccines/</link>
-      <pubDate>Sun, 29 Aug 2021 21:44:18 +0200</pubDate>
-      
-      <guid>//localhost:1313/es/posts/mrna_vaccines/</guid>
-      <description>Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.
-Kizzy hizo un trabajo asombroso para que la eficacia de la vacuna fuera fácil de entender cuando mostró que es sólo el número de personas que enfermaron con el placebo comparado con el número total de personas que enfermaron. En otras palabras, es un porcentaje que esconde una relación.
-Me pareció interesante porque si 18/20 es la eficacia de la vacuna, entonces 20-18 es el número de personas que enfermaron con la vacuna.</description>
-    </item>
-    
-    <item>
-      <title>Fosfofructoquinasa-2</title>
-      <link>//localhost:1313/es/posts/phosphofructokinase_2/</link>
-      <pubDate>Sun, 29 Aug 2021 21:42:39 +0200</pubDate>
-      
-      <guid>//localhost:1313/es/posts/phosphofructokinase_2/</guid>
-      <description>Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.
-La PHK2 es una enzima importante en la regulación de los niveles de azúcar en sangre, ya que responde a las hormonas peptídicas insulina y glucagón que son liberadas por el páncreas.
-He elegido la enzima fosfofructoquinasa-2 (PHK2) por dos razones principales (1) Me parece interesante esta enzima porque se diferencia de la fosfofructoquinasa-1 (PFK1) en que tiene una afinidad mucho menor (mayor K_m) por el mismo sustrato glucosa 6-fosfato (G6P) que la PFK1 [1].</description>
-    </item>
-    
-    <item>
-      <title>GERD</title>
-      <link>//localhost:1313/es/posts/gerd/</link>
-      <pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate>
-      
-      <guid>//localhost:1313/es/posts/gerd/</guid>
-      <description>Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.
-La enfermedad por reflujo gastroesofágico (ERGE) es una afección que afecta a muchas personas en el mundo y, ciertamente, incluso sin sufrir sus efectos crónicos, el malestar que conlleva el reflujo ácido es un dolor que puede ser apreciado por muchos. Cualquiera que haya tenido la agridulce experiencia de comer un delicioso taco y darse cuenta demasiado tarde de que se olvidó de pedir que no hubiera jalapeños.</description>
-    </item>
-    
-    <item>
-      <title>Cofactor: Vitamina K</title>
-      <link>//localhost:1313/es/posts/vitamin_k_cofactor/</link>
-      <pubDate>Sun, 29 Aug 2021 20:41:09 +0200</pubDate>
-      
-      <guid>//localhost:1313/es/posts/vitamin_k_cofactor/</guid>
-      <description>Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.
-El cofactor vitamina K no sólo es conocido por su importancia en el proceso de coagulación de la sangre, sino que también es reconocido por su ubicuidad en la fotosíntesis.
-Me enteré de la existencia de esta vitamina de una manera bastante mundana. Estaba leyendo un libro (o algo así) sobre algo y se utilizaba el uso del fármaco dicumarol para agotar el almacenamiento de vitamina K para ilustrar otra cosa.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>posts on Skyetomez</title><link>/es/posts/</link><description>Recent content in posts on Skyetomez</description><generator>Hugo</generator><language>es-es</language><lastBuildDate>Fri, 15 Apr 2022 02:59:12 +0200</lastBuildDate><atom:link href="/es/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>CRISPR: usos/usos malos/posibilidades</title><link>/es/posts/crispy/</link><pubDate>Fri, 15 Apr 2022 02:59:12 +0200</pubDate><guid>/es/posts/crispy/</guid><description>&lt;h2 id="1-resumen-y-antecedentes"&gt;1 Resumen y antecedentes&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Esto fue escrito en 2018 como parte del curso sobre ser verde y fuentes de energía renovables en los tiempos modernos.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Una nueva y revolucionaria herramienta de edición del genoma llamada CRISPR ha sido y sigue cambiando el
+paisaje de la genética y la bioingeniería. Al tomar prestado este sistema de defensa selectivo y programable de bacterias/arqueas, los científicos han sido capaces de hacer cosas como: prevenir enfermedades del corazón
+a nivel del embrión humano y desarrollar tiras reactivas para el diagnóstico médico de campo. Como resultado
+Como resultado de estos logros y de la versatilidad de CRISPR, se ha despertado el interés general del público
+público se ha despertado y ha dado lugar a muchas especulaciones sobre un futuro de ingeniería genética. No cabe duda de que
+que la ingeniería genética y biológica está siendo y ha sido revolucionada por esta nueva tecnología,
+sin embargo, algunos casos límite de sus usos son más ficción que realidad.&lt;/p&gt;</description></item><item><title>Emisiones GEI</title><link>/es/posts/ghgemissions/</link><pubDate>Fri, 15 Apr 2022 02:35:38 +0200</pubDate><guid>/es/posts/ghgemissions/</guid><description>&lt;h2 id="resumen-y-antecedentes"&gt;Resumen y antecedentes&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Esto fue escrito en 2018 como parte del curso sobre ser verde y las fuentes de energía renovables en los tiempos modernos.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Las emisiones de Gases de Efecto Invernadero (GEI) del departamento de agricultura de Estados Unidos provienen en su mayoría de las estudiadas del transporte, la industria y la generación de electricidad, a pesar de la importancia fundamental de la Agricultura, Silvicultura y Otros Usos de la Tierra (AFOLU) . Hasta las últimas décadas se ha hecho poco para comprender el impacto en el cambio climático de este sector
+en América y, además, en el mundo. Esto se ha convertido en un problema a
+global y ha sido abordado por la Convención Marco de las Naciones Unidas sobre el Cambio Climático (CMNUCC).
+Naciones Unidas sobre el Cambio Climático (UNFCC), el Panel Intergubernamental para el
+Cambio Climático (IPCC) y la Agencia de Protección Ambiental de los Estados Unidos
+(US-EPA). En este documento revisamos los resultados de otros trabajos, señalamos los
+problemas que conlleva el análisis y, a continuación, ofrecemos una solución al
+problema.&lt;/p&gt;</description></item><item><title>Saludo al Sol</title><link>/es/posts/praisethesun/</link><pubDate>Fri, 15 Apr 2022 02:19:58 +0200</pubDate><guid>/es/posts/praisethesun/</guid><description>&lt;h2 id="resumen-y-antecedentes"&gt;Resumen y antecedentes&lt;/h2&gt;
+&lt;p&gt;Esto fue escrito en 2018 como parte del curso sobre ser verde y las fuentes de energía renovables en los tiempos modernos.&lt;/p&gt;
+&lt;p&gt;La energía solar como fuente de energía alternativa sigue enfrentándose a la presión de quienes pretenden
+beneficiarse de no pasar a la fotovoltaica como fuente de electricidad a pesar del gran número de
+proyectos activos y el movimiento en tiende a la investigación y el desarrollo de la energía solar en las últimas 2 décadas.
+Además, en esta última década, el precio de los proyectos ha disminuido sustancialmente en comparación con
+los proyectos que se iniciaron a principios de la década de 2000 y a finales de la de 1990. En este documento se discuten y algunos
+argumentos en contra de la demanda de energía solar, y proporcionamos pruebas que los refutan. A continuación, analizamos
+el coste y la viabilidad de la energía solar y algunos proyectos que se están llevando a cabo en la actualidad.&lt;/p&gt;</description></item><item><title>Colapso de las colonias de abejas: Estudio de causas y soluciones</title><link>/es/posts/beecolonycollapse/</link><pubDate>Fri, 15 Apr 2022 01:58:02 +0200</pubDate><guid>/es/posts/beecolonycollapse/</guid><description>&lt;h2 id="resumen-y-motivación"&gt;Resumen y Motivación&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Esto fue escrito en 2018 como parte del curso sobre ser verde y fuentes de energía renovables en los tiempos modernos. Durante este tiempo, las colonias de abejas estaban colapsando y causaron un gran susto en los Estados Unidos, especialmente en la industria de la almendra.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;La Apis mellifera (abeja melífera) es uno de los insectos más estudiados del mundo debido a su papel crucial como
+polinizador de casi el 85% de los cultivos norteamericanos y europeos. Antes de 2013, el trastorno de colapso de la colonia
+(CCD) era un fenómeno nuevo y peligroso que causaba la pérdida generalizada de colmenas y que afectaba directamente a la
+la polinización de los productos agrícolas que dependían de las abejas melíferas como polinizadores. A través de un esfuerzo concertado de investigación
+de investigación, se descubrieron muchas causas posibles del CCD, como el patógeno intestinal Nosema, el Apocephalus
+Borealis (mosca fórida) y los neonicotinoides. La causa más importante fue el ácaro Varroa
+destructor, introducido desde el continente euroasiático. Una nueva investigación sugiere un posible
+plaguicida que mata sistémicamente al ácaro Varroa sin afectar a la tasa de mortalidad de A. mellifera.&lt;/p&gt;</description></item><item><title>Googoogogo</title><link>/es/posts/googoogogo/</link><pubDate>Mon, 07 Mar 2022 21:09:16 +0100</pubDate><guid>/es/posts/googoogogo/</guid><description>&lt;p&gt;Cuando crecí, siempre me interesaron mucho los idiomas. Aprendí algo de ruso, italiano, mandarín y español. Durante esta época, oía de vez en cuando la palabra &amp;ldquo;periodo crítico&amp;rdquo;, que se refiere a la hipótesis de que antes de un determinado momento de la infancia, un idioma puede aprenderse hasta alcanzar la competencia nativa y sin esfuerzo si sólo se recibe información de otra persona con más conocimientos. Por mi propia experiencia como estudiante de idiomas, yo también lo creo.
+Por mi experiencia personal de niño, todavía puedo recordar cosas como el alfabeto cirílico, algunas frases en francés e italiano, e incluso la gramática básica del español sin esfuerzo. Sin embargo, a pesar de la &amp;ldquo;información exhaustiva&amp;rdquo; que recibí, el aprendizaje de la gramática española como joven adulto habría sido imposible si no se me hubieran dado a conocer explícitamente las nuevas reglas y patrones gramaticales. Y como profesor de inglés, esto es algo que he notado con mis alumnos y con la metodología recomendada entre la enseñanza del inglés a jóvenes y adultos.&lt;/p&gt;</description></item><item><title>Vacunas de ARNm con el Dr. Kizzy</title><link>/es/posts/mrna_vaccines/</link><pubDate>Sun, 29 Aug 2021 21:44:18 +0200</pubDate><guid>/es/posts/mrna_vaccines/</guid><description>&lt;p&gt;Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.&lt;/p&gt;
+&lt;p&gt;Kizzy hizo un trabajo asombroso para que la eficacia de la vacuna fuera fácil de entender cuando mostró que es sólo el número de personas que enfermaron con el placebo comparado con el número total de personas que enfermaron. En otras palabras, es un porcentaje que esconde una relación.&lt;/p&gt;
+&lt;p&gt;Me pareció interesante porque si 18/20 es la eficacia de la vacuna, entonces 20-18 es el número de personas que enfermaron con la vacuna. En otras palabras, por cada persona que enferma estando vacunada hay, de media, 9 personas no vacunadas que enferman.&lt;/p&gt;</description></item><item><title>Fosfofructoquinasa-2</title><link>/es/posts/phosphofructokinase_2/</link><pubDate>Sun, 29 Aug 2021 21:42:39 +0200</pubDate><guid>/es/posts/phosphofructokinase_2/</guid><description>&lt;p&gt;Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.&lt;/p&gt;
+&lt;p&gt;La PHK2 es una enzima importante en la regulación de los niveles de azúcar en sangre, ya que responde a las hormonas peptídicas insulina y glucagón que son liberadas por el páncreas.&lt;/p&gt;
+&lt;p&gt;He elegido la enzima fosfofructoquinasa-2 (PHK2) por dos razones principales (1) Me parece interesante esta enzima porque se diferencia de la fosfofructoquinasa-1 (PFK1) en que tiene una afinidad mucho menor (mayor K_m) por el mismo sustrato glucosa 6-fosfato (G6P) que la PFK1 [1]. (2) También me parece interesante porque forma parte de al menos 2 vías diferentes y me ha resultado difícil seguir no sólo el funcionamiento de la propia enzima, sino también la interacción de su producto con otras vías metabólicas. Me he quedado con la pregunta de &amp;ldquo;¿cómo algo con una baja afinidad por su sustrato ayuda a controlar los niveles de glucosa en sangre en el cuerpo?&amp;rdquo;. Es decir, ¿por qué algo que es tan malo en la unión de su sustrato (localmente) tiene efectos tan grandes en el cuerpo (globalmente)?&lt;/p&gt;</description></item><item><title>GERD</title><link>/es/posts/gerd/</link><pubDate>Sun, 29 Aug 2021 21:39:40 +0200</pubDate><guid>/es/posts/gerd/</guid><description>&lt;p&gt;Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.&lt;/p&gt;
+&lt;p&gt;La enfermedad por reflujo gastroesofágico (ERGE) es una afección que afecta a muchas personas en el mundo y, ciertamente, incluso sin sufrir sus efectos crónicos, el malestar que conlleva el reflujo ácido es un dolor que puede ser apreciado por muchos. Cualquiera que haya tenido la agridulce experiencia de comer un delicioso taco y darse cuenta demasiado tarde de que se olvidó de pedir que no hubiera jalapeños. Como he elegido el proceso de la digestión como tema de interés, hay muchas enzimas y mecanismos homeostáticos de interés, y a lo largo de este artículo se señalarán algunos interesantes.&lt;/p&gt;</description></item><item><title>Cofactor: Vitamina K</title><link>/es/posts/vitamin_k_cofactor/</link><pubDate>Sun, 29 Aug 2021 20:41:09 +0200</pubDate><guid>/es/posts/vitamin_k_cofactor/</guid><description>&lt;hr&gt;
+&lt;p&gt;Lo siguiente fue escrito en respuesta a un post de dicusión de bioquímica de la clase.&lt;/p&gt;
+&lt;p&gt;El cofactor vitamina K no sólo es conocido por su importancia en el proceso de coagulación de la sangre, sino que también es reconocido por su ubicuidad en la fotosíntesis.&lt;/p&gt;
+&lt;p&gt;Me enteré de la existencia de esta vitamina de una manera bastante mundana. Estaba leyendo un libro (o algo así) sobre algo y se utilizaba el uso del fármaco dicumarol para agotar el almacenamiento de vitamina K para ilustrar otra cosa. Curioso por saber cómo exactamente, siendo el Millennial/Gen-Z que soy, naturalmente busqué dicoumarol en YouTube. Durante literalmente semanas, como un gusano del oído, mi cerebro me recordaba inexactamente que &amp;ldquo;la vitamina K es utilizada por el medicamento dioumal? diamoleral? dicoutperate?&amp;rdquo;. Esta falta de precisión, que me molestaba gratuitamente, me llevaba a desandar mis búsquedas en google y youtube hasta encontrar de nuevo el nombre del fármaco. Repitiendo este ritual cada semana más o menos, finalmente decidí que la acción inteligente sería simplemente anotar el nombre del medicamento para poder encontrarlo fácilmente cada vez que mi cerebro, sin provocarlo, deseara despertar al odioso gusano del oído. Anécdota aparte, el cofactor de la vitamina K me resulta especialmente interesante porque (1) es la primera vitamina que me viene a la cabeza (después de haber sido perseguido por el fármaco dicumarol durante más de un mes) que también es un cofactor y (2) tiene un papel importante en la prevención de las hemorragias en las crías de pollo (y en las personas).&lt;/p&gt;</description></item></channel></rss>

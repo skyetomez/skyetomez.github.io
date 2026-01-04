@@ -1,22 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Recursos del Aprendizaje del Inglés📁 on Skyetomez</title>
-    <link>//localhost:1313/es/posts/aprendeng/</link>
-    <description>Recent content in Recursos del Aprendizaje del Inglés📁 on Skyetomez</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>es-es</language>
-    <lastBuildDate>Sat, 10 Sep 2022 22:44:50 -0400</lastBuildDate><atom:link href="//localhost:1313/es/posts/aprendeng/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Pagina Principal</title>
-      <link>//localhost:1313/es/posts/aprendeng/pagina_principal/</link>
-      <pubDate>Sat, 10 Sep 2022 22:50:38 -0400</pubDate>
-      
-      <guid>//localhost:1313/es/posts/aprendeng/pagina_principal/</guid>
-      <description>Resources: A2-C2 teen and adult learners. Exam Skills Practice A2-C2 For teachers and students preparing for Cambridge English: exams, including Cambridge English First (FCE), Cambridge English Advanced (CAE) and Cambridge … https://www.flo-joe.co.uk/
-Learn English with these free learning English videos and materials from BBC Learning English. This site will help you learn English and improve your… https://www.bbc.co.uk/learningenglish/
-Developed by the University of Cambridge, Write &amp;amp; Improve is a FREE tool that helps every learner to improve their English writing.</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Recursos del Aprendizaje del Inglés📁 on Skyetomez</title><link>/es/posts/aprendeng/</link><description>Recent content in Recursos del Aprendizaje del Inglés📁 on Skyetomez</description><generator>Hugo</generator><language>es-es</language><lastBuildDate>Sat, 10 Sep 2022 22:50:38 -0400</lastBuildDate><atom:link href="/es/posts/aprendeng/index.xml" rel="self" type="application/rss+xml"/><item><title>Pagina Principal</title><link>/es/posts/aprendeng/pagina_principal/</link><pubDate>Sat, 10 Sep 2022 22:50:38 -0400</pubDate><guid>/es/posts/aprendeng/pagina_principal/</guid><description>&lt;h2 id="resources-a2-c2-teen-and-adult-learners"&gt;Resources: A2-C2 teen and adult learners.&lt;/h2&gt;
+&lt;h3 id="exam-skills-practice-a2-c2"&gt;Exam Skills Practice A2-C2&lt;/h3&gt;
+&lt;p&gt;For teachers and students preparing for Cambridge English: exams, including Cambridge English First (FCE), Cambridge English Advanced (CAE) and Cambridge … &lt;a href="https://www.flo-joe.co.uk/"&gt;https://www.flo-joe.co.uk/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Learn English with these free learning English videos and materials from BBC Learning English. This site will help you learn English and improve your… &lt;a href="https://www.bbc.co.uk/learningenglish/"&gt;https://www.bbc.co.uk/learningenglish/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Developed by the University of Cambridge, Write &amp;amp; Improve is a FREE tool that helps every learner to improve their English writing. &lt;a href="https://writeandimprove.com/"&gt;https://writeandimprove.com/&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
